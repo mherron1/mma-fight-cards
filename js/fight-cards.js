@@ -40,6 +40,15 @@ function fighterRanking(fighter = {}) {
   }).join(', ');
 }
 
+function fighterNationality(fighter = {}) {
+  const nationality = fighter.nationality || fighter.country || '';
+  return nationality === 'United States' ? 'USA' : nationality || 'Not listed';
+}
+
+function eventLocation(location = '') {
+  return String(location).replace(/\bUnited States\b/g, 'USA');
+}
+
 export function renderFightCard(event) {
   if (!event) {
     return '<div class="empty-state">No event data available.</div>';
@@ -78,9 +87,9 @@ export function renderFightCard(event) {
                   <span class="fighter-stat-value">${escapeHTML(fighter2.record || 'Not listed')}</span>
                 </div>
                 <div class="fighter-stat-row">
-                  <span class="fighter-stat-value">${escapeHTML(fighter1.nationality || fighter1.country || 'Not listed')}</span>
+                  <span class="fighter-stat-value">${escapeHTML(fighterNationality(fighter1))}</span>
                   <span class="fighter-stat-label">Nationality</span>
-                  <span class="fighter-stat-value">${escapeHTML(fighter2.nationality || fighter2.country || 'Not listed')}</span>
+                  <span class="fighter-stat-value">${escapeHTML(fighterNationality(fighter2))}</span>
                 </div>
                 <div class="fighter-stat-row">
                   <span class="fighter-stat-value">${escapeHTML(fighterRanking(fighter1))}</span>
@@ -127,7 +136,7 @@ export function renderFightCard(event) {
     <article class="event-card">
       <h1 class="event-title">${escapeHTML(eventName)}</h1>
       <div class="event-subtitle">
-        <span>${escapeHTML(event.date || 'Date TBA')} · ${escapeHTML(event.location || 'Location TBA')}</span>
+        <span>${escapeHTML(event.date || 'Date TBA')} · ${escapeHTML(eventLocation(event.location || 'Location TBA'))}</span>
         <span class="event-countdown" data-start="${escapeHTML(event.start_time || '')}" aria-live="off">Start time TBA</span>
       </div>
       ${fightSectionsMarkup}

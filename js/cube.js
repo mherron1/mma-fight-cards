@@ -40,6 +40,7 @@ export function createCube({ app, cube, faces, events, onIndexChange }) {
       const physicalOffset = (physicalIndex - frontPhysical + 4) % 4;
       const eventOffset = physicalOffsets[physicalOffset];
       const eventIndex = (currentIndex + eventOffset + count) % count;
+      face.toggleAttribute('data-front', physicalIndex === frontPhysical);
       face.innerHTML = events[eventIndex].__html;
     });
 

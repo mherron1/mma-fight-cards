@@ -55,6 +55,35 @@ function initTheme() {
   });
 }
 
+function initSharing() {
+  const instagramButton = document.getElementById('shareInstagram');
+  const shareStatus = document.getElementById('shareStatus');
+  const siteUrl = 'https://mmafightcards.org/';
+
+  instagramButton.addEventListener('click', async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: 'MMA Fight Cards',
+          text: 'Check out MMA Fight Cards.',
+          url: siteUrl
+        });
+        shareStatus.textContent = 'Choose Instagram in your share options.';
+        return;
+      } catch (error) {
+        if (error.name === 'AbortError') return;
+      }
+    }
+
+    try {
+      await navigator.clipboard.writeText(siteUrl);
+      shareStatus.textContent = 'Link copied. Paste it into Instagram to share.';
+    } catch {
+      shareStatus.textContent = 'Could not copy the link. Visit https://mmafightcards.org/ to share it.';
+    }
+  });
+}
+
 function initPreferences() {
   const unitsControl = document.getElementById('unitsPreference');
   const oddsControl = document.getElementById('oddsPreference');
@@ -176,6 +205,7 @@ function updateCountdowns() {
 
 async function initApp() {
   initTheme();
+  initSharing();
   const applyPreferences = initPreferences();
   const app = document.getElementById('app');
   const cube = document.getElementById('cube');
@@ -210,9 +240,20 @@ async function initApp() {
     selectedFight.open = shouldOpen;
   }
 
+  function getFightSummaryAtPoint(event) {
+    const frontFace = app.querySelector('.cube-face[data-front]');
+    if (!frontFace) return null;
+
+    return Array.from(frontFace.querySelectorAll('.fight-summary')).find(summary => {
+      const bounds = summary.getBoundingClientRect();
+      return event.clientX >= bounds.left && event.clientX <= bounds.right &&
+        event.clientY >= bounds.top && event.clientY <= bounds.bottom;
+    }) || null;
+  }
+
   let fightTapCandidate = null;
   app.addEventListener('pointerdown', event => {
-    const summary = event.target.closest('.fight-summary');
+    const summary = getFightSummaryAtPoint(event);
     fightTapCandidate = summary
       ? { pointerId: event.pointerId, summary, x: event.clientX, y: event.clientY }
       : null;
@@ -221,8 +262,7 @@ async function initApp() {
     const candidate = fightTapCandidate;
     fightTapCandidate = null;
     if (!candidate || candidate.pointerId !== event.pointerId) return;
-    const releasedOnSummary = document.elementFromPoint(event.clientX, event.clientY)
-      ?.closest('.fight-summary');
+    const releasedOnSummary = getFightSummaryAtPoint(event);
     if (releasedOnSummary !== candidate.summary) return;
     if (Math.hypot(event.clientX - candidate.x, event.clientY - candidate.y) > 24) return;
     toggleFight(candidate.summary);
