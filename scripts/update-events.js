@@ -365,15 +365,13 @@ async function main() {
     '/events?org=ufc&status=upcoming&order=asc&limit=50'
   );
 
-  const now = Date.now();
-
+  // Do not filter by start time here.
+  // The API's "upcoming" status can include live events.
+  // Filtering by starts_at >= now would incorrectly remove
+  // an event as soon as its scheduled start time passes.
   const upcoming = asArray(scheduleData)
     .filter(event =>
-      event?.starts_at &&
-      new Date(event.starts_at).getTime() >= now
-    )
-    .filter(event =>
-      !['cancelled', 'postponed'].includes(
+      !['cancelled', 'postponed', 'completed'].includes(
         String(event.status || '').toLowerCase()
       )
     )
@@ -385,11 +383,11 @@ async function main() {
 
   if (!upcoming.length) {
     throw new Error(
-      'The API returned no future UFC events. Existing events.json was not changed.'
+      'The API returned no upcoming or live UFC events. Existing events.json was not changed.'
     );
   }
 
-  console.log(`Found ${upcoming.length} upcoming UFC events.`);
+  console.log(`Found ${upcoming.length} upcoming or live UFC events.`);
 
   const eventDetails = await mapWithConcurrency(
     upcoming,
@@ -413,9 +411,38 @@ async function main() {
     }
   );
 
+  // Only include events where UFCalendar has published
+  // at least one fight. This prevents blank event cards.
+  const eventsWithCards = eventDetails
+    .map((detail, index) => ({
+      detail,
+      sourceEvent: upcoming[index]
+    }))
+    .filter(({ detail }) =>
+      Array.isArray(detail.card) && detail.card.length > 0
+    );
+
+  const omittedEvents = eventDetails.length - eventsWithCards.length;
+
+  if (omittedEvents > 0) {
+    console.warn(
+      `Omitting ${omittedEvents} event(s) with no published fight card.`
+    );
+  }
+
+  if (eventsWithCards.length === 0) {
+    throw new Error(
+      'No events with published fight cards were returned. Existing events.json was not changed.'
+    );
+  }
+
+  console.log(
+    `Continuing with ${eventsWithCards.length} event(s) with published fight cards.`
+  );
+
   const allFighters = new Map();
 
-  for (const detail of eventDetails) {
+  for (const { detail } of eventsWithCards) {
     for (const bout of detail.card || []) {
       if (
         String(bout.status || '').toLowerCase() === 'cancelled'
@@ -517,9 +544,7 @@ async function main() {
     }
   }
 
-  const events = eventDetails.map((detail, index) => {
-    const sourceEvent = upcoming[index];
-
+  const events = eventsWithCards.map(({ detail, sourceEvent }) => {
     const venue = detail.venue || sourceEvent.venue || {};
 
     const timeZone =
