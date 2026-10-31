@@ -19,7 +19,7 @@ function initTheme() {
   const backIcon = document.getElementById('backIcon');
 
   const savedTheme = localStorage.getItem('fight-cards-theme');
-  const initialTheme = savedTheme === 'light' ? 'light' : 'dark';
+  const initialTheme = savedTheme === 'dark' ? 'dark' : 'light';
 
   function applyTheme(theme) {
     root.dataset.theme = theme;
@@ -90,7 +90,7 @@ function initPreferences() {
   const units = localStorage.getItem('fight-cards-units');
   const odds = localStorage.getItem('fight-cards-odds');
 
-  unitsControl.value = units === 'imperial' ? 'imperial' : 'metric';
+  unitsControl.value = units === 'metric' ? 'metric' : 'imperial';
   oddsControl.value = ['fractional', 'decimal'].includes(odds) ? odds : 'american';
 
   function applyPreferences() {
