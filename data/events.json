@@ -1,487 +1,6 @@
 {
   "events": [
     {
-      "id": "ufc-fight-night-2026-10-31",
-      "promotion": "UFC",
-      "name": "UFC Fight Night: Moicano vs Nolan",
-      "date": "2026-10-31",
-      "start_time": "2026-10-31T21:00:00.000Z",
-      "location": "Las Vegas, Nevada, United States",
-      "venue": "Meta Apex",
-      "sport": "MMA",
-      "status": "announced",
-      "fights": [
-        {
-          "id": "93077",
-          "card_position": "main_event",
-          "weight_class": "Lightweight",
-          "fighter_1": {
-            "name": "Renato Moicano",
-            "nickname": "",
-            "record": "21-7-1",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [
-              {
-                "division": "lightweight",
-                "rank": 12,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Brazil",
-                "country_code": "BR"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/b5e630c2a14c3b346ec0959d0b481b0237d372a3fdc3d65158960cda951ca5f2.webp",
-            "image_credit": {
-              "artist": "Show Me The Money",
-              "license": "CC BY 3.0",
-              "license_url": "https://creativecommons.org/licenses/by/3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Renato_Moicano_2024.png"
-            },
-            "height": "5' 11\"",
-            "weight": "155 lbs"
-          },
-          "fighter_2": {
-            "name": "Tom Nolan",
-            "nickname": "Big Train",
-            "record": "11-1-0",
-            "country": "Australia",
-            "flag": "🇦🇺",
-            "rankings": [
-              {
-                "division": "lightweight",
-                "rank": 14,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Australia",
-                "country_code": "AU"
-              }
-            ],
-            "image": "",
-            "image_credit": null,
-            "height": "6' 3\"",
-            "weight": "155 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-122",
-            "fighter_2": "101",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93557",
-          "card_position": "main_card",
-          "weight_class": "Welterweight",
-          "fighter_1": {
-            "name": "Randy Brown",
-            "nickname": "Rudeboy",
-            "record": "20-8-0",
-            "country": "Jamaica",
-            "flag": "🇯🇲",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "6' 3\"",
-            "weight": "170 lbs"
-          },
-          "fighter_2": {
-            "name": "Jacobe Smith",
-            "nickname": "Cobe",
-            "record": "13-0-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 10\"",
-            "weight": "170 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "226",
-            "fighter_2": "-284",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93558",
-          "card_position": "main_card",
-          "weight_class": "Flyweight",
-          "fighter_1": {
-            "name": "Ode Osbourne",
-            "nickname": "The Jamaican Sensation",
-            "record": "13-9-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 7\"",
-            "weight": "125 lbs"
-          },
-          "fighter_2": {
-            "name": "Cody Durden",
-            "nickname": "Custom Made",
-            "record": "18-11-1",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 7\"",
-            "weight": "125 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-105",
-            "fighter_2": "-117",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93261",
-          "card_position": "main_card",
-          "weight_class": "Women's Bantamweight",
-          "fighter_1": {
-            "name": "Yana Santos",
-            "nickname": "Foxy",
-            "record": "17-8-0",
-            "country": "Russia",
-            "flag": "🇷🇺",
-            "rankings": [
-              {
-                "division": "womens-bantamweight",
-                "rank": 6,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Russia",
-                "country_code": "RU"
-              }
-            ],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 6\"",
-            "weight": "135 lbs"
-          },
-          "fighter_2": {
-            "name": "Luana Santos",
-            "nickname": "",
-            "record": "11-2-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [
-              {
-                "division": "womens-bantamweight",
-                "rank": 7,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Brazil",
-                "country_code": "BR"
-              }
-            ],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 6\"",
-            "weight": "135 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "224",
-            "fighter_2": "-280",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93264",
-          "card_position": "main_card",
-          "weight_class": "Welterweight",
-          "fighter_1": {
-            "name": "Jean-Paul Lebosnoyani",
-            "nickname": "JPL",
-            "record": "11-2-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 11\"",
-            "weight": "170 lbs"
-          },
-          "fighter_2": {
-            "name": "Farman Hasanov",
-            "nickname": "The Lion",
-            "record": "6-0-0",
-            "country": "Azerbaijan",
-            "flag": "🇦🇿",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "6' 0\"",
-            "weight": "170 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-297",
-            "fighter_2": "234",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93560",
-          "card_position": "prelim",
-          "weight_class": "Featherweight",
-          "fighter_1": {
-            "name": "Francis Marshall",
-            "nickname": "Fire",
-            "record": "10-3-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 9\"",
-            "weight": "145 lbs"
-          },
-          "fighter_2": {
-            "name": "Dakota Hope",
-            "nickname": "Huracán",
-            "record": "11-2-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 6\"",
-            "weight": "145 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-233",
-            "fighter_2": "188",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93263",
-          "card_position": "prelim",
-          "weight_class": "Welterweight",
-          "fighter_1": {
-            "name": "Rodrigo Sezinando",
-            "nickname": "",
-            "record": "9-2-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 9\"",
-            "weight": "170 lbs"
-          },
-          "fighter_2": {
-            "name": "Theodor Berggren",
-            "nickname": "Simba",
-            "record": "8-4-0",
-            "country": "Sweden",
-            "flag": "🇸🇪",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 11\"",
-            "weight": "170 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-176",
-            "fighter_2": "145",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93266",
-          "card_position": "prelim",
-          "weight_class": "Featherweight",
-          "fighter_1": {
-            "name": "Julian Erosa",
-            "nickname": "Juicy J",
-            "record": "",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
-          },
-          "fighter_2": {
-            "name": "JeongYeong Lee",
-            "nickname": "Korean Tiger",
-            "record": "",
-            "country": "South Korea",
-            "flag": "🇰🇷",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "140",
-            "fighter_2": "-169",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93559",
-          "card_position": "prelim",
-          "weight_class": "Middleweight",
-          "fighter_1": {
-            "name": "Zach Reese",
-            "nickname": "Savage",
-            "record": "",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
-          },
-          "fighter_2": {
-            "name": "Mickey Gall",
-            "nickname": "",
-            "record": "",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-344",
-            "fighter_2": "268",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "85985",
-          "card_position": "prelim",
-          "weight_class": "Middleweight",
-          "fighter_1": {
-            "name": "Nick Klein",
-            "nickname": "Blue Collar",
-            "record": "",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
-          },
-          "fighter_2": {
-            "name": "Joseph Kropschot",
-            "nickname": "The Land Animal",
-            "record": "",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "264",
-            "fighter_2": "-338",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93262",
-          "card_position": "prelim",
-          "weight_class": "Women's Strawweight",
-          "fighter_1": {
-            "name": "Talita Alencar",
-            "nickname": "Problem Child",
-            "record": "",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
-          },
-          "fighter_2": {
-            "name": "Piera Rodriguez",
-            "nickname": "La Fiera",
-            "record": "",
-            "country": "Venezuela",
-            "flag": "🇻🇪",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "236",
-            "fighter_2": "-299",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "86003",
-          "card_position": "prelim",
-          "weight_class": "Women's Flyweight",
-          "fighter_1": {
-            "name": "Lucia Szabová",
-            "nickname": "Silent Killer",
-            "record": "",
-            "country": "Slovakia",
-            "flag": "🇸🇰",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
-          },
-          "fighter_2": {
-            "name": "Tainara Lisboa",
-            "nickname": "Thai Panther",
-            "record": "",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-740",
-            "fighter_2": "497",
-            "status": "consensus_odds"
-          }
-        }
-      ],
-      "schedule": {
-        "main_card_start_time": "2026-11-01T00:00:00.000Z",
-        "prelims_start_time": "2026-10-31T21:00:00.000Z",
-        "early_prelims_start_time": null,
-        "timezone": "America/Los_Angeles",
-        "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
-      }
-    },
-    {
       "id": "ufc-fight-night-2026-11-07",
       "promotion": "UFC",
       "name": "UFC Fight Night: Cortes Acosta vs Walker",
@@ -499,7 +18,7 @@
           "fighter_1": {
             "name": "Waldo Cortes Acosta",
             "nickname": "Salsa Boy",
-            "record": "",
+            "record": "17-4-0",
             "country": "Dominican Republic",
             "flag": "🇩🇴",
             "rankings": [
@@ -514,20 +33,25 @@
             ],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 4\"",
+            "weight": "260 lbs"
           },
           "fighter_2": {
             "name": "Johnny Walker",
             "nickname": "",
-            "record": "",
+            "record": "23-10-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/96b0803d7f34b568d2f3d859f4f700f7388153eafe8b95226a0905033fd52982.webp",
+            "image_credit": {
+              "artist": "Sexto Round",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Johnny_Walker_(lutador)_2025.jpg"
+            },
+            "height": "6' 6\"",
+            "weight": "242 lbs"
           },
           "odds": {
             "format": "American",
@@ -543,7 +67,7 @@
           "fighter_1": {
             "name": "Tatiana Suarez",
             "nickname": "TSP",
-            "record": "",
+            "record": "13-1-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -564,15 +88,20 @@
                 "country_code": "US"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/d12d7a4c98c22149a3c199445d840d0190e83f6ccd6b89adca438fde5d0f6fe3.webp",
+            "image_credit": {
+              "artist": "MMAnytt",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Tatiana_Suarez_at_UFC_228.jpg"
+            },
+            "height": "5' 5\"",
+            "weight": "115 lbs"
           },
           "fighter_2": {
             "name": "Virna Jandiroba",
             "nickname": "Carcara",
-            "record": "",
+            "record": "23-4-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -595,12 +124,12 @@
             ],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 3\"",
+            "weight": "115 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-187",
+            "fighter_1": "-186",
             "fighter_2": "155",
             "status": "consensus_odds"
           }
@@ -612,26 +141,26 @@
           "fighter_1": {
             "name": "Davey Grant",
             "nickname": "Dangerous",
-            "record": "",
+            "record": "18-8-0",
             "country": "United Kingdom",
             "flag": "🇬🇧",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 8\"",
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Elijah Smith",
             "nickname": "Swift",
-            "record": "",
+            "record": "10-1-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 9\"",
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
@@ -647,26 +176,31 @@
           "fighter_1": {
             "name": "Seokhyeon Ko",
             "nickname": "The Korean Tyson",
-            "record": "",
+            "record": "13-3-0",
             "country": "South Korea",
             "flag": "🇰🇷",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 10\"",
+            "weight": "170 lbs"
           },
           "fighter_2": {
             "name": "Wellington Turman",
             "nickname": "The Prodigy",
-            "record": "",
+            "record": "18-8-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/be6627263b67022dca6175c7ec9def82f6d6c70349291b362ba7913bd8bd17af.webp",
+            "image_credit": {
+              "artist": "Celsojunior96",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:WelingtonTurman2.jpg"
+            },
+            "height": "6' 0\"",
+            "weight": "170 lbs"
           },
           "odds": {
             "format": "American",
@@ -682,26 +216,26 @@
           "fighter_1": {
             "name": "Billy Elekana",
             "nickname": "Son of Susie",
-            "record": "",
+            "record": "10-2-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 3\"",
+            "weight": "205 lbs"
           },
           "fighter_2": {
             "name": "Lucas Fernando",
             "nickname": "",
-            "record": "",
+            "record": "14-3-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 3\"",
+            "weight": "205 lbs"
           },
           "odds": {
             "format": "American",
@@ -717,31 +251,31 @@
           "fighter_1": {
             "name": "Mantas Kondratavicius",
             "nickname": "",
-            "record": "",
+            "record": "9-1-0",
             "country": "Lithuania",
             "flag": "🇱🇹",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 2\"",
+            "weight": "185 lbs"
           },
           "fighter_2": {
             "name": "Andre Petroski",
             "nickname": "",
-            "record": "",
+            "record": "13-6-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 0\"",
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-280",
-            "fighter_2": "225",
+            "fighter_1": "-291",
+            "fighter_2": "233",
             "status": "consensus_odds"
           }
         },
@@ -752,26 +286,26 @@
           "fighter_1": {
             "name": "Gabriel Lorenço",
             "nickname": "Black Mamba",
-            "record": "",
+            "record": "8-1-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 2\"",
+            "weight": "229 lbs"
           },
           "fighter_2": {
             "name": "Thomas Petersen",
             "nickname": "The Train",
-            "record": "",
+            "record": "11-5-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 1\"",
+            "weight": "250 lbs"
           },
           "odds": {
             "format": "American",
@@ -787,7 +321,7 @@
           "fighter_1": {
             "name": "Karine Silva",
             "nickname": "Killer",
-            "record": "",
+            "record": "19-7-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -802,13 +336,13 @@
             ],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 5\"",
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Gabriella Fernandes",
             "nickname": "Gabi",
-            "record": "",
+            "record": "11-4-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -823,8 +357,8 @@
             ],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 6\"",
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -840,26 +374,26 @@
           "fighter_1": {
             "name": "Mitch Raposo",
             "nickname": "",
-            "record": "",
+            "record": "11-3-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 5\"",
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Marcos Degli",
             "nickname": "Tailandês",
-            "record": "",
+            "record": "15-3-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 6\"",
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -875,26 +409,26 @@
           "fighter_1": {
             "name": "Jose Delano",
             "nickname": "",
-            "record": "",
+            "record": "17-3-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 8\"",
+            "weight": "145 lbs"
           },
           "fighter_2": {
             "name": "Murtazali Magomedov",
             "nickname": "The Highlight",
-            "record": "",
+            "record": "11-0-0",
             "country": "Kyrgyzstan",
             "flag": "🇰🇬",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 9\"",
+            "weight": "145 lbs"
           },
           "odds": {
             "format": "American",
@@ -910,26 +444,26 @@
           "fighter_1": {
             "name": "Keiichiro Nakamura",
             "nickname": "",
-            "record": "",
+            "record": "8-1-0",
             "country": "Japan",
             "flag": "🇯🇵",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 10\"",
+            "weight": "145 lbs"
           },
           "fighter_2": {
             "name": "Ollie Schmid",
             "nickname": "The Hungarian Stallion",
-            "record": "",
+            "record": "4-3-0",
             "country": "New Zealand",
             "flag": "🇳🇿",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 0\"",
+            "weight": "145 lbs"
           },
           "odds": {
             "format": "American",
@@ -945,26 +479,26 @@
           "fighter_1": {
             "name": "Austin Bashi",
             "nickname": "",
-            "record": "",
+            "record": "14-2-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 6\"",
+            "weight": "145 lbs"
           },
           "fighter_2": {
             "name": "Lucas Brennan",
             "nickname": "Skywalker",
-            "record": "",
+            "record": "11-3-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 10\"",
+            "weight": "145 lbs"
           },
           "odds": {
             "format": "American",
@@ -980,26 +514,26 @@
           "fighter_1": {
             "name": "Priscila Cachoeira",
             "nickname": "Zombie Girl",
-            "record": "",
+            "record": "13-9-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 7\"",
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Nina Milošević",
             "nickname": "Queen Beast",
-            "record": "",
+            "record": "9-1-0",
             "country": "Serbia",
             "flag": "🇷🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 5\"",
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
@@ -1015,26 +549,26 @@
           "fighter_1": {
             "name": "Jonny Parsons",
             "nickname": "The Sluggernaut",
-            "record": "",
+            "record": "9-3-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 9\"",
+            "weight": "170 lbs"
           },
           "fighter_2": {
             "name": "Jose Henrique",
             "nickname": "Canela",
-            "record": "",
+            "record": "9-1-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 3\"",
+            "weight": "170 lbs"
           },
           "odds": {
             "format": "American",
@@ -1070,7 +604,7 @@
           "fighter_1": {
             "name": "Ciryl Gane",
             "nickname": "Bon Gamin",
-            "record": "",
+            "record": "14-2-0",
             "country": "France",
             "flag": "🇫🇷",
             "rankings": [
@@ -1091,15 +625,20 @@
                 "country_code": "FR"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/219e06e48da6748cae88e58dbf4fc56807801b1a95fa8ed0144fd0630b0fdae9.webp",
+            "image_credit": {
+              "artist": "The White House",
+              "license": "Public domain",
+              "license_url": "",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Ciryl_Gane_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg"
+            },
+            "height": "6' 4\"",
+            "weight": "247 lbs"
           },
           "fighter_2": {
             "name": "Josh Hokit",
             "nickname": "",
-            "record": "",
+            "record": "10-0-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -1112,10 +651,15 @@
                 "country_code": "US"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/5cef17f98a78a5c5a277caf61d6d3c5ded911c689891b76420d3d4353c83f84e.webp",
+            "image_credit": {
+              "artist": "U.S. Army photo by Sgt. 1st Class Brittany Primavera",
+              "license": "Public domain",
+              "license_url": "",
+              "source_page": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_Press_Conference_(9747953)_(cropped).jpg"
+            },
+            "height": "6' 1\"",
+            "weight": "235 lbs"
           },
           "odds": {
             "format": "American",
@@ -1131,7 +675,7 @@
           "fighter_1": {
             "name": "Kayla Harrison",
             "nickname": "",
-            "record": "",
+            "record": "19-1-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -1152,22 +696,32 @@
                 "country_code": "US"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/4597b62f267d12765462e999a9cb7cef45fb512ade8105c6f7f7c79e03db00a7.webp",
+            "image_credit": {
+              "artist": "The White House",
+              "license": "Public domain",
+              "license_url": "",
+              "source_page": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_congratulates_Kayla_Harrison_after_her_victory_during_UFC_316_(54577590491)_(cropped).jpg"
+            },
+            "height": "5' 8\"",
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Amanda Nunes",
             "nickname": "The Lioness",
-            "record": "",
+            "record": "23-5-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/b333f886f2a5d2513f4e14d1ab35dfd43c179941c87187fe563a7a1653b6d67c.webp",
+            "image_credit": {
+              "artist": "MMAnytt",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_(cropped).jpg"
+            },
+            "height": "5' 8\"",
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
@@ -1183,7 +737,7 @@
           "fighter_1": {
             "name": "Caio Borralho",
             "nickname": "The Natural",
-            "record": "",
+            "record": "18-2-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -1196,22 +750,27 @@
                 "country_code": "BR"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8acef4e24fcbcbc31e8bd3ccea7bfb97c228d3d66ab0595b84caf7b196e0e189.webp",
+            "image_credit": {
+              "artist": "BDA - Batalha Da Aldeia",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Borralho_en_Future_FC.png"
+            },
+            "height": "6' 1\"",
+            "weight": "185 lbs"
           },
           "fighter_2": {
             "name": "Yousri Belgaroui",
             "nickname": "",
-            "record": "",
+            "record": "11-3-0",
             "country": "Tunisia",
             "flag": "🇹🇳",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 6\"",
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
@@ -1227,7 +786,7 @@
           "fighter_1": {
             "name": "Uros Medic",
             "nickname": "The Doctor",
-            "record": "",
+            "record": "14-3-0",
             "country": "Serbia",
             "flag": "🇷🇸",
             "rankings": [
@@ -1242,25 +801,30 @@
             ],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 1\"",
+            "weight": "170 lbs"
           },
           "fighter_2": {
             "name": "Kevin Holland",
             "nickname": "Trailblazer",
-            "record": "",
+            "record": "29-15-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/e7dcefa7448ad53f42116eaa2071e8c258b16c71bf38e12cbcedb16e4aa463c6.webp",
+            "image_credit": {
+              "artist": "The White House",
+              "license": "Public domain",
+              "license_url": "",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Kevin_Holland_at_UFC_316_(54576727207).jpg"
+            },
+            "height": "6' 3\"",
+            "weight": "170 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-164",
-            "fighter_2": "133",
+            "fighter_1": "-162",
+            "fighter_2": "132",
             "status": "consensus_odds"
           }
         },
@@ -1271,26 +835,26 @@
           "fighter_1": {
             "name": "Bilal Hasan",
             "nickname": "The IndoNinja",
-            "record": "",
+            "record": "10-0-0",
             "country": "Indonesia",
             "flag": "🇮🇩",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 7\"",
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Luis Gurule",
             "nickname": "Grim",
-            "record": "",
+            "record": "11-4-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 5\"",
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -1306,26 +870,31 @@
           "fighter_1": {
             "name": "Stephen Thompson",
             "nickname": "Wonderboy",
-            "record": "",
+            "record": "17-9-1",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8df6f81e2d113fa75629bf16f5bcb166a48fd7f97f0cc37993111751b4bb3cfc.webp",
+            "image_credit": {
+              "artist": "Cpl. Devin Nichols",
+              "license": "Public domain",
+              "license_url": "",
+              "source_page": "https://commons.wikimedia.org/wiki/File:From_cancer_to_company_commander_130802-M-AR522-306_(cropped).jpg"
+            },
+            "height": "6' 0\"",
+            "weight": "170 lbs"
           },
           "fighter_2": {
             "name": "Charles Radtke",
             "nickname": "Chuck Buffalo",
-            "record": "",
+            "record": "12-5-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 9\"",
+            "weight": "170 lbs"
           },
           "odds": {
             "format": "American",
@@ -1341,26 +910,26 @@
           "fighter_1": {
             "name": "Drew Dober",
             "nickname": "",
-            "record": "",
+            "record": "29-15-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 8\"",
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Chris Duncan",
             "nickname": "The Problem",
-            "record": "",
+            "record": "15-3-0",
             "country": "Scotland",
             "flag": "",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 10\"",
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -1376,26 +945,31 @@
           "fighter_1": {
             "name": "Jim Miller",
             "nickname": "A-10",
-            "record": "",
+            "record": "39-19-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8b90203b78285b0dfd274d236775ca843b2fb21fd028e75bbe3cc4b5fc54d945.webp",
+            "image_credit": {
+              "artist": "Aleks Ozolins",
+              "license": "CC0",
+              "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Jim.miller.2.jpg"
+            },
+            "height": "5' 8\"",
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Terrance McKinney",
             "nickname": "T. Wrecks",
-            "record": "",
+            "record": "18-9-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 10\"",
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -1411,26 +985,26 @@
           "fighter_1": {
             "name": "Donte Johnson",
             "nickname": "Lock Jaw",
-            "record": "",
+            "record": "9-0-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 8\"",
+            "weight": "185 lbs"
           },
           "fighter_2": {
             "name": "Cesar Almeida",
             "nickname": "Cesinha",
-            "record": "",
+            "record": "7-3-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 1\"",
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
@@ -1446,7 +1020,7 @@
           "fighter_1": {
             "name": "Macy Chiasson",
             "nickname": "",
-            "record": "",
+            "record": "11-6-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -1461,13 +1035,13 @@
             ],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 11\"",
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Bia Mesquita",
             "nickname": "The Lady GOAT",
-            "record": "",
+            "record": "8-0-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -1482,8 +1056,8 @@
             ],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 4\"",
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
@@ -1499,26 +1073,26 @@
           "fighter_1": {
             "name": "Adrian Yanez",
             "nickname": "",
-            "record": "",
+            "record": "18-6-1",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 7\"",
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Juan Díaz",
             "nickname": "Pegajoso",
-            "record": "",
+            "record": "16-1-1",
             "country": "Peru",
             "flag": "🇵🇪",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 8\"",
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
@@ -1534,26 +1108,26 @@
           "fighter_1": {
             "name": "Nazim Sadykhov",
             "nickname": "Black Wolf",
-            "record": "",
+            "record": "11-3-1",
             "country": "Azerbaijan",
             "flag": "🇦🇿",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 10\"",
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Jefferson Nascimento",
             "nickname": "Toddynho",
-            "record": "",
+            "record": "13-1-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 8\"",
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -1569,19 +1143,19 @@
           "fighter_1": {
             "name": "Jared Gordon",
             "nickname": "Flash",
-            "record": "",
+            "record": "21-9-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 9\"",
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Melquizael Costa",
             "nickname": "The Dalmatian",
-            "record": "",
+            "record": "26-8-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -1596,8 +1170,8 @@
             ],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 10\"",
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -1613,26 +1187,26 @@
           "fighter_1": {
             "name": "Evan Elder",
             "nickname": "The Phenom",
-            "record": "",
+            "record": "10-2-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 10\"",
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Samuel Sanches",
             "nickname": "The Prodigy",
-            "record": "",
+            "record": "11-1-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 10\"",
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -1668,7 +1242,7 @@
           "fighter_1": {
             "name": "Jiri Prochazka",
             "nickname": "BJP",
-            "record": "",
+            "record": "32-6-1",
             "country": "Czech Republic",
             "flag": "🇨🇿",
             "rankings": [
@@ -1681,15 +1255,20 @@
                 "country_code": "CZ"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/d664efefb69d00c9eb4fd61335a82fc1be8e79950a3d39c9052369909692202a.webp",
+            "image_credit": {
+              "artist": "Show Jana Krause",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:JiriProchazka2022.png"
+            },
+            "height": "6' 3\"",
+            "weight": "205 lbs"
           },
           "fighter_2": {
             "name": "Navajo Stirling",
             "nickname": "",
-            "record": "",
+            "record": "11-0-0",
             "country": "New Zealand",
             "flag": "🇳🇿",
             "rankings": [
@@ -1704,8 +1283,8 @@
             ],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 4\"",
+            "weight": "205 lbs"
           },
           "odds": {
             "format": "American",
@@ -1721,7 +1300,7 @@
           "fighter_1": {
             "name": "Aljamain Sterling",
             "nickname": "Funk Master",
-            "record": "",
+            "record": "26-5-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -1734,15 +1313,20 @@
                 "country_code": "US"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/9531db7115d5203a3e14c7269f9bf6c2f28b44052f825e802117a54df98d74a0.webp",
+            "image_credit": {
+              "artist": "MMAnytt",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Alijamain_Sterling_at_UFC_228.jpg"
+            },
+            "height": "5' 7\"",
+            "weight": "145 lbs"
           },
           "fighter_2": {
             "name": "Kevin Vallejos",
             "nickname": "El Chino",
-            "record": "",
+            "record": "18-1-0",
             "country": "Argentina",
             "flag": "🇦🇷",
             "rankings": [
@@ -1757,8 +1341,8 @@
             ],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 7\"",
+            "weight": "145 lbs"
           },
           "odds": {
             "format": "American",
@@ -1774,7 +1358,7 @@
           "fighter_1": {
             "name": "Dan Hooker",
             "nickname": "The Hangman",
-            "record": "",
+            "record": "24-15-0",
             "country": "New Zealand",
             "flag": "🇳🇿",
             "rankings": [
@@ -1787,15 +1371,20 @@
                 "country_code": "NZ"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/e8cf473acbe6765680df9508cd5fc97972202152a5c935b3585e5cfb1af8ee5e.webp",
+            "image_credit": {
+              "artist": "Fight Bros NZ",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:DanHooker2016.png"
+            },
+            "height": "6' 0\"",
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Brian Ortega",
             "nickname": "T-City",
-            "record": "",
+            "record": "16-5-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -1808,10 +1397,15 @@
                 "country_code": "US"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/4e93b94c21313f01da1a39fabf275a7f3346f528d3193340668d7b483cade3c2.webp",
+            "image_credit": {
+              "artist": "MMAnytt",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Brian_Ortega_on_MMAnytt.jpg"
+            },
+            "height": "5' 8\"",
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -1827,7 +1421,7 @@
           "fighter_1": {
             "name": "Jared Cannonier",
             "nickname": "Tha Killa Gorilla",
-            "record": "",
+            "record": "18-10-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -1840,15 +1434,20 @@
                 "country_code": "US"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/7f73af897af39e8eba9019061f103da1b6baec6f7ddeb4862bdc2a393e6e97d9.webp",
+            "image_credit": {
+              "artist": "MMAnytt",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg"
+            },
+            "height": "5' 11\"",
+            "weight": "185 lbs"
           },
           "fighter_2": {
             "name": "Ikram Aliskerov",
             "nickname": "",
-            "record": "",
+            "record": "18-2-0",
             "country": "Russia",
             "flag": "🇷🇺",
             "rankings": [
@@ -1861,10 +1460,15 @@
                 "country_code": "RU"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/62dcda2643af8d12ee774816a014463772dbb81b1a070285d18bbedf9cfff5c0.webp",
+            "image_credit": {
+              "artist": "Sexto Round",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Ikram_Aliskerov_2024.png"
+            },
+            "height": "6' 0\"",
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
@@ -1880,26 +1484,31 @@
           "fighter_1": {
             "name": "Shamil Gaziev",
             "nickname": "",
-            "record": "",
+            "record": "15-3-0",
             "country": "Russia",
             "flag": "🇷🇺",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 4\"",
+            "weight": "265 lbs"
           },
           "fighter_2": {
             "name": "Tallison Teixeira",
             "nickname": "Xicao",
-            "record": "",
+            "record": "9-2-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/bccc91e1ca7b3216f20e9423a1c438fef301673dec614a82fa6a3e3f5714e653.webp",
+            "image_credit": {
+              "artist": "Sexto Round",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Tallison_Teixeira_2025.jpg"
+            },
+            "height": "6' 7\"",
+            "weight": "258 lbs"
           },
           "odds": {
             "format": "American",
@@ -1915,26 +1524,31 @@
           "fighter_1": {
             "name": "Jake Matthews",
             "nickname": "The Celtic Kid",
-            "record": "",
+            "record": "23-8-0",
             "country": "Australia",
             "flag": "🇦🇺",
             "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/824f94e4084ead31a99fcdba20b6986f5d4a9adb27bbf8998038b512567ffc4f.webp",
+            "image_credit": {
+              "artist": "Realistkilla",
+              "license": "CC0",
+              "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Jake_Mattews_%26_Jon_Jones.jpg"
+            },
+            "height": "5' 11\"",
+            "weight": "170 lbs"
           },
           "fighter_2": {
             "name": "Tahir Abdullayev",
             "nickname": "Tank",
-            "record": "",
+            "record": "22-3-0",
             "country": "Azerbaijan",
             "flag": "🇦🇿",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 8\"",
+            "weight": "170 lbs"
           },
           "odds": {
             "format": "American",
@@ -1950,26 +1564,31 @@
           "fighter_1": {
             "name": "Aleksandre Topuria",
             "nickname": "El Conquistador",
-            "record": "",
+            "record": "7-1-0",
             "country": "Georgia",
             "flag": "🇬🇪",
             "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8bb2b9569cc664d0e5772f49382fa3876f4b9480f0f3b0b28417d6d340336950.webp",
+            "image_credit": {
+              "artist": "U.S. Army photo by Sgt. 1st Class Brittany Primavera",
+              "license": "Public domain",
+              "license_url": "",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Aleksandre_Topuria_at_the_UFC_Freedom_250_Ceremony.jpg"
+            },
+            "height": "5' 7\"",
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Santiago Luna",
             "nickname": "BorderBoy",
-            "record": "",
+            "record": "8-1-0",
             "country": "Mexico",
             "flag": "🇲🇽",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 9\"",
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
@@ -1985,7 +1604,7 @@
           "fighter_1": {
             "name": "Asu Almabayev",
             "nickname": "Zulfikar",
-            "record": "",
+            "record": "24-3-0",
             "country": "Kazakhstan",
             "flag": "🇰🇿",
             "rankings": [
@@ -1998,15 +1617,20 @@
                 "country_code": "KZ"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/def1393b98a0e7337ab49918fffb923b4c97614264679aeb99047a202f3483ab.webp",
+            "image_credit": {
+              "artist": "Qazaq Stand Up",
+              "license": "CC BY 4.0",
+              "license_url": "https://creativecommons.org/licenses/by/4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:AsuAlmabayev.png"
+            },
+            "height": "5' 4\"",
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Kyoji Horiguchi",
             "nickname": "Karate Kid",
-            "record": "",
+            "record": "36-6-0",
             "country": "Japan",
             "flag": "🇯🇵",
             "rankings": [
@@ -2019,10 +1643,15 @@
                 "country_code": "JP"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/882bce16dab0fdad834f32bf617100f426df8289d3734b121ffb6bf994174827.webp",
+            "image_credit": {
+              "artist": "Bruno Massami",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Kyoji_Horiguchi_2017.jpg"
+            },
+            "height": "5' 4\"",
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -2038,7 +1667,7 @@
           "fighter_1": {
             "name": "Amir Albazi",
             "nickname": "The Prince",
-            "record": "",
+            "record": "17-3-0",
             "country": "Iraq",
             "flag": "🇮🇶",
             "rankings": [
@@ -2053,20 +1682,20 @@
             ],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 5\"",
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Alessandro Costa",
             "nickname": "Nono",
-            "record": "",
+            "record": "17-5-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 4\"",
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -2102,7 +1731,7 @@
           "fighter_1": {
             "name": "Charles Oliveira",
             "nickname": "Do Bronxs",
-            "record": "",
+            "record": "37-11-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -2115,15 +1744,20 @@
                 "country_code": "BR"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/0fc102ad743e47c77a4df4ddbc5136c036411dd5b108470daa54ace044daab06.webp",
+            "image_credit": {
+              "artist": "Renan Silva",
+              "license": "CC0",
+              "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Charles_Oliveira_do_Bronxs.jpg"
+            },
+            "height": "5' 10\"",
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Diego Lopes",
             "nickname": "",
-            "record": "",
+            "record": "28-8-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -2136,10 +1770,15 @@
                 "country_code": "BR"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/bf22491d2cfd83daae4c33d4d5080454f70a9859c0eafe79dcc637a4bdc6ac90.webp",
+            "image_credit": {
+              "artist": "Sexto Round",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Diego_Lopes_2025.jpg"
+            },
+            "height": "5' 11\"",
+            "weight": "145 lbs"
           },
           "odds": {
             "format": "American",
@@ -2155,7 +1794,7 @@
           "fighter_1": {
             "name": "Sergei Pavlovich",
             "nickname": "",
-            "record": "",
+            "record": "21-3-0",
             "country": "Russia",
             "flag": "🇷🇺",
             "rankings": [
@@ -2168,15 +1807,20 @@
                 "country_code": "RU"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/da253782a3cfbf1b1d9806214d45af9fd2fec52422b51a799d53f5c271745ccd.webp",
+            "image_credit": {
+              "artist": "Страна FM",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:SergeiPavlovich2018.png"
+            },
+            "height": "6' 3\"",
+            "weight": "257 lbs"
           },
           "fighter_2": {
             "name": "Alex Pereira",
             "nickname": "Poatan",
-            "record": "",
+            "record": "13-4-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -2197,10 +1841,15 @@
                 "country_code": "BR"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/5eea322677071ecd1e50dc6dd155626526b52c1d7acc7f6e5567d2a3136c6256.webp",
+            "image_credit": {
+              "artist": "The White House",
+              "license": "Public domain",
+              "license_url": "",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Alex_Pereira_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg"
+            },
+            "height": "6' 4\"",
+            "weight": "251 lbs"
           },
           "odds": {
             "format": "American",
@@ -2216,7 +1865,7 @@
           "fighter_1": {
             "name": "Brandon Moreno",
             "nickname": "The Assassin Baby",
-            "record": "",
+            "record": "24-10-2",
             "country": "Mexico",
             "flag": "🇲🇽",
             "rankings": [
@@ -2229,22 +1878,27 @@
                 "country_code": "MX"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/a3f7d71775e6f1abbc4638d7046f959244becb8359703db20a6da82a24cabb21.webp",
+            "image_credit": {
+              "artist": "DiarioMMA",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Brandon_Moreno_February_2021.jpg"
+            },
+            "height": "5' 7\"",
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Charles Johnson",
             "nickname": "Inner G",
-            "record": "",
+            "record": "20-9-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 9\"",
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -2260,26 +1914,26 @@
           "fighter_1": {
             "name": "Quentin Pasley",
             "nickname": "",
-            "record": "",
+            "record": "4-0-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 4\"",
+            "weight": "205 lbs"
           },
           "fighter_2": {
             "name": "Junior Tafa",
             "nickname": "The Juggernaut",
-            "record": "",
+            "record": "7-6-0",
             "country": "New Zealand",
             "flag": "🇳🇿",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "6' 3\"",
+            "weight": "205 lbs"
           },
           "odds": {
             "format": "American",
@@ -2295,7 +1949,7 @@
           "fighter_1": {
             "name": "Joe Pyfer",
             "nickname": "Bodybagz",
-            "record": "",
+            "record": "16-3-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -2308,15 +1962,20 @@
                 "country_code": "US"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/3e2e600e41e0a6500cc0185c42f88a5cdb32c243ebe5a39991f356e3ae67eced.webp",
+            "image_credit": {
+              "artist": "Checkin' Ringside",
+              "license": "CC BY 4.0",
+              "license_url": "https://creativecommons.org/licenses/by/4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:JoePyfer.jpg"
+            },
+            "height": "6' 2\"",
+            "weight": "185 lbs"
           },
           "fighter_2": {
             "name": "Bo Nickal",
             "nickname": "",
-            "record": "",
+            "record": "9-1-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -2329,10 +1988,15 @@
                 "country_code": "US"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/9ed1d92c4222bcef8ab4e5a92d09edf2d022b1e3843c87822ec030720929d17d.webp",
+            "image_credit": {
+              "artist": "Noah Riffe",
+              "license": "Public domain",
+              "license_url": "",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Bo_Nickal_(52791819473).jpg"
+            },
+            "height": "6' 1\"",
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
@@ -2348,7 +2012,7 @@
           "fighter_1": {
             "name": "Maycee Barber",
             "nickname": "The Future",
-            "record": "",
+            "record": "15-3-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -2361,22 +2025,27 @@
                 "country_code": "US"
               }
             ],
-            "image": "",
-            "image_credit": null,
-            "height": "",
-            "weight": ""
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/c50010f6a7eb192a32c5e4236d5093e302f074664ac0b57e5b0e556feb614ce3.webp",
+            "image_credit": {
+              "artist": "Maritza Sanchez",
+              "license": "CC BY 4.0",
+              "license_url": "https://creativecommons.org/licenses/by/4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Maycee_Barber_(cropped).png"
+            },
+            "height": "5' 5\"",
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Carli Judice",
             "nickname": "Crispy",
-            "record": "",
+            "record": "7-2-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
             "image_credit": null,
-            "height": "",
-            "weight": ""
+            "height": "5' 7\"",
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -2391,6 +2060,25 @@
         "prelims_start_time": "2026-12-13T00:00:00.000Z",
         "early_prelims_start_time": "2026-12-12T22:00:00.000Z",
         "timezone": "America/Los_Angeles",
+        "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
+      }
+    },
+    {
+      "id": "ufc-fight-night-2027-01-17",
+      "promotion": "UFC",
+      "name": "UFC Dallas",
+      "date": "2027-01-16",
+      "start_time": "2027-01-16T22:00:00.000Z",
+      "location": "Dallas, TX, United States",
+      "venue": "American Airlines Center",
+      "sport": "MMA",
+      "status": "announced",
+      "fights": [],
+      "schedule": {
+        "main_card_start_time": "2027-01-17T01:00:00.000Z",
+        "prelims_start_time": "2027-01-16T22:00:00.000Z",
+        "early_prelims_start_time": null,
+        "timezone": "America/Chicago",
         "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
       }
     }
