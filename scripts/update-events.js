@@ -15,8 +15,31 @@ const API_BASE = 'https://api.ufcalendar.com/v1';
 const API_KEY = process.env.UFCALENDAR_API_KEY;
 
 const EVENT_LIMIT = 5;
-const PROFILE_LIMIT_PER_RUN = 10;
 const PROFILE_REFRESH_DAYS = 7;
+
+// UFCalendar free plan: 10 requests per minute.
+// Use a conservative interval between all API requests.
+const MIN_REQUEST_INTERVAL_MS = 6500;
+let lastRequestAt = 0;
+let requestQueue = Promise.resolve();
+
+async function waitForRequestSlot() {
+  const slot = requestQueue.then(async () => {
+    const wait = Math.max(
+      0,
+      MIN_REQUEST_INTERVAL_MS - (Date.now() - lastRequestAt)
+    );
+
+    if (wait > 0) {
+      await new Promise(resolve => setTimeout(resolve, wait));
+    }
+
+    lastRequestAt = Date.now();
+  });
+
+  requestQueue = slot.catch(() => {});
+  return slot;
+}
 
 if (!API_KEY) {
   console.error('Missing UFCALENDAR_API_KEY environment variable.');
@@ -28,20 +51,23 @@ const headers = {
   Accept: 'application/json'
 };
 
-async function apiGet(endpoint, { retryRateLimit = true } = {}) {
+async function apiGet(endpoint) {
   const url = `${API_BASE}${endpoint}`;
   let response;
 
   for (let attempt = 1; attempt <= 4; attempt += 1) {
+    await waitForRequestSlot();
+
     response = await fetch(url, { headers });
 
-    if (response.status === 429 && !retryRateLimit) break;
     if (response.status !== 429 && response.status < 500) break;
-
-    const retryAfter =
-      Number(response.headers.get('retry-after')) || attempt * 2;
-
     if (attempt === 4) break;
+
+    const headerDelay = Number(response.headers.get('retry-after'));
+
+    const retryAfter = response.status === 429
+      ? (headerDelay || 65)
+      : (headerDelay || attempt * 2);
 
     console.warn(
       `API returned ${response.status}; retrying in ${retryAfter}s...`
@@ -156,7 +182,6 @@ function mapOdds(odds) {
     };
   }
 
-  // The event-card API returns an OddsPair with corners a and b.
   const a = odds.a ?? odds.fighter_a ?? odds.fighter_1;
   const b = odds.b ?? odds.fighter_b ?? odds.fighter_2;
 
@@ -206,8 +231,6 @@ function mapFighterRef(
     nickname: ref.nickname || data.nickname || '',
     record: record || '',
 
-    // Nationality from the fighter profile takes priority.
-    // Rankings provide a fallback when profile data is missing.
     country:
       data.nationality ||
       ref.nationality ||
@@ -220,11 +243,8 @@ function mapFighterRef(
       rankingData.country_code
     ),
 
-    // All available rankings are attached to the fighter.
     rankings,
 
-    // Only use images with the attribution fields required by
-    // UFCalendar's CC-image licence terms.
     image: usableImage?.url || '',
 
     image_credit: usableImage
@@ -281,7 +301,6 @@ function profileNeedsRefresh(profile) {
     profile._cache_updated_at || ''
   );
 
-  // Existing cached profiles without a timestamp need refreshing.
   if (!Number.isFinite(lastUpdated)) return true;
 
   const refreshInterval =
@@ -374,7 +393,7 @@ async function main() {
 
   const eventDetails = await mapWithConcurrency(
     upcoming,
-    3,
+    1,
     async event => {
       const key = event.slug || event.id;
 
@@ -415,7 +434,6 @@ async function main() {
     }
   }
 
-  // Find fighters who are new or whose cached profiles are due for refresh.
   const profilesDueForRefresh = [...allFighters.keys()]
     .filter(slug =>
       profileNeedsRefresh(fighterCache[slug])
@@ -424,12 +442,10 @@ async function main() {
       const aCached = Boolean(fighterCache[a]);
       const bCached = Boolean(fighterCache[b]);
 
-      // New fighters get priority.
       if (aCached !== bCached) {
         return aCached ? 1 : -1;
       }
 
-      // Among existing profiles, refresh the oldest first.
       const aDate =
         Date.parse(fighterCache[a]?._cache_updated_at || '') || 0;
 
@@ -439,10 +455,8 @@ async function main() {
       return aDate - bDate;
     });
 
-  const profileSlugsThisRun = profilesDueForRefresh.slice(
-    0,
-    PROFILE_LIMIT_PER_RUN
-  );
+  // Fetch every new or stale fighter profile.
+  const profileSlugsThisRun = profilesDueForRefresh;
 
   console.log(
     `Found ${allFighters.size} fighters across upcoming cards.`
@@ -453,20 +467,20 @@ async function main() {
   );
 
   console.log(
-    `Fetching a maximum of ${profileSlugsThisRun.length} profiles this run.`
+    `Refreshing all ${profileSlugsThisRun.length} profiles due for refresh.`
   );
+
+  let refreshedCount = 0;
+  let failedCount = 0;
 
   for (const slug of profileSlugsThisRun) {
     try {
       const freshProfile = await apiGet(
-        `/fighters/${encodeURIComponent(slug)}`,
-        { retryRateLimit: false }
+        `/fighters/${encodeURIComponent(slug)}`
       );
 
       const existingProfile = fighterCache[slug];
 
-      // Keep existing licensed images if the refreshed profile
-      // has no usable image.
       const hasUsableImage =
         Array.isArray(freshProfile.images) &&
         freshProfile.images.some(image =>
@@ -483,16 +497,20 @@ async function main() {
         _cache_updated_at: new Date().toISOString()
       };
 
+      refreshedCount++;
+
       console.log(`Refreshed fighter profile: ${slug}`);
 
     } catch (error) {
+      failedCount++;
+
       console.warn(
         `Could not refresh fighter profile for ${slug}: ${error.message}`
       );
 
       if (error.message.includes('UFCalendar 429')) {
         console.warn(
-          'Rate limit reached. Skipping remaining fighter profiles.'
+          'Rate limit reached. Remaining profiles will be retried on the next run.'
         );
         break;
       }
@@ -603,6 +621,7 @@ async function main() {
       ),
 
       promotion: 'UFC',
+
       name:
         detail.title ||
         sourceEvent.title ||
@@ -634,9 +653,6 @@ async function main() {
     };
   });
 
-  // Write only after all event requests and mapping succeed,
-  // so a temporary API failure cannot replace the live file
-  // with an empty or partial event list.
   const output = `${JSON.stringify({ events }, null, 2)}\n`;
 
   await fs.writeFile(EVENTS_FILE, output, 'utf8');
@@ -653,6 +669,14 @@ async function main() {
 
   console.log(
     `Cached ${Object.keys(fighterCache).length} fighter profiles in data/fighters-cache.json.`
+  );
+
+  console.log(
+    `Fighter profiles refreshed this run: ${refreshedCount}.`
+  );
+
+  console.log(
+    `Fighter profiles that failed to refresh: ${failedCount}.`
   );
 }
 
