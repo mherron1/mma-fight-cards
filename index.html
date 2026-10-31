@@ -1,189 +1,100 @@
-<!doctype html>
-  <html lang=en>
-    <script src="https://www.googletagmanager.com/gtag/js?id=G-T890PP675S" async></script>
-    <script>
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "G-T890PP675S")
-    </script>
-    <meta charset=UTF-8>
-    <meta content="IE=edge" http-equiv=X-UA-Compatible>
-    <meta content="width=device-width,initial-scale=1" name=viewport>
-    <link href=style.css rel=stylesheet id=pagestyle>
-    <meta content=https://mmafightcards.org/images/twitterCard.png property=og:image>
-    <meta content=summary_large_image name=twitter:card>
-    <meta content=@MMA_FightCards name=twitter:site>
-    <meta content=@MMA_FightCards name=twitter:creator>
-    <meta content=MMAFightCards.org name=twitter:title>
-    <meta content="Making it a little easier to be an MMA fan!" name=twitter:description>
-    <meta content=https://mmafightcards.org/images/twitterCard.png name=twitter:image>
-    <meta name="google-adsense-account" content="ca-pub-5494862209662870">
-    <script src=database.js></script>
-    <script src=odds.js></script>
-    <script src=app.js></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet>
-    <link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css rel=stylesheet>
-    <link href=/manifest.json rel=manifest>
-    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
-    <script src="https://www.googletagmanager.com/gtag/js?id=UA-194797810-1" async></script>
-    <script>
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-194797810-1")
-    </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#101116" id="themeColorMeta">
+  <meta name="description" content="A swipeable combat sports fight-card viewer.">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Fight Cards</title>
 
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T890PP675S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-T890PP675S');
+</script>
 
+</head>
+<body>
+  <main class="app" id="app" aria-label="Swipe between fight cards">
+    <header class="app-topbar">
+      <div class="brand"><span class="brand-mark">MMA</span><span>FIGHT<span class="brand-light">CARDS</span></span></div>
+      <button class="settings-button" id="settingsToggle" type="button" data-no-swipe aria-label="Open settings" aria-expanded="false" aria-controls="settingsPage">
+        <svg class="settings-icon" id="settingsIcon" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.5.5 0 0 0 .12-.6l-1.92-3.32a.5.5 0 0 0-.59-.21l-2.39.96a7.28 7.28 0 0 0-1.62-.93l-.36-2.53a.5.5 0 0 0-.49-.41h-3.84a.5.5 0 0 0-.49.41L9.22 5.38a7.28 7.28 0 0 0-1.62.93l-2.39-.96a.5.5 0 0 0-.59.21L2.7 8.88a.5.5 0 0 0 .12.6l2.02 1.58c-.04.31-.06.63-.06.94s.02.63.06.94L2.82 14.52a.5.5 0 0 0-.12.6l1.92 3.32a.5.5 0 0 0 .59.21l2.39-.96c.49.38 1.03.69 1.62.93l.36 2.53a.5.5 0 0 0 .49.41h3.84a.5.5 0 0 0 .49-.41l.36-2.53c.59-.24 1.12-.56 1.62-.93l2.39.96a.5.5 0 0 0 .59-.21l1.92-3.32a.5.5 0 0 0-.12-.6l-2.03-1.58ZM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/></svg>
+        <svg class="back-icon" id="backIcon" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="m15 18-6-6 6-6M9 12h11"/></svg>
+      </button>
+    </header>
 
-    <script>window.location.href="https://www.espn.com/mma/schedule"
-
-    </script>
-
-
-    <title>MMA Fight Cards</title>
-    <div class=deasktopHeader><a href=/><img src=images/appIcons/icon-512x512.png class=siteLogo></a></div>
-    <div class=desktopDarkButtonsContainer><i class="fa desktopDarkMode fa-adjust" onclick=toggleStyleSheets() style=font-size:24px></i></div>
-    <div id=desktopLinks></div>
-    <div id=top_right></div>
-    <div id=full_background></div>
-    <div id=dim ontouchstart=toggleSideNav()></div>
-    <div id=displayCard>
-      <div id=top_left>
-        <div id=mobileSearch><i class="fa fa-search"></i></div>
-      </div>
-      <div id=sideNav>
-        <div id=eventList></div>
-      </div>
-      <div id=hamburger-1 class=hamburger onclick=toggleSideNav()><span class=line></span><span class=line></span><span class=line></span></div>
-      <div id=settings><i class=material-icons onclick=changeSettings() id=closeSettings>close</i>
-        <h3 id=settingsHeader>Settings</h3>
-        <div style=display:none>
-          <div style=display:none></div>
-          <div class=setting>
-            <div>All Events</div><label class=switch><input id=allInput onclick=forceToggleAll() type=checkbox><span class="round slider"></span></label>
-          </div>
-          <div class=setting>
-            <div>UFC</div><label class=switch><input id=ufcInput onclick=forceToggle() type=checkbox><span class="round slider"></span></label>
-          </div>
-          <div class=setting>
-            <div>Bellator</div><label class=switch><input id=bellatorInput onclick=forceToggle() type=checkbox><span class="round slider"></span></label>
-          </div>
-          <div class=setting>
-            <div>One FC</div><label class=switch><input id=oneInput onclick=forceToggle() type=checkbox><span class="round slider"></span></label>
-          </div>
-          <div class=setting>
-            <div>PFL</div><label class=switch><input id=pflInput onclick=forceToggle() type=checkbox><span class="round slider"></span></label>
-          </div>
-        </div><br>
-        <div id=darkModeToggle class=setting>
-          <div>Dark Mode</div><label class=switch><input id=darkInput onclick=toggleStyleSheets() type=checkbox><span class="round slider"></span></label>
-        </div>
-        <div class=setting>
-          <div>Auto Expand</div><label class=switch><input id=details onclick=hideDetailsSettings() type=checkbox><span class="round slider"></span></label>
-        </div>
-        <div class=setting style=display:none>
-          <div>Display Countdown</div><label class=switch><input id=showHideCountdown onclick=toggleCountDown() type=checkbox><span class="round slider"></span></label>
-        </div>
-        <div class=setting>
-          <div>Decimal Odds</div><label class=switch><input id=oddsTypeToggle onclick=toggleOddsType() type=checkbox><span class="round slider"></span></label>
-        </div>
-        <div id=hapticsToggleSwitch class=setting style=display:none>
-          <div>Haptic Feedback</div><label class=switch><input id=hapticsToggle onclick=toggleHaptics() type=checkbox><span class="round slider"></span></label>
-        </div><br><br>
-
-        <div class=donatePopup><i class="fa fa-window-close" onclick=toggleDonatePopup() id=closeDonatePopup style=position:absolute;top:3px;right:5px;font-size:35px></i><br>
-          <div style=margin-bottom:10px><strong>Paypal</strong></div><a href="https://www.paypal.com/donate?hosted_button_id=2CEEF22SKG3HN" target=_blank>
-            <div id=paypalLink>Tip Jar</div>
-          </a>
-          <div style=margin:30px><strong>BTC</strong>:<br>bc1qpvvqku33axrphdvvgc0adp336shkq7x3xl33hs</div>
-          <div style=margin:30px><strong>ETH</strong>:<br>0xb9356C759CE9Df64C48F5135D80C5d329Bcf29D0</div>
-        </div>
-        <div class=privacy_policy style=margin:20px;text-align:center><a href=/privacy-policy.html style=font-size:.9rem>Privacy Policy</a></div>
-      </div>
-      <div id=contentMinus1></div>
-      <div id=content ontouchstart=touchStart(event) ontouchend=touchEnd(event) ontouchmove=touchMove(event)></div>
-      <div id=contentPlus1></div>
-    </div><br><br>
-    <div id=navBlocks></div>
-    <div id=leftArrow onclick=back() style=visibility:hidden>
-      <div>
-        <div id=navEventTitleLeft>Event Title</div><img src="" id=navImageLeft>
+    <div class="card-progress" id="cardProgress" role="progressbar" aria-label="Event card progress" aria-valuemin="1" aria-valuemax="1" aria-valuenow="1" aria-valuetext="Event card 1 of 1"></div>
+    <div class="cube-stage" id="cubeStage">
+      <div class="cube" id="cube" aria-live="polite">
+        <section class="cube-face face-front" id="face0"></section>
+        <section class="cube-face face-right" id="face1"></section>
+        <section class="cube-face face-back" id="face2"></section>
+        <section class="cube-face face-left" id="face3"></section>
       </div>
     </div>
-    <div id=rightArrow onclick=next() style=visibility:hidden>
-      <div id=navEventTitleRight>Event Title</div><img src="" id=navImageRight>
-    </div>
-    <p id=keyboard>Keyboard: Left-Right-Enter
-    <div id=searchContainer><i class=material-icons onclick='document.querySelector("#searchContainer").style.display="none"' id=closeSearch>close</i><input id=searchInput autocomplete=off onkeyup=searchFighters() placeholder="Search Fighter">
-      <div id=searchResults></div>
-    </div>
-    <div>
-      <div class=share_popup>
-        <div class=popup_share_close>×</div><br>
-        <div style="padding:0 50px;text-align:center;font-size:20px">Help keep this site alive by sharing!</div><br>
-        <div style=margin-bottom:40px>
-          <div><a href="https://twitter.com/intent/tweet?url=https://mmafightcards.org/" target=_blank><button class=popup_share style=background-color:#1da1f2>Twitter</button></a></div>
-          <div><a href="https://api.whatsapp.com/send?text=https://mmafightcards.org/" target=_blank title=WhatsApp><button class=popup_share style=background-color:#20a852>WhatsApp</button></a></div>
-          <div><a href="https://t.me/share/url?url=https://mmafightcards.org/" target=_blank title=Telegram><button class=popup_share style=background-color:#08c>Telegram</button></a></div>
-          <div><button class=popup_share style=background-color:#ce8c8c id=clipboard>Copy URL</button>
-            <div class=url_copied style=text-align:center;font-size:14px;height:20px></div>
+    <section class="settings-page" id="settingsPage" data-no-swipe aria-label="Settings" hidden>
+      <div class="settings-content">
+        <h1>Settings</h1>
+        <section class="settings-card" aria-labelledby="appearanceHeading">
+          <div class="settings-copy">
+            <h2 id="appearanceHeading">Appearance</h2>
+            <p>Choose your preferred color theme.</p>
           </div>
-        </div>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode">
+            <span class="theme-toggle-icon" id="themeToggleIcon" aria-hidden="true">☼</span>
+            <span id="themeToggleText">LIGHT</span>
+          </button>
+        </section>
+        <section class="settings-card preference-card" aria-labelledby="unitsHeading">
+          <div class="settings-copy">
+            <h2 id="unitsHeading">Fighter measurements</h2>
+            <p>Choose how height and weight are displayed.</p>
+          </div>
+          <label class="preference-control">
+            <span class="visually-hidden">Measurement units</span>
+            <select id="unitsPreference">
+              <option value="metric">Metric (cm, kg)</option>
+              <option value="imperial">Imperial (ft, lb)</option>
+            </select>
+          </label>
+        </section>
+        <section class="settings-card preference-card" aria-labelledby="oddsHeading">
+          <div class="settings-copy">
+            <h2 id="oddsHeading">Odds format</h2>
+            <p>Choose how betting odds are displayed.</p>
+          </div>
+          <label class="preference-control">
+            <span class="visually-hidden">Odds format</span>
+            <select id="oddsPreference">
+              <option value="american">American</option>
+              <option value="fractional">Fractional</option>
+              <option value="decimal">Decimal</option>
+            </select>
+          </label>
+        </section>
+        <section class="settings-card contact-card" aria-labelledby="comingSoonHeading">
+          <div class="settings-copy">
+            <h2 id="comingSoonHeading">Coming soon</h2>
+            <p>Spoiler free results</p>
+            <p>Real-time results</p>
+          </div>
+        </section>
+        <section class="settings-card contact-card" aria-labelledby="contactHeading">
+          <div class="settings-copy">
+            <h2 id="contactHeading">Contact</h2>
+            <p>Questions or feedback? Get in touch.</p>
+          </div>
+          <a class="contact-link" href="mailto:contactmmafightcards@gmail.com">contactmmafightcards@gmail.com</a>
+        </section>
       </div>
-    </div>
-
-    <style>
-        @media only screen and (min-width:480px) {
-          .privacy_policy {
-            display: none
-          }
-        }
-
-        @media only screen and (min-width:1000px) {
-          .privacy_policy {
-            display: none
-          }
-        }
-      </style>      <style>
-        @media only screen and (min-width:480px) {
-          .privacy_policy {
-            display: none
-          }
-        }
-
-        @media only screen and (min-width:1000px) {
-          .privacy_policy {
-            display: none
-          }
-        }
-
-        .center-div {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-   
-}
-
-.btn-style {
-    font-family: Arial, sans-serif; 
-    color: #000;
-    padding: 5px 15px;
-    text-align: center;
-    display: inline-block;
-    font-size: 14px;
-    margin: 30px auto;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background 0.3s, color 0.3s;
-    text-decoration:underline;
-}
-
-.btn-style:hover {
-
-    
-}
-
-
-      </style>
-    <script src="index.js"></script>
+    </section>
+  </main>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
