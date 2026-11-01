@@ -1,487 +1,6 @@
 {
   "events": [
     {
-      "id": "ufc-fight-night-2026-10-31",
-      "promotion": "UFC",
-      "name": "UFC Fight Night: Moicano vs Nolan",
-      "date": "2026-10-31",
-      "start_time": "2026-10-31T21:00:00.000Z",
-      "location": "Las Vegas, Nevada, United States",
-      "venue": "Meta Apex",
-      "sport": "MMA",
-      "status": "announced",
-      "fights": [
-        {
-          "id": "93077",
-          "card_position": "main_event",
-          "weight_class": "Lightweight",
-          "fighter_1": {
-            "name": "Renato Moicano",
-            "nickname": "",
-            "record": "21-7-1",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [
-              {
-                "division": "lightweight",
-                "rank": 12,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Brazil",
-                "country_code": "BR"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/b5e630c2a14c3b346ec0959d0b481b0237d372a3fdc3d65158960cda951ca5f2.webp",
-            "image_credit": {
-              "artist": "Show Me The Money",
-              "license": "CC BY 3.0",
-              "license_url": "https://creativecommons.org/licenses/by/3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Renato_Moicano_2024.png"
-            },
-            "height": "5' 11\"",
-            "weight": "155 lbs"
-          },
-          "fighter_2": {
-            "name": "Tom Nolan",
-            "nickname": "Big Train",
-            "record": "11-1-0",
-            "country": "Australia",
-            "flag": "🇦🇺",
-            "rankings": [
-              {
-                "division": "lightweight",
-                "rank": 14,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Australia",
-                "country_code": "AU"
-              }
-            ],
-            "image": "",
-            "image_credit": null,
-            "height": "6' 3\"",
-            "weight": "155 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-122",
-            "fighter_2": "101",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93557",
-          "card_position": "main_card",
-          "weight_class": "Welterweight",
-          "fighter_1": {
-            "name": "Randy Brown",
-            "nickname": "Rudeboy",
-            "record": "20-8-0",
-            "country": "Jamaica",
-            "flag": "🇯🇲",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "6' 3\"",
-            "weight": "170 lbs"
-          },
-          "fighter_2": {
-            "name": "Jacobe Smith",
-            "nickname": "Cobe",
-            "record": "13-0-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 10\"",
-            "weight": "170 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "226",
-            "fighter_2": "-284",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93558",
-          "card_position": "main_card",
-          "weight_class": "Flyweight",
-          "fighter_1": {
-            "name": "Ode Osbourne",
-            "nickname": "The Jamaican Sensation",
-            "record": "13-9-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 7\"",
-            "weight": "125 lbs"
-          },
-          "fighter_2": {
-            "name": "Cody Durden",
-            "nickname": "Custom Made",
-            "record": "18-11-1",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 7\"",
-            "weight": "125 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-105",
-            "fighter_2": "-117",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93261",
-          "card_position": "main_card",
-          "weight_class": "Women's Bantamweight",
-          "fighter_1": {
-            "name": "Yana Santos",
-            "nickname": "Foxy",
-            "record": "17-8-0",
-            "country": "Russia",
-            "flag": "🇷🇺",
-            "rankings": [
-              {
-                "division": "womens-bantamweight",
-                "rank": 6,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Russia",
-                "country_code": "RU"
-              }
-            ],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 6\"",
-            "weight": "135 lbs"
-          },
-          "fighter_2": {
-            "name": "Luana Santos",
-            "nickname": "",
-            "record": "11-2-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [
-              {
-                "division": "womens-bantamweight",
-                "rank": 7,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Brazil",
-                "country_code": "BR"
-              }
-            ],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 6\"",
-            "weight": "135 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "224",
-            "fighter_2": "-280",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93264",
-          "card_position": "main_card",
-          "weight_class": "Welterweight",
-          "fighter_1": {
-            "name": "Jean-Paul Lebosnoyani",
-            "nickname": "JPL",
-            "record": "11-2-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 11\"",
-            "weight": "170 lbs"
-          },
-          "fighter_2": {
-            "name": "Farman Hasanov",
-            "nickname": "The Lion",
-            "record": "6-0-0",
-            "country": "Azerbaijan",
-            "flag": "🇦🇿",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "6' 0\"",
-            "weight": "170 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-297",
-            "fighter_2": "234",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93560",
-          "card_position": "prelim",
-          "weight_class": "Featherweight",
-          "fighter_1": {
-            "name": "Francis Marshall",
-            "nickname": "Fire",
-            "record": "10-3-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 9\"",
-            "weight": "145 lbs"
-          },
-          "fighter_2": {
-            "name": "Dakota Hope",
-            "nickname": "Huracán",
-            "record": "11-2-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 6\"",
-            "weight": "145 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-233",
-            "fighter_2": "188",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93263",
-          "card_position": "prelim",
-          "weight_class": "Welterweight",
-          "fighter_1": {
-            "name": "Rodrigo Sezinando",
-            "nickname": "",
-            "record": "9-2-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 9\"",
-            "weight": "170 lbs"
-          },
-          "fighter_2": {
-            "name": "Theodor Berggren",
-            "nickname": "Simba",
-            "record": "8-4-0",
-            "country": "Sweden",
-            "flag": "🇸🇪",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 11\"",
-            "weight": "170 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-176",
-            "fighter_2": "145",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93266",
-          "card_position": "prelim",
-          "weight_class": "Featherweight",
-          "fighter_1": {
-            "name": "Julian Erosa",
-            "nickname": "Juicy J",
-            "record": "32-14-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "6' 1\"",
-            "weight": "145 lbs"
-          },
-          "fighter_2": {
-            "name": "JeongYeong Lee",
-            "nickname": "Korean Tiger",
-            "record": "11-4-0",
-            "country": "South Korea",
-            "flag": "🇰🇷",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 10\"",
-            "weight": "145 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "140",
-            "fighter_2": "-169",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93559",
-          "card_position": "prelim",
-          "weight_class": "Middleweight",
-          "fighter_1": {
-            "name": "Zach Reese",
-            "nickname": "Savage",
-            "record": "11-4-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "6' 4\"",
-            "weight": "185 lbs"
-          },
-          "fighter_2": {
-            "name": "Mickey Gall",
-            "nickname": "",
-            "record": "7-8-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "6' 2\"",
-            "weight": "185 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-344",
-            "fighter_2": "268",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "85985",
-          "card_position": "prelim",
-          "weight_class": "Middleweight",
-          "fighter_1": {
-            "name": "Nick Klein",
-            "nickname": "Blue Collar",
-            "record": "6-4-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "6' 1\"",
-            "weight": "185 lbs"
-          },
-          "fighter_2": {
-            "name": "Joseph Kropschot",
-            "nickname": "The Land Animal",
-            "record": "10-3-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "6' 3\"",
-            "weight": "185 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "264",
-            "fighter_2": "-338",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93262",
-          "card_position": "prelim",
-          "weight_class": "Women's Strawweight",
-          "fighter_1": {
-            "name": "Talita Alencar",
-            "nickname": "Problem Child",
-            "record": "8-2-1",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 1\"",
-            "weight": "115 lbs"
-          },
-          "fighter_2": {
-            "name": "Piera Rodriguez",
-            "nickname": "La Fiera",
-            "record": "13-2-0",
-            "country": "Venezuela",
-            "flag": "🇻🇪",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 3\"",
-            "weight": "115 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "236",
-            "fighter_2": "-299",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "86003",
-          "card_position": "prelim",
-          "weight_class": "Women's Flyweight",
-          "fighter_1": {
-            "name": "Lucia Szabová",
-            "nickname": "Silent Killer",
-            "record": "13-0-0",
-            "country": "Slovakia",
-            "flag": "🇸🇰",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 7\"",
-            "weight": "135 lbs"
-          },
-          "fighter_2": {
-            "name": "Tainara Lisboa",
-            "nickname": "Thai Panther",
-            "record": "7-5-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [],
-            "image": "",
-            "image_credit": null,
-            "height": "5' 7\"",
-            "weight": "125 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-740",
-            "fighter_2": "497",
-            "status": "consensus_odds"
-          }
-        }
-      ],
-      "schedule": {
-        "main_card_start_time": "2026-11-01T00:00:00.000Z",
-        "prelims_start_time": "2026-10-31T21:00:00.000Z",
-        "early_prelims_start_time": null,
-        "timezone": "America/Los_Angeles",
-        "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
-      }
-    },
-    {
       "id": "ufc-fight-night-2026-11-07",
       "promotion": "UFC",
       "name": "UFC Fight Night: Cortes Acosta vs Walker",
@@ -536,8 +55,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-194",
-            "fighter_2": "158",
+            "fighter_1": "-200",
+            "fighter_2": "165",
             "status": "consensus_odds"
           }
         },
@@ -610,8 +129,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-186",
-            "fighter_2": "155",
+            "fighter_1": "-183",
+            "fighter_2": "153",
             "status": "consensus_odds"
           }
         },
@@ -645,8 +164,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "174",
-            "fighter_2": "-216",
+            "fighter_1": "176",
+            "fighter_2": "-217",
             "status": "consensus_odds"
           }
         },
@@ -685,8 +204,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-564",
-            "fighter_2": "401",
+            "fighter_1": "-603",
+            "fighter_2": "434",
             "status": "consensus_odds"
           }
         },
@@ -720,8 +239,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "207",
-            "fighter_2": "-255",
+            "fighter_1": "208",
+            "fighter_2": "-257",
             "status": "consensus_odds"
           }
         },
@@ -755,8 +274,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-291",
-            "fighter_2": "233",
+            "fighter_1": "-300",
+            "fighter_2": "242",
             "status": "consensus_odds"
           }
         },
@@ -790,8 +309,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "139",
-            "fighter_2": "-168",
+            "fighter_1": "140",
+            "fighter_2": "-169",
             "status": "consensus_odds"
           }
         },
@@ -843,8 +362,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-164",
-            "fighter_2": "136",
+            "fighter_1": "-163",
+            "fighter_2": "135",
             "status": "consensus_odds"
           }
         },
@@ -879,7 +398,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "200",
-            "fighter_2": "-247",
+            "fighter_2": "-246",
             "status": "consensus_odds"
           }
         },
@@ -948,8 +467,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-350",
-            "fighter_2": "274",
+            "fighter_1": "-358",
+            "fighter_2": "280",
             "status": "consensus_odds"
           }
         },
@@ -1018,8 +537,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "341",
-            "fighter_2": "-457",
+            "fighter_1": "334",
+            "fighter_2": "-449",
             "status": "consensus_odds"
           }
         },
@@ -1053,9 +572,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "153",
+            "fighter_2": "-186",
+            "status": "consensus_odds"
           }
         }
       ],
@@ -1206,8 +725,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-195",
-            "fighter_2": "158",
+            "fighter_1": "-197",
+            "fighter_2": "160",
             "status": "consensus_odds"
           }
         },
@@ -1243,7 +762,7 @@
           },
           "fighter_2": {
             "name": "Yousri Belgaroui",
-            "nickname": "",
+            "nickname": "The Boogeyman",
             "record": "11-3-0",
             "country": "Tunisia",
             "flag": "🇹🇳",
@@ -1256,7 +775,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "-149",
-            "fighter_2": "121",
+            "fighter_2": "122",
             "status": "consensus_odds"
           }
         },
@@ -1339,8 +858,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-972",
-            "fighter_2": "595",
+            "fighter_1": "-970",
+            "fighter_2": "602",
             "status": "consensus_odds"
           }
         },
