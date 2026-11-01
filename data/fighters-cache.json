@@ -178,7 +178,8 @@
       "is_title": false,
       "sport": "mma",
       "source": "native"
-    }
+    },
+    "_cache_updated_at": "2026-11-01T00:11:36.883Z"
   },
   "tom-nolan": {
     "id": 92,
@@ -340,7 +341,8 @@
       "is_title": false,
       "sport": "mma",
       "source": "native"
-    }
+    },
+    "_cache_updated_at": "2026-11-01T00:11:43.373Z"
   },
   "randy-brown": {
     "id": 432,
@@ -524,7 +526,8 @@
       "is_title": false,
       "sport": "mma",
       "source": "native"
-    }
+    },
+    "_cache_updated_at": "2026-11-01T00:11:49.902Z"
   },
   "jacobe-smith": {
     "id": 489,
@@ -664,7 +667,8 @@
       "is_title": false,
       "sport": "mma",
       "source": "native"
-    }
+    },
+    "_cache_updated_at": "2026-11-01T00:11:56.426Z"
   },
   "ode-osbourne": {
     "id": 483,
@@ -826,7 +830,8 @@
       "is_title": false,
       "sport": "mma",
       "source": "native"
-    }
+    },
+    "_cache_updated_at": "2026-11-01T00:12:02.936Z"
   },
   "cody-durden": {
     "id": 415,
@@ -1032,7 +1037,8 @@
       "is_title": false,
       "sport": "mma",
       "source": "native"
-    }
+    },
+    "_cache_updated_at": "2026-11-01T00:12:09.348Z"
   },
   "yana-santos": {
     "id": 186,
@@ -17276,5 +17282,1544 @@
       "source": "native"
     },
     "_cache_updated_at": "2026-10-31T23:36:38.971Z"
+  },
+  "julian-erosa": {
+    "id": 522,
+    "slug": "julian-erosa",
+    "name": "Julian Erosa",
+    "nickname": "Juicy J",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 73,
+    "weight_lbs": 145,
+    "reach_inches": 74,
+    "stance": "Southpaw",
+    "dob": "1989-07-31",
+    "team": "Xtreme Couture",
+    "birthplace": "Yakima, United States",
+    "records": {
+      "amateur_mma": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "32-14-0",
+        "wins": 32,
+        "losses": 14,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "10-9-0",
+        "wins": 10,
+        "losses": 9,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 6.18,
+        "str_acc": 0.48,
+        "sapm": 6.31,
+        "str_def": 0.49,
+        "td_avg": 1.73,
+        "td_acc": 0.44,
+        "td_def": 0.62,
+        "sub_avg": 0.7
+      },
+      "slpm": "6.18",
+      "str_acc": "48%",
+      "sapm": "6.31",
+      "str_def": "49%",
+      "td_avg": "1.73",
+      "td_acc": "44%",
+      "td_def": "62%",
+      "sub_avg": "0.7",
+      "basis": {
+        "bouts": 20,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "ufc-stats",
+        "record": "32-14-0",
+        "slpm": "6.18",
+        "str_acc": "48%",
+        "sapm": "6.31",
+        "str_def": "49%",
+        "td_avg": "1.73",
+        "td_acc": "44%",
+        "td_def": "62%",
+        "sub_avg": "0.7"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "10-9-0",
+        "slpm": "6.11",
+        "str_acc": "48%",
+        "sapm": "6.22",
+        "str_def": "49%",
+        "td_avg": "1.79",
+        "td_acc": "43%",
+        "td_def": "62%",
+        "sub_avg": "0.7"
+      }
+    ],
+    "power_index": {
+      "rating": 1774,
+      "peak": 1796,
+      "peak_at": "2025-04-13T02:00:00.000Z",
+      "peak_date": "2025-04-13",
+      "fights_rated": 45,
+      "last_fought_at": "2026-10-31T21:00:00.000Z",
+      "last_fought_date": "2026-10-31"
+    },
+    "images": [],
+    "next_fight": null,
+    "last_fight": {
+      "fight_id": 93266,
+      "event_id": 2805,
+      "event_title": "UFC Fight Night: Moicano vs Nolan",
+      "event_slug": "ufc-fight-night-2026-10-31",
+      "org_slug": "ufc",
+      "date": "2026-10-31",
+      "opponent_id": 2785,
+      "opponent_name": "JeongYeong Lee",
+      "opponent_slug": "jeongyeong-lee",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 1,
+      "time": "1:31",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-01T00:10:31.797Z"
+  },
+  "jeongyeong-lee": {
+    "id": 2785,
+    "slug": "jeongyeong-lee",
+    "name": "JeongYeong Lee",
+    "nickname": "Korean Tiger",
+    "nationality": "South Korea",
+    "country_code": "KR",
+    "second_nationality": null,
+    "height_inches": 70,
+    "weight_lbs": 145,
+    "reach_inches": 73,
+    "stance": "Orthodox",
+    "dob": "1995-11-13",
+    "team": "Fight Ready",
+    "birthplace": "Daegu, South Korea",
+    "records": {
+      "amateur_mma": {
+        "value": "3-0",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "11-4-0",
+        "wins": 11,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "2-3-0",
+        "wins": 2,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 3.17,
+        "str_acc": 0.49,
+        "sapm": 3.8,
+        "str_def": 0.51,
+        "td_avg": 0.65,
+        "td_acc": 0.67,
+        "td_def": 0.74,
+        "sub_avg": 0
+      },
+      "slpm": "3.17",
+      "str_acc": "49%",
+      "sapm": "3.80",
+      "str_def": "51%",
+      "td_avg": "0.65",
+      "td_acc": "67%",
+      "td_def": "74%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 5,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "3-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "11-4-0",
+        "slpm": "3.17",
+        "str_acc": "49%",
+        "sapm": "3.80",
+        "str_def": "51%",
+        "td_avg": "0.65",
+        "td_acc": "67%",
+        "td_def": "74%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "2-3-0",
+        "slpm": "3.26",
+        "str_acc": "48%",
+        "sapm": "4.01",
+        "str_def": "51%",
+        "td_avg": "0.63",
+        "td_acc": "67%",
+        "td_def": "75%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1596,
+      "peak": 1692,
+      "peak_at": "2024-02-04T00:00:00.000Z",
+      "peak_date": "2024-02-04",
+      "fights_rated": 15,
+      "last_fought_at": "2026-10-31T21:00:00.000Z",
+      "last_fought_date": "2026-10-31"
+    },
+    "images": [],
+    "next_fight": null,
+    "last_fight": {
+      "fight_id": 93266,
+      "event_id": 2805,
+      "event_title": "UFC Fight Night: Moicano vs Nolan",
+      "event_slug": "ufc-fight-night-2026-10-31",
+      "org_slug": "ufc",
+      "date": "2026-10-31",
+      "opponent_id": 522,
+      "opponent_name": "Julian Erosa",
+      "opponent_slug": "julian-erosa",
+      "result": "loss",
+      "method": "KO/TKO",
+      "round": 1,
+      "time": "1:31",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-01T00:10:38.369Z"
+  },
+  "zach-reese": {
+    "id": 233,
+    "slug": "zach-reese",
+    "name": "Zach Reese",
+    "nickname": "Savage",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 76,
+    "weight_lbs": 185,
+    "reach_inches": 77,
+    "stance": "Switch",
+    "dob": "1994-03-24",
+    "team": "WAR Training Center",
+    "birthplace": "Houston, Texas, USA",
+    "records": {
+      "amateur_mma": {
+        "value": "4-1",
+        "wins": 4,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "11-4-0",
+        "wins": 11,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "5-4-0 (1 NC)",
+        "wins": 5,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 1,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.47,
+        "str_acc": 0.54,
+        "sapm": 4,
+        "str_def": 0.44,
+        "td_avg": 2.74,
+        "td_acc": 0.61,
+        "td_def": 0.52,
+        "sub_avg": 1.2
+      },
+      "slpm": "4.47",
+      "str_acc": "54%",
+      "sapm": "4.00",
+      "str_def": "44%",
+      "td_avg": "2.74",
+      "td_acc": "61%",
+      "td_def": "52%",
+      "sub_avg": "1.2",
+      "basis": {
+        "bouts": 11,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "4-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "11-4-0",
+        "slpm": "4.47",
+        "str_acc": "54%",
+        "sapm": "4.00",
+        "str_def": "44%",
+        "td_avg": "2.74",
+        "td_acc": "61%",
+        "td_def": "52%",
+        "sub_avg": "1.2"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "5-4-0 (1 NC)",
+        "slpm": "5.02",
+        "str_acc": "54%",
+        "sapm": "4.02",
+        "str_def": "46%",
+        "td_avg": "2.23",
+        "td_acc": "58%",
+        "td_def": "59%",
+        "sub_avg": "0.8"
+      }
+    ],
+    "power_index": {
+      "rating": 1724,
+      "peak": 1760,
+      "peak_at": "2025-11-09T00:00:00.000Z",
+      "peak_date": "2025-11-09",
+      "fights_rated": 15,
+      "last_fought_at": "2026-10-31T21:00:00.000Z",
+      "last_fought_date": "2026-10-31"
+    },
+    "images": [],
+    "next_fight": null,
+    "last_fight": {
+      "fight_id": 93559,
+      "event_id": 2805,
+      "event_title": "UFC Fight Night: Moicano vs Nolan",
+      "event_slug": "ufc-fight-night-2026-10-31",
+      "org_slug": "ufc",
+      "date": "2026-10-31",
+      "opponent_id": 1039,
+      "opponent_name": "Mickey Gall",
+      "opponent_slug": "mickey-gall",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Middleweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-01T00:10:44.850Z"
+  },
+  "mickey-gall": {
+    "id": 1039,
+    "slug": "mickey-gall",
+    "name": "Mickey Gall",
+    "nickname": null,
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 74,
+    "weight_lbs": 185,
+    "reach_inches": 74,
+    "stance": "Switch",
+    "dob": "1992-01-22",
+    "team": "Kill Cliff FC",
+    "birthplace": "Green Brook, New Jersey, United States",
+    "records": {
+      "amateur_mma": {
+        "value": "3-0",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "7-8-0",
+        "wins": 7,
+        "losses": 8,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "6-8-0",
+        "wins": 6,
+        "losses": 8,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 3.5,
+        "str_acc": 0.5,
+        "sapm": 4.72,
+        "str_def": 0.5,
+        "td_avg": 1.15,
+        "td_acc": 0.32,
+        "td_def": 0.38,
+        "sub_avg": 1.6
+      },
+      "slpm": "3.50",
+      "str_acc": "50%",
+      "sapm": "4.72",
+      "str_def": "50%",
+      "td_avg": "1.15",
+      "td_acc": "32%",
+      "td_def": "38%",
+      "sub_avg": "1.6",
+      "basis": {
+        "bouts": 14,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "3-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "7-8-0",
+        "slpm": "3.50",
+        "str_acc": "50%",
+        "sapm": "4.72",
+        "str_def": "50%",
+        "td_avg": "1.15",
+        "td_acc": "32%",
+        "td_def": "38%",
+        "sub_avg": "1.6"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "6-8-0",
+        "slpm": "3.62",
+        "str_acc": "49%",
+        "sapm": "5.05",
+        "str_def": "49%",
+        "td_avg": "1.00",
+        "td_acc": "30%",
+        "td_def": "41%",
+        "sub_avg": "1.4"
+      }
+    ],
+    "power_index": {
+      "rating": 1525,
+      "peak": 1731,
+      "peak_at": "2018-08-25T18:30:00.000Z",
+      "peak_date": "2018-08-25",
+      "fights_rated": 15,
+      "last_fought_at": "2026-10-31T21:00:00.000Z",
+      "last_fought_date": "2026-10-31"
+    },
+    "images": [],
+    "next_fight": null,
+    "last_fight": {
+      "fight_id": 93559,
+      "event_id": 2805,
+      "event_title": "UFC Fight Night: Moicano vs Nolan",
+      "event_slug": "ufc-fight-night-2026-10-31",
+      "org_slug": "ufc",
+      "date": "2026-10-31",
+      "opponent_id": 233,
+      "opponent_name": "Zach Reese",
+      "opponent_slug": "zach-reese",
+      "result": "loss",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Middleweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-01T00:10:51.363Z"
+  },
+  "nick-klein": {
+    "id": 2863,
+    "slug": "nick-klein",
+    "name": "Nick Klein",
+    "nickname": "Blue Collar",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 73,
+    "weight_lbs": 185,
+    "reach_inches": 77,
+    "stance": "Orthodox",
+    "dob": "1995-09-08",
+    "team": "Pura Vida BJJ",
+    "birthplace": "Plymouth, Wisconsin, United States",
+    "records": {
+      "amateur_mma": {
+        "value": "7-1",
+        "wins": 7,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "6-4-0",
+        "wins": 6,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "0-3-0",
+        "wins": 0,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 2.51,
+        "str_acc": 0.57,
+        "sapm": 3.41,
+        "str_def": 0.4,
+        "td_avg": 5.79,
+        "td_acc": 0.35,
+        "td_def": 0.67,
+        "sub_avg": 1.9
+      },
+      "slpm": "2.51",
+      "str_acc": "57%",
+      "sapm": "3.41",
+      "str_def": "40%",
+      "td_avg": "5.79",
+      "td_acc": "35%",
+      "td_def": "67%",
+      "sub_avg": "1.9",
+      "basis": {
+        "bouts": 4,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "7-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "6-4-0",
+        "slpm": "2.51",
+        "str_acc": "57%",
+        "sapm": "3.41",
+        "str_def": "40%",
+        "td_avg": "5.79",
+        "td_acc": "35%",
+        "td_def": "67%",
+        "sub_avg": "1.9"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "0-3-0",
+        "slpm": "2.39",
+        "str_acc": "50%",
+        "sapm": "3.23",
+        "str_def": "37%",
+        "td_avg": "4.92",
+        "td_acc": "39%",
+        "td_def": "50%",
+        "sub_avg": "0.7"
+      }
+    ],
+    "power_index": {
+      "rating": 1581,
+      "peak": 1682,
+      "peak_at": "2024-10-15T22:00:00.000Z",
+      "peak_date": "2024-10-15",
+      "fights_rated": 10,
+      "last_fought_at": "2026-10-31T21:00:00.000Z",
+      "last_fought_date": "2026-10-31"
+    },
+    "images": [],
+    "next_fight": null,
+    "last_fight": {
+      "fight_id": 85985,
+      "event_id": 2805,
+      "event_title": "UFC Fight Night: Moicano vs Nolan",
+      "event_slug": "ufc-fight-night-2026-10-31",
+      "org_slug": "ufc",
+      "date": "2026-10-31",
+      "opponent_id": 29328,
+      "opponent_name": "Joseph Kropschot",
+      "opponent_slug": "joseph-kropschot",
+      "result": "loss",
+      "method": "Submission",
+      "round": 2,
+      "time": "1:25",
+      "weight_class": "Middleweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-01T00:10:57.808Z"
+  },
+  "joseph-kropschot": {
+    "id": 29328,
+    "slug": "joseph-kropschot",
+    "name": "Joseph Kropschot",
+    "nickname": "The Land Animal",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 75,
+    "weight_lbs": 185,
+    "reach_inches": 79,
+    "stance": "Orthodox",
+    "dob": "1995-06-19",
+    "team": "Team Santos Jiu Jitsu",
+    "birthplace": "San Ramon, California, United States",
+    "records": {
+      "amateur_mma": {
+        "value": "5-0",
+        "wins": 5,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_combat_jj": {
+        "value": "1-1",
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-combat-jj"
+      },
+      "pro_mma": {
+        "value": "10-3-0",
+        "wins": 10,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-0-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 7.93,
+        "str_acc": 0.61,
+        "sapm": 3.93,
+        "str_def": 0.63,
+        "td_avg": 1,
+        "td_acc": 0.5,
+        "td_def": 0.5,
+        "sub_avg": 3
+      },
+      "slpm": "7.93",
+      "str_acc": "61%",
+      "sapm": "3.93",
+      "str_def": "63%",
+      "td_avg": "1.00",
+      "td_acc": "50%",
+      "td_def": "50%",
+      "sub_avg": "3.0",
+      "basis": {
+        "bouts": 2,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "5-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-combat-jj",
+        "source": "public-records",
+        "record": "1-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "10-3-0",
+        "slpm": "7.93",
+        "str_acc": "61%",
+        "sapm": "3.93",
+        "str_def": "63%",
+        "td_avg": "1.00",
+        "td_acc": "50%",
+        "td_def": "50%",
+        "sub_avg": "3.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-0-0",
+        "slpm": "2.65",
+        "str_acc": "71%",
+        "sapm": "2.03",
+        "str_def": "62%",
+        "td_avg": "2.34",
+        "td_acc": "100%",
+        "td_def": "0%",
+        "sub_avg": "7.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1683,
+      "peak": 1683,
+      "peak_at": "2026-10-31T21:00:00.000Z",
+      "peak_date": "2026-10-31",
+      "fights_rated": 13,
+      "last_fought_at": "2026-10-31T21:00:00.000Z",
+      "last_fought_date": "2026-10-31"
+    },
+    "images": [],
+    "next_fight": null,
+    "last_fight": {
+      "fight_id": 85985,
+      "event_id": 2805,
+      "event_title": "UFC Fight Night: Moicano vs Nolan",
+      "event_slug": "ufc-fight-night-2026-10-31",
+      "org_slug": "ufc",
+      "date": "2026-10-31",
+      "opponent_id": 2863,
+      "opponent_name": "Nick Klein",
+      "opponent_slug": "nick-klein",
+      "result": "win",
+      "method": "Submission",
+      "round": 2,
+      "time": "1:25",
+      "weight_class": "Middleweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-01T00:11:04.301Z"
+  },
+  "talita-alencar": {
+    "id": 302,
+    "slug": "talita-alencar",
+    "name": "Talita Alencar",
+    "nickname": "Problem Child",
+    "nationality": "Brazil",
+    "country_code": "BR",
+    "second_nationality": null,
+    "height_inches": 61,
+    "weight_lbs": 115,
+    "reach_inches": 58,
+    "stance": "Orthodox",
+    "dob": "1990-10-17",
+    "team": "Fight Sports Deerfield Beach",
+    "birthplace": "Carutapera, Brazil",
+    "records": {
+      "pro_mma": {
+        "value": "8-2-1",
+        "wins": 8,
+        "losses": 2,
+        "draws": 1,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "pro_submission_grappling": {
+        "value": "9-9",
+        "wins": 9,
+        "losses": 9,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-submission-grappling"
+      },
+      "ufc": {
+        "value": "4-2-0",
+        "wins": 4,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 3.09,
+        "str_acc": 0.36,
+        "sapm": 3.67,
+        "str_def": 0.51,
+        "td_avg": 3.01,
+        "td_acc": 0.3,
+        "td_def": 0.67,
+        "sub_avg": 0.5
+      },
+      "slpm": "3.09",
+      "str_acc": "36%",
+      "sapm": "3.67",
+      "str_def": "51%",
+      "td_avg": "3.01",
+      "td_acc": "30%",
+      "td_def": "67%",
+      "sub_avg": "0.5",
+      "basis": {
+        "bouts": 7,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "8-2-1",
+        "slpm": "3.09",
+        "str_acc": "36%",
+        "sapm": "3.67",
+        "str_def": "51%",
+        "td_avg": "3.01",
+        "td_acc": "30%",
+        "td_def": "67%",
+        "sub_avg": "0.5"
+      },
+      {
+        "scope": "pro-submission-grappling",
+        "source": "public-records",
+        "record": "9-9",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "4-2-0",
+        "slpm": "3.19",
+        "str_acc": "37%",
+        "sapm": "3.69",
+        "str_def": "54%",
+        "td_avg": "2.85",
+        "td_acc": "38%",
+        "td_def": "100%",
+        "sub_avg": "0.5"
+      }
+    ],
+    "power_index": {
+      "rating": 1699,
+      "peak": 1722,
+      "peak_at": "2026-04-25T21:00:00.000Z",
+      "peak_date": "2026-04-25",
+      "fights_rated": 11,
+      "last_fought_at": "2026-10-31T21:00:00.000Z",
+      "last_fought_date": "2026-10-31"
+    },
+    "images": [],
+    "next_fight": null,
+    "last_fight": {
+      "fight_id": 93262,
+      "event_id": 2805,
+      "event_title": "UFC Fight Night: Moicano vs Nolan",
+      "event_slug": "ufc-fight-night-2026-10-31",
+      "org_slug": "ufc",
+      "date": "2026-10-31",
+      "opponent_id": 507,
+      "opponent_name": "Piera Rodriguez",
+      "opponent_slug": "piera-rodriguez",
+      "result": "loss",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Women's Strawweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-01T00:11:10.977Z"
+  },
+  "piera-rodriguez": {
+    "id": 507,
+    "slug": "piera-rodriguez",
+    "name": "Piera Rodriguez",
+    "nickname": "La Fiera",
+    "nationality": "Venezuela",
+    "country_code": "VE",
+    "second_nationality": null,
+    "height_inches": 63,
+    "weight_lbs": 115,
+    "reach_inches": 63,
+    "stance": "Orthodox",
+    "dob": "1992-11-11",
+    "team": "Xtreme Couture",
+    "birthplace": "Maracaibo, Venezuela",
+    "records": {
+      "amateur_mma": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "13-2-0",
+        "wins": 13,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "6-2-0",
+        "wins": 6,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.04,
+        "str_acc": 0.47,
+        "sapm": 3.13,
+        "str_def": 0.54,
+        "td_avg": 4.04,
+        "td_acc": 0.51,
+        "td_def": 0.82,
+        "sub_avg": 0
+      },
+      "slpm": "4.04",
+      "str_acc": "47%",
+      "sapm": "3.13",
+      "str_def": "54%",
+      "td_avg": "4.04",
+      "td_acc": "51%",
+      "td_def": "82%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 9,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "13-2-0",
+        "slpm": "4.04",
+        "str_acc": "47%",
+        "sapm": "3.13",
+        "str_def": "54%",
+        "td_avg": "4.04",
+        "td_acc": "51%",
+        "td_def": "82%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "6-2-0",
+        "slpm": "4.47",
+        "str_acc": "48%",
+        "sapm": "3.21",
+        "str_def": "52%",
+        "td_avg": "3.62",
+        "td_acc": "57%",
+        "td_def": "77%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1761,
+      "peak": 1761,
+      "peak_at": "2026-10-31T21:00:00.000Z",
+      "peak_date": "2026-10-31",
+      "fights_rated": 15,
+      "last_fought_at": "2026-10-31T21:00:00.000Z",
+      "last_fought_date": "2026-10-31"
+    },
+    "images": [],
+    "next_fight": null,
+    "last_fight": {
+      "fight_id": 93262,
+      "event_id": 2805,
+      "event_title": "UFC Fight Night: Moicano vs Nolan",
+      "event_slug": "ufc-fight-night-2026-10-31",
+      "org_slug": "ufc",
+      "date": "2026-10-31",
+      "opponent_id": 302,
+      "opponent_name": "Talita Alencar",
+      "opponent_slug": "talita-alencar",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Women's Strawweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-01T00:11:17.331Z"
+  },
+  "lucia-szabova": {
+    "id": 3029,
+    "slug": "lucia-szabova",
+    "name": "Lucia Szabová",
+    "nickname": "Silent Killer",
+    "nationality": "Slovakia",
+    "country_code": "SK",
+    "second_nationality": null,
+    "height_inches": 67,
+    "weight_lbs": 135,
+    "reach_inches": 67,
+    "stance": "Orthodox",
+    "dob": "1997-12-23",
+    "team": "Hanuman Gym Bratislava",
+    "birthplace": "Bratislava, Slovakia",
+    "records": {
+      "amateur_submission_grappling": {
+        "value": "0-1",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-submission-grappling"
+      },
+      "pro_kickboxing": {
+        "value": "4-0",
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-kickboxing"
+      },
+      "pro_mma": {
+        "value": "13-0-0",
+        "wins": 13,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "pro_muay_thai": {
+        "value": "2-1",
+        "wins": 2,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-muay-thai"
+      },
+      "ufc": {
+        "value": "1-0-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 7.01,
+        "str_acc": 0.73,
+        "sapm": 2.73,
+        "str_def": 0.46,
+        "td_avg": 1.69,
+        "td_acc": 0.61,
+        "td_def": 0.8,
+        "sub_avg": 0.7
+      },
+      "slpm": "7.01",
+      "str_acc": "73%",
+      "sapm": "2.73",
+      "str_def": "46%",
+      "td_avg": "1.69",
+      "td_acc": "61%",
+      "td_def": "80%",
+      "sub_avg": "0.7",
+      "basis": {
+        "bouts": 12,
+        "orgs": [
+          "oktagon",
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-submission-grappling",
+        "source": "public-records",
+        "record": "0-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-kickboxing",
+        "source": "public-records",
+        "record": "4-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "13-0-0",
+        "slpm": "7.01",
+        "str_acc": "73%",
+        "sapm": "2.73",
+        "str_def": "46%",
+        "td_avg": "1.69",
+        "td_acc": "61%",
+        "td_def": "80%",
+        "sub_avg": "0.7"
+      },
+      {
+        "scope": "pro-muay-thai",
+        "source": "public-records",
+        "record": "2-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-0-0",
+        "slpm": "5.25",
+        "str_acc": "73%",
+        "sapm": "1.05",
+        "str_def": "46%",
+        "td_avg": "5.63",
+        "td_acc": "63%",
+        "td_def": "89%",
+        "sub_avg": "1.1"
+      }
+    ],
+    "power_index": {
+      "rating": 1808,
+      "peak": 1808,
+      "peak_at": "2026-10-31T21:00:00.000Z",
+      "peak_date": "2026-10-31",
+      "fights_rated": 17,
+      "last_fought_at": "2026-10-31T21:00:00.000Z",
+      "last_fought_date": "2026-10-31"
+    },
+    "images": [],
+    "next_fight": null,
+    "last_fight": {
+      "fight_id": 86003,
+      "event_id": 2805,
+      "event_title": "UFC Fight Night: Moicano vs Nolan",
+      "event_slug": "ufc-fight-night-2026-10-31",
+      "org_slug": "ufc",
+      "date": "2026-10-31",
+      "opponent_id": 136,
+      "opponent_name": "Tainara Lisboa",
+      "opponent_slug": "tainara-lisboa",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 3,
+      "time": "3:20",
+      "weight_class": "Women's Flyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-01T00:11:23.848Z"
+  },
+  "tainara-lisboa": {
+    "id": 136,
+    "slug": "tainara-lisboa",
+    "name": "Tainara Lisboa",
+    "nickname": "Thai Panther",
+    "nationality": "Brazil",
+    "country_code": "BR",
+    "second_nationality": null,
+    "height_inches": 67,
+    "weight_lbs": 125,
+    "reach_inches": 67,
+    "stance": "Orthodox",
+    "dob": "1991-03-02",
+    "team": "Damas 013",
+    "birthplace": "Santos, Sao Paulo, Brasil",
+    "records": {
+      "pro_kickboxing": {
+        "value": "0-1",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-kickboxing"
+      },
+      "pro_mma": {
+        "value": "7-5-0",
+        "wins": 7,
+        "losses": 5,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "pro_muay_thai": {
+        "value": "1-1",
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-muay-thai"
+      },
+      "ufc": {
+        "value": "2-3-0",
+        "wins": 2,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 1.82,
+        "str_acc": 0.45,
+        "sapm": 3.35,
+        "str_def": 0.41,
+        "td_avg": 1.56,
+        "td_acc": 0.25,
+        "td_def": 0.48,
+        "sub_avg": 0.4
+      },
+      "slpm": "1.82",
+      "str_acc": "45%",
+      "sapm": "3.35",
+      "str_def": "41%",
+      "td_avg": "1.56",
+      "td_acc": "25%",
+      "td_def": "48%",
+      "sub_avg": "0.4",
+      "basis": {
+        "bouts": 5,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-kickboxing",
+        "source": "public-records",
+        "record": "0-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "7-5-0",
+        "slpm": "1.82",
+        "str_acc": "45%",
+        "sapm": "3.35",
+        "str_def": "41%",
+        "td_avg": "1.56",
+        "td_acc": "25%",
+        "td_def": "48%",
+        "sub_avg": "0.4"
+      },
+      {
+        "scope": "pro-muay-thai",
+        "source": "public-records",
+        "record": "1-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "2-3-0",
+        "slpm": "1.82",
+        "str_acc": "45%",
+        "sapm": "3.35",
+        "str_def": "41%",
+        "td_avg": "1.56",
+        "td_acc": "25%",
+        "td_def": "48%",
+        "sub_avg": "0.4"
+      }
+    ],
+    "power_index": {
+      "rating": 1560,
+      "peak": 1662,
+      "peak_at": "2023-10-14T23:00:00.000Z",
+      "peak_date": "2023-10-14",
+      "fights_rated": 12,
+      "last_fought_at": "2026-10-31T21:00:00.000Z",
+      "last_fought_date": "2026-10-31"
+    },
+    "images": [],
+    "next_fight": null,
+    "last_fight": {
+      "fight_id": 86003,
+      "event_id": 2805,
+      "event_title": "UFC Fight Night: Moicano vs Nolan",
+      "event_slug": "ufc-fight-night-2026-10-31",
+      "org_slug": "ufc",
+      "date": "2026-10-31",
+      "opponent_id": 3029,
+      "opponent_name": "Lucia Szabová",
+      "opponent_slug": "lucia-szabova",
+      "result": "loss",
+      "method": "KO/TKO",
+      "round": 3,
+      "time": "3:20",
+      "weight_class": "Women's Flyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-01T00:11:30.319Z"
   }
 }
