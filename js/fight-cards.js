@@ -81,6 +81,33 @@ function formatLocalTime(dateTime = '') {
   }).format(timestamp);
 }
 
+function fighterAge(dateOfBirth = '', eventDate = '') {
+  const birthMatch = String(dateOfBirth).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const eventMatch = String(eventDate).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!birthMatch || !eventMatch) return 'Not listed';
+
+  const [, birthYear, birthMonth, birthDay] = birthMatch.map(Number);
+  const [, eventYear, eventMonth, eventDay] = eventMatch.map(Number);
+  const birthDate = new Date(Date.UTC(birthYear, birthMonth - 1, birthDay));
+  const fightDate = new Date(Date.UTC(eventYear, eventMonth - 1, eventDay));
+  if (
+    birthDate.getUTCFullYear() !== birthYear ||
+    birthDate.getUTCMonth() !== birthMonth - 1 ||
+    birthDate.getUTCDate() !== birthDay ||
+    fightDate.getUTCFullYear() !== eventYear ||
+    fightDate.getUTCMonth() !== eventMonth - 1 ||
+    fightDate.getUTCDate() !== eventDay ||
+    fightDate < birthDate
+  ) {
+    return 'Not listed';
+  }
+
+  return String(
+    eventYear - birthYear -
+    (eventMonth < birthMonth || (eventMonth === birthMonth && eventDay < birthDay) ? 1 : 0)
+  );
+}
+
 export function renderFightCard(event) {
   if (!event) {
     return '<div class="empty-state">No event data available.</div>';
@@ -148,6 +175,11 @@ export function renderFightCard(event) {
                   <span class="fighter-stat-value fighter-measurement" data-kind="weight" data-value="${escapeHTML(fighter1.weight || '')}">${escapeHTML(fighter1.weight || 'Not listed')}</span>
                   <span class="fighter-stat-label">Weight</span>
                   <span class="fighter-stat-value fighter-measurement" data-kind="weight" data-value="${escapeHTML(fighter2.weight || '')}">${escapeHTML(fighter2.weight || 'Not listed')}</span>
+                </div>
+                <div class="fighter-stat-row">
+                  <span class="fighter-stat-value">${escapeHTML(fighterAge(fighter1.dob, event.date))}</span>
+                  <span class="fighter-stat-label">Age</span>
+                  <span class="fighter-stat-value">${escapeHTML(fighterAge(fighter2.dob, event.date))}</span>
                 </div>
                 <div class="fighter-stat-row fighter-odds-row">
                   <strong class="fighter-stat-value fight-odds-value" data-american="${escapeHTML(odds.fighter_1 || '')}">${escapeHTML(odds.fighter_1 || 'Not listed')}</strong>

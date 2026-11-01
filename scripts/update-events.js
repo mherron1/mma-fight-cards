@@ -246,6 +246,7 @@ function mapFighterRef(
     rankings,
 
     image: usableImage?.url || '',
+    dob: data.dob || '',
 
     image_credit: usableImage
       ? {

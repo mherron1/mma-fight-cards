@@ -34,7 +34,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 4\"",
-            "weight": "260 lbs"
+            "weight": "260 lbs",
+            "dob": "1991-10-03"
           },
           "fighter_2": {
             "name": "Johnny Walker",
@@ -51,7 +52,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Johnny_Walker_(lutador)_2025.jpg"
             },
             "height": "6' 6\"",
-            "weight": "242 lbs"
+            "weight": "242 lbs",
+            "dob": "1992-03-30"
           },
           "odds": {
             "format": "American",
@@ -96,7 +98,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Tatiana_Suarez_at_UFC_228.jpg"
             },
             "height": "5' 5\"",
-            "weight": "115 lbs"
+            "weight": "115 lbs",
+            "dob": "1990-12-19"
           },
           "fighter_2": {
             "name": "Virna Jandiroba",
@@ -125,7 +128,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 3\"",
-            "weight": "115 lbs"
+            "weight": "115 lbs",
+            "dob": "1988-05-30"
           },
           "odds": {
             "format": "American",
@@ -148,7 +152,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "1985-12-18"
           },
           "fighter_2": {
             "name": "Elijah Smith",
@@ -160,7 +165,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "2002-09-05"
           },
           "odds": {
             "format": "American",
@@ -183,7 +189,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "170 lbs"
+            "weight": "170 lbs",
+            "dob": "1993-09-24"
           },
           "fighter_2": {
             "name": "Wellington Turman",
@@ -200,7 +207,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:WelingtonTurman2.jpg"
             },
             "height": "6' 0\"",
-            "weight": "170 lbs"
+            "weight": "170 lbs",
+            "dob": "1996-07-22"
           },
           "odds": {
             "format": "American",
@@ -223,7 +231,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 3\"",
-            "weight": "205 lbs"
+            "weight": "205 lbs",
+            "dob": "1995-05-28"
           },
           "fighter_2": {
             "name": "Lucas Fernando",
@@ -235,7 +244,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 3\"",
-            "weight": "205 lbs"
+            "weight": "205 lbs",
+            "dob": "1997-01-10"
           },
           "odds": {
             "format": "American",
@@ -258,7 +268,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 2\"",
-            "weight": "185 lbs"
+            "weight": "185 lbs",
+            "dob": "1999-07-17"
           },
           "fighter_2": {
             "name": "Andre Petroski",
@@ -270,7 +281,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 0\"",
-            "weight": "185 lbs"
+            "weight": "185 lbs",
+            "dob": "1991-06-12"
           },
           "odds": {
             "format": "American",
@@ -293,7 +305,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 2\"",
-            "weight": "229 lbs"
+            "weight": "229 lbs",
+            "dob": "1999-09-30"
           },
           "fighter_2": {
             "name": "Thomas Petersen",
@@ -305,7 +318,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 1\"",
-            "weight": "250 lbs"
+            "weight": "250 lbs",
+            "dob": "1995-03-30"
           },
           "odds": {
             "format": "American",
@@ -337,7 +351,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 5\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1993-12-02"
           },
           "fighter_2": {
             "name": "Gabriella Fernandes",
@@ -358,7 +373,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 6\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1993-08-13"
           },
           "odds": {
             "format": "American",
@@ -381,7 +397,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 5\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1998-10-16"
           },
           "fighter_2": {
             "name": "Marcos Degli",
@@ -393,7 +410,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 6\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "2000-05-13"
           },
           "odds": {
             "format": "American",
@@ -416,7 +434,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "145 lbs"
+            "weight": "145 lbs",
+            "dob": "1996-09-11"
           },
           "fighter_2": {
             "name": "Murtazali Magomedov",
@@ -428,7 +447,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "145 lbs"
+            "weight": "145 lbs",
+            "dob": "1999-08-26"
           },
           "odds": {
             "format": "American",
@@ -451,7 +471,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "145 lbs"
+            "weight": "145 lbs",
+            "dob": "1998-12-02"
           },
           "fighter_2": {
             "name": "Ollie Schmid",
@@ -463,7 +484,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 0\"",
-            "weight": "145 lbs"
+            "weight": "145 lbs",
+            "dob": "2000-12-28"
           },
           "odds": {
             "format": "American",
@@ -486,7 +508,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 6\"",
-            "weight": "145 lbs"
+            "weight": "145 lbs",
+            "dob": "2001-09-29"
           },
           "fighter_2": {
             "name": "Lucas Brennan",
@@ -498,7 +521,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "145 lbs"
+            "weight": "145 lbs",
+            "dob": "2000-06-03"
           },
           "odds": {
             "format": "American",
@@ -521,7 +545,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "1988-08-19"
           },
           "fighter_2": {
             "name": "Nina Milošević",
@@ -533,7 +558,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 5\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "1996-08-08"
           },
           "odds": {
             "format": "American",
@@ -556,7 +582,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "170 lbs"
+            "weight": "170 lbs",
+            "dob": "1991-09-06"
           },
           "fighter_2": {
             "name": "Jose Henrique",
@@ -568,7 +595,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 3\"",
-            "weight": "170 lbs"
+            "weight": "170 lbs",
+            "dob": "2002-05-23"
           },
           "odds": {
             "format": "American",
@@ -633,7 +661,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Ciryl_Gane_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg"
             },
             "height": "6' 4\"",
-            "weight": "247 lbs"
+            "weight": "247 lbs",
+            "dob": "1990-04-12"
           },
           "fighter_2": {
             "name": "Josh Hokit",
@@ -659,7 +688,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_Press_Conference_(9747953)_(cropped).jpg"
             },
             "height": "6' 1\"",
-            "weight": "235 lbs"
+            "weight": "235 lbs",
+            "dob": "1997-11-12"
           },
           "odds": {
             "format": "American",
@@ -704,7 +734,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_congratulates_Kayla_Harrison_after_her_victory_during_UFC_316_(54577590491)_(cropped).jpg"
             },
             "height": "5' 8\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "1990-07-02"
           },
           "fighter_2": {
             "name": "Amanda Nunes",
@@ -721,7 +752,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_(cropped).jpg"
             },
             "height": "5' 8\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "1988-05-30"
           },
           "odds": {
             "format": "American",
@@ -758,7 +790,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Borralho_en_Future_FC.png"
             },
             "height": "6' 1\"",
-            "weight": "185 lbs"
+            "weight": "185 lbs",
+            "dob": "1993-01-16"
           },
           "fighter_2": {
             "name": "Yousri Belgaroui",
@@ -770,7 +803,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 6\"",
-            "weight": "185 lbs"
+            "weight": "185 lbs",
+            "dob": "1992-06-02"
           },
           "odds": {
             "format": "American",
@@ -802,7 +836,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 1\"",
-            "weight": "170 lbs"
+            "weight": "170 lbs",
+            "dob": "1993-04-25"
           },
           "fighter_2": {
             "name": "Kevin Holland",
@@ -819,7 +854,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Kevin_Holland_at_UFC_316_(54576727207).jpg"
             },
             "height": "6' 3\"",
-            "weight": "170 lbs"
+            "weight": "170 lbs",
+            "dob": "1992-11-05"
           },
           "odds": {
             "format": "American",
@@ -842,7 +878,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "2001-07-16"
           },
           "fighter_2": {
             "name": "Luis Gurule",
@@ -854,7 +891,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 5\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1993-11-16"
           },
           "odds": {
             "format": "American",
@@ -882,7 +920,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:From_cancer_to_company_commander_130802-M-AR522-306_(cropped).jpg"
             },
             "height": "6' 0\"",
-            "weight": "170 lbs"
+            "weight": "170 lbs",
+            "dob": "1983-02-11"
           },
           "fighter_2": {
             "name": "Charles Radtke",
@@ -894,7 +933,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "170 lbs"
+            "weight": "170 lbs",
+            "dob": "1990-07-09"
           },
           "odds": {
             "format": "American",
@@ -917,7 +957,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1988-10-19"
           },
           "fighter_2": {
             "name": "Chris Duncan",
@@ -929,7 +970,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1993-05-10"
           },
           "odds": {
             "format": "American",
@@ -957,7 +999,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Jim.miller.2.jpg"
             },
             "height": "5' 8\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1983-08-30"
           },
           "fighter_2": {
             "name": "Terrance McKinney",
@@ -969,7 +1012,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1994-09-15"
           },
           "odds": {
             "format": "American",
@@ -992,7 +1036,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "185 lbs"
+            "weight": "185 lbs",
+            "dob": "1999-01-25"
           },
           "fighter_2": {
             "name": "Cesar Almeida",
@@ -1004,7 +1049,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 1\"",
-            "weight": "185 lbs"
+            "weight": "185 lbs",
+            "dob": "1988-03-28"
           },
           "odds": {
             "format": "American",
@@ -1036,7 +1082,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 11\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "1991-07-27"
           },
           "fighter_2": {
             "name": "Bia Mesquita",
@@ -1057,7 +1104,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 4\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "1991-04-07"
           },
           "odds": {
             "format": "American",
@@ -1080,7 +1128,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "1993-11-29"
           },
           "fighter_2": {
             "name": "Juan Díaz",
@@ -1092,7 +1141,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "1998-06-03"
           },
           "odds": {
             "format": "American",
@@ -1115,7 +1165,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1994-05-16"
           },
           "fighter_2": {
             "name": "Jefferson Nascimento",
@@ -1127,7 +1178,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1998-11-19"
           },
           "odds": {
             "format": "American",
@@ -1150,7 +1202,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1988-09-06"
           },
           "fighter_2": {
             "name": "Melquizael Costa",
@@ -1171,7 +1224,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1996-09-14"
           },
           "odds": {
             "format": "American",
@@ -1194,7 +1248,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1997-04-11"
           },
           "fighter_2": {
             "name": "Samuel Sanches",
@@ -1206,7 +1261,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "2003-01-28"
           },
           "odds": {
             "format": "American",
@@ -1263,7 +1319,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:JiriProchazka2022.png"
             },
             "height": "6' 3\"",
-            "weight": "205 lbs"
+            "weight": "205 lbs",
+            "dob": "1992-10-14"
           },
           "fighter_2": {
             "name": "Navajo Stirling",
@@ -1284,7 +1341,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 4\"",
-            "weight": "205 lbs"
+            "weight": "205 lbs",
+            "dob": "1997-11-07"
           },
           "odds": {
             "format": "American",
@@ -1321,7 +1379,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Alijamain_Sterling_at_UFC_228.jpg"
             },
             "height": "5' 7\"",
-            "weight": "145 lbs"
+            "weight": "145 lbs",
+            "dob": "1989-07-31"
           },
           "fighter_2": {
             "name": "Kevin Vallejos",
@@ -1342,7 +1401,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "145 lbs"
+            "weight": "145 lbs",
+            "dob": "2001-12-08"
           },
           "odds": {
             "format": "American",
@@ -1379,7 +1439,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:DanHooker2016.png"
             },
             "height": "6' 0\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1990-02-13"
           },
           "fighter_2": {
             "name": "Brian Ortega",
@@ -1405,7 +1466,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Brian_Ortega_on_MMAnytt.jpg"
             },
             "height": "5' 8\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1991-02-21"
           },
           "odds": {
             "format": "American",
@@ -1442,7 +1504,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg"
             },
             "height": "5' 11\"",
-            "weight": "185 lbs"
+            "weight": "185 lbs",
+            "dob": "1984-03-16"
           },
           "fighter_2": {
             "name": "Ikram Aliskerov",
@@ -1468,7 +1531,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Ikram_Aliskerov_2024.png"
             },
             "height": "6' 0\"",
-            "weight": "185 lbs"
+            "weight": "185 lbs",
+            "dob": "1992-12-07"
           },
           "odds": {
             "format": "American",
@@ -1491,7 +1555,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 4\"",
-            "weight": "265 lbs"
+            "weight": "265 lbs",
+            "dob": "1990-02-10"
           },
           "fighter_2": {
             "name": "Tallison Teixeira",
@@ -1508,7 +1573,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Tallison_Teixeira_2025.jpg"
             },
             "height": "6' 7\"",
-            "weight": "258 lbs"
+            "weight": "258 lbs",
+            "dob": "1999-12-07"
           },
           "odds": {
             "format": "American",
@@ -1536,7 +1602,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Jake_Mattews_%26_Jon_Jones.jpg"
             },
             "height": "5' 11\"",
-            "weight": "170 lbs"
+            "weight": "170 lbs",
+            "dob": "1994-08-19"
           },
           "fighter_2": {
             "name": "Tahir Abdullayev",
@@ -1548,7 +1615,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "170 lbs"
+            "weight": "170 lbs",
+            "dob": "1997-02-02"
           },
           "odds": {
             "format": "American",
@@ -1576,7 +1644,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Aleksandre_Topuria_at_the_UFC_Freedom_250_Ceremony.jpg"
             },
             "height": "5' 7\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "1996-01-28"
           },
           "fighter_2": {
             "name": "Santiago Luna",
@@ -1588,7 +1657,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "135 lbs"
+            "weight": "135 lbs",
+            "dob": "2004-08-06"
           },
           "odds": {
             "format": "American",
@@ -1625,7 +1695,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:AsuAlmabayev.png"
             },
             "height": "5' 4\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1994-01-25"
           },
           "fighter_2": {
             "name": "Kyoji Horiguchi",
@@ -1651,7 +1722,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Kyoji_Horiguchi_2017.jpg"
             },
             "height": "5' 4\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1990-10-12"
           },
           "odds": {
             "format": "American",
@@ -1683,7 +1755,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 5\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1993-10-27"
           },
           "fighter_2": {
             "name": "Alessandro Costa",
@@ -1695,7 +1768,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 4\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1996-01-28"
           },
           "odds": {
             "format": "American",
@@ -1752,7 +1826,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Charles_Oliveira_do_Bronxs.jpg"
             },
             "height": "5' 10\"",
-            "weight": "155 lbs"
+            "weight": "155 lbs",
+            "dob": "1989-10-17"
           },
           "fighter_2": {
             "name": "Diego Lopes",
@@ -1778,7 +1853,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Diego_Lopes_2025.jpg"
             },
             "height": "5' 11\"",
-            "weight": "145 lbs"
+            "weight": "145 lbs",
+            "dob": "1994-12-30"
           },
           "odds": {
             "format": "American",
@@ -1815,7 +1891,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:SergeiPavlovich2018.png"
             },
             "height": "6' 3\"",
-            "weight": "257 lbs"
+            "weight": "257 lbs",
+            "dob": "1992-05-13"
           },
           "fighter_2": {
             "name": "Alex Pereira",
@@ -1849,7 +1926,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Alex_Pereira_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg"
             },
             "height": "6' 4\"",
-            "weight": "251 lbs"
+            "weight": "251 lbs",
+            "dob": "1987-07-07"
           },
           "odds": {
             "format": "American",
@@ -1886,7 +1964,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Brandon_Moreno_February_2021.jpg"
             },
             "height": "5' 7\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1993-12-07"
           },
           "fighter_2": {
             "name": "Charles Johnson",
@@ -1898,7 +1977,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1991-01-10"
           },
           "odds": {
             "format": "American",
@@ -1921,7 +2001,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 4\"",
-            "weight": "205 lbs"
+            "weight": "205 lbs",
+            "dob": "2001-10-15"
           },
           "fighter_2": {
             "name": "Junior Tafa",
@@ -1933,7 +2014,8 @@
             "image": "",
             "image_credit": null,
             "height": "6' 3\"",
-            "weight": "205 lbs"
+            "weight": "205 lbs",
+            "dob": "1996-09-21"
           },
           "odds": {
             "format": "American",
@@ -1970,7 +2052,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:JoePyfer.jpg"
             },
             "height": "6' 2\"",
-            "weight": "185 lbs"
+            "weight": "185 lbs",
+            "dob": "1996-09-17"
           },
           "fighter_2": {
             "name": "Bo Nickal",
@@ -1996,7 +2079,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Bo_Nickal_(52791819473).jpg"
             },
             "height": "6' 1\"",
-            "weight": "185 lbs"
+            "weight": "185 lbs",
+            "dob": "1996-01-14"
           },
           "odds": {
             "format": "American",
@@ -2033,7 +2117,8 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Maycee_Barber_(cropped).png"
             },
             "height": "5' 5\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1998-05-18"
           },
           "fighter_2": {
             "name": "Carli Judice",
@@ -2045,7 +2130,8 @@
             "image": "",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "125 lbs"
+            "weight": "125 lbs",
+            "dob": "1999-03-02"
           },
           "odds": {
             "format": "American",
