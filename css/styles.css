@@ -119,7 +119,8 @@ body { min-height: 100%; }
 .fight-group + .fight-group { margin-top: 14px; }
 .undercard { margin-top: 7px; display: flex; flex-direction: column; gap: 5px; }
 .fight-row { background: var(--row-bg); border: 1px solid var(--row-border); border-radius: 7px; overflow: hidden; }
-.fight-row:not([open]) { background: color-mix(in srgb, var(--panel-soft) 15%, white); }
+.fight-row:not([open]) { background: var(--panel-soft); }
+:root[data-theme="light"] .fight-row:not([open]) { background: color-mix(in srgb, var(--panel-soft) 15%, white); }
 .fight-summary { position: relative; display: block; padding: 9px 10px; cursor: pointer; list-style: none; touch-action: none; }
 .fight-summary::-webkit-details-marker { display: none; }
 .fight-summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
