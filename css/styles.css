@@ -53,7 +53,7 @@ body { min-height: 100%; }
   padding-left: 15px; padding-right: 15px; pointer-events: none;
 }
 .app-topbar { top: 0; height: 45px; border-bottom: 1px solid var(--line); }
-.brand { display: flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 800; letter-spacing: 1.6px; }
+.brand { display: flex; align-items: center; gap: 2.5px; font-size: 13px; font-weight: 800; letter-spacing: 1.6px; }
 .brand-mark { display: grid; place-items: center; width: 32px; height: 25px; background: var(--accent); color: var(--accent-contrast); font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 900; letter-spacing: .3px; border-radius: 5px; }
 .brand-light { color: #9296a3; font-weight: 500; }
 .settings-button { pointer-events: auto; display: grid; place-items: center; width: 34px; height: 34px; padding: 0; border: 1px solid var(--line); border-radius: 50%; background: var(--panel); color: var(--text); cursor: pointer; }
@@ -155,7 +155,7 @@ body { min-height: 100%; }
   :root { --cube-depth: min(50vw, 720px); }
   .app { max-width: 1440px; border: 0; }
   .app-topbar { height: 64px; padding-right: 36px; padding-left: 36px; }
-  .brand { gap: 12px; font-size: 15px; }
+  .brand { gap: 3.5px; font-size: 15px; }
   .brand-mark { width: 38px; height: 30px; font-size: 14px; }
   .settings-button { width: 42px; height: 42px; }
   .settings-icon { width: 24px; height: 24px; }
