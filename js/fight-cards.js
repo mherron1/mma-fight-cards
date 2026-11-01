@@ -70,6 +70,16 @@ function formatEventDate(date = '') {
   }).format(parsedDate);
 }
 
+function formatLocalTime(dateTime = '') {
+  const timestamp = Date.parse(dateTime);
+  if (Number.isNaN(timestamp)) return 'TBA';
+
+  return new Intl.DateTimeFormat(undefined, {
+    hour: 'numeric',
+    minute: '2-digit'
+  }).format(timestamp);
+}
+
 export function renderFightCard(event) {
   if (!event) {
     return '<div class="empty-state">No event data available.</div>';
@@ -86,11 +96,13 @@ export function renderFightCard(event) {
         const fighter1 = fight.fighter_1 || {};
         const fighter2 = fight.fighter_2 || {};
         const odds = fight.odds || {};
+        const weightClass = String(fight.weight_class || 'Bout')
+          .replace(/^women['’]s\s+/i, '');
 
         return `
         <details class="fight-row">
           <summary class="fight-summary">
-            <div class="fight-weight">${escapeHTML(fight.card_position === 'main_event' ? 'Main Event · ' : '')}${escapeHTML(fight.weight_class || 'Bout')}</div>
+            <div class="fight-weight">${escapeHTML(fight.card_position === 'main_event' ? 'Main Event · ' : '')}${escapeHTML(weightClass)}</div>
             <div class="fight-names">
               <span>${escapeHTML(fighter1.name || 'TBA')}</span>
               <b>VS</b>
@@ -157,8 +169,12 @@ export function renderFightCard(event) {
     <article class="event-card">
       <h1 class="event-title">${escapeHTML(eventName)}</h1>
       <div class="event-subtitle">
-        <span>${escapeHTML(formatEventDate(event.date || 'Date TBA'))} · ${escapeHTML(eventLocation(event.location || 'Location TBA'))}</span>
-        <span class="event-countdown" data-start="${escapeHTML(event.start_time || '')}" aria-live="off">Start time TBA</span>
+        <span class="event-date-location">${escapeHTML(formatEventDate(event.date || 'Date TBA'))} · ${escapeHTML(eventLocation(event.location || 'Location TBA'))}</span>
+        <div class="event-schedule" aria-label="Local fight card start times">
+          <span>Main Card: ${escapeHTML(formatLocalTime(event.schedule?.main_card_start_time || ''))}</span>
+          <span>Prelims: ${escapeHTML(formatLocalTime(event.schedule?.prelims_start_time || ''))}</span>
+        </div>
+        <span class="event-countdown" data-start="${escapeHTML(event.start_time || '')}" aria-live="off" hidden>Start time TBA</span>
       </div>
       ${fightSectionsMarkup}
     </article>`;
