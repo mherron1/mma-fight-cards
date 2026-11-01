@@ -601,6 +601,7 @@ async function main() {
 
         card_position: cardPosition,
         weight_class: weightClass,
+        title_fight: Boolean(bout.title_fight || bout.is_title),
 
         fighter_1: mapFighterRef(
           a,

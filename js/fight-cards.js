@@ -107,7 +107,7 @@ export function renderFightCard(event) {
         return `
         <details class="fight-row">
           <summary class="fight-summary">
-            <div class="fight-weight">${escapeHTML(fight.card_position === 'main_event' ? 'Main Event · ' : '')}${escapeHTML(weightClass)}</div>
+            <div class="fight-weight">${escapeHTML(fight.card_position === 'main_event' ? 'Main Event · ' : '')}${escapeHTML(weightClass)}${fight.title_fight ? ' · Title' : ''}</div>
             <div class="fight-names">
               <div class="fight-competitor">
                 <span>${escapeHTML(fighter1.name || 'TBA')}</span>
