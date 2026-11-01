@@ -1,4 +1,653 @@
 {
+  "latest_completed_event": {
+    "id": "ufc-fight-night-2026-10-31",
+    "promotion": "UFC",
+    "name": "UFC Fight Night: Moicano vs Nolan",
+    "date": "2026-10-31",
+    "start_time": "2026-10-31T21:00:00.000Z",
+    "location": "Las Vegas, Nevada, United States",
+    "venue": "Meta Apex",
+    "sport": "MMA",
+    "status": "completed",
+    "fights": [
+      {
+        "id": "93077",
+        "card_position": "main_event",
+        "weight_class": "Lightweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Renato Moicano",
+          "nickname": "",
+          "record": "21-7-1",
+          "country": "Brazil",
+          "flag": "🇧🇷",
+          "rankings": [
+            {
+              "division": "lightweight",
+              "rank": 12,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "Brazil",
+              "country_code": "BR"
+            }
+          ],
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/b5e630c2a14c3b346ec0959d0b481b0237d372a3fdc3d65158960cda951ca5f2.webp",
+          "dob": "1989-05-21",
+          "image_credit": {
+            "artist": "Show Me The Money",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0",
+            "source_page": "https://commons.wikimedia.org/wiki/File:Renato_Moicano_2024.png"
+          },
+          "height": "5' 11\"",
+          "weight": "155 lbs"
+        },
+        "fighter_2": {
+          "name": "Tom Nolan",
+          "nickname": "Big Train",
+          "record": "11-1-0",
+          "country": "Australia",
+          "flag": "🇦🇺",
+          "rankings": [
+            {
+              "division": "lightweight",
+              "rank": 14,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "Australia",
+              "country_code": "AU"
+            }
+          ],
+          "image": "",
+          "dob": "2000-03-08",
+          "image_credit": null,
+          "height": "6' 3\"",
+          "weight": "155 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Tom Nolan",
+          "winner_fighter_id": 92,
+          "method": "KO/TKO",
+          "method_normalized": "ko_tko",
+          "finish_detail": "",
+          "round": 3,
+          "time": "1:28",
+          "time_seconds": 88,
+          "details": ""
+        }
+      },
+      {
+        "id": "93557",
+        "card_position": "main_card",
+        "weight_class": "Welterweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Randy Brown",
+          "nickname": "Rudeboy",
+          "record": "20-8-0",
+          "country": "Jamaica",
+          "flag": "🇯🇲",
+          "rankings": [],
+          "image": "",
+          "dob": "1990-07-08",
+          "image_credit": null,
+          "height": "6' 3\"",
+          "weight": "170 lbs"
+        },
+        "fighter_2": {
+          "name": "Jacobe Smith",
+          "nickname": "Cobe",
+          "record": "13-0-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1996-01-17",
+          "image_credit": null,
+          "height": "5' 10\"",
+          "weight": "170 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Jacobe Smith",
+          "winner_fighter_id": 489,
+          "method": "Decision - Unanimous",
+          "method_normalized": "decision_unanimous",
+          "finish_detail": "Unanimous",
+          "round": 3,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": "26 - 30. 26 - 30. 26 - 30."
+        }
+      },
+      {
+        "id": "93558",
+        "card_position": "main_card",
+        "weight_class": "Flyweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Ode Osbourne",
+          "nickname": "The Jamaican Sensation",
+          "record": "13-9-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1992-01-09",
+          "image_credit": null,
+          "height": "5' 7\"",
+          "weight": "125 lbs"
+        },
+        "fighter_2": {
+          "name": "Cody Durden",
+          "nickname": "Custom Made",
+          "record": "18-11-1",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1991-03-29",
+          "image_credit": null,
+          "height": "5' 7\"",
+          "weight": "125 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Cody Durden",
+          "winner_fighter_id": 415,
+          "method": "Decision - Unanimous",
+          "method_normalized": "decision_unanimous",
+          "finish_detail": "Unanimous",
+          "round": 3,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": "28 - 29. 28 - 29. 28 - 29."
+        }
+      },
+      {
+        "id": "93261",
+        "card_position": "main_card",
+        "weight_class": "Women's Bantamweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Yana Santos",
+          "nickname": "Foxy",
+          "record": "17-8-0",
+          "country": "Russia",
+          "flag": "🇷🇺",
+          "rankings": [
+            {
+              "division": "womens-bantamweight",
+              "rank": 6,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "Russia",
+              "country_code": "RU"
+            }
+          ],
+          "image": "",
+          "dob": "1989-11-11",
+          "image_credit": null,
+          "height": "5' 6\"",
+          "weight": "135 lbs"
+        },
+        "fighter_2": {
+          "name": "Luana Santos",
+          "nickname": "",
+          "record": "11-2-0",
+          "country": "Brazil",
+          "flag": "🇧🇷",
+          "rankings": [
+            {
+              "division": "womens-bantamweight",
+              "rank": 7,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "Brazil",
+              "country_code": "BR"
+            }
+          ],
+          "image": "",
+          "dob": "2000-04-16",
+          "image_credit": null,
+          "height": "5' 6\"",
+          "weight": "135 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Luana Santos",
+          "winner_fighter_id": 336,
+          "method": "Decision - Unanimous",
+          "method_normalized": "decision_unanimous",
+          "finish_detail": "Unanimous",
+          "round": 3,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": "28 - 29. 28 - 29. 28 - 29."
+        }
+      },
+      {
+        "id": "93264",
+        "card_position": "main_card",
+        "weight_class": "Welterweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Jean-Paul Lebosnoyani",
+          "nickname": "JPL",
+          "record": "11-2-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1999-01-27",
+          "image_credit": null,
+          "height": "5' 11\"",
+          "weight": "170 lbs"
+        },
+        "fighter_2": {
+          "name": "Farman Hasanov",
+          "nickname": "The Lion",
+          "record": "6-0-0",
+          "country": "Azerbaijan",
+          "flag": "🇦🇿",
+          "rankings": [],
+          "image": "",
+          "dob": "1995-08-01",
+          "image_credit": null,
+          "height": "6' 0\"",
+          "weight": "170 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Jean-Paul Lebosnoyani",
+          "winner_fighter_id": 479,
+          "method": "TKO - Doctor's Stoppage",
+          "method_normalized": "ko_tko",
+          "finish_detail": "Doctor's Stoppage",
+          "round": 3,
+          "time": "2:11",
+          "time_seconds": 131,
+          "details": ""
+        }
+      },
+      {
+        "id": "93560",
+        "card_position": "prelim",
+        "weight_class": "Featherweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Francis Marshall",
+          "nickname": "Fire",
+          "record": "10-3-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1999-03-03",
+          "image_credit": null,
+          "height": "5' 9\"",
+          "weight": "145 lbs"
+        },
+        "fighter_2": {
+          "name": "Dakota Hope",
+          "nickname": "Huracán",
+          "record": "11-2-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1997-01-29",
+          "image_credit": null,
+          "height": "5' 6\"",
+          "weight": "145 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Dakota Hope",
+          "winner_fighter_id": 541,
+          "method": "Decision - Split",
+          "method_normalized": "decision_split",
+          "finish_detail": "Split",
+          "round": 3,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": "29 - 28. 28 - 29. 28 - 29."
+        }
+      },
+      {
+        "id": "93263",
+        "card_position": "prelim",
+        "weight_class": "Welterweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Rodrigo Sezinando",
+          "nickname": "",
+          "record": "9-2-0",
+          "country": "Brazil",
+          "flag": "🇧🇷",
+          "rankings": [],
+          "image": "",
+          "dob": "1997-12-11",
+          "image_credit": null,
+          "height": "5' 9\"",
+          "weight": "170 lbs"
+        },
+        "fighter_2": {
+          "name": "Theodor Berggren",
+          "nickname": "Simba",
+          "record": "8-4-0",
+          "country": "Sweden",
+          "flag": "🇸🇪",
+          "rankings": [],
+          "image": "",
+          "dob": "2000-04-09",
+          "image_credit": null,
+          "height": "5' 11\"",
+          "weight": "170 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Rodrigo Sezinando",
+          "winner_fighter_id": 142,
+          "method": "TKO - Doctor's Stoppage",
+          "method_normalized": "ko_tko",
+          "finish_detail": "Doctor's Stoppage",
+          "round": 2,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": ""
+        }
+      },
+      {
+        "id": "93266",
+        "card_position": "prelim",
+        "weight_class": "Featherweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Julian Erosa",
+          "nickname": "Juicy J",
+          "record": "32-14-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1989-07-31",
+          "image_credit": null,
+          "height": "6' 1\"",
+          "weight": "145 lbs"
+        },
+        "fighter_2": {
+          "name": "JeongYeong Lee",
+          "nickname": "Korean Tiger",
+          "record": "11-4-0",
+          "country": "South Korea",
+          "flag": "🇰🇷",
+          "rankings": [],
+          "image": "",
+          "dob": "1995-11-13",
+          "image_credit": null,
+          "height": "5' 10\"",
+          "weight": "145 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Julian Erosa",
+          "winner_fighter_id": 522,
+          "method": "KO/TKO",
+          "method_normalized": "ko_tko",
+          "finish_detail": "",
+          "round": 1,
+          "time": "1:31",
+          "time_seconds": 91,
+          "details": ""
+        }
+      },
+      {
+        "id": "93559",
+        "card_position": "prelim",
+        "weight_class": "Middleweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Zach Reese",
+          "nickname": "Savage",
+          "record": "11-4-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1994-03-24",
+          "image_credit": null,
+          "height": "6' 4\"",
+          "weight": "185 lbs"
+        },
+        "fighter_2": {
+          "name": "Mickey Gall",
+          "nickname": "",
+          "record": "7-8-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1992-01-22",
+          "image_credit": null,
+          "height": "6' 2\"",
+          "weight": "185 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Zach Reese",
+          "winner_fighter_id": 233,
+          "method": "Decision - Unanimous",
+          "method_normalized": "decision_unanimous",
+          "finish_detail": "Unanimous",
+          "round": 3,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": "27 - 29. 27 - 29. 27 - 29."
+        }
+      },
+      {
+        "id": "85985",
+        "card_position": "prelim",
+        "weight_class": "Middleweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Nick Klein",
+          "nickname": "Blue Collar",
+          "record": "6-4-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1995-09-08",
+          "image_credit": null,
+          "height": "6' 1\"",
+          "weight": "185 lbs"
+        },
+        "fighter_2": {
+          "name": "Joseph Kropschot",
+          "nickname": "The Land Animal",
+          "record": "10-3-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1995-06-19",
+          "image_credit": null,
+          "height": "6' 3\"",
+          "weight": "185 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Joseph Kropschot",
+          "winner_fighter_id": 29328,
+          "method": "Submission",
+          "method_normalized": "submission",
+          "finish_detail": "",
+          "round": 2,
+          "time": "1:25",
+          "time_seconds": 85,
+          "details": ""
+        }
+      },
+      {
+        "id": "93262",
+        "card_position": "prelim",
+        "weight_class": "Women's Strawweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Talita Alencar",
+          "nickname": "Problem Child",
+          "record": "8-2-1",
+          "country": "Brazil",
+          "flag": "🇧🇷",
+          "rankings": [],
+          "image": "",
+          "dob": "1990-10-17",
+          "image_credit": null,
+          "height": "5' 1\"",
+          "weight": "115 lbs"
+        },
+        "fighter_2": {
+          "name": "Piera Rodriguez",
+          "nickname": "La Fiera",
+          "record": "13-2-0",
+          "country": "Venezuela",
+          "flag": "🇻🇪",
+          "rankings": [],
+          "image": "",
+          "dob": "1992-11-11",
+          "image_credit": null,
+          "height": "5' 3\"",
+          "weight": "115 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Piera Rodriguez",
+          "winner_fighter_id": 507,
+          "method": "Decision - Unanimous",
+          "method_normalized": "decision_unanimous",
+          "finish_detail": "Unanimous",
+          "round": 3,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": "27 - 30. 27 - 30. 27 - 30."
+        }
+      },
+      {
+        "id": "86003",
+        "card_position": "prelim",
+        "weight_class": "Women's Flyweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Lucia Szabová",
+          "nickname": "Silent Killer",
+          "record": "13-0-0",
+          "country": "Slovakia",
+          "flag": "🇸🇰",
+          "rankings": [],
+          "image": "",
+          "dob": "1997-12-23",
+          "image_credit": null,
+          "height": "5' 7\"",
+          "weight": "135 lbs"
+        },
+        "fighter_2": {
+          "name": "Tainara Lisboa",
+          "nickname": "Thai Panther",
+          "record": "7-5-0",
+          "country": "Brazil",
+          "flag": "🇧🇷",
+          "rankings": [],
+          "image": "",
+          "dob": "1991-03-02",
+          "image_credit": null,
+          "height": "5' 7\"",
+          "weight": "125 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
+        },
+        "result": {
+          "winner": "Lucia Szabová",
+          "winner_fighter_id": 3029,
+          "method": "KO/TKO",
+          "method_normalized": "ko_tko",
+          "finish_detail": "",
+          "round": 3,
+          "time": "3:20",
+          "time_seconds": 200,
+          "details": ""
+        }
+      }
+    ],
+    "schedule": {
+      "main_card_start_time": "2026-11-01T00:00:00.000Z",
+      "prelims_start_time": "2026-10-31T21:00:00.000Z",
+      "early_prelims_start_time": null,
+      "timezone": "America/Los_Angeles",
+      "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
+    }
+  },
   "events": [
     {
       "id": "ufc-fight-night-2026-11-07",
@@ -15,6 +664,7 @@
           "id": "93635",
           "card_position": "main_event",
           "weight_class": "Heavyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Waldo Cortes Acosta",
             "nickname": "Salsa Boy",
@@ -32,10 +682,10 @@
               }
             ],
             "image": "",
+            "dob": "1991-10-03",
             "image_credit": null,
             "height": "6' 4\"",
-            "weight": "260 lbs",
-            "dob": "1991-10-03"
+            "weight": "260 lbs"
           },
           "fighter_2": {
             "name": "Johnny Walker",
@@ -45,6 +695,7 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/96b0803d7f34b568d2f3d859f4f700f7388153eafe8b95226a0905033fd52982.webp",
+            "dob": "1992-03-30",
             "image_credit": {
               "artist": "Sexto Round",
               "license": "CC BY 3.0",
@@ -52,13 +703,12 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Johnny_Walker_(lutador)_2025.jpg"
             },
             "height": "6' 6\"",
-            "weight": "242 lbs",
-            "dob": "1992-03-30"
+            "weight": "242 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-200",
-            "fighter_2": "165",
+            "fighter_1": "-192",
+            "fighter_2": "158",
             "status": "consensus_odds"
           }
         },
@@ -66,6 +716,7 @@
           "id": "93274",
           "card_position": "main_card",
           "weight_class": "Women's Strawweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Tatiana Suarez",
             "nickname": "TSP",
@@ -91,6 +742,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/d12d7a4c98c22149a3c199445d840d0190e83f6ccd6b89adca438fde5d0f6fe3.webp",
+            "dob": "1990-12-19",
             "image_credit": {
               "artist": "MMAnytt",
               "license": "CC BY 3.0",
@@ -98,8 +750,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Tatiana_Suarez_at_UFC_228.jpg"
             },
             "height": "5' 5\"",
-            "weight": "115 lbs",
-            "dob": "1990-12-19"
+            "weight": "115 lbs"
           },
           "fighter_2": {
             "name": "Virna Jandiroba",
@@ -126,14 +777,14 @@
               }
             ],
             "image": "",
+            "dob": "1988-05-30",
             "image_credit": null,
             "height": "5' 3\"",
-            "weight": "115 lbs",
-            "dob": "1988-05-30"
+            "weight": "115 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-183",
+            "fighter_1": "-185",
             "fighter_2": "153",
             "status": "consensus_odds"
           }
@@ -142,6 +793,7 @@
           "id": "93283",
           "card_position": "main_card",
           "weight_class": "Bantamweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Davey Grant",
             "nickname": "Dangerous",
@@ -150,10 +802,10 @@
             "flag": "🇬🇧",
             "rankings": [],
             "image": "",
+            "dob": "1985-12-18",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "135 lbs",
-            "dob": "1985-12-18"
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Elijah Smith",
@@ -163,15 +815,15 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "2002-09-05",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "135 lbs",
-            "dob": "2002-09-05"
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
             "fighter_1": "176",
-            "fighter_2": "-217",
+            "fighter_2": "-218",
             "status": "consensus_odds"
           }
         },
@@ -179,6 +831,7 @@
           "id": "93281",
           "card_position": "main_card",
           "weight_class": "Welterweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Seokhyeon Ko",
             "nickname": "The Korean Tyson",
@@ -187,10 +840,10 @@
             "flag": "🇰🇷",
             "rankings": [],
             "image": "",
+            "dob": "1993-09-24",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "170 lbs",
-            "dob": "1993-09-24"
+            "weight": "170 lbs"
           },
           "fighter_2": {
             "name": "Wellington Turman",
@@ -200,6 +853,7 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/be6627263b67022dca6175c7ec9def82f6d6c70349291b362ba7913bd8bd17af.webp",
+            "dob": "1996-07-22",
             "image_credit": {
               "artist": "Celsojunior96",
               "license": "CC BY-SA 4.0",
@@ -207,13 +861,12 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:WelingtonTurman2.jpg"
             },
             "height": "6' 0\"",
-            "weight": "170 lbs",
-            "dob": "1996-07-22"
+            "weight": "170 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-603",
-            "fighter_2": "434",
+            "fighter_1": "-618",
+            "fighter_2": "443",
             "status": "consensus_odds"
           }
         },
@@ -221,6 +874,7 @@
           "id": "93276",
           "card_position": "main_card",
           "weight_class": "Light Heavyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Billy Elekana",
             "nickname": "Son of Susie",
@@ -229,10 +883,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1995-05-28",
             "image_credit": null,
             "height": "6' 3\"",
-            "weight": "205 lbs",
-            "dob": "1995-05-28"
+            "weight": "205 lbs"
           },
           "fighter_2": {
             "name": "Lucas Fernando",
@@ -242,15 +896,15 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
+            "dob": "1997-01-10",
             "image_credit": null,
             "height": "6' 3\"",
-            "weight": "205 lbs",
-            "dob": "1997-01-10"
+            "weight": "205 lbs"
           },
           "odds": {
             "format": "American",
             "fighter_1": "208",
-            "fighter_2": "-257",
+            "fighter_2": "-258",
             "status": "consensus_odds"
           }
         },
@@ -258,6 +912,7 @@
           "id": "93562",
           "card_position": "main_card",
           "weight_class": "Middleweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Mantas Kondratavicius",
             "nickname": "",
@@ -266,10 +921,10 @@
             "flag": "🇱🇹",
             "rankings": [],
             "image": "",
+            "dob": "1999-07-17",
             "image_credit": null,
             "height": "6' 2\"",
-            "weight": "185 lbs",
-            "dob": "1999-07-17"
+            "weight": "185 lbs"
           },
           "fighter_2": {
             "name": "Andre Petroski",
@@ -279,15 +934,15 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1991-06-12",
             "image_credit": null,
             "height": "6' 0\"",
-            "weight": "185 lbs",
-            "dob": "1991-06-12"
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-300",
-            "fighter_2": "242",
+            "fighter_1": "-293",
+            "fighter_2": "236",
             "status": "consensus_odds"
           }
         },
@@ -295,6 +950,7 @@
           "id": "93636",
           "card_position": "prelim",
           "weight_class": "Heavyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Gabriel Lorenço",
             "nickname": "Black Mamba",
@@ -303,10 +959,10 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
+            "dob": "1999-09-30",
             "image_credit": null,
             "height": "6' 2\"",
-            "weight": "229 lbs",
-            "dob": "1999-09-30"
+            "weight": "229 lbs"
           },
           "fighter_2": {
             "name": "Thomas Petersen",
@@ -316,14 +972,14 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1995-03-30",
             "image_credit": null,
             "height": "6' 1\"",
-            "weight": "250 lbs",
-            "dob": "1995-03-30"
+            "weight": "250 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "140",
+            "fighter_1": "141",
             "fighter_2": "-169",
             "status": "consensus_odds"
           }
@@ -332,6 +988,7 @@
           "id": "93278",
           "card_position": "prelim",
           "weight_class": "Women's Flyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Karine Silva",
             "nickname": "Killer",
@@ -349,10 +1006,10 @@
               }
             ],
             "image": "",
+            "dob": "1993-12-02",
             "image_credit": null,
             "height": "5' 5\"",
-            "weight": "125 lbs",
-            "dob": "1993-12-02"
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Gabriella Fernandes",
@@ -371,10 +1028,10 @@
               }
             ],
             "image": "",
+            "dob": "1993-08-13",
             "image_credit": null,
             "height": "5' 6\"",
-            "weight": "125 lbs",
-            "dob": "1993-08-13"
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -387,6 +1044,7 @@
           "id": "93615",
           "card_position": "prelim",
           "weight_class": "Flyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Mitch Raposo",
             "nickname": "",
@@ -395,10 +1053,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1998-10-16",
             "image_credit": null,
             "height": "5' 5\"",
-            "weight": "125 lbs",
-            "dob": "1998-10-16"
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Marcos Degli",
@@ -408,15 +1066,15 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
+            "dob": "2000-05-13",
             "image_credit": null,
             "height": "5' 6\"",
-            "weight": "125 lbs",
-            "dob": "2000-05-13"
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "200",
-            "fighter_2": "-246",
+            "fighter_1": "198",
+            "fighter_2": "-244",
             "status": "consensus_odds"
           }
         },
@@ -424,6 +1082,7 @@
           "id": "93284",
           "card_position": "prelim",
           "weight_class": "Featherweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Jose Delano",
             "nickname": "",
@@ -432,10 +1091,10 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
+            "dob": "1996-09-11",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "145 lbs",
-            "dob": "1996-09-11"
+            "weight": "145 lbs"
           },
           "fighter_2": {
             "name": "Murtazali Magomedov",
@@ -445,15 +1104,15 @@
             "flag": "🇰🇬",
             "rankings": [],
             "image": "",
+            "dob": "1999-08-26",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "145 lbs",
-            "dob": "1999-08-26"
+            "weight": "145 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-116",
-            "fighter_2": "-104",
+            "fighter_1": "-115",
+            "fighter_2": "-105",
             "status": "consensus_odds"
           }
         },
@@ -461,6 +1120,7 @@
           "id": "93280",
           "card_position": "prelim",
           "weight_class": "Featherweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Keiichiro Nakamura",
             "nickname": "",
@@ -469,10 +1129,10 @@
             "flag": "🇯🇵",
             "rankings": [],
             "image": "",
+            "dob": "1998-12-02",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "145 lbs",
-            "dob": "1998-12-02"
+            "weight": "145 lbs"
           },
           "fighter_2": {
             "name": "Ollie Schmid",
@@ -482,15 +1142,15 @@
             "flag": "🇳🇿",
             "rankings": [],
             "image": "",
+            "dob": "2000-12-28",
             "image_credit": null,
             "height": "6' 0\"",
-            "weight": "145 lbs",
-            "dob": "2000-12-28"
+            "weight": "145 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-358",
-            "fighter_2": "280",
+            "fighter_1": "-365",
+            "fighter_2": "285",
             "status": "consensus_odds"
           }
         },
@@ -498,6 +1158,7 @@
           "id": "93277",
           "card_position": "prelim",
           "weight_class": "Featherweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Austin Bashi",
             "nickname": "",
@@ -506,10 +1167,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "2001-09-29",
             "image_credit": null,
             "height": "5' 6\"",
-            "weight": "145 lbs",
-            "dob": "2001-09-29"
+            "weight": "145 lbs"
           },
           "fighter_2": {
             "name": "Lucas Brennan",
@@ -519,10 +1180,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "2000-06-03",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "145 lbs",
-            "dob": "2000-06-03"
+            "weight": "145 lbs"
           },
           "odds": {
             "format": "American",
@@ -535,6 +1196,7 @@
           "id": "93279",
           "card_position": "prelim",
           "weight_class": "Women's Bantamweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Priscila Cachoeira",
             "nickname": "Zombie Girl",
@@ -543,10 +1205,10 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
+            "dob": "1988-08-19",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "135 lbs",
-            "dob": "1988-08-19"
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Nina Milošević",
@@ -556,15 +1218,15 @@
             "flag": "🇷🇸",
             "rankings": [],
             "image": "",
+            "dob": "1996-08-08",
             "image_credit": null,
             "height": "5' 5\"",
-            "weight": "135 lbs",
-            "dob": "1996-08-08"
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "334",
-            "fighter_2": "-449",
+            "fighter_1": "332",
+            "fighter_2": "-443",
             "status": "consensus_odds"
           }
         },
@@ -572,6 +1234,7 @@
           "id": "93282",
           "card_position": "prelim",
           "weight_class": "Welterweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Jonny Parsons",
             "nickname": "The Sluggernaut",
@@ -580,10 +1243,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1991-09-06",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "170 lbs",
-            "dob": "1991-09-06"
+            "weight": "170 lbs"
           },
           "fighter_2": {
             "name": "Jose Henrique",
@@ -593,15 +1256,15 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
+            "dob": "2002-05-23",
             "image_credit": null,
             "height": "6' 3\"",
-            "weight": "170 lbs",
-            "dob": "2002-05-23"
+            "weight": "170 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "153",
-            "fighter_2": "-186",
+            "fighter_1": "154",
+            "fighter_2": "-188",
             "status": "consensus_odds"
           }
         }
@@ -629,6 +1292,7 @@
           "id": "93102",
           "card_position": "main_event",
           "weight_class": "Heavyweight",
+          "title_fight": true,
           "fighter_1": {
             "name": "Ciryl Gane",
             "nickname": "Bon Gamin",
@@ -654,6 +1318,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/219e06e48da6748cae88e58dbf4fc56807801b1a95fa8ed0144fd0630b0fdae9.webp",
+            "dob": "1990-04-12",
             "image_credit": {
               "artist": "The White House",
               "license": "Public domain",
@@ -661,8 +1326,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Ciryl_Gane_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg"
             },
             "height": "6' 4\"",
-            "weight": "247 lbs",
-            "dob": "1990-04-12"
+            "weight": "247 lbs"
           },
           "fighter_2": {
             "name": "Josh Hokit",
@@ -681,6 +1345,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/5cef17f98a78a5c5a277caf61d6d3c5ded911c689891b76420d3d4353c83f84e.webp",
+            "dob": "1997-11-12",
             "image_credit": {
               "artist": "U.S. Army photo by Sgt. 1st Class Brittany Primavera",
               "license": "Public domain",
@@ -688,13 +1353,12 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_Press_Conference_(9747953)_(cropped).jpg"
             },
             "height": "6' 1\"",
-            "weight": "235 lbs",
-            "dob": "1997-11-12"
+            "weight": "235 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-264",
-            "fighter_2": "207",
+            "fighter_1": "-260",
+            "fighter_2": "205",
             "status": "consensus_odds"
           }
         },
@@ -702,6 +1366,7 @@
           "id": "93103",
           "card_position": "main_card",
           "weight_class": "Women's Bantamweight",
+          "title_fight": true,
           "fighter_1": {
             "name": "Kayla Harrison",
             "nickname": "",
@@ -727,6 +1392,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/4597b62f267d12765462e999a9cb7cef45fb512ade8105c6f7f7c79e03db00a7.webp",
+            "dob": "1990-07-02",
             "image_credit": {
               "artist": "The White House",
               "license": "Public domain",
@@ -734,8 +1400,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_congratulates_Kayla_Harrison_after_her_victory_during_UFC_316_(54577590491)_(cropped).jpg"
             },
             "height": "5' 8\"",
-            "weight": "135 lbs",
-            "dob": "1990-07-02"
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Amanda Nunes",
@@ -745,6 +1410,7 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/b333f886f2a5d2513f4e14d1ab35dfd43c179941c87187fe563a7a1653b6d67c.webp",
+            "dob": "1988-05-30",
             "image_credit": {
               "artist": "MMAnytt",
               "license": "CC BY 3.0",
@@ -752,8 +1418,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_(cropped).jpg"
             },
             "height": "5' 8\"",
-            "weight": "135 lbs",
-            "dob": "1988-05-30"
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
@@ -766,6 +1431,7 @@
           "id": "93104",
           "card_position": "main_card",
           "weight_class": "Middleweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Caio Borralho",
             "nickname": "The Natural",
@@ -783,6 +1449,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8acef4e24fcbcbc31e8bd3ccea7bfb97c228d3d66ab0595b84caf7b196e0e189.webp",
+            "dob": "1993-01-16",
             "image_credit": {
               "artist": "BDA - Batalha Da Aldeia",
               "license": "CC BY 3.0",
@@ -790,8 +1457,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Borralho_en_Future_FC.png"
             },
             "height": "6' 1\"",
-            "weight": "185 lbs",
-            "dob": "1993-01-16"
+            "weight": "185 lbs"
           },
           "fighter_2": {
             "name": "Yousri Belgaroui",
@@ -801,10 +1467,10 @@
             "flag": "🇹🇳",
             "rankings": [],
             "image": "",
+            "dob": "1992-06-02",
             "image_credit": null,
             "height": "6' 6\"",
-            "weight": "185 lbs",
-            "dob": "1992-06-02"
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
@@ -817,6 +1483,7 @@
           "id": "93105",
           "card_position": "main_card",
           "weight_class": "Welterweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Uros Medic",
             "nickname": "The Doctor",
@@ -834,10 +1501,10 @@
               }
             ],
             "image": "",
+            "dob": "1993-04-25",
             "image_credit": null,
             "height": "6' 1\"",
-            "weight": "170 lbs",
-            "dob": "1993-04-25"
+            "weight": "170 lbs"
           },
           "fighter_2": {
             "name": "Kevin Holland",
@@ -847,6 +1514,7 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/e7dcefa7448ad53f42116eaa2071e8c258b16c71bf38e12cbcedb16e4aa463c6.webp",
+            "dob": "1992-11-05",
             "image_credit": {
               "artist": "The White House",
               "license": "Public domain",
@@ -854,8 +1522,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Kevin_Holland_at_UFC_316_(54576727207).jpg"
             },
             "height": "6' 3\"",
-            "weight": "170 lbs",
-            "dob": "1992-11-05"
+            "weight": "170 lbs"
           },
           "odds": {
             "format": "American",
@@ -868,6 +1535,7 @@
           "id": "93106",
           "card_position": "main_card",
           "weight_class": "Flyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Bilal Hasan",
             "nickname": "The IndoNinja",
@@ -876,10 +1544,10 @@
             "flag": "🇮🇩",
             "rankings": [],
             "image": "",
+            "dob": "2001-07-16",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "125 lbs",
-            "dob": "2001-07-16"
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Luis Gurule",
@@ -889,15 +1557,15 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1993-11-16",
             "image_credit": null,
             "height": "5' 5\"",
-            "weight": "125 lbs",
-            "dob": "1993-11-16"
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-970",
-            "fighter_2": "602",
+            "fighter_1": "-950",
+            "fighter_2": "594",
             "status": "consensus_odds"
           }
         },
@@ -905,6 +1573,7 @@
           "id": "93107",
           "card_position": "prelim",
           "weight_class": "Welterweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Stephen Thompson",
             "nickname": "Wonderboy",
@@ -913,6 +1582,7 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8df6f81e2d113fa75629bf16f5bcb166a48fd7f97f0cc37993111751b4bb3cfc.webp",
+            "dob": "1983-02-11",
             "image_credit": {
               "artist": "Cpl. Devin Nichols",
               "license": "Public domain",
@@ -920,8 +1590,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:From_cancer_to_company_commander_130802-M-AR522-306_(cropped).jpg"
             },
             "height": "6' 0\"",
-            "weight": "170 lbs",
-            "dob": "1983-02-11"
+            "weight": "170 lbs"
           },
           "fighter_2": {
             "name": "Charles Radtke",
@@ -931,10 +1600,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1990-07-09",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "170 lbs",
-            "dob": "1990-07-09"
+            "weight": "170 lbs"
           },
           "odds": {
             "format": "American",
@@ -947,6 +1616,7 @@
           "id": "93108",
           "card_position": "prelim",
           "weight_class": "Lightweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Drew Dober",
             "nickname": "",
@@ -955,10 +1625,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1988-10-19",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "155 lbs",
-            "dob": "1988-10-19"
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Chris Duncan",
@@ -968,10 +1638,10 @@
             "flag": "",
             "rankings": [],
             "image": "",
+            "dob": "1993-05-10",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs",
-            "dob": "1993-05-10"
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -984,6 +1654,7 @@
           "id": "93109",
           "card_position": "prelim",
           "weight_class": "Lightweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Jim Miller",
             "nickname": "A-10",
@@ -992,6 +1663,7 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8b90203b78285b0dfd274d236775ca843b2fb21fd028e75bbe3cc4b5fc54d945.webp",
+            "dob": "1983-08-30",
             "image_credit": {
               "artist": "Aleks Ozolins",
               "license": "CC0",
@@ -999,8 +1671,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Jim.miller.2.jpg"
             },
             "height": "5' 8\"",
-            "weight": "155 lbs",
-            "dob": "1983-08-30"
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Terrance McKinney",
@@ -1010,10 +1681,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1994-09-15",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs",
-            "dob": "1994-09-15"
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -1026,6 +1697,7 @@
           "id": "93616",
           "card_position": "prelim",
           "weight_class": "Middleweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Donte Johnson",
             "nickname": "Lock Jaw",
@@ -1034,10 +1706,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1999-01-25",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "185 lbs",
-            "dob": "1999-01-25"
+            "weight": "185 lbs"
           },
           "fighter_2": {
             "name": "Cesar Almeida",
@@ -1047,10 +1719,10 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
+            "dob": "1988-03-28",
             "image_credit": null,
             "height": "6' 1\"",
-            "weight": "185 lbs",
-            "dob": "1988-03-28"
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
@@ -1061,8 +1733,9 @@
         },
         {
           "id": "93111",
-          "card_position": "prelim",
+          "card_position": "early_prelim",
           "weight_class": "Women's Bantamweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Macy Chiasson",
             "nickname": "",
@@ -1080,10 +1753,10 @@
               }
             ],
             "image": "",
+            "dob": "1991-07-27",
             "image_credit": null,
             "height": "5' 11\"",
-            "weight": "135 lbs",
-            "dob": "1991-07-27"
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Bia Mesquita",
@@ -1102,10 +1775,10 @@
               }
             ],
             "image": "",
+            "dob": "1991-04-07",
             "image_credit": null,
             "height": "5' 4\"",
-            "weight": "135 lbs",
-            "dob": "1991-04-07"
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
@@ -1116,8 +1789,9 @@
         },
         {
           "id": "93112",
-          "card_position": "prelim",
+          "card_position": "early_prelim",
           "weight_class": "Bantamweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Adrian Yanez",
             "nickname": "",
@@ -1126,10 +1800,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1993-11-29",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "135 lbs",
-            "dob": "1993-11-29"
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Juan Díaz",
@@ -1139,10 +1813,10 @@
             "flag": "🇵🇪",
             "rankings": [],
             "image": "",
+            "dob": "1998-06-03",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "135 lbs",
-            "dob": "1998-06-03"
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
@@ -1153,8 +1827,9 @@
         },
         {
           "id": "93113",
-          "card_position": "prelim",
+          "card_position": "early_prelim",
           "weight_class": "Lightweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Nazim Sadykhov",
             "nickname": "Black Wolf",
@@ -1163,10 +1838,10 @@
             "flag": "🇦🇿",
             "rankings": [],
             "image": "",
+            "dob": "1994-05-16",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs",
-            "dob": "1994-05-16"
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Jefferson Nascimento",
@@ -1176,10 +1851,10 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
+            "dob": "1998-11-19",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "155 lbs",
-            "dob": "1998-11-19"
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -1192,6 +1867,7 @@
           "id": "93620",
           "card_position": "prelim",
           "weight_class": "Lightweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Jared Gordon",
             "nickname": "Flash",
@@ -1200,10 +1876,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1988-09-06",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "155 lbs",
-            "dob": "1988-09-06"
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Melquizael Costa",
@@ -1222,10 +1898,10 @@
               }
             ],
             "image": "",
+            "dob": "1996-09-14",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs",
-            "dob": "1996-09-14"
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -1238,6 +1914,7 @@
           "id": "93621",
           "card_position": "prelim",
           "weight_class": "Lightweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Evan Elder",
             "nickname": "The Phenom",
@@ -1246,10 +1923,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1997-04-11",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs",
-            "dob": "1997-04-11"
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Samuel Sanches",
@@ -1259,10 +1936,10 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
+            "dob": "2003-01-28",
             "image_credit": null,
             "height": "5' 10\"",
-            "weight": "155 lbs",
-            "dob": "2003-01-28"
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -1295,6 +1972,7 @@
           "id": "93290",
           "card_position": "main_event",
           "weight_class": "Light Heavyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Jiri Prochazka",
             "nickname": "BJP",
@@ -1312,6 +1990,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/d664efefb69d00c9eb4fd61335a82fc1be8e79950a3d39c9052369909692202a.webp",
+            "dob": "1992-10-14",
             "image_credit": {
               "artist": "Show Jana Krause",
               "license": "CC BY 3.0",
@@ -1319,8 +1998,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:JiriProchazka2022.png"
             },
             "height": "6' 3\"",
-            "weight": "205 lbs",
-            "dob": "1992-10-14"
+            "weight": "205 lbs"
           },
           "fighter_2": {
             "name": "Navajo Stirling",
@@ -1339,10 +2017,10 @@
               }
             ],
             "image": "",
+            "dob": "1997-11-07",
             "image_credit": null,
             "height": "6' 4\"",
-            "weight": "205 lbs",
-            "dob": "1997-11-07"
+            "weight": "205 lbs"
           },
           "odds": {
             "format": "American",
@@ -1355,6 +2033,7 @@
           "id": "93291",
           "card_position": "main_card",
           "weight_class": "Featherweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Aljamain Sterling",
             "nickname": "Funk Master",
@@ -1372,6 +2051,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/9531db7115d5203a3e14c7269f9bf6c2f28b44052f825e802117a54df98d74a0.webp",
+            "dob": "1989-07-31",
             "image_credit": {
               "artist": "MMAnytt",
               "license": "CC BY 3.0",
@@ -1379,8 +2059,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Alijamain_Sterling_at_UFC_228.jpg"
             },
             "height": "5' 7\"",
-            "weight": "145 lbs",
-            "dob": "1989-07-31"
+            "weight": "145 lbs"
           },
           "fighter_2": {
             "name": "Kevin Vallejos",
@@ -1399,10 +2078,10 @@
               }
             ],
             "image": "",
+            "dob": "2001-12-08",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "145 lbs",
-            "dob": "2001-12-08"
+            "weight": "145 lbs"
           },
           "odds": {
             "format": "American",
@@ -1415,6 +2094,7 @@
           "id": "93292",
           "card_position": "main_card",
           "weight_class": "Lightweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Dan Hooker",
             "nickname": "The Hangman",
@@ -1432,6 +2112,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/e8cf473acbe6765680df9508cd5fc97972202152a5c935b3585e5cfb1af8ee5e.webp",
+            "dob": "1990-02-13",
             "image_credit": {
               "artist": "Fight Bros NZ",
               "license": "CC BY 3.0",
@@ -1439,8 +2120,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:DanHooker2016.png"
             },
             "height": "6' 0\"",
-            "weight": "155 lbs",
-            "dob": "1990-02-13"
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Brian Ortega",
@@ -1459,6 +2139,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/4e93b94c21313f01da1a39fabf275a7f3346f528d3193340668d7b483cade3c2.webp",
+            "dob": "1991-02-21",
             "image_credit": {
               "artist": "MMAnytt",
               "license": "CC BY 3.0",
@@ -1466,8 +2147,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Brian_Ortega_on_MMAnytt.jpg"
             },
             "height": "5' 8\"",
-            "weight": "155 lbs",
-            "dob": "1991-02-21"
+            "weight": "155 lbs"
           },
           "odds": {
             "format": "American",
@@ -1480,6 +2160,7 @@
           "id": "93255",
           "card_position": "main_card",
           "weight_class": "Middleweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Jared Cannonier",
             "nickname": "Tha Killa Gorilla",
@@ -1497,6 +2178,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/7f73af897af39e8eba9019061f103da1b6baec6f7ddeb4862bdc2a393e6e97d9.webp",
+            "dob": "1984-03-16",
             "image_credit": {
               "artist": "MMAnytt",
               "license": "CC BY 3.0",
@@ -1504,8 +2186,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg"
             },
             "height": "5' 11\"",
-            "weight": "185 lbs",
-            "dob": "1984-03-16"
+            "weight": "185 lbs"
           },
           "fighter_2": {
             "name": "Ikram Aliskerov",
@@ -1524,6 +2205,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/62dcda2643af8d12ee774816a014463772dbb81b1a070285d18bbedf9cfff5c0.webp",
+            "dob": "1992-12-07",
             "image_credit": {
               "artist": "Sexto Round",
               "license": "CC BY 3.0",
@@ -1531,8 +2213,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Ikram_Aliskerov_2024.png"
             },
             "height": "6' 0\"",
-            "weight": "185 lbs",
-            "dob": "1992-12-07"
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
@@ -1545,6 +2226,7 @@
           "id": "93293",
           "card_position": "main_card",
           "weight_class": "Heavyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Shamil Gaziev",
             "nickname": "",
@@ -1553,10 +2235,10 @@
             "flag": "🇷🇺",
             "rankings": [],
             "image": "",
+            "dob": "1990-02-10",
             "image_credit": null,
             "height": "6' 4\"",
-            "weight": "265 lbs",
-            "dob": "1990-02-10"
+            "weight": "265 lbs"
           },
           "fighter_2": {
             "name": "Tallison Teixeira",
@@ -1566,6 +2248,7 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/bccc91e1ca7b3216f20e9423a1c438fef301673dec614a82fa6a3e3f5714e653.webp",
+            "dob": "1999-12-07",
             "image_credit": {
               "artist": "Sexto Round",
               "license": "CC BY 3.0",
@@ -1573,8 +2256,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Tallison_Teixeira_2025.jpg"
             },
             "height": "6' 7\"",
-            "weight": "258 lbs",
-            "dob": "1999-12-07"
+            "weight": "258 lbs"
           },
           "odds": {
             "format": "American",
@@ -1587,6 +2269,7 @@
           "id": "93256",
           "card_position": "main_card",
           "weight_class": "Welterweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Jake Matthews",
             "nickname": "The Celtic Kid",
@@ -1595,6 +2278,7 @@
             "flag": "🇦🇺",
             "rankings": [],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/824f94e4084ead31a99fcdba20b6986f5d4a9adb27bbf8998038b512567ffc4f.webp",
+            "dob": "1994-08-19",
             "image_credit": {
               "artist": "Realistkilla",
               "license": "CC0",
@@ -1602,8 +2286,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Jake_Mattews_%26_Jon_Jones.jpg"
             },
             "height": "5' 11\"",
-            "weight": "170 lbs",
-            "dob": "1994-08-19"
+            "weight": "170 lbs"
           },
           "fighter_2": {
             "name": "Tahir Abdullayev",
@@ -1613,10 +2296,10 @@
             "flag": "🇦🇿",
             "rankings": [],
             "image": "",
+            "dob": "1997-02-02",
             "image_credit": null,
             "height": "5' 8\"",
-            "weight": "170 lbs",
-            "dob": "1997-02-02"
+            "weight": "170 lbs"
           },
           "odds": {
             "format": "American",
@@ -1629,6 +2312,7 @@
           "id": "93257",
           "card_position": "main_card",
           "weight_class": "Bantamweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Aleksandre Topuria",
             "nickname": "El Conquistador",
@@ -1637,6 +2321,7 @@
             "flag": "🇬🇪",
             "rankings": [],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8bb2b9569cc664d0e5772f49382fa3876f4b9480f0f3b0b28417d6d340336950.webp",
+            "dob": "1996-01-28",
             "image_credit": {
               "artist": "U.S. Army photo by Sgt. 1st Class Brittany Primavera",
               "license": "Public domain",
@@ -1644,8 +2329,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Aleksandre_Topuria_at_the_UFC_Freedom_250_Ceremony.jpg"
             },
             "height": "5' 7\"",
-            "weight": "135 lbs",
-            "dob": "1996-01-28"
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Santiago Luna",
@@ -1655,10 +2339,10 @@
             "flag": "🇲🇽",
             "rankings": [],
             "image": "",
+            "dob": "2004-08-06",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "135 lbs",
-            "dob": "2004-08-06"
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
@@ -1671,6 +2355,7 @@
           "id": "93258",
           "card_position": "main_card",
           "weight_class": "Flyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Asu Almabayev",
             "nickname": "Zulfikar",
@@ -1688,6 +2373,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/def1393b98a0e7337ab49918fffb923b4c97614264679aeb99047a202f3483ab.webp",
+            "dob": "1994-01-25",
             "image_credit": {
               "artist": "Qazaq Stand Up",
               "license": "CC BY 4.0",
@@ -1695,8 +2381,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:AsuAlmabayev.png"
             },
             "height": "5' 4\"",
-            "weight": "125 lbs",
-            "dob": "1994-01-25"
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Kyoji Horiguchi",
@@ -1715,6 +2400,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/882bce16dab0fdad834f32bf617100f426df8289d3734b121ffb6bf994174827.webp",
+            "dob": "1990-10-12",
             "image_credit": {
               "artist": "Bruno Massami",
               "license": "CC BY 3.0",
@@ -1722,8 +2408,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Kyoji_Horiguchi_2017.jpg"
             },
             "height": "5' 4\"",
-            "weight": "125 lbs",
-            "dob": "1990-10-12"
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -1736,6 +2421,7 @@
           "id": "93259",
           "card_position": "main_card",
           "weight_class": "Flyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Amir Albazi",
             "nickname": "The Prince",
@@ -1753,10 +2439,10 @@
               }
             ],
             "image": "",
+            "dob": "1993-10-27",
             "image_credit": null,
             "height": "5' 5\"",
-            "weight": "125 lbs",
-            "dob": "1993-10-27"
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Alessandro Costa",
@@ -1766,10 +2452,10 @@
             "flag": "🇧🇷",
             "rankings": [],
             "image": "",
+            "dob": "1996-01-28",
             "image_credit": null,
             "height": "5' 4\"",
-            "weight": "125 lbs",
-            "dob": "1996-01-28"
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -1802,6 +2488,7 @@
           "id": "93366",
           "card_position": "main_event",
           "weight_class": "Lightweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Charles Oliveira",
             "nickname": "Do Bronxs",
@@ -1819,6 +2506,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/0fc102ad743e47c77a4df4ddbc5136c036411dd5b108470daa54ace044daab06.webp",
+            "dob": "1989-10-17",
             "image_credit": {
               "artist": "Renan Silva",
               "license": "CC0",
@@ -1826,8 +2514,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Charles_Oliveira_do_Bronxs.jpg"
             },
             "height": "5' 10\"",
-            "weight": "155 lbs",
-            "dob": "1989-10-17"
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Diego Lopes",
@@ -1846,6 +2533,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/bf22491d2cfd83daae4c33d4d5080454f70a9859c0eafe79dcc637a4bdc6ac90.webp",
+            "dob": "1994-12-30",
             "image_credit": {
               "artist": "Sexto Round",
               "license": "CC BY 3.0",
@@ -1853,8 +2541,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Diego_Lopes_2025.jpg"
             },
             "height": "5' 11\"",
-            "weight": "145 lbs",
-            "dob": "1994-12-30"
+            "weight": "145 lbs"
           },
           "odds": {
             "format": "American",
@@ -1867,6 +2554,7 @@
           "id": "93367",
           "card_position": "main_card",
           "weight_class": "Heavyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Sergei Pavlovich",
             "nickname": "",
@@ -1884,6 +2572,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/da253782a3cfbf1b1d9806214d45af9fd2fec52422b51a799d53f5c271745ccd.webp",
+            "dob": "1992-05-13",
             "image_credit": {
               "artist": "Страна FM",
               "license": "CC BY 3.0",
@@ -1891,8 +2580,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:SergeiPavlovich2018.png"
             },
             "height": "6' 3\"",
-            "weight": "257 lbs",
-            "dob": "1992-05-13"
+            "weight": "257 lbs"
           },
           "fighter_2": {
             "name": "Alex Pereira",
@@ -1919,6 +2607,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/5eea322677071ecd1e50dc6dd155626526b52c1d7acc7f6e5567d2a3136c6256.webp",
+            "dob": "1987-07-07",
             "image_credit": {
               "artist": "The White House",
               "license": "Public domain",
@@ -1926,8 +2615,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Alex_Pereira_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg"
             },
             "height": "6' 4\"",
-            "weight": "251 lbs",
-            "dob": "1987-07-07"
+            "weight": "251 lbs"
           },
           "odds": {
             "format": "American",
@@ -1940,6 +2628,7 @@
           "id": "93444",
           "card_position": "main_card",
           "weight_class": "Flyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Brandon Moreno",
             "nickname": "The Assassin Baby",
@@ -1957,6 +2646,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/a3f7d71775e6f1abbc4638d7046f959244becb8359703db20a6da82a24cabb21.webp",
+            "dob": "1993-12-07",
             "image_credit": {
               "artist": "DiarioMMA",
               "license": "CC BY-SA 4.0",
@@ -1964,8 +2654,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Brandon_Moreno_February_2021.jpg"
             },
             "height": "5' 7\"",
-            "weight": "125 lbs",
-            "dob": "1993-12-07"
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Charles Johnson",
@@ -1975,10 +2664,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1991-01-10",
             "image_credit": null,
             "height": "5' 9\"",
-            "weight": "125 lbs",
-            "dob": "1991-01-10"
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -1991,6 +2680,7 @@
           "id": "93487",
           "card_position": "main_card",
           "weight_class": "Light Heavyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Quentin Pasley",
             "nickname": "",
@@ -1999,10 +2689,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "2001-10-15",
             "image_credit": null,
             "height": "6' 4\"",
-            "weight": "205 lbs",
-            "dob": "2001-10-15"
+            "weight": "205 lbs"
           },
           "fighter_2": {
             "name": "Junior Tafa",
@@ -2012,10 +2702,10 @@
             "flag": "🇳🇿",
             "rankings": [],
             "image": "",
+            "dob": "1996-09-21",
             "image_credit": null,
             "height": "6' 3\"",
-            "weight": "205 lbs",
-            "dob": "1996-09-21"
+            "weight": "205 lbs"
           },
           "odds": {
             "format": "American",
@@ -2028,6 +2718,7 @@
           "id": "93368",
           "card_position": "main_card",
           "weight_class": "Middleweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Joe Pyfer",
             "nickname": "Bodybagz",
@@ -2045,6 +2736,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/3e2e600e41e0a6500cc0185c42f88a5cdb32c243ebe5a39991f356e3ae67eced.webp",
+            "dob": "1996-09-17",
             "image_credit": {
               "artist": "Checkin' Ringside",
               "license": "CC BY 4.0",
@@ -2052,8 +2744,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:JoePyfer.jpg"
             },
             "height": "6' 2\"",
-            "weight": "185 lbs",
-            "dob": "1996-09-17"
+            "weight": "185 lbs"
           },
           "fighter_2": {
             "name": "Bo Nickal",
@@ -2072,6 +2763,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/9ed1d92c4222bcef8ab4e5a92d09edf2d022b1e3843c87822ec030720929d17d.webp",
+            "dob": "1996-01-14",
             "image_credit": {
               "artist": "Noah Riffe",
               "license": "Public domain",
@@ -2079,8 +2771,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Bo_Nickal_(52791819473).jpg"
             },
             "height": "6' 1\"",
-            "weight": "185 lbs",
-            "dob": "1996-01-14"
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
@@ -2093,6 +2784,7 @@
           "id": "93484",
           "card_position": "main_card",
           "weight_class": "Women's Flyweight",
+          "title_fight": false,
           "fighter_1": {
             "name": "Maycee Barber",
             "nickname": "The Future",
@@ -2110,6 +2802,7 @@
               }
             ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/c50010f6a7eb192a32c5e4236d5093e302f074664ac0b57e5b0e556feb614ce3.webp",
+            "dob": "1998-05-18",
             "image_credit": {
               "artist": "Maritza Sanchez",
               "license": "CC BY 4.0",
@@ -2117,8 +2810,7 @@
               "source_page": "https://commons.wikimedia.org/wiki/File:Maycee_Barber_(cropped).png"
             },
             "height": "5' 5\"",
-            "weight": "125 lbs",
-            "dob": "1998-05-18"
+            "weight": "125 lbs"
           },
           "fighter_2": {
             "name": "Carli Judice",
@@ -2128,10 +2820,10 @@
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
+            "dob": "1999-03-02",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "125 lbs",
-            "dob": "1999-03-02"
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
