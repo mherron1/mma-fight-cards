@@ -57,7 +57,7 @@ export function renderFightCard(event) {
   const fights = Array.isArray(event.fights) ? event.fights : [];
   const mainCardFights = fights.filter(fight => fight.card_position !== 'prelim');
   const prelimFights = fights.filter(fight => fight.card_position === 'prelim');
-  const eventName = (event.name || 'Fight card').replace(/\bUFC\s+/gi, '');
+  const eventName = event.name || 'Fight card';
 
   function renderFightRows(cardFights) {
     return cardFights.length
