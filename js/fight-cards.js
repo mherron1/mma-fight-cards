@@ -49,6 +49,27 @@ function eventLocation(location = '') {
   return String(location).replace(/\bUnited States\b/g, 'USA');
 }
 
+function formatEventDate(date = '') {
+  const match = String(date).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) return date;
+
+  const [, year, month, day] = match;
+  const parsedDate = new Date(Date.UTC(Number(year), Number(month) - 1, Number(day)));
+  if (
+    parsedDate.getUTCFullYear() !== Number(year) ||
+    parsedDate.getUTCMonth() !== Number(month) - 1 ||
+    parsedDate.getUTCDate() !== Number(day)
+  ) {
+    return date;
+  }
+
+  return new Intl.DateTimeFormat('en-US', {
+    month: 'short',
+    day: 'numeric',
+    timeZone: 'UTC'
+  }).format(parsedDate);
+}
+
 export function renderFightCard(event) {
   if (!event) {
     return '<div class="empty-state">No event data available.</div>';
@@ -127,7 +148,7 @@ export function renderFightCard(event) {
         <div class="undercard">${renderFightRows(mainCardFights)}</div>
       </section>
       <section class="fight-group">
-        <h2 class="section-label">Prelim Card</h2>
+        <h2 class="section-label">Prelims</h2>
         <div class="undercard">${renderFightRows(prelimFights)}</div>
       </section>
     </div>`;
@@ -136,7 +157,7 @@ export function renderFightCard(event) {
     <article class="event-card">
       <h1 class="event-title">${escapeHTML(eventName)}</h1>
       <div class="event-subtitle">
-        <span>${escapeHTML(event.date || 'Date TBA')} · ${escapeHTML(eventLocation(event.location || 'Location TBA'))}</span>
+        <span>${escapeHTML(formatEventDate(event.date || 'Date TBA'))} · ${escapeHTML(eventLocation(event.location || 'Location TBA'))}</span>
         <span class="event-countdown" data-start="${escapeHTML(event.start_time || '')}" aria-live="off">Start time TBA</span>
       </div>
       ${fightSectionsMarkup}
