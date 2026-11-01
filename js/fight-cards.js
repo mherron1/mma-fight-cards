@@ -64,7 +64,7 @@ function formatEventDate(date = '') {
   }
 
   return new Intl.DateTimeFormat('en-US', {
-    month: 'short',
+    month: 'long',
     day: 'numeric',
     timeZone: 'UTC'
   }).format(parsedDate);
@@ -169,7 +169,10 @@ export function renderFightCard(event) {
     <article class="event-card">
       <h1 class="event-title">${escapeHTML(eventName)}</h1>
       <div class="event-subtitle">
-        <span class="event-date-location">${escapeHTML(formatEventDate(event.date || 'Date TBA'))} · ${escapeHTML(eventLocation(event.location || 'Location TBA'))}</span>
+        <span class="event-date-location">
+          <span>${escapeHTML(formatEventDate(event.date || 'Date TBA'))}</span>
+          <span>${escapeHTML(eventLocation(event.location || 'Location TBA'))}</span>
+        </span>
         <div class="event-schedule" aria-label="Local fight card start times">
           <span>Main Card: ${escapeHTML(formatLocalTime(event.schedule?.main_card_start_time || ''))}</span>
           <span>Prelims: ${escapeHTML(formatLocalTime(event.schedule?.prelims_start_time || ''))}</span>
