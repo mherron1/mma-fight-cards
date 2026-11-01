@@ -54,11 +54,13 @@ body { min-height: 100%; }
 }
 .app-topbar { top: 0; height: 45px; border-bottom: 1px solid var(--line); }
 .brand { display: flex; align-items: center; gap: 2.5px; font-size: 13px; font-weight: 800; letter-spacing: 1.6px; }
+.topbar-actions { display: flex; align-items: center; gap: 8px; pointer-events: auto; }
 .brand-mark { display: grid; place-items: center; width: 32px; height: 25px; background: var(--accent); color: var(--accent-contrast); font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 900; letter-spacing: .3px; border-radius: 5px; }
 .brand-light { color: #9296a3; font-weight: 500; }
 .settings-button { pointer-events: auto; display: grid; place-items: center; width: 34px; height: 34px; padding: 0; border: 1px solid var(--line); border-radius: 50%; background: var(--panel); color: var(--text); cursor: pointer; }
 .settings-button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .settings-icon { width: 21px; height: 21px; fill: var(--muted); }
+.refresh-icon { width: 19px; height: 19px; fill: none; stroke: var(--muted); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .back-icon { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; }
 .card-progress { position: absolute; top: 45px; left: 0; right: 0; z-index: 4; display: flex; gap: 2px; height: 4px; }
 .card-progress[hidden] { display: none; }
@@ -159,6 +161,7 @@ body { min-height: 100%; }
   .brand-mark { width: 38px; height: 30px; font-size: 14px; }
   .settings-button { width: 42px; height: 42px; }
   .settings-icon { width: 24px; height: 24px; }
+  .refresh-icon { width: 22px; height: 22px; }
   .card-progress { top: 64px; height: 5px; }
   .settings-page { inset: 69px 0 0; padding: 40px; }
   .settings-content { max-width: 700px; }
