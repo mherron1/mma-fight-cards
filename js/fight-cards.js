@@ -196,11 +196,12 @@ export function renderFightCard(event) {
                   <span class="fighter-stat-label">Age</span>
                   <span class="fighter-stat-value">${escapeHTML(fighterAge(fighter2.dob, event.date))}</span>
                 </div>
+                ${hasResults ? '' : `
                 <div class="fighter-stat-row fighter-odds-row">
                   <strong class="fighter-stat-value fight-odds-value" data-american="${escapeHTML(odds.fighter_1 || '')}">${escapeHTML(odds.fighter_1 || 'Not listed')}</strong>
                   <span class="fighter-stat-label">Odds</span>
                   <strong class="fighter-stat-value fight-odds-value" data-american="${escapeHTML(odds.fighter_2 || '')}">${escapeHTML(odds.fighter_2 || 'Not listed')}</strong>
-                </div>
+                </div>`}
               </div>
             </div>
           </div>
