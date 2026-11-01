@@ -343,6 +343,99 @@ async function readJson(file, fallback) {
   }
 }
 
+function mapCompletedEvent(detail, sourceEvent, fighterCache, rankingsMap) {
+  const venue = detail.venue || sourceEvent?.venue || {};
+  const timeZone = venue.tz || sourceEvent?.tz || 'UTC';
+  const rawCard = Array.isArray(detail.card) ? detail.card : [];
+
+  const activeCard = rawCard
+    .filter(bout => String(bout.status || '').toLowerCase() !== 'cancelled')
+    .sort((a, b) => Number(a.ordering ?? 999) - Number(b.ordering ?? 999));
+
+  const fights = activeCard.map((bout, boutIndex) => {
+    const section = String(bout.card_section || '').toLowerCase();
+    const cardPosition = bout.is_main
+      ? 'main_event'
+      : section === 'main'
+        ? 'main_card'
+        : /^early[_\s-]*prelims?$/.test(section)
+          ? 'early_prelim'
+          : 'prelim';
+
+    const weightClass = bout.weight_class || 'Bout';
+    const weightMatch = weightClass.match(/([0-9]{2,3})\s*lbs/i);
+    const fallbackWeight = weightMatch ? `${weightMatch[1]} lbs` : '';
+    const a = bout.fighter_a || {};
+    const b = bout.fighter_b || {};
+    const rawResult = bout.result || null;
+
+    let winner = '';
+    if (rawResult?.winner_fighter_id != null) {
+      const winnerId = String(rawResult.winner_fighter_id);
+      if (String(a.id) === winnerId) winner = a.name || '';
+      else if (String(b.id) === winnerId) winner = b.name || '';
+    }
+
+    // Some API responses may include a winner name directly. Prefer the
+    // fighter-corner match when an ID is available, then use that name.
+    winner = winner || rawResult?.winner || '';
+
+    const result = rawResult ? {
+      winner,
+      winner_fighter_id: rawResult.winner_fighter_id ?? null,
+      method: rawResult.method || '',
+      method_normalized: rawResult.method_normalized || '',
+      finish_detail: rawResult.finish_detail || '',
+      round: rawResult.round ?? null,
+      time: rawResult.time || '',
+      time_seconds: rawResult.time_seconds ?? null,
+      details: rawResult.details || ''
+    } : null;
+
+    return {
+      id: String(bout.id || `${detail.slug || detail.id}-fight-${boutIndex + 1}`),
+      card_position: cardPosition,
+      weight_class: weightClass,
+      title_fight: Boolean(bout.title_fight || bout.is_title),
+      fighter_1: mapFighterRef(
+        a,
+        a.slug ? fighterCache[a.slug] : null,
+        fallbackWeight,
+        rankingsMap.get(a.slug) || []
+      ),
+      fighter_2: mapFighterRef(
+        b,
+        b.slug ? fighterCache[b.slug] : null,
+        fallbackWeight,
+        rankingsMap.get(b.slug) || []
+      ),
+      odds: mapOdds(bout.odds),
+      result
+    };
+  });
+
+  const startsAt = detail.starts_at || sourceEvent?.starts_at;
+  return {
+    id: String(detail.slug || sourceEvent?.slug || detail.id || sourceEvent?.id),
+    promotion: 'UFC',
+    name: detail.title || sourceEvent?.title || sourceEvent?.short_title || 'UFC Event',
+    date: formatLocalDate(startsAt, timeZone),
+    start_time: startsAt || '',
+    location: joinLocation(venue),
+    venue: venue.name || 'Venue TBA',
+    sport: 'MMA',
+    status: 'completed',
+    fights,
+    schedule: {
+      main_card_start_time: detail.main_card_at || sourceEvent?.main_card_at || null,
+      prelims_start_time: detail.prelims_at || sourceEvent?.prelims_at || null,
+      early_prelims_start_time: detail.early_prelims_at || sourceEvent?.early_prelims_at || null,
+      timezone: timeZone,
+      time_note: 'Times are supplied by UFCalendar; check local broadcaster listings.'
+    }
+  };
+}
+
 async function main() {
   await fs.mkdir(DATA_DIR, { recursive: true });
 
@@ -350,6 +443,11 @@ async function main() {
     FIGHTERS_CACHE_FILE,
     {}
   );
+
+  // Keep the previous completed event if the results endpoint is temporarily
+  // unavailable, so a transient API error never erases the stored result card.
+  const previousEventsData = await readJson(EVENTS_FILE, {});
+  let latestCompletedEvent = previousEventsData.latest_completed_event || null;
 
   console.log('Fetching official UFC rankings...');
 
@@ -359,6 +457,49 @@ async function main() {
   console.log(
     `Loaded rankings for ${rankingsMap.size} fighters.`
   );
+
+  console.log('Fetching the most recently completed UFC event...');
+
+  try {
+    const completedListData = await apiGet(
+      '/events?org=ufc&status=completed&order=desc&limit=1'
+    );
+    const completedEvents = asArray(completedListData);
+    const latestCompletedSource = completedEvents[0] || null;
+
+    if (latestCompletedSource) {
+      const completedKey = latestCompletedSource.slug || latestCompletedSource.id;
+
+      if (!completedKey) {
+        throw new Error('Latest completed event is missing both slug and id.');
+      }
+
+      console.log(`Fetching completed card: ${latestCompletedSource.title || completedKey}`);
+      const completedDetail = await apiGet(
+        `/events/${encodeURIComponent(completedKey)}`
+      );
+
+      if (Array.isArray(completedDetail.card) && completedDetail.card.length > 0) {
+        latestCompletedEvent = mapCompletedEvent(
+          completedDetail,
+          latestCompletedSource,
+          fighterCache,
+          rankingsMap
+        );
+        console.log(
+          `Loaded latest completed event: ${latestCompletedEvent.name} (${latestCompletedEvent.fights.length} fights).`
+        );
+      } else {
+        console.warn('Latest completed event returned no fight card; retaining the previously stored completed event.');
+      }
+    } else {
+      console.warn('No completed UFC event was returned; retaining the previously stored completed event.');
+    }
+  } catch (error) {
+    console.warn(
+      `Could not update latest completed event: ${error.message}. Retaining the previously stored version.`
+    );
+  }
 
   console.log('Fetching upcoming UFC events...');
 
@@ -682,7 +823,10 @@ async function main() {
     };
   });
 
-  const output = `${JSON.stringify({ events }, null, 2)}\n`;
+  const output = `${JSON.stringify({
+    latest_completed_event: latestCompletedEvent,
+    events
+  }, null, 2)}\n`;
 
   await fs.writeFile(EVENTS_FILE, output, 'utf8');
 
@@ -694,6 +838,12 @@ async function main() {
 
   console.log(
     `Updated data/events.json with ${events.length} upcoming UFC events.`
+  );
+
+  console.log(
+    latestCompletedEvent
+      ? `Stored latest completed event: ${latestCompletedEvent.name}.`
+      : 'No completed event is currently stored.'
   );
 
   console.log(
