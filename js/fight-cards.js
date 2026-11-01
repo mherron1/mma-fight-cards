@@ -87,8 +87,12 @@ export function renderFightCard(event) {
   }
 
   const fights = Array.isArray(event.fights) ? event.fights : [];
-  const mainCardFights = fights.filter(fight => fight.card_position !== 'prelim');
-  const prelimFights = fights.filter(fight => fight.card_position === 'prelim');
+  const mainCardFights = fights.filter(
+    fight => fight.card_position !== 'prelim' && fight.card_position !== 'early_prelim'
+  );
+  const prelimFights = fights.filter(
+    fight => fight.card_position === 'prelim' || fight.card_position === 'early_prelim'
+  );
   const eventName = event.name || 'Fight card';
 
   function renderFightRows(cardFights) {
@@ -109,7 +113,6 @@ export function renderFightCard(event) {
                 <span>${escapeHTML(fighter1.name || 'TBA')}</span>
                 ${fighter1.record ? `<span class="fight-record">${escapeHTML(fighter1.record)}</span>` : ''}
               </div>
-              <b>VS</b>
               <div class="fight-competitor">
                 <span>${escapeHTML(fighter2.name || 'TBA')}</span>
                 ${fighter2.record ? `<span class="fight-record">${escapeHTML(fighter2.record)}</span>` : ''}
@@ -183,6 +186,7 @@ export function renderFightCard(event) {
         <div class="event-schedule" aria-label="Local fight card start times">
           <span>Main Card: ${escapeHTML(formatLocalTime(event.schedule?.main_card_start_time || ''))}</span>
           <span>Prelims: ${escapeHTML(formatLocalTime(event.schedule?.prelims_start_time || ''))}</span>
+          ${event.schedule?.early_prelims_start_time ? `<span>Early Prelims: ${escapeHTML(formatLocalTime(event.schedule.early_prelims_start_time))}</span>` : ''}
         </div>
         <span class="event-countdown" data-start="${escapeHTML(event.start_time || '')}" aria-live="off" hidden>Start time TBA</span>
       </div>

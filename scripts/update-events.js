@@ -576,7 +576,9 @@ async function main() {
         ? 'main_event'
         : section === 'main'
           ? 'main_card'
-          : 'prelim';
+          : /^early[_\s-]*prelims?$/.test(section)
+            ? 'early_prelim'
+            : 'prelim';
 
       const weightClass = bout.weight_class || 'Bout';
 
