@@ -15,7 +15,6 @@ function initTheme() {
   const settingsPage = document.getElementById('settingsPage');
   const cubeStage = document.getElementById('cubeStage');
   const cardProgress = document.getElementById('cardProgress');
-  const refreshButton = document.getElementById('refreshButton');
   const settingsIcon = document.getElementById('settingsIcon');
   const backIcon = document.getElementById('backIcon');
 
@@ -36,8 +35,6 @@ function initTheme() {
   toggle.addEventListener('click', () => {
     applyTheme(root.dataset.theme === 'dark' ? 'light' : 'dark');
   });
-
-  refreshButton.addEventListener('click', () => location.reload());
 
   settingsToggle.addEventListener('click', () => {
     const showSettings = settingsPage.hidden;
