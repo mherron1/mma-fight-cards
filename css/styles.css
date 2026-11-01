@@ -117,7 +117,7 @@ body { min-height: 100%; }
   .fight-sections::-webkit-scrollbar { display: none; }
 }
 .fight-group + .fight-group { margin-top: 14px; }
-.undercard { margin-top: 7px; display: flex; flex-direction: column; gap: 5px; }
+.undercard { margin-top: 7px; display: flex; flex-direction: column; gap: 7px; }
 .fight-row { background: var(--row-bg); border: 1px solid var(--row-border); border-radius: 7px; overflow: hidden; }
 .fight-row:not([open]) { background: var(--panel-soft); }
 :root[data-theme="light"] .fight-row:not([open]) { background: color-mix(in srgb, var(--panel-soft) 15%, white); }
@@ -126,8 +126,9 @@ body { min-height: 100%; }
 .fight-summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .fight-weight { color: var(--muted); font-size: 7.8px; font-weight: 800; letter-spacing: .8px; text-align: center; text-transform: uppercase; margin-bottom: 5px; }
 .fight-names { display: grid; grid-template-columns: 1fr 22px 1fr; gap: 5px; align-items: center; font-size: 10.8px; font-weight: 700; }
-.fight-names span { min-width: 0; overflow-wrap: anywhere; }
-.fight-names span:last-child { text-align: right; }
+.fight-competitor { min-width: 0; overflow-wrap: anywhere; }
+.fight-competitor:last-of-type { text-align: right; }
+.fight-record { display: block; margin-top: 2px; color: var(--muted); font-size: .85em; font-weight: 500; }
 .fight-names b { color: #707582; text-align: center; font-size: 9.6px; }
 .fight-details { display: grid; grid-template-rows: 0fr; padding: 0 9px; border-top: 0 solid var(--row-border); transition: grid-template-rows 280ms cubic-bezier(.2,.7,.2,1), padding 280ms ease, border-width 280ms ease; }
 .fight-row[open] .fight-details { grid-template-rows: 1fr; padding: 9px; border-top-width: 1px; }
@@ -222,7 +223,7 @@ body { min-height: 100%; }
   }
   .fight-group + .fight-group { margin-top: 26px; }
   .section-label { font-size: 12px; letter-spacing: 2.2px; }
-  .undercard { gap: 8px; margin-top: 12px; }
+  .undercard { gap: 10px; margin-top: 12px; }
   .fight-row { border-radius: 10px; transition: background-color 160ms ease, border-color 160ms ease; }
   .fight-row:hover { background: color-mix(in srgb, var(--accent) 7%, var(--row-bg)); border-color: color-mix(in srgb, var(--accent) 30%, var(--row-border)); }
   .fight-summary { padding: 14px 16px; touch-action: auto; }
