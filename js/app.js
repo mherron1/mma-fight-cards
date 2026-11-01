@@ -167,7 +167,7 @@ function initSpoilerProtection() {
   const control = document.getElementById('spoilerProtectionPreference');
   const savedHideResults = localStorage.getItem('fight-cards-hide-results');
   const legacyShowResults = localStorage.getItem('fight-cards-show-results');
-  const defaultHideResults = savedHideResults !== null
+  let defaultHideResults = savedHideResults !== null
     ? savedHideResults === 'true'
     : legacyShowResults !== null
       ? legacyShowResults !== 'true'
@@ -196,7 +196,10 @@ function initSpoilerProtection() {
   }
 
   control.addEventListener('change', () => {
+    defaultHideResults = control.checked;
     localStorage.setItem('fight-cards-hide-results', String(control.checked));
+    eventVisibility.clear();
+    applyDefaults();
   });
 
   return {
