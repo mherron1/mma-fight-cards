@@ -15,9 +15,6 @@ function initTheme() {
   const settingsPage = document.getElementById('settingsPage');
   const cubeStage = document.getElementById('cubeStage');
   const cardProgress = document.getElementById('cardProgress');
-  const settingsIcon = document.getElementById('settingsIcon');
-  const backIcon = document.getElementById('backIcon');
-
   const savedTheme = localStorage.getItem('fight-cards-theme');
   const initialTheme = savedTheme === 'dark' ? 'dark' : 'light';
 
@@ -42,10 +39,9 @@ function initTheme() {
     cubeStage.hidden = showSettings;
     cardProgress.hidden = showSettings;
     settingsToggle.setAttribute('aria-expanded', String(showSettings));
-    settingsToggle.setAttribute('aria-label', showSettings ? 'Back to fight cards' : 'Open settings');
-    settingsIcon.hidden = showSettings;
-    backIcon.hidden = !showSettings;
-    document.title = showSettings ? 'Settings | Fight Cards' : 'Fight Cards';
+    settingsToggle.setAttribute('aria-label', showSettings ? 'Close navigation' : 'Open navigation');
+    settingsToggle.classList.toggle('is-open', showSettings);
+    document.title = 'Fight Cards';
   });
 
   document.addEventListener('keydown', event => {
@@ -167,6 +163,48 @@ function initPreferences() {
   return applyPreferences;
 }
 
+function initSpoilerProtection() {
+  const control = document.getElementById('spoilerProtectionPreference');
+  const savedHideResults = localStorage.getItem('fight-cards-hide-results');
+  const legacyShowResults = localStorage.getItem('fight-cards-show-results');
+  const defaultHideResults = savedHideResults !== null
+    ? savedHideResults === 'true'
+    : legacyShowResults !== null
+      ? legacyShowResults !== 'true'
+      : true;
+  const eventVisibility = new Map();
+  control.checked = defaultHideResults;
+
+  function applyToCard(eventCard, showResults) {
+    eventCard.classList.toggle('results-hidden', !showResults);
+    const resultsToggle = eventCard.querySelector('.results-toggle');
+    if (resultsToggle) {
+      resultsToggle.setAttribute('aria-pressed', String(showResults));
+      resultsToggle.textContent = showResults ? 'Hide Results' : 'Show Results';
+    }
+
+    if (eventCard.dataset.eventId) {
+      eventVisibility.set(eventCard.dataset.eventId, showResults);
+    }
+  }
+
+  function applyDefaults() {
+    document.querySelectorAll('.event-card').forEach(eventCard => {
+      const showResults = eventVisibility.get(eventCard.dataset.eventId) ?? !defaultHideResults;
+      applyToCard(eventCard, showResults);
+    });
+  }
+
+  control.addEventListener('change', () => {
+    localStorage.setItem('fight-cards-hide-results', String(control.checked));
+  });
+
+  return {
+    applyToCard,
+    sync: applyDefaults
+  };
+}
+
 function updateCountdowns() {
   document.querySelectorAll('.event-countdown').forEach(countdown => {
     const startTime = Date.parse(countdown.dataset.start || '');
@@ -207,6 +245,7 @@ async function initApp() {
   initTheme();
   initSharing();
   const applyPreferences = initPreferences();
+  const spoilerProtection = initSpoilerProtection();
   const app = document.getElementById('app');
   const cube = document.getElementById('cube');
   const cardProgress = document.getElementById('cardProgress');
@@ -240,6 +279,14 @@ async function initApp() {
     selectedFight.open = shouldOpen;
   }
 
+  function toggleResults(resultsToggle) {
+    const eventCard = resultsToggle.closest('.event-card');
+    if (!eventCard) return;
+
+    const showingResults = resultsToggle.getAttribute('aria-pressed') !== 'true';
+    spoilerProtection.applyToCard(eventCard, showingResults);
+  }
+
   function getFightSummaryAtPoint(event) {
     const frontFace = app.querySelector('.cube-face[data-front]');
     if (!frontFace) return null;
@@ -251,14 +298,44 @@ async function initApp() {
     }) || null;
   }
 
+  function getResultsToggleAtPoint(event) {
+    const frontFace = app.querySelector('.cube-face[data-front]');
+    if (!frontFace) return null;
+
+    return Array.from(frontFace.querySelectorAll('.results-toggle')).find(resultsToggle => {
+        const bounds = resultsToggle.getBoundingClientRect();
+        return event.clientX >= bounds.left && event.clientX <= bounds.right &&
+          event.clientY >= bounds.top && event.clientY <= bounds.bottom;
+    }) || null;
+  }
+
   let fightTapCandidate = null;
+  let resultsTapCandidate = null;
   app.addEventListener('pointerdown', event => {
     const summary = getFightSummaryAtPoint(event);
     fightTapCandidate = summary
-      ? { pointerId: event.pointerId, summary, x: event.clientX, y: event.clientY }
-      : null;
+        ? { pointerId: event.pointerId, summary, x: event.clientX, y: event.clientY }
+        : null;
+    const resultsToggle = event.target.closest('.results-toggle')
+        ? null
+        : getResultsToggleAtPoint(event);
+    resultsTapCandidate = resultsToggle
+        ? { pointerId: event.pointerId, resultsToggle, x: event.clientX, y: event.clientY }
+        : null;
   });
   app.addEventListener('pointerup', event => {
+    const resultsCandidate = resultsTapCandidate;
+    resultsTapCandidate = null;
+    if (
+        resultsCandidate &&
+        resultsCandidate.pointerId === event.pointerId &&
+        !event.target.closest('.results-toggle') &&
+        getResultsToggleAtPoint(event) === resultsCandidate.resultsToggle &&
+        Math.hypot(event.clientX - resultsCandidate.x, event.clientY - resultsCandidate.y) <= 24
+    ) {
+        toggleResults(resultsCandidate.resultsToggle);
+    }
+
     const candidate = fightTapCandidate;
     fightTapCandidate = null;
     if (!candidate || candidate.pointerId !== event.pointerId) return;
@@ -269,9 +346,16 @@ async function initApp() {
   });
   app.addEventListener('pointercancel', () => {
     fightTapCandidate = null;
+    resultsTapCandidate = null;
   });
 
   app.addEventListener('click', event => {
+    const resultsToggle = event.target.closest('.results-toggle');
+    if (resultsToggle) {
+      toggleResults(resultsToggle);
+      return;
+    }
+
     const summary = event.target.closest('.fight-summary');
     if (!summary) return;
     if (event.detail !== 0) {
@@ -294,7 +378,21 @@ async function initApp() {
     if (!response.ok) throw new Error(`Could not load events.json (${response.status})`);
 
     const data = await response.json();
-    const events = Array.isArray(data.events) ? data.events : [];
+    const upcomingEvents = Array.isArray(data.events) ? data.events : [];
+    const latestCompletedEvent = data.latest_completed_event;
+    const sortedUpcomingEvents = upcomingEvents
+      .filter(event => !latestCompletedEvent || event.id !== latestCompletedEvent.id)
+      .sort((eventA, eventB) => {
+        const dateA = Date.parse(eventA.date || '');
+        const dateB = Date.parse(eventB.date || '');
+        if (Number.isNaN(dateA)) return Number.isNaN(dateB) ? 0 : 1;
+        if (Number.isNaN(dateB)) return -1;
+        return dateA - dateB;
+      });
+
+    const events = latestCompletedEvent
+      ? [latestCompletedEvent, ...sortedUpcomingEvents]
+      : sortedUpcomingEvents;
 
     if (!events.length) throw new Error('No events found in events.json');
 
@@ -309,9 +407,11 @@ async function initApp() {
       cube,
       faces,
       events: preparedEvents,
+      initialIndex: latestCompletedEvent && sortedUpcomingEvents.length ? 1 : 0,
       onIndexChange(index, total) {
         updateCardProgress(index, total);
         applyPreferences();
+        spoilerProtection.sync();
         updateCountdowns();
       }
     });

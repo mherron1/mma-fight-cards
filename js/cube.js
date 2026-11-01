@@ -1,10 +1,12 @@
-export function createCube({ app, cube, faces, events, onIndexChange }) {
+export function createCube({ app, cube, faces, events, initialIndex = 0, onIndexChange }) {
   const SWIPE_THRESHOLD = 0.14;
   const GESTURE_THRESHOLD = 24;
   const SETTLE_MS = 420;
   const physicalOffsets = [0, 1, 2, -1];
 
-  let currentIndex = 0;
+  let currentIndex = events.length
+    ? ((initialIndex % events.length) + events.length) % events.length
+    : 0;
   let stepCount = 0;
   let rotation = 0;
   let width = app.clientWidth;

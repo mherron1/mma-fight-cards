@@ -25,9 +25,12 @@
     <header class="app-topbar">
       <a class="brand" href="./" data-no-swipe aria-label="MMA Fight Cards home"><span class="brand-mark">MMA</span><span>FIGHT<span class="brand-light">CARDS</span><span class="brand-light">.org</span></span></a>
       <div class="topbar-actions">
-        <button class="settings-button" id="settingsToggle" type="button" data-no-swipe aria-label="Open settings" aria-expanded="false" aria-controls="settingsPage">
-          <svg class="settings-icon" id="settingsIcon" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.5.5 0 0 0 .12-.6l-1.92-3.32a.5.5 0 0 0-.59-.21l-2.39.96a7.28 7.28 0 0 0-1.62-.93l-.36-2.53a.5.5 0 0 0-.49-.41h-3.84a.5.5 0 0 0-.49.41L9.22 5.38a7.28 7.28 0 0 0-1.62.93l-2.39-.96a.5.5 0 0 0-.59.21L2.7 8.88a.5.5 0 0 0 .12.6l2.02 1.58c-.04.31-.06.63-.06.94s.02.63.06.94L2.82 14.52a.5.5 0 0 0-.12.6l1.92 3.32a.5.5 0 0 0 .59.21l2.39-.96c.49.38 1.03.69 1.62.93l.36 2.53a.5.5 0 0 0 .49.41h3.84a.5.5 0 0 0 .49-.41l.36-2.53c.59-.24 1.12-.56 1.62-.93l2.39.96a.5.5 0 0 0 .59-.21l1.92-3.32a.5.5 0 0 0-.12-.6l-2.03-1.58ZM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/></svg>
-          <svg class="back-icon" id="backIcon" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="m15 18-6-6 6-6M9 12h11"/></svg>
+        <button class="settings-button" id="settingsToggle" type="button" data-no-swipe aria-label="Open navigation" aria-expanded="false" aria-controls="settingsPage">
+          <svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path class="menu-line menu-line-top" d="M4 6h16"/>
+            <path class="menu-line menu-line-middle" d="M4 12h16"/>
+            <path class="menu-line menu-line-bottom" d="M4 18h16"/>
+          </svg>
         </button>
       </div>
     </header>
@@ -41,50 +44,61 @@
         <section class="cube-face face-left" id="face3"></section>
       </div>
     </div>
-    <section class="settings-page" id="settingsPage" data-no-swipe aria-label="Settings" hidden>
+    <section class="settings-page" id="settingsPage" data-no-swipe aria-label="Site options" hidden>
       <div class="settings-content">
-        <h1>Settings</h1>
-        <section class="settings-card" aria-labelledby="appearanceHeading">
-          <div class="settings-copy">
-            <h2 id="appearanceHeading">Appearance</h2>
-            <p>Choose your preferred color theme.</p>
-          </div>
-          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode">
-            <span class="theme-toggle-icon" id="themeToggleIcon" aria-hidden="true">☼</span>
-            <span id="themeToggleText">LIGHT</span>
-          </button>
-        </section>
-        <section class="settings-card preference-card" aria-labelledby="unitsHeading">
-          <div class="settings-copy">
-            <h2 id="unitsHeading">Fighter measurements</h2>
-            <p>Choose how height and weight are displayed.</p>
-          </div>
-          <label class="preference-control">
-            <span class="visually-hidden">Measurement units</span>
-            <select id="unitsPreference">
-              <option value="metric">Metric (cm, kg)</option>
-              <option value="imperial">Imperial (ft, lb)</option>
-            </select>
-          </label>
-        </section>
-        <section class="settings-card preference-card" aria-labelledby="oddsHeading">
-          <div class="settings-copy">
-            <h2 id="oddsHeading">Odds format</h2>
-            <p>Choose how betting odds are displayed.</p>
-          </div>
-          <label class="preference-control">
-            <span class="visually-hidden">Odds format</span>
-            <select id="oddsPreference">
-              <option value="american">American</option>
-              <option value="fractional">Fractional</option>
-              <option value="decimal">Decimal</option>
-            </select>
-          </label>
+        <section class="settings-group" aria-label="Preferences">
+          <section class="settings-card" aria-labelledby="appearanceHeading">
+            <div class="settings-copy">
+              <h2 id="appearanceHeading">Appearance</h2>
+              <p>Choose your preferred color theme.</p>
+            </div>
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode">
+              <span class="theme-toggle-icon" id="themeToggleIcon" aria-hidden="true">☼</span>
+              <span id="themeToggleText">LIGHT</span>
+            </button>
+          </section>
+          <section class="settings-card preference-card" aria-labelledby="unitsHeading">
+            <div class="settings-copy">
+              <h2 id="unitsHeading">Fighter measurements</h2>
+              <p>Choose how height and weight are displayed.</p>
+            </div>
+            <label class="preference-control">
+              <span class="visually-hidden">Measurement units</span>
+              <select id="unitsPreference">
+                <option value="metric">Metric (cm, kg)</option>
+                <option value="imperial">Imperial (ft, lb)</option>
+              </select>
+            </label>
+          </section>
+          <section class="settings-card preference-card" aria-labelledby="oddsHeading">
+            <div class="settings-copy">
+              <h2 id="oddsHeading">Odds format</h2>
+              <p>Choose how betting odds are displayed.</p>
+            </div>
+            <label class="preference-control">
+              <span class="visually-hidden">Odds format</span>
+              <select id="oddsPreference">
+                <option value="american">American</option>
+                <option value="fractional">Fractional</option>
+                <option value="decimal">Decimal</option>
+              </select>
+            </label>
+          </section>
+          <section class="settings-card preference-card" aria-labelledby="spoilerHeading">
+            <div class="settings-copy">
+              <h2 id="spoilerHeading">Spoiler protection</h2>
+              <p>Hide fight results by default.</p>
+            </div>
+            <label class="spoiler-preference-control">
+              <span class="visually-hidden">Hide results by default</span>
+              <input id="spoilerProtectionPreference" type="checkbox" role="switch">
+              <span class="spoiler-preference-track" aria-hidden="true"></span>
+            </label>
+          </section>
         </section>
         <section class="settings-card contact-card" aria-labelledby="comingSoonHeading">
           <div class="settings-copy">
             <h2 id="comingSoonHeading">Coming soon</h2>
-            <p>Spoiler free results</p>
             <p>Live results</p>
             <p>Choose which organisations to include</p>
           </div>

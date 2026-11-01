@@ -121,6 +121,7 @@ export function renderFightCard(event) {
     fight => fight.card_position === 'prelim' || fight.card_position === 'early_prelim'
   );
   const eventName = event.name || 'Fight card';
+  const hasResults = fights.some(fight => fight.result);
 
   function renderFightRows(cardFights) {
     return cardFights.length
@@ -128,22 +129,34 @@ export function renderFightCard(event) {
         const fighter1 = fight.fighter_1 || {};
         const fighter2 = fight.fighter_2 || {};
         const odds = fight.odds || {};
+        const result = fight.result || null;
         const weightClass = String(fight.weight_class || 'Bout')
           .replace(/^women['’]s\s+/i, '');
+        const winner = String(result?.winner || '').trim().toLowerCase();
+        const fighter1Won = Boolean(winner && winner === String(fighter1.name || '').trim().toLowerCase());
+        const fighter2Won = Boolean(winner && winner === String(fighter2.name || '').trim().toLowerCase());
+        const resultDetails = result
+          ? [
+              result.method,
+              result.round ? `R${result.round}` : '',
+              result.time
+            ].filter(Boolean).join(' · ')
+          : '';
 
         return `
         <details class="fight-row">
           <summary class="fight-summary">
             <div class="fight-weight">${escapeHTML(fight.card_position === 'main_event' ? 'Main Event · ' : '')}${escapeHTML(weightClass)}${fight.title_fight ? ' · Title' : ''}</div>
             <div class="fight-names">
-              <div class="fight-competitor">
-                <span>${escapeHTML(fighter1.name || 'TBA')}</span>
+              <div class="fight-competitor fight-competitor-left">
+                <span class="fight-name">${escapeHTML(fighter1.name || 'TBA')}</span>
                 ${fighter1.record ? `<span class="fight-record">${escapeHTML(fighter1.record)}</span>` : ''}
               </div>
-              <div class="fight-competitor">
-                <span>${escapeHTML(fighter2.name || 'TBA')}</span>
+              <div class="fight-competitor fight-competitor-right">
+                <span class="fight-name">${escapeHTML(fighter2.name || 'TBA')}</span>
                 ${fighter2.record ? `<span class="fight-record">${escapeHTML(fighter2.record)}</span>` : ''}
               </div>
+              ${resultDetails ? `<div class="fight-result">${escapeHTML(resultDetails)}${fighter1Won ? '<span class="fight-winner-indicator fight-winner-indicator-left" role="img" aria-label="Winner"></span>' : ''}${fighter2Won ? '<span class="fight-winner-indicator fight-winner-indicator-right" role="img" aria-label="Winner"></span>' : ''}</div>` : ''}
             </div>
           </summary>
           <div class="fight-details">
@@ -208,18 +221,22 @@ export function renderFightCard(event) {
     </div>`;
 
   return `
-    <article class="event-card">
+    <article class="event-card${hasResults ? ' results-hidden' : ''}" data-event-id="${escapeHTML(event.id || eventName)}">
       <h1 class="event-title">${escapeHTML(eventName)}</h1>
       <div class="event-subtitle">
         <span class="event-date-location">
           <span>${escapeHTML(formatEventDate(event.date || 'Date TBA'))}</span>
           <span>${escapeHTML(eventLocation(event.location || 'Location TBA'))}</span>
         </span>
+        ${hasResults ? `
+        <div class="event-schedule">
+          <button class="results-toggle" type="button" aria-pressed="false">Show Results</button>
+        </div>` : `
         <div class="event-schedule" aria-label="Local fight card start times">
           <span>Main Card: ${escapeHTML(formatLocalTime(event.schedule?.main_card_start_time || ''))}</span>
           <span>Prelims: ${escapeHTML(formatLocalTime(event.schedule?.prelims_start_time || ''))}</span>
           ${event.schedule?.early_prelims_start_time ? `<span>Early Prelims: ${escapeHTML(formatLocalTime(event.schedule.early_prelims_start_time))}</span>` : ''}
-        </div>
+        </div>`}
         <span class="event-countdown" data-start="${escapeHTML(event.start_time || '')}" aria-live="off" hidden>Start time TBA</span>
       </div>
       ${fightSectionsMarkup}
