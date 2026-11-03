@@ -1,13 +1,17 @@
-const CACHE_NAME = 'fight-cards-v15';
+const CACHE_NAME = 'fight-cards-v19';
 const APP_FILES = [
   './',
   './index.html',
+  './fighter.html',
   './manifest.json',
   './css/styles.css',
   './js/app.js',
   './js/cube.js',
   './js/fight-cards.js',
+  './js/fighter-profile.js',
   './data/events.json',
+  './data/fighters-cache.json',
+  './data/fighter-images.json',
   './images/fighter-placeholder.png'
 ];
 

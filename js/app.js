@@ -1,4 +1,4 @@
-import { renderFightCard } from './fight-cards.js';
+import { createFighterImageIndex, getEventHeadshots, renderFightCard } from './fight-cards.js';
 import { createCube } from './cube.js';
 
 if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
@@ -83,13 +83,20 @@ function initSharing() {
 function initPreferences() {
   const unitsControl = document.getElementById('unitsPreference');
   const oddsControl = document.getElementById('oddsPreference');
+  const countdownControl = document.getElementById('countdownPreference');
   const units = localStorage.getItem('fight-cards-units');
   const odds = localStorage.getItem('fight-cards-odds');
+  const showCountdown = localStorage.getItem('fight-cards-show-countdown');
 
   unitsControl.value = units === 'metric' ? 'metric' : 'imperial';
   oddsControl.value = ['fractional', 'decimal'].includes(odds) ? odds : 'american';
+  countdownControl.checked = showCountdown === 'true';
 
   function applyPreferences() {
+    document.querySelectorAll('.event-countdown').forEach(element => {
+      element.hidden = !countdownControl.checked;
+    });
+
     document.querySelectorAll('.fighter-measurement').forEach(element => {
       const source = element.dataset.value || '';
       const heightMatch = source.match(/^\s*(?:(\d+)\s*(?:ft|')\s*)?(?:(\d+)\s*(?:in|")?)?\s*$/i);
@@ -159,6 +166,10 @@ function initPreferences() {
     localStorage.setItem('fight-cards-odds', oddsControl.value);
     applyPreferences();
   });
+  countdownControl.addEventListener('change', () => {
+    localStorage.setItem('fight-cards-show-countdown', String(countdownControl.checked));
+    applyPreferences();
+  });
 
   return applyPreferences;
 }
@@ -212,6 +223,8 @@ function updateCountdowns() {
   document.querySelectorAll('.event-countdown').forEach(countdown => {
     const startTime = Date.parse(countdown.dataset.start || '');
     let display;
+    let compactDisplay;
+    let units;
 
     if (Number.isNaN(startTime)) {
       display = 'Start time TBA';
@@ -224,24 +237,62 @@ function updateCountdowns() {
         const days = Math.floor(totalMinutes / 1440);
         const hours = Math.floor((totalMinutes % 1440) / 60);
         const minutes = totalMinutes % 60;
-        display = remainingSeconds > 7 * 86400
+        const seconds = remainingSeconds % 60;
+        units = [days, hours, minutes, seconds];
+        compactDisplay = remainingSeconds > 7 * 86400
           ? `${days} ${days === 1 ? 'day' : 'days'}`
           : remainingSeconds >= 86400
             ? `${days}d ${hours}h`
             : remainingSeconds < 3600
-              ? `${Math.floor(remainingSeconds / 60)}m ${remainingSeconds % 60}s`
+              ? `${Math.floor(remainingSeconds / 60)}m ${seconds}s`
               : `${Math.floor(totalMinutes / 60)}h ${minutes}m`;
+        display = units.join(':');
       }
     }
 
     if (countdown.dataset.display === display) return;
     countdown.dataset.display = display;
-    if (display === 'Start time TBA' || display === 'Event started') {
+    if (!units) {
       countdown.textContent = display;
+      countdown.classList.add('is-status');
+      countdown.removeAttribute('aria-label');
       return;
     }
-    countdown.innerHTML = display.replace(/\d/g, digit => `<span class="countdown-digit">${digit}</span>`);
+
+    countdown.classList.remove('is-status');
+    countdown.setAttribute('aria-label', `${units[0]} days, ${units[1]} hours, ${units[2]} minutes, ${units[3]} seconds until event start`);
+    const unitLabels = ['DAYS', 'HOURS', 'MINUTES', 'SECONDS'];
+    const unitsMarkup = units.map((value, index) => `
+      <span class="countdown-unit">
+        <span class="countdown-value">${String(value).padStart(2, '0')}</span>
+        <span class="countdown-label">${unitLabels[index]}</span>
+      </span>`).join('');
+    const compactMarkup = compactDisplay.replace(/\d/g, digit => `<span class="countdown-digit">${digit}</span>`);
+    countdown.innerHTML = `<span class="countdown-units" aria-hidden="true">${unitsMarkup}</span><span class="countdown-compact" aria-hidden="true">${compactMarkup}</span>`;
   });
+}
+
+function preloadEventHeadshots(event, fighterImageIndex, preloadedHeadshots) {
+  const headshots = getEventHeadshots(event, fighterImageIndex)
+    .filter(url => !preloadedHeadshots.has(url));
+  let nextHeadshot = 0;
+  const loadNext = () => {
+    const url = headshots[nextHeadshot++];
+    if (!url) return;
+
+    preloadedHeadshots.add(url);
+    const image = new Image();
+    image.fetchPriority = 'low';
+    image.decoding = 'async';
+    image.onload = loadNext;
+    image.onerror = () => {
+      preloadedHeadshots.delete(url);
+      loadNext();
+    };
+    image.src = url;
+  };
+
+  for (let i = 0; i < Math.min(3, headshots.length); i++) loadNext();
 }
 
 async function initApp() {
@@ -276,6 +327,12 @@ async function initApp() {
   function toggleFight(summary) {
     const selectedFight = summary.closest('.fight-row');
     const shouldOpen = !selectedFight.open;
+    if (shouldOpen) {
+      selectedFight.querySelectorAll('.fighter-portrait img').forEach(image => {
+        image.loading = 'eager';
+        image.fetchPriority = 'high';
+      });
+    }
     app.querySelectorAll('.fight-row[open]').forEach(fight => {
       if (fight !== selectedFight) fight.open = false;
     });
@@ -377,10 +434,20 @@ async function initApp() {
     document.getElementById('face3')
   ];
   try {
-    const response = await fetch('./data/events.json');
+    const [response, fighterImagesResponse] = await Promise.all([
+      fetch('./data/events.json'),
+      fetch('./data/fighter-images.json')
+    ]);
     if (!response.ok) throw new Error(`Could not load events.json (${response.status})`);
+    if (!fighterImagesResponse.ok) {
+      throw new Error(`Could not load fighter-images.json (${fighterImagesResponse.status})`);
+    }
 
-    const data = await response.json();
+    const [data, fighterImages] = await Promise.all([
+      response.json(),
+      fighterImagesResponse.json()
+    ]);
+    const fighterImageIndex = createFighterImageIndex(fighterImages);
     const upcomingEvents = Array.isArray(data.events) ? data.events : [];
     const latestCompletedEvent = data.latest_completed_event;
     const sortedUpcomingEvents = upcomingEvents
@@ -398,11 +465,14 @@ async function initApp() {
       : sortedUpcomingEvents;
 
     if (!events.length) throw new Error('No events found in events.json');
+    const initialIndex = latestCompletedEvent && sortedUpcomingEvents.length ? 1 : 0;
+    const preloadedHeadshots = new Set();
+    preloadEventHeadshots(events[initialIndex], fighterImageIndex, preloadedHeadshots);
 
     // Render each event once. The cube reuses these pre-rendered cards.
     const preparedEvents = events.map(event => ({
       ...event,
-      __html: renderFightCard(event)
+      __html: renderFightCard(event, fighterImageIndex)
     }));
 
     createCube({
@@ -410,8 +480,9 @@ async function initApp() {
       cube,
       faces,
       events: preparedEvents,
-      initialIndex: latestCompletedEvent && sortedUpcomingEvents.length ? 1 : 0,
+      initialIndex,
       onIndexChange(index, total) {
+        preloadEventHeadshots(events[index], fighterImageIndex, preloadedHeadshots);
         updateCardProgress(index, total);
         applyPreferences();
         spoilerProtection.sync();

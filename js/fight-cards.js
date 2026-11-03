@@ -4,7 +4,34 @@ function escapeHTML(value = '') {
   }[char]));
 }
 
-function fighterPortraitMarkup(fighter = {}) {
+function normalizeFighterName(name = '') {
+  return String(name)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, '');
+}
+
+export function createFighterImageIndex(fighterImages = {}) {
+  return new Map(
+    Object.values(fighterImages)
+      .filter(fighter => fighter?.name && (fighter.slug || fighter.headshot || fighter.fullBody))
+      .map(fighter => [normalizeFighterName(fighter.name), fighter])
+  );
+}
+
+export function getEventHeadshots(event, fighterImageIndex) {
+  const headshots = new Set();
+  for (const fight of event?.fights || []) {
+    for (const fighter of [fight.fighter_1, fight.fighter_2]) {
+      const headshot = fighterImageIndex.get(normalizeFighterName(fighter?.name))?.headshot;
+      if (headshot) headshots.add(headshot);
+    }
+  }
+  return [...headshots];
+}
+
+function fighterPortraitMarkup(fighter = {}, fighterImageIndex) {
   const initials = (fighter.name || 'Fighter')
     .trim()
     .split(/\s+/)
@@ -15,9 +42,18 @@ function fighterPortraitMarkup(fighter = {}) {
 
   return `
     <div class="fighter-portrait">
-      <img src="${escapeHTML(fighter.image || './images/fighter-placeholder.png')}" alt="" loading="lazy" onerror="if(this.dataset.fallback){this.hidden=true;this.nextElementSibling.hidden=false}else{this.dataset.fallback='true';this.src='./images/fighter-placeholder.png'}">
+      <img src="${escapeHTML(fighterImageIndex.get(normalizeFighterName(fighter.name))?.headshot || './images/fighter-placeholder.png')}" alt="" loading="lazy" decoding="async" onerror="if(this.dataset.fallback){this.hidden=true;this.nextElementSibling.hidden=false}else{this.dataset.fallback='true';this.src='./images/fighter-placeholder.png'}">
       <span class="fighter-portrait-fallback" hidden>${escapeHTML(initials)}</span>
     </div>`;
+}
+
+function fighterProfileButtonMarkup(fighter, fighterImageIndex) {
+  const name = fighter.name || 'TBA';
+  const imageEntry = fighterImageIndex.get(normalizeFighterName(name));
+  if (!imageEntry?.slug) return '';
+
+  const url = `./fighter.html?fighter=${encodeURIComponent(imageEntry.slug)}`;
+  return `<a class="fighter-profile-link" href="${escapeHTML(url)}">Fighter Profile</a>`;
 }
 
 function fighterRanking(fighter = {}) {
@@ -108,7 +144,7 @@ function fighterAge(dateOfBirth = '', eventDate = '') {
   );
 }
 
-export function renderFightCard(event) {
+export function renderFightCard(event, fighterImageIndex = new Map()) {
   if (!event) {
     return '<div class="empty-state">No event data available.</div>';
   }
@@ -164,8 +200,10 @@ export function renderFightCard(event) {
           <div class="fight-details">
             <div class="fight-details-inner">
               <div class="fighter-details">
-                ${fighterPortraitMarkup(fighter1)}
-                ${fighterPortraitMarkup(fighter2)}
+                <div class="fighter-portrait-row">
+                  ${fighterPortraitMarkup(fighter1, fighterImageIndex)}
+                  ${fighterPortraitMarkup(fighter2, fighterImageIndex)}
+                </div>
                 <div class="fighter-stat-row">
                   <span class="fighter-stat-value">${escapeHTML(fighter1.record || 'Not listed')}</span>
                   <span class="fighter-stat-label">Record</span>
@@ -196,6 +234,10 @@ export function renderFightCard(event) {
                   <span class="fighter-stat-label">Age</span>
                   <span class="fighter-stat-value">${escapeHTML(fighterAge(fighter2.dob, event.date))}</span>
                 </div>
+                <div class="fighter-profile-actions">
+                  ${fighterProfileButtonMarkup(fighter1, fighterImageIndex)}
+                  ${fighterProfileButtonMarkup(fighter2, fighterImageIndex)}
+                </div>
                 ${hasResults ? '' : `
                 <div class="fighter-stat-row fighter-odds-row">
                   <strong class="fighter-stat-value fight-odds-value" data-american="${escapeHTML(odds.fighter_1 || '')}">${escapeHTML(odds.fighter_1 || 'Not listed')}</strong>
@@ -225,23 +267,25 @@ export function renderFightCard(event) {
 
   return `
     <article class="event-card${hasResults ? ' results-hidden' : ''}" data-event-id="${escapeHTML(event.id || eventName)}">
-      <h1 class="event-title">${escapeHTML(eventName)}</h1>
-      <div class="event-subtitle">
-        <span class="event-date-location">
-          <span>${escapeHTML(formatEventDate(event.date || 'Date TBA'))}</span>
-          <span>${escapeHTML(eventLocation(event.location || 'Location TBA'))}</span>
-        </span>
-        ${hasResults ? `
-        <div class="event-schedule">
-          <button class="results-toggle" type="button" aria-pressed="false">Show Results</button>
-        </div>` : `
-        <div class="event-schedule" aria-label="Local fight card start times">
-          <span>Main Card: ${escapeHTML(formatLocalTime(event.schedule?.main_card_start_time || ''))}</span>
-          <span>Prelims: ${escapeHTML(formatLocalTime(event.schedule?.prelims_start_time || ''))}</span>
-          ${event.schedule?.early_prelims_start_time ? `<span>Early Prelims: ${escapeHTML(formatLocalTime(event.schedule.early_prelims_start_time))}</span>` : ''}
-        </div>`}
-        <span class="event-countdown" data-start="${escapeHTML(event.start_time || '')}" aria-live="off" hidden>Start time TBA</span>
-      </div>
+      <header class="event-heading">
+        <h1 class="event-title">${escapeHTML(eventName)}</h1>
+        <div class="event-subtitle">
+          <span class="event-date-location">
+            <span>${escapeHTML(formatEventDate(event.date || 'Date TBA'))}</span>
+            <span>${escapeHTML(eventLocation(event.location || 'Location TBA'))}</span>
+          </span>
+          ${hasResults ? `
+          <div class="event-schedule">
+            <button class="results-toggle" type="button" aria-pressed="false">Show Results</button>
+          </div>` : `
+          <div class="event-schedule" aria-label="Local fight card start times">
+            <span>Main Card: ${escapeHTML(formatLocalTime(event.schedule?.main_card_start_time || ''))}</span>
+            <span>Prelims: ${escapeHTML(formatLocalTime(event.schedule?.prelims_start_time || ''))}</span>
+            ${event.schedule?.early_prelims_start_time ? `<span>Early Prelims: ${escapeHTML(formatLocalTime(event.schedule.early_prelims_start_time))}</span>` : ''}
+          </div>`}
+        </div>
+        <span class="event-countdown" data-start="${escapeHTML(event.start_time || '')}" aria-live="off">Start time TBA</span>
+      </header>
       ${fightSectionsMarkup}
     </article>`;
 }
