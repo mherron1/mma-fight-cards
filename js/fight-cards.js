@@ -81,6 +81,31 @@ function fighterNationality(fighter = {}) {
   return nationality === 'United States' ? 'USA' : nationality || 'Not listed';
 }
 
+function fighterCountryCode(fighter = {}, fighterImageIndex) {
+  const ranking = fighter.rankings?.find(item => /^[A-Za-z]{2}$/.test(item.country_code || ''));
+  if (ranking) return ranking.country_code.toLowerCase();
+
+  const imageEntry = fighterImageIndex.get(normalizeFighterName(fighter.name));
+  if (/^[A-Za-z]{2}$/.test(imageEntry?.country_code || '')) {
+    return imageEntry.country_code.toLowerCase();
+  }
+
+  const flagCodePoints = Array.from(fighter.flag || '', character => character.codePointAt(0));
+  if (flagCodePoints.length === 2 && flagCodePoints.every(codePoint => codePoint >= 0x1f1e6 && codePoint <= 0x1f1ff)) {
+    return flagCodePoints
+      .map(codePoint => String.fromCharCode(codePoint - 0x1f1e6 + 97))
+      .join('');
+  }
+  return '';
+}
+
+function fighterNationalityFlagMarkup(fighter, fighterImageIndex) {
+  const countryCode = fighterCountryCode(fighter, fighterImageIndex);
+  if (!countryCode) return '';
+
+  return `<span class="fight-nationality-flag" role="img" aria-label="${escapeHTML(fighterNationality(fighter))}"><img src="https://flagcdn.com/w40/${escapeHTML(countryCode)}.png" alt="" loading="lazy" decoding="async"></span>`;
+}
+
 function eventLocation(location = '') {
   return String(location).replace(/\bUnited States\b/g, 'USA');
 }
@@ -189,10 +214,12 @@ export function renderFightCard(event, fighterImageIndex = new Map()) {
               <div class="fight-competitor fight-competitor-left">
                 <span class="fight-name">${escapeHTML(fighter1.name || 'TBA')}</span>
                 ${fighter1.record ? `<span class="fight-record">${escapeHTML(fighter1.record)}</span>` : ''}
+                ${fighterNationalityFlagMarkup(fighter1, fighterImageIndex)}
               </div>
               <div class="fight-competitor fight-competitor-right">
                 <span class="fight-name">${escapeHTML(fighter2.name || 'TBA')}</span>
                 ${fighter2.record ? `<span class="fight-record">${escapeHTML(fighter2.record)}</span>` : ''}
+                ${fighterNationalityFlagMarkup(fighter2, fighterImageIndex)}
               </div>
               ${resultDetails ? `<div class="fight-result">${escapeHTML(resultDetails)}${fighter1Won ? '<span class="fight-winner-indicator fight-winner-indicator-left" role="img" aria-label="Winner"></span>' : ''}${fighter2Won ? '<span class="fight-winner-indicator fight-winner-indicator-right" role="img" aria-label="Winner"></span>' : ''}</div>` : ''}
             </div>
@@ -210,9 +237,9 @@ export function renderFightCard(event, fighterImageIndex = new Map()) {
                   <span class="fighter-stat-value">${escapeHTML(fighter2.record || 'Not listed')}</span>
                 </div>
                 <div class="fighter-stat-row">
-                  <span class="fighter-stat-value">${escapeHTML(fighterNationality(fighter1))}</span>
+                  <span class="fighter-stat-value fighter-nationality-value fighter-nationality-value-left">${fighterNationalityFlagMarkup(fighter1, fighterImageIndex)}${escapeHTML(fighterNationality(fighter1))}</span>
                   <span class="fighter-stat-label">Nationality</span>
-                  <span class="fighter-stat-value">${escapeHTML(fighterNationality(fighter2))}</span>
+                  <span class="fighter-stat-value fighter-nationality-value fighter-nationality-value-right">${escapeHTML(fighterNationality(fighter2))}${fighterNationalityFlagMarkup(fighter2, fighterImageIndex)}</span>
                 </div>
                 <div class="fighter-stat-row">
                   <span class="fighter-stat-value">${escapeHTML(fighterRanking(fighter1))}</span>

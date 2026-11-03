@@ -12,6 +12,8 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   let width = app.clientWidth;
   let dragging = false;
   let pointerId = null;
+  let pointerType = null;
+  let startedOnSummary = false;
   let startX = 0;
   let startY = 0;
   let startRotation = 0;
@@ -87,8 +89,9 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     // Header controls should work without starting a cube drag.
     if (event.target.closest('[data-no-swipe], button, a, input, select, textarea')) return;
     if (dragging) return;
-    const startedOnSummary = Boolean(event.target.closest('summary'));
-    deferGesture = startedOnSummary;
+    startedOnSummary = Boolean(event.target.closest('summary'));
+    pointerType = event.pointerType;
+    deferGesture = startedOnSummary || pointerType === 'touch';
     dragging = true;
     pointerId = event.pointerId;
     startX = event.clientX;
@@ -105,7 +108,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     gestureStartedDuringAnimation = animating;
 
     if (!animating && !deferGesture) cube.style.transition = 'none';
-    if (!startedOnSummary) {
+    if (!deferGesture) {
       app.setPointerCapture(pointerId);
       pointerCaptured = true;
     }
@@ -148,6 +151,8 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     const dy = event.clientY - startY;
     dragging = false;
     pointerId = null;
+    pointerType = null;
+    startedOnSummary = false;
     scrollTarget = null;
     pointerCaptured = false;
     const shouldRestoreCube = !deferGesture;

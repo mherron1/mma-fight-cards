@@ -44,7 +44,7 @@ html, body {
   width: 100%; height: 100%; margin: 0; overflow: hidden;
   background: var(--bg); color: var(--text);
   font-family: Inter, Arial, sans-serif;
-  touch-action: none; overscroll-behavior: none;
+  touch-action: pan-y; overscroll-behavior: none;
   -webkit-user-select: none; user-select: none;
 }
 body { min-height: 100%; }
@@ -138,7 +138,7 @@ body { min-height: 100%; }
 .countdown-digit { min-width: 1.15em; padding: 2px 3px; border: 1px solid color-mix(in srgb, var(--accent) 24%, transparent); border-radius: 4px; background: color-mix(in srgb, var(--accent) 11%, var(--panel)); box-shadow: inset 0 1px 2px rgba(0, 0, 0, .14); color: var(--text); text-align: center; }
 .event-rule { height: 1px; background: var(--line); margin: 14px 0 12px; flex: 0 0 auto; }
 .section-label { color: var(--text); font-size: 11.9px; font-weight: 800; letter-spacing: 1.8px; text-align: left; text-transform: uppercase; margin: 0; }
-.fight-sections { min-height: 0; flex: 1; overflow-y: auto; padding-bottom: 60px; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--muted) transparent; }
+.fight-sections { min-height: 0; flex: 1; overflow-y: auto; padding-bottom: 60px; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--muted) transparent; touch-action: none; }
 @media (max-width: 699px) {
   :root[data-theme="light"] .cube-stage { background: #252a34; }
   .fight-sections { scrollbar-width: none; }
@@ -179,14 +179,18 @@ body { min-height: 100%; }
 .fight-summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .fight-weight { position: relative; color: var(--muted); font-size: 8.6px; font-weight: 800; letter-spacing: .8px; text-align: center; text-transform: uppercase; margin-bottom: 5px; }
 .fight-names { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 5px; align-items: center; font-size: 12.5px; font-weight: 700; }
-.fight-names::after { position: absolute; top: 50%; left: 50%; width: 7px; height: 7px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); content: ""; transform: translate(-50%, -70%) rotate(45deg); transition: transform 180ms ease; }
-.fight-row[open] > .fight-summary .fight-names::after { transform: translate(-50%, -30%) rotate(225deg); }
+.fight-names::after { position: absolute; bottom: 4px; left: 50%; width: 7px; height: 7px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); content: ""; transform: translateX(-50%) rotate(45deg); transition: transform 180ms ease; }
+.fight-row[open] > .fight-summary .fight-names::after { display: none; }
 .fight-competitor { min-width: 0; overflow-wrap: anywhere; }
 .fight-competitor-left { text-align: left; }
 .fight-competitor-right { text-align: right; }
 .fight-name { display: block; }
 .fight-record { display: block; margin-top: 2px; color: var(--muted); font-size: .85em; font-weight: 500; }
-.fight-row[open] .fight-summary .fight-record { display: none; }
+.fight-nationality-flag { display: block; width: 20px; height: 15px; margin-top: 3px; overflow: hidden; border: 1px solid color-mix(in srgb, var(--text) 18%, transparent); border-radius: 2px; }
+.fight-nationality-flag img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.fight-competitor-right .fight-nationality-flag { margin-left: auto; }
+.fight-row[open] .fight-summary .fight-record,
+.fight-row[open] .fight-summary .fight-nationality-flag { display: none; }
 .fight-winner-indicator { position: absolute; top: 50%; width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; transform: translateY(-50%); }
 .fight-winner-indicator-left { left: 0; border-right: 8px solid #000; }
 .fight-winner-indicator-right { right: 0; border-left: 8px solid #000; }
@@ -197,7 +201,7 @@ body { min-height: 100%; }
 .fight-row[open] .fight-details-inner { opacity: 1; transform: translateY(0); transition-delay: 50ms; }
 .fighter-details { display: flex; flex-direction: column; gap: 6px; }
 .fighter-portrait-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(64px, auto) minmax(0, 1fr); gap: 6px; align-items: center; }
-.fighter-portrait { position: relative; width: clamp(48px, 14vw, 72px); aspect-ratio: 1; margin: 0 auto 2px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--panel-soft); box-shadow: 0 4px 14px rgba(0,0,0,.22); }
+.fighter-portrait { position: relative; width: clamp(55.2px, 16.1vw, 82.8px); aspect-ratio: 1; margin: 0 auto 2px; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--panel-soft); box-shadow: 0 4px 14px rgba(0,0,0,.22); }
 .fighter-portrait:first-child { grid-column: 1; margin-left: 0; }
 .fighter-portrait:last-child { grid-column: 3; margin-right: 0; }
 .fighter-portrait img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
@@ -205,6 +209,10 @@ body { min-height: 100%; }
 .fighter-portrait-fallback[hidden] { display: none; }
 .fighter-stat-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(64px, auto) minmax(0, 1fr); align-items: baseline; gap: 6px; font-size: 11.9px; }
 .fighter-stat-value { min-width: 0; color: var(--record); overflow-wrap: anywhere; }
+.fighter-nationality-value { display: flex; align-items: center; gap: 5px; }
+.fighter-nationality-value-left { justify-content: flex-start; }
+.fighter-nationality-value-right { justify-content: flex-end; }
+.fighter-nationality-value .fight-nationality-flag { flex: 0 0 auto; margin: 0; }
 .fighter-stat-value:first-child { text-align: left; }
 .fighter-stat-value:last-child { text-align: right; }
 .fighter-stat-label { color: var(--muted); text-align: center; font-size: 10.6px; font-weight: 700; letter-spacing: .35px; }
@@ -325,8 +333,9 @@ body { min-height: 100%; }
   .fight-row[open] .fight-details { padding: 14px 16px; }
   .fighter-details { gap: 9px; }
   .fighter-portrait-row { grid-template-columns: minmax(0, 1fr) minmax(100px, auto) minmax(0, 1fr); gap: 12px; }
-  .fighter-portrait { width: 80px; }
+  .fighter-portrait { width: 92px; }
   .fighter-stat-row { grid-template-columns: minmax(0, 1fr) minmax(100px, auto) minmax(0, 1fr); gap: 12px; font-size: 14.3px; }
+  .fighter-nationality-value { gap: 6px; }
   .fighter-profile-actions { grid-template-columns: minmax(0, 1fr) minmax(100px, auto) minmax(0, 1fr); gap: 12px; }
   .fighter-stat-label { font-size: 12.1px; }
   .fight-empty { font-size: 15.4px; }
