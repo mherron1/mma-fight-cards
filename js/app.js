@@ -90,7 +90,7 @@ function initPreferences() {
 
   unitsControl.value = units === 'metric' ? 'metric' : 'imperial';
   oddsControl.value = ['fractional', 'decimal'].includes(odds) ? odds : 'american';
-  countdownControl.checked = showCountdown === 'true';
+  countdownControl.checked = showCountdown !== 'false';
 
   function applyPreferences() {
     document.querySelectorAll('.event-countdown').forEach(element => {
@@ -231,7 +231,7 @@ function updateCountdowns() {
     } else {
       const remainingSeconds = Math.floor((startTime - Date.now()) / 1000);
       if (remainingSeconds <= 0) {
-        display = 'Event started';
+        display = 'Event completed';
       } else {
         const totalMinutes = Math.floor(remainingSeconds / 60);
         const days = Math.floor(totalMinutes / 1440);
@@ -303,6 +303,7 @@ async function initApp() {
   const app = document.getElementById('app');
   const cube = document.getElementById('cube');
   const cardProgress = document.getElementById('cardProgress');
+  const swipeHint = document.getElementById('swipeHint');
 
   function updateCardProgress(index, total) {
     if (cardProgress.childElementCount !== total) {
@@ -465,6 +466,7 @@ async function initApp() {
       : sortedUpcomingEvents;
 
     if (!events.length) throw new Error('No events found in events.json');
+    swipeHint.hidden = events.length < 2 || localStorage.getItem('fight-cards-swipe-hint-dismissed') === 'true';
     const initialIndex = latestCompletedEvent && sortedUpcomingEvents.length ? 1 : 0;
     const preloadedHeadshots = new Set();
     preloadEventHeadshots(events[initialIndex], fighterImageIndex, preloadedHeadshots);
@@ -481,6 +483,11 @@ async function initApp() {
       faces,
       events: preparedEvents,
       initialIndex,
+      onSwipe() {
+        if (swipeHint.hidden) return;
+        swipeHint.hidden = true;
+        localStorage.setItem('fight-cards-swipe-hint-dismissed', 'true');
+      },
       onIndexChange(index, total) {
         preloadEventHeadshots(events[index], fighterImageIndex, preloadedHeadshots);
         updateCardProgress(index, total);

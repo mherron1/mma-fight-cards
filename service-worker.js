@@ -1,4 +1,4 @@
-const CACHE_NAME = 'fight-cards-v30';
+const CACHE_NAME = 'fight-cards-v35';
 const APP_FILES = [
   './',
   './index.html',

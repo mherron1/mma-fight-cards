@@ -1,4 +1,4 @@
-export function createCube({ app, cube, faces, events, initialIndex = 0, onIndexChange }) {
+export function createCube({ app, cube, faces, events, initialIndex = 0, onIndexChange, onSwipe }) {
   const SWIPE_THRESHOLD = 0.14;
   const GESTURE_THRESHOLD = 24;
   const SETTLE_MS = 420;
@@ -248,6 +248,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
       return;
     }
 
+    onSwipe?.();
     enqueueSwipe(dx < 0 ? 1 : -1);
   }
 
