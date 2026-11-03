@@ -19,6 +19,9 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   let startRotation = 0;
   let scrollTarget = null;
   let lastY = 0;
+  let lastMoveTime = 0;
+  let scrollVelocity = 0;
+  let momentumFrame = null;
   let gestureAxis = null;
   let pointerCaptured = false;
   let deferGesture = false;
@@ -26,6 +29,41 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   let animating = false;
   let swipeQueue = [];
   let fallbackTimer = null;
+
+  function stopScrollMomentum() {
+    if (momentumFrame !== null) {
+      cancelAnimationFrame(momentumFrame);
+      momentumFrame = null;
+    }
+  }
+
+  function startScrollMomentum(target, velocity) {
+    const MIN_VELOCITY = 0.02;
+    const FRICTION_TIME = 325;
+    if (!target || Math.abs(velocity) < MIN_VELOCITY) return;
+
+    let previousTime = 0;
+    function continueMomentum(time) {
+      const elapsed = previousTime ? Math.min(time - previousTime, 32) : 16;
+      previousTime = time;
+
+      const previousScrollTop = target.scrollTop;
+      target.scrollTop += velocity * elapsed;
+      if (Math.abs(target.scrollTop - previousScrollTop) < 0.1) {
+        momentumFrame = null;
+        return;
+      }
+
+      velocity *= Math.exp(-elapsed / FRICTION_TIME);
+      if (Math.abs(velocity) < MIN_VELOCITY) {
+        momentumFrame = null;
+        return;
+      }
+      momentumFrame = requestAnimationFrame(continueMomentum);
+    }
+
+    momentumFrame = requestAnimationFrame(continueMomentum);
+  }
 
   function render(angle, animate = false) {
     cube.style.transition = animate
@@ -89,6 +127,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     // Header controls should work without starting a cube drag.
     if (event.target.closest('[data-no-swipe], button, a, input, select, textarea')) return;
     if (dragging) return;
+    stopScrollMomentum();
     startedOnSummary = Boolean(event.target.closest('summary'));
     pointerType = event.pointerType;
     deferGesture = startedOnSummary || pointerType === 'touch';
@@ -97,11 +136,16 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     startX = event.clientX;
     startY = event.clientY;
     lastY = startY;
+    lastMoveTime = event.timeStamp;
+    scrollVelocity = 0;
     const frontPhysical = ((stepCount % 4) + 4) % 4;
-    scrollTarget = event.target.closest('.fight-sections') ||
+    const eventCard = event.target.closest('.event-card') ||
       (event.target.closest('.cube-stage')
-        ? faces[frontPhysical].querySelector('.fight-sections')
+        ? faces[frontPhysical].querySelector('.event-card')
         : null);
+    scrollTarget = window.matchMedia('(max-width: 899px)').matches
+      ? eventCard
+      : event.target.closest('.fight-sections') || eventCard?.querySelector('.fight-sections');
     gestureAxis = null;
     pointerCaptured = false;
     startRotation = rotation;
@@ -135,9 +179,18 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
 
     if (gestureAxis === 'vertical') {
       if (scrollTarget) {
-        scrollTarget.scrollTop -= event.clientY - lastY;
+        const deltaY = event.clientY - lastY;
+        const elapsed = event.timeStamp - lastMoveTime;
+        scrollTarget.scrollTop -= deltaY;
+        if (elapsed > 0 && elapsed <= 80) {
+          const instantaneousVelocity = -deltaY / elapsed;
+          scrollVelocity = scrollVelocity * 0.65 + instantaneousVelocity * 0.35;
+        } else {
+          scrollVelocity = 0;
+        }
       }
       lastY = event.clientY;
+      lastMoveTime = event.timeStamp;
       return;
     }
 
@@ -149,6 +202,8 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
 
     const dx = event.clientX - startX;
     const dy = event.clientY - startY;
+    const completedScrollTarget = scrollTarget;
+    const completedScrollVelocity = scrollVelocity;
     dragging = false;
     pointerId = null;
     pointerType = null;
@@ -176,6 +231,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     }
 
     if (gestureAxis === 'vertical') {
+      startScrollMomentum(completedScrollTarget, completedScrollVelocity);
       gestureAxis = null;
       return;
     }

@@ -145,6 +145,10 @@ body { min-height: 100%; }
   .fight-sections::-webkit-scrollbar { display: none; }
 }
 @media (max-width: 899px) {
+  .event-card { height: 100%; min-height: 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; touch-action: none; }
+  .event-card::-webkit-scrollbar { display: none; }
+  .event-heading { flex: 0 0 auto; }
+  .fight-sections { flex: 0 0 auto; overflow: visible; }
   .event-title { order: 1; }
   .event-countdown { order: 2; display: block; width: 75%; margin: 7.5px auto 10px; white-space: normal; }
   .countdown-units { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(3px, 1.125vw, 6px); }
