@@ -707,8 +707,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-192",
-            "fighter_2": "158",
+            "fighter_1": "-227",
+            "fighter_2": "184",
             "status": "consensus_odds"
           }
         },
@@ -761,9 +761,9 @@
             "rankings": [
               {
                 "division": "womens-pound-for-pound",
-                "rank": 10,
+                "rank": 12,
                 "is_champion": false,
-                "movement": 1,
+                "movement": -2,
                 "nationality": "Brazil",
                 "country_code": "BR"
               },
@@ -784,8 +784,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-185",
-            "fighter_2": "153",
+            "fighter_1": "-201",
+            "fighter_2": "165",
             "status": "consensus_odds"
           }
         },
@@ -822,8 +822,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "176",
-            "fighter_2": "-218",
+            "fighter_1": "233",
+            "fighter_2": "-293",
             "status": "consensus_odds"
           }
         },
@@ -865,8 +865,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-618",
-            "fighter_2": "443",
+            "fighter_1": "-710",
+            "fighter_2": "486",
             "status": "consensus_odds"
           }
         },
@@ -903,8 +903,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "208",
-            "fighter_2": "-258",
+            "fighter_1": "248",
+            "fighter_2": "-315",
             "status": "consensus_odds"
           }
         },
@@ -941,8 +941,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-293",
-            "fighter_2": "236",
+            "fighter_1": "-298",
+            "fighter_2": "238",
             "status": "consensus_odds"
           }
         },
@@ -979,8 +979,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "141",
-            "fighter_2": "-169",
+            "fighter_1": "133",
+            "fighter_2": "-160",
             "status": "consensus_odds"
           }
         },
@@ -1035,8 +1035,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-163",
-            "fighter_2": "135",
+            "fighter_1": "-219",
+            "fighter_2": "177",
             "status": "consensus_odds"
           }
         },
@@ -1073,8 +1073,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "198",
-            "fighter_2": "-244",
+            "fighter_1": "183",
+            "fighter_2": "-226",
             "status": "consensus_odds"
           }
         },
@@ -1111,8 +1111,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-115",
-            "fighter_2": "-105",
+            "fighter_1": "-113",
+            "fighter_2": "-108",
             "status": "consensus_odds"
           }
         },
@@ -1149,8 +1149,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-365",
-            "fighter_2": "285",
+            "fighter_1": "-350",
+            "fighter_2": "273",
             "status": "consensus_odds"
           }
         },
@@ -1225,8 +1225,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "332",
-            "fighter_2": "-443",
+            "fighter_1": "352",
+            "fighter_2": "-478",
             "status": "consensus_odds"
           }
         },
@@ -1263,8 +1263,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "154",
-            "fighter_2": "-188",
+            "fighter_1": "187",
+            "fighter_2": "-231",
             "status": "consensus_odds"
           }
         }
@@ -1357,8 +1357,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-260",
-            "fighter_2": "205",
+            "fighter_1": "-256",
+            "fighter_2": "203",
             "status": "consensus_odds"
           }
         },
@@ -1422,8 +1422,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-197",
-            "fighter_2": "160",
+            "fighter_1": "-186",
+            "fighter_2": "152",
             "status": "consensus_odds"
           }
         },
@@ -1474,8 +1474,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-149",
-            "fighter_2": "122",
+            "fighter_1": "-156",
+            "fighter_2": "127",
             "status": "consensus_odds"
           }
         },
@@ -1512,7 +1512,16 @@
             "record": "29-15-0",
             "country": "United States",
             "flag": "🇺🇸",
-            "rankings": [],
+            "rankings": [
+              {
+                "division": "welterweight",
+                "rank": 15,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "United States",
+                "country_code": "US"
+              }
+            ],
             "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/e7dcefa7448ad53f42116eaa2071e8c258b16c71bf38e12cbcedb16e4aa463c6.webp",
             "dob": "1992-11-05",
             "image_credit": {
@@ -1527,7 +1536,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "-162",
-            "fighter_2": "132",
+            "fighter_2": "133",
             "status": "consensus_odds"
           }
         },
@@ -1564,8 +1573,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-950",
-            "fighter_2": "594",
+            "fighter_1": "-949",
+            "fighter_2": "584",
             "status": "consensus_odds"
           }
         },
@@ -1607,9 +1616,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-123",
+            "fighter_2": "-102",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1645,9 +1654,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "115",
+            "fighter_2": "-144",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1688,9 +1697,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "171",
+            "fighter_2": "-221",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1726,9 +1735,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-152",
+            "fighter_2": "121",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1782,9 +1791,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "171",
+            "fighter_2": "-220",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1905,9 +1914,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "310",
+            "fighter_2": "-432",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1943,9 +1952,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-119",
+            "fighter_2": "-106",
+            "status": "consensus_odds"
           }
         }
       ],
@@ -2024,9 +2033,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "113",
+            "fighter_2": "-136",
+            "status": "consensus_odds"
           }
         },
         {
@@ -2170,9 +2179,9 @@
             "rankings": [
               {
                 "division": "middleweight",
-                "rank": 11,
+                "rank": 12,
                 "is_champion": false,
-                "movement": 0,
+                "movement": -1,
                 "nationality": "United States",
                 "country_code": "US"
               }
@@ -2619,8 +2628,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-205",
-            "fighter_2": "165",
+            "fighter_1": "-202",
+            "fighter_2": "162",
             "status": "consensus_odds"
           }
         },
