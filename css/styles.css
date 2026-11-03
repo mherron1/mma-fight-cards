@@ -186,11 +186,10 @@ body { min-height: 100%; }
 .fight-competitor-right { text-align: right; }
 .fight-name { display: block; }
 .fight-record { display: block; margin-top: 2px; color: var(--muted); font-size: .85em; font-weight: 500; }
-.fight-nationality-flag { display: block; width: 20px; height: 15px; margin-top: 3px; overflow: hidden; border: 1px solid color-mix(in srgb, var(--text) 18%, transparent); border-radius: 2px; }
+.fight-nationality { display: flex; align-items: center; gap: 5px; margin-top: 3px; color: var(--muted); font-size: .82em; font-weight: 500; }
+.fight-nationality-right { justify-content: flex-end; }
+.fight-nationality-flag { display: block; flex: 0 0 auto; width: 20px; height: 15px; overflow: hidden; border: 1px solid color-mix(in srgb, var(--text) 18%, transparent); border-radius: 2px; }
 .fight-nationality-flag img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.fight-competitor-right .fight-nationality-flag { margin-left: auto; }
-.fight-row[open] .fight-summary .fight-record,
-.fight-row[open] .fight-summary .fight-nationality-flag { display: none; }
 .fight-winner-indicator { position: absolute; top: 50%; width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; transform: translateY(-50%); }
 .fight-winner-indicator-left { left: 0; border-right: 8px solid #000; }
 .fight-winner-indicator-right { right: 0; border-left: 8px solid #000; }

@@ -213,13 +213,17 @@ export function renderFightCard(event, fighterImageIndex = new Map()) {
             <div class="fight-names">
               <div class="fight-competitor fight-competitor-left">
                 <span class="fight-name">${escapeHTML(fighter1.name || 'TBA')}</span>
-                ${fighter1.record ? `<span class="fight-record">${escapeHTML(fighter1.record)}</span>` : ''}
-                ${fighterNationalityFlagMarkup(fighter1, fighterImageIndex)}
+                <span class="fight-nationality">
+                  ${fighterNationalityFlagMarkup(fighter1, fighterImageIndex)}
+                  <span>${escapeHTML(fighterNationality(fighter1))}</span>
+                </span>
               </div>
               <div class="fight-competitor fight-competitor-right">
                 <span class="fight-name">${escapeHTML(fighter2.name || 'TBA')}</span>
-                ${fighter2.record ? `<span class="fight-record">${escapeHTML(fighter2.record)}</span>` : ''}
-                ${fighterNationalityFlagMarkup(fighter2, fighterImageIndex)}
+                <span class="fight-nationality fight-nationality-right">
+                  <span>${escapeHTML(fighterNationality(fighter2))}</span>
+                  ${fighterNationalityFlagMarkup(fighter2, fighterImageIndex)}
+                </span>
               </div>
               ${resultDetails ? `<div class="fight-result">${escapeHTML(resultDetails)}${fighter1Won ? '<span class="fight-winner-indicator fight-winner-indicator-left" role="img" aria-label="Winner"></span>' : ''}${fighter2Won ? '<span class="fight-winner-indicator fight-winner-indicator-right" role="img" aria-label="Winner"></span>' : ''}</div>` : ''}
             </div>
