@@ -21,6 +21,9 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   let lastY = 0;
   let lastMoveTime = 0;
   let scrollVelocity = 0;
+  let pendingTransitionScroll = 0;
+  let pendingTransitionScrollVelocity = 0;
+  let pendingTransitionScrollMomentum = false;
   let momentumFrame = null;
   let gestureAxis = null;
   let pointerCaptured = false;
@@ -65,6 +68,24 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     momentumFrame = requestAnimationFrame(continueMomentum);
   }
 
+  function flushTransitionScroll() {
+    if (!pendingTransitionScroll && !pendingTransitionScrollMomentum) return;
+
+    const frontPhysical = ((stepCount % 4) + 4) % 4;
+    const frontFace = faces[frontPhysical];
+    const target = window.matchMedia('(max-width: 899px)').matches
+      ? frontFace.querySelector('.event-card')
+      : frontFace.querySelector('.fight-sections');
+    if (target) target.scrollTop += pendingTransitionScroll;
+    if (pendingTransitionScrollMomentum) {
+      startScrollMomentum(target, pendingTransitionScrollVelocity);
+    }
+
+    pendingTransitionScroll = 0;
+    pendingTransitionScrollVelocity = 0;
+    pendingTransitionScrollMomentum = false;
+  }
+
   function render(angle, animate = false) {
     cube.style.transition = animate
       ? `transform ${SETTLE_MS}ms cubic-bezier(.22,.72,.22,1)`
@@ -94,6 +115,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     clearTimeout(fallbackTimer);
     updateFaces();
     animating = false;
+    flushTransitionScroll();
     processQueue();
   }
 
@@ -159,7 +181,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   });
 
   app.addEventListener('pointermove', event => {
-    if (!dragging || event.pointerId !== pointerId || gestureStartedDuringAnimation) return;
+    if (!dragging || event.pointerId !== pointerId) return;
 
     const dx = event.clientX - startX;
     const dy = event.clientY - startY;
@@ -173,6 +195,23 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
         app.setPointerCapture(pointerId);
         pointerCaptured = true;
       }
+    }
+
+    if (gestureStartedDuringAnimation) {
+      if (gestureAxis === 'vertical') {
+        const deltaY = event.clientY - lastY;
+        const elapsed = event.timeStamp - lastMoveTime;
+        pendingTransitionScroll -= deltaY;
+        if (elapsed > 0 && elapsed <= 80) {
+          const instantaneousVelocity = -deltaY / elapsed;
+          scrollVelocity = scrollVelocity * 0.65 + instantaneousVelocity * 0.35;
+        } else {
+          scrollVelocity = 0;
+        }
+        lastY = event.clientY;
+        lastMoveTime = event.timeStamp;
+      }
+      return;
     }
 
     if (!gestureAxis) return;
@@ -231,7 +270,13 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     }
 
     if (gestureAxis === 'vertical') {
-      startScrollMomentum(completedScrollTarget, completedScrollVelocity);
+      if (gestureStartedDuringAnimation) {
+        pendingTransitionScrollVelocity = completedScrollVelocity;
+        pendingTransitionScrollMomentum = true;
+        if (!animating) flushTransitionScroll();
+      } else {
+        startScrollMomentum(completedScrollTarget, completedScrollVelocity);
+      }
       gestureAxis = null;
       return;
     }
