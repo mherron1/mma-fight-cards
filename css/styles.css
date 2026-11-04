@@ -153,6 +153,7 @@ body { min-height: 100%; }
   .event-card::-webkit-scrollbar { display: none; }
   .event-heading { flex: 0 0 auto; }
   .fight-sections { flex: 0 0 auto; overflow: visible; }
+  .event-card:not(.results-hidden) .fight-names-with-result { padding-bottom: 16px; }
   .event-title { order: 1; }
   .event-countdown { order: 2; display: block; width: 75%; margin: 7.5px auto 10px; white-space: normal; }
   .event-countdown.is-status { width: auto; margin: 7.5px 0 10px; font-weight: 700; text-align: left; }
@@ -203,6 +204,8 @@ body { min-height: 100%; }
 .fight-winner-indicator { position: absolute; top: 50%; width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; transform: translateY(-50%); }
 .fight-winner-indicator-left { left: 0; border-right: 8px solid #000; }
 .fight-winner-indicator-right { right: 0; border-left: 8px solid #000; }
+:root:not([data-theme="light"]) .fight-winner-indicator-left { border-right-color: #fff; }
+:root:not([data-theme="light"]) .fight-winner-indicator-right { border-left-color: #fff; }
 .fight-result { position: relative; grid-column: 1 / -1; color: var(--muted); font-size: .8em; font-weight: 600; text-align: center; }
 .fight-details { display: grid; grid-template-rows: 0fr; padding: 0 9px; border-top: 0 solid var(--row-border); transition: grid-template-rows 280ms cubic-bezier(.2,.7,.2,1), padding 280ms ease, border-width 280ms ease; }
 .fight-row[open] .fight-details { grid-template-rows: 1fr; padding: 9px; border-top-width: 1px; }

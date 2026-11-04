@@ -210,7 +210,7 @@ export function renderFightCard(event, fighterImageIndex = new Map()) {
             <div class="fight-weight">
               ${escapeHTML(fight.card_position === 'main_event' ? 'Main Event · ' : '')}${escapeHTML(weightClass)}${fight.title_fight ? ' · Title' : ''}
             </div>
-            <div class="fight-names">
+            <div class="fight-names${resultDetails ? ' fight-names-with-result' : ''}">
               <div class="fight-competitor fight-competitor-left">
                 <span class="fight-name">${escapeHTML(fighter1.name || 'TBA')}</span>
                 <span class="fight-nationality">
