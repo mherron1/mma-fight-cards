@@ -149,10 +149,10 @@ body { min-height: 100%; }
 }
 @media (max-width: 899px) {
   .results-toggle { width: max-content; white-space: nowrap; }
-  .event-card { height: 100%; min-height: 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; touch-action: none; }
+  .event-card { height: 100%; min-height: 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; touch-action: pan-y; -webkit-overflow-scrolling: touch; }
   .event-card::-webkit-scrollbar { display: none; }
   .event-heading { flex: 0 0 auto; }
-  .fight-sections { flex: 0 0 auto; overflow: visible; }
+  .fight-sections { flex: 0 0 auto; overflow: visible; touch-action: pan-y; }
   .event-card:not(.results-hidden) .fight-names-with-result { padding-bottom: 16px; }
   .event-title { order: 1; }
   .event-countdown { order: 2; display: block; width: 75%; margin: 7.5px auto 10px; white-space: normal; }
@@ -185,6 +185,9 @@ body { min-height: 100%; }
 .fight-row:not([open]) { background: var(--panel-soft); }
 :root[data-theme="light"] .fight-row:not([open]) { background: color-mix(in srgb, var(--panel-soft) 25%, white); }
 .fight-summary { position: relative; display: block; padding: 9px 10px; cursor: pointer; list-style: none; touch-action: none; }
+@media (max-width: 899px) {
+  .fight-summary { touch-action: pan-y; }
+}
 .fight-summary::-webkit-details-marker { display: none; }
 .fight-summary::marker { content: ""; }
 .fight-summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
@@ -339,7 +342,7 @@ body { min-height: 100%; }
   .undercard { gap: 10px; margin-top: 12px; }
   .fight-row { border-radius: 10px; transition: background-color 160ms ease, border-color 160ms ease; }
   .fight-row:hover { background: color-mix(in srgb, var(--accent) 7%, var(--row-bg)); border-color: color-mix(in srgb, var(--accent) 30%, var(--row-border)); }
-  .fight-summary { padding: 14px 16px; touch-action: auto; }
+  .fight-summary { padding: 14px 16px; touch-action: pan-y; }
   .fight-weight { font-size: 9px; }
   .fight-names { gap: 10px; font-size: 15.7px; }
   .fight-row[open] .fight-details { padding: 14px 16px; }

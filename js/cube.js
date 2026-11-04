@@ -40,6 +40,10 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     }
   }
 
+  function usesNativeVerticalScroll() {
+    return window.matchMedia('(max-width: 899px)').matches;
+  }
+
   function startScrollMomentum(target, velocity) {
     const MIN_VELOCITY = 0.02;
     const FRICTION_TIME = 325;
@@ -72,10 +76,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     if (!pendingTransitionScroll && !pendingTransitionScrollMomentum) return;
 
     const frontPhysical = ((stepCount % 4) + 4) % 4;
-    const frontFace = faces[frontPhysical];
-    const target = window.matchMedia('(max-width: 899px)').matches
-      ? frontFace.querySelector('.event-card')
-      : frontFace.querySelector('.fight-sections');
+    const target = faces[frontPhysical].querySelector('.fight-sections');
     if (target) target.scrollTop += pendingTransitionScroll;
     if (pendingTransitionScrollMomentum) {
       startScrollMomentum(target, pendingTransitionScrollVelocity);
@@ -165,7 +166,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
       (event.target.closest('.cube-stage')
         ? faces[frontPhysical].querySelector('.event-card')
         : null);
-    scrollTarget = window.matchMedia('(max-width: 899px)').matches
+    scrollTarget = usesNativeVerticalScroll()
       ? eventCard
       : event.target.closest('.fight-sections') || eventCard?.querySelector('.fight-sections');
     gestureAxis = null;
@@ -188,6 +189,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
 
     if (!gestureAxis && Math.max(Math.abs(dx), Math.abs(dy)) > GESTURE_THRESHOLD) {
       gestureAxis = Math.abs(dx) >= Math.abs(dy) ? 'horizontal' : 'vertical';
+      if (usesNativeVerticalScroll() && gestureAxis === 'vertical') return;
       if (deferGesture && gestureAxis === 'horizontal' && !animating) {
         cube.style.transition = 'none';
       }
@@ -196,6 +198,8 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
         pointerCaptured = true;
       }
     }
+
+    if (usesNativeVerticalScroll() && gestureAxis === 'vertical') return;
 
     if (gestureStartedDuringAnimation) {
       if (gestureAxis === 'vertical') {
@@ -243,6 +247,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     const dy = event.clientY - startY;
     const completedScrollTarget = scrollTarget;
     const completedScrollVelocity = scrollVelocity;
+    const nativeVerticalScroll = usesNativeVerticalScroll() && gestureAxis === 'vertical';
     dragging = false;
     pointerId = null;
     pointerType = null;
@@ -254,7 +259,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
 
     if (cancelled) {
       gestureAxis = null;
-      if (!gestureStartedDuringAnimation && !animating) {
+      if (!nativeVerticalScroll && !gestureStartedDuringAnimation && !animating) {
         render(rotation, true);
       }
       return;
@@ -270,11 +275,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     }
 
     if (gestureAxis === 'vertical') {
-      if (gestureStartedDuringAnimation) {
-        pendingTransitionScrollVelocity = completedScrollVelocity;
-        pendingTransitionScrollMomentum = true;
-        if (!animating) flushTransitionScroll();
-      } else {
+      if (!usesNativeVerticalScroll()) {
         startScrollMomentum(completedScrollTarget, completedScrollVelocity);
       }
       gestureAxis = null;
