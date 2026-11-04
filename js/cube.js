@@ -1,6 +1,6 @@
 export function createCube({ app, cube, faces, events, initialIndex = 0, onIndexChange, onSwipe }) {
   const SWIPING_ENABLED = true;
-  const SWIPE_THRESHOLD = 48;
+  const SWIPE_THRESHOLD = 0.14;
   const SETTLE_MS = 420;
   const physicalOffsets = [0, 1, 2, -1];
   const isMobileLayout = () => window.matchMedia('(max-width: 899px)').matches;
@@ -83,41 +83,66 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     return true;
   }
 
-  let pointerStart = null;
+  const GESTURE_THRESHOLD = 8;
+  let gesture = null;
   app.addEventListener('pointerdown', event => {
     if (
       !SWIPING_ENABLED ||
+      animating ||
       !event.isPrimary ||
       event.button !== 0 ||
       event.target.closest('a, button, input, select, textarea, [data-no-swipe]')
     ) {
-      pointerStart = null;
+      gesture = null;
       return;
     }
 
-    pointerStart = { pointerId: event.pointerId, x: event.clientX, y: event.clientY };
+    gesture = {
+      pointerId: event.pointerId,
+      startX: event.clientX,
+      startY: event.clientY,
+      startRotation: rotation,
+      width: app.clientWidth,
+      axis: null
+    };
   });
 
-  window.addEventListener('pointerup', event => {
-    const start = pointerStart;
-    pointerStart = null;
-    if (!start || start.pointerId !== event.pointerId) return;
+  app.addEventListener('pointermove', event => {
+    if (!gesture || gesture.pointerId !== event.pointerId) return;
 
-    const deltaX = event.clientX - start.x;
-    const deltaY = event.clientY - start.y;
-    if (
-      Math.abs(deltaX) < SWIPE_THRESHOLD ||
-      Math.abs(deltaX) < Math.abs(deltaY) * 1.25
-    ) {
+    const deltaX = event.clientX - gesture.startX;
+    const deltaY = event.clientY - gesture.startY;
+
+    if (!gesture.axis && Math.max(Math.abs(deltaX), Math.abs(deltaY)) >= GESTURE_THRESHOLD) {
+      gesture.axis = Math.abs(deltaX) > Math.abs(deltaY) ? 'horizontal' : 'vertical';
+      if (gesture.axis === 'horizontal') app.setPointerCapture(event.pointerId);
+    }
+
+    if (gesture.axis !== 'horizontal') return;
+
+    event.preventDefault();
+    render(gesture.startRotation + (deltaX / gesture.width) * 90);
+  });
+
+  function finishGesture(event, cancelled = false) {
+    if (!gesture || gesture.pointerId !== event.pointerId) return;
+
+    const currentGesture = gesture;
+    gesture = null;
+    if (currentGesture.axis !== 'horizontal') return;
+
+    const deltaX = event.clientX - currentGesture.startX;
+    const commitThreshold = Math.max(40, currentGesture.width * SWIPE_THRESHOLD);
+    if (cancelled || Math.abs(deltaX) < commitThreshold) {
+      render(rotation, true);
       return;
     }
 
     if (navigate(deltaX < 0 ? 1 : -1)) onSwipe?.();
-  });
+  }
 
-  window.addEventListener('pointercancel', () => {
-    pointerStart = null;
-  });
+  app.addEventListener('pointerup', event => finishGesture(event));
+  app.addEventListener('pointercancel', event => finishGesture(event, true));
 
   cube.addEventListener('transitionend', event => {
     if (event.propertyName === 'transform') completeTransition();
