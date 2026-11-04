@@ -155,6 +155,8 @@ body { min-height: 100%; }
   .fight-sections { flex: 0 0 auto; overflow: visible; }
   .event-title { order: 1; }
   .event-countdown { order: 2; display: block; width: 75%; margin: 7.5px auto 10px; white-space: normal; }
+  .event-countdown.is-status { width: auto; margin: 7.5px 0 10px; font-weight: 700; text-align: left; }
+  :root[data-theme="light"] .event-countdown.is-status { color: var(--accent); }
   .countdown-units { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(3px, 1.125vw, 6px); }
   .countdown-unit { display: flex; min-width: 0; flex-direction: column; align-items: center; gap: 3.75px; color: #fff; }
   .countdown-value {
@@ -219,7 +221,6 @@ body { min-height: 100%; }
 .fighter-nationality-value { display: flex; align-items: center; gap: 5px; }
 .fighter-nationality-value-left { justify-content: flex-start; }
 .fighter-nationality-value-right { justify-content: flex-end; }
-.fighter-nationality-value .fight-nationality-flag { flex: 0 0 auto; margin: 0; }
 .fighter-stat-value:first-child { text-align: left; }
 .fighter-stat-value:last-child { text-align: right; }
 .fighter-stat-label { color: var(--muted); text-align: center; font-size: 10.6px; font-weight: 700; letter-spacing: .35px; }
@@ -250,6 +251,7 @@ body { min-height: 100%; }
   .settings-content { max-width: 700px; }
   .cube-stage { inset: 69px 0 0; }
   .cube-face { padding: 24px clamp(24px, 3vw, 48px) 32px; }
+  .results-toggle { width: 140px; padding: 9px 16px; font-size: 12px; cursor: pointer; }
   .event-card {
     display: grid;
     grid-template-columns: minmax(250px, .7fr) minmax(0, 1.3fr);
@@ -299,7 +301,7 @@ body { min-height: 100%; }
   .countdown-value::after { position: absolute; top: 50%; right: -3px; left: -3px; height: 1px; background: rgba(255, 255, 255, .22); content: ""; }
   .countdown-label { color: var(--muted); font-size: 9.9px; font-weight: 700; letter-spacing: 1.2px; }
   .countdown-compact { display: none; }
-  .event-countdown.is-status { align-self: end; margin-bottom: 52px; font-size: 13.2px; }
+  .event-countdown.is-status { align-self: center; margin: 0 0 52px; color: var(--text); font-size: 26px; font-weight: 900; letter-spacing: 1.2px; text-align: center; text-transform: uppercase; transform: translateY(-18px); }
   .event-title::before {
     content: "UPCOMING EVENT";
     display: block;

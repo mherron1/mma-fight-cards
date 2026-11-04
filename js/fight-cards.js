@@ -241,9 +241,9 @@ export function renderFightCard(event, fighterImageIndex = new Map()) {
                   <span class="fighter-stat-value">${escapeHTML(fighter2.record || 'Not listed')}</span>
                 </div>
                 <div class="fighter-stat-row">
-                  <span class="fighter-stat-value fighter-nationality-value fighter-nationality-value-left">${fighterNationalityFlagMarkup(fighter1, fighterImageIndex)}${escapeHTML(fighterNationality(fighter1))}</span>
+                  <span class="fighter-stat-value fighter-nationality-value fighter-nationality-value-left">${escapeHTML(fighterNationality(fighter1))}</span>
                   <span class="fighter-stat-label">Nationality</span>
-                  <span class="fighter-stat-value fighter-nationality-value fighter-nationality-value-right">${escapeHTML(fighterNationality(fighter2))}${fighterNationalityFlagMarkup(fighter2, fighterImageIndex)}</span>
+                  <span class="fighter-stat-value fighter-nationality-value fighter-nationality-value-right">${escapeHTML(fighterNationality(fighter2))}</span>
                 </div>
                 <div class="fighter-stat-row">
                   <span class="fighter-stat-value">${escapeHTML(fighterRanking(fighter1))}</span>
@@ -271,9 +271,9 @@ export function renderFightCard(event, fighterImageIndex = new Map()) {
                 </div>
                 ${hasResults ? '' : `
                 <div class="fighter-stat-row fighter-odds-row">
-                  <strong class="fighter-stat-value fight-odds-value" data-american="${escapeHTML(odds.fighter_1 || '')}">${escapeHTML(odds.fighter_1 || 'Not listed')}</strong>
+                  <strong class="fighter-stat-value fight-odds-value" data-american="${escapeHTML(odds.fighter_1 || '')}">${escapeHTML(odds.fighter_1 || 'TBD')}</strong>
                   <span class="fighter-stat-label">Odds</span>
-                  <strong class="fighter-stat-value fight-odds-value" data-american="${escapeHTML(odds.fighter_2 || '')}">${escapeHTML(odds.fighter_2 || 'Not listed')}</strong>
+                  <strong class="fighter-stat-value fight-odds-value" data-american="${escapeHTML(odds.fighter_2 || '')}">${escapeHTML(odds.fighter_2 || 'TBD')}</strong>
                 </div>`}
               </div>
             </div>

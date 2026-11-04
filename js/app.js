@@ -125,7 +125,7 @@ function initPreferences() {
     document.querySelectorAll('.fight-odds-value').forEach(element => {
       const rawOdds = element.dataset.american || '';
       if (!/^[+-]?\d+$/.test(rawOdds.trim())) {
-        element.textContent = rawOdds || 'Not listed';
+        element.textContent = rawOdds || 'TBD';
         return;
       }
       const americanOdds = Number(rawOdds);
