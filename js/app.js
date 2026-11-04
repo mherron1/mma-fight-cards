@@ -305,7 +305,9 @@ async function initApp() {
   const cardProgress = document.getElementById('cardProgress');
   const swipeHint = document.getElementById('swipeHint');
 
-  function updateCardProgress(index, total) {
+  function updateCardProgress(index, total, isResultsEvent) {
+    app.classList.toggle('results-event', isResultsEvent);
+
     if (cardProgress.childElementCount !== total) {
       cardProgress.replaceChildren(...Array.from({ length: total }, () => {
         const segment = document.createElement('span');
@@ -490,7 +492,11 @@ async function initApp() {
       },
       onIndexChange(index, total) {
         preloadEventHeadshots(events[index], fighterImageIndex, preloadedHeadshots);
-        updateCardProgress(index, total);
+        updateCardProgress(
+          index,
+          total,
+          Boolean(latestCompletedEvent && events[index].id === latestCompletedEvent.id)
+        );
         applyPreferences();
         spoilerProtection.sync();
         updateCountdowns();

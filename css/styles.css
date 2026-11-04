@@ -73,8 +73,13 @@ body { min-height: 100%; }
 .settings-button.is-open .menu-line-bottom { transform: translateY(-6px) rotate(-45deg); }
 .card-progress { position: absolute; top: 45px; left: 0; right: 0; z-index: 4; display: flex; gap: 2px; height: 4px; }
 .card-progress[hidden] { display: none; }
-.card-progress-segment { flex: 1 1 0; min-width: 0; border-radius: 0 0 2px 2px; background: #57191c; transition: background-color 240ms ease; }
+.card-progress-segment { flex: 1 1 0; min-width: 0; border-radius: 0 0 2px 2px; background: #57191c; }
 .card-progress-segment.is-active { background: #ef5350; }
+.app.results-event .card-progress-segment { background: #0a162b; }
+.app.results-event .card-progress-segment.is-active { background: #1e3a8a; }
+.app.results-event .cube-face[data-front] .event-card { --accent: #1e3a8a; }
+:root[data-theme="light"] .app.results-event .cube-face[data-front] .event-card { --accent: #1e3a8a; }
+.app.results-event .cube-face[data-front] .event-countdown.is-status { color: #000; }
 .swipe-hint { position: absolute; bottom: 12px; left: 50%; z-index: 3; display: flex; align-items: center; gap: 10px; padding: 8px 13px; border: 1px solid var(--line); border-radius: 999px; background: color-mix(in srgb, var(--panel) 90%, transparent); color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .25px; white-space: nowrap; pointer-events: none; transform: translateX(-50%); }
 .swipe-hint[hidden] { display: none; }
 .swipe-hint-arrow { color: var(--accent); font-size: 16px; line-height: 1; }
@@ -222,6 +227,10 @@ body { min-height: 100%; }
     inset: auto;
     transform-style: preserve-3d;
     will-change: transform;
+  }
+  .cube.is-rotating .cube-face {
+    max-height: calc(100dvh - 53px);
+    overflow: hidden;
   }
   .cube-face {
     position: absolute;
@@ -377,6 +386,8 @@ body { min-height: 100%; }
     font: 800 13.2px Inter, Arial, sans-serif;
     letter-spacing: 2.4px;
   }
+  .app.results-event .event-title::before { content: "EVENT COMPLETED"; color: #000; }
+  .app.results-event .event-countdown.is-status { display: none; }
   .event-subtitle {
     grid-column: 1;
     grid-row: 4;

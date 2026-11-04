@@ -28,8 +28,19 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
       return;
     }
 
-    cube.style.height = `${faces[frontPhysical].scrollHeight}px`;
+    const frontFace = faces[frontPhysical];
+    cube.style.height = `${Math.max(
+      frontFace.scrollHeight,
+      Math.ceil(frontFace.getBoundingClientRect().height)
+    )}px`;
   }
+
+  const faceResizeObserver = new ResizeObserver(() => {
+    if (!isMobileLayout() || cube.classList.contains('is-rotating')) return;
+    const frontPhysical = ((stepCount % 4) + 4) % 4;
+    syncCubeHeight(frontPhysical);
+  });
+  faces.forEach(face => faceResizeObserver.observe(face));
 
   function updateFaces() {
     const count = events.length;
@@ -49,37 +60,46 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     });
 
     syncCubeHeight(frontPhysical);
-    onIndexChange?.(currentIndex, count);
   }
 
   function completeTransition() {
     if (!animating) return;
     clearTimeout(fallbackTimer);
     animating = false;
+    cube.classList.remove('is-rotating');
     updateFaces();
   }
 
-  function navigate(direction) {
-    if (animating || !events.length) return false;
+  function settleRotation(angle) {
+    animating = true;
+    cube.classList.add('is-rotating');
+    render(angle, true);
+    clearTimeout(fallbackTimer);
+    fallbackTimer = setTimeout(completeTransition, SETTLE_MS + 50);
+  }
 
-    currentIndex = (currentIndex + direction + events.length) % events.length;
+  function canNavigate(direction) {
+    const nextIndex = currentIndex + direction;
+    return !animating && nextIndex >= 0 && nextIndex < events.length;
+  }
+
+  function navigate(direction) {
+    if (!canNavigate(direction)) return false;
+
+    const nextIndex = currentIndex + direction;
+    currentIndex = nextIndex;
     stepCount += direction;
     rotation = stepCount * -90;
+    onIndexChange?.(currentIndex, events.length);
 
     if (isMobileLayout()) {
-      animating = true;
       syncCubeHeight();
-      render(rotation, true);
-      clearTimeout(fallbackTimer);
-      fallbackTimer = setTimeout(completeTransition, SETTLE_MS + 120);
+      settleRotation(rotation);
       window.scrollTo(0, 0);
       return true;
     }
 
-    animating = true;
-    render(rotation, true);
-    clearTimeout(fallbackTimer);
-    fallbackTimer = setTimeout(completeTransition, SETTLE_MS + 120);
+    settleRotation(rotation);
     return true;
   }
 
@@ -121,7 +141,13 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     if (gesture.axis !== 'horizontal') return;
 
     event.preventDefault();
-    render(gesture.startRotation + (deltaX / gesture.width) * 90);
+    if (isMobileLayout()) cube.classList.add('is-rotating');
+    const direction = deltaX < 0 ? 1 : -1;
+    render(
+      canNavigate(direction)
+        ? gesture.startRotation + (deltaX / gesture.width) * 90
+        : gesture.startRotation
+    );
   });
 
   function finishGesture(event, cancelled = false) {
@@ -134,7 +160,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     const deltaX = event.clientX - currentGesture.startX;
     const commitThreshold = Math.max(40, currentGesture.width * SWIPE_THRESHOLD);
     if (cancelled || Math.abs(deltaX) < commitThreshold) {
-      render(rotation, true);
+      settleRotation(rotation);
       return;
     }
 
@@ -145,7 +171,11 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   app.addEventListener('pointercancel', event => finishGesture(event, true));
 
   cube.addEventListener('transitionend', event => {
-    if (event.propertyName === 'transform') completeTransition();
+    if (event.target === cube && event.propertyName === 'transform') {
+      completeTransition();
+    } else if (event.propertyName === 'grid-template-rows' && !animating) {
+      syncCubeHeight();
+    }
   });
 
   document.addEventListener('keydown', event => {
@@ -159,6 +189,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   });
 
   updateFaces();
+  onIndexChange?.(currentIndex, events.length);
   render(rotation);
 
   return {
