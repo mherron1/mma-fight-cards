@@ -1,98 +1,34 @@
 export function createCube({ app, cube, faces, events, initialIndex = 0, onIndexChange, onSwipe }) {
-  const SWIPING_ENABLED = false;
-  const SWIPE_THRESHOLD = 0.14;
-  const GESTURE_THRESHOLD = 24;
+  const SWIPING_ENABLED = true;
+  const SWIPE_THRESHOLD = 48;
   const SETTLE_MS = 420;
   const physicalOffsets = [0, 1, 2, -1];
+  const isMobileLayout = () => window.matchMedia('(max-width: 899px)').matches;
 
   let currentIndex = events.length
     ? ((initialIndex % events.length) + events.length) % events.length
     : 0;
   let stepCount = 0;
   let rotation = 0;
-  let width = app.clientWidth;
-  let dragging = false;
-  let pointerId = null;
-  let pointerType = null;
-  let startedOnSummary = false;
-  let startX = 0;
-  let startY = 0;
-  let startRotation = 0;
-  let scrollTarget = null;
-  let lastY = 0;
-  let lastMoveTime = 0;
-  let scrollVelocity = 0;
-  let pendingTransitionScroll = 0;
-  let pendingTransitionScrollVelocity = 0;
-  let pendingTransitionScrollMomentum = false;
-  let momentumFrame = null;
-  let gestureAxis = null;
-  let pointerCaptured = false;
-  let deferGesture = false;
-  let gestureStartedDuringAnimation = false;
   let animating = false;
-  let swipeQueue = [];
   let fallbackTimer = null;
 
-  function stopScrollMomentum() {
-    if (momentumFrame !== null) {
-      cancelAnimationFrame(momentumFrame);
-      momentumFrame = null;
-    }
-  }
-
-  function usesNativeVerticalScroll() {
-    return window.matchMedia('(max-width: 899px)').matches;
-  }
-
-  function startScrollMomentum(target, velocity) {
-    const MIN_VELOCITY = 0.02;
-    const FRICTION_TIME = 325;
-    if (!target || Math.abs(velocity) < MIN_VELOCITY) return;
-
-    let previousTime = 0;
-    function continueMomentum(time) {
-      const elapsed = previousTime ? Math.min(time - previousTime, 32) : 16;
-      previousTime = time;
-
-      const previousScrollTop = target.scrollTop;
-      target.scrollTop += velocity * elapsed;
-      if (Math.abs(target.scrollTop - previousScrollTop) < 0.1) {
-        momentumFrame = null;
-        return;
-      }
-
-      velocity *= Math.exp(-elapsed / FRICTION_TIME);
-      if (Math.abs(velocity) < MIN_VELOCITY) {
-        momentumFrame = null;
-        return;
-      }
-      momentumFrame = requestAnimationFrame(continueMomentum);
-    }
-
-    momentumFrame = requestAnimationFrame(continueMomentum);
-  }
-
-  function flushTransitionScroll() {
-    if (!pendingTransitionScroll && !pendingTransitionScrollMomentum) return;
-
-    const frontPhysical = ((stepCount % 4) + 4) % 4;
-    const target = faces[frontPhysical].querySelector('.fight-sections');
-    if (target) target.scrollTop += pendingTransitionScroll;
-    if (pendingTransitionScrollMomentum) {
-      startScrollMomentum(target, pendingTransitionScrollVelocity);
-    }
-
-    pendingTransitionScroll = 0;
-    pendingTransitionScrollVelocity = 0;
-    pendingTransitionScrollMomentum = false;
-  }
-
   function render(angle, animate = false) {
+    const width = app.clientWidth;
+    cube.style.setProperty('--cube-depth', `${width / 2}px`);
     cube.style.transition = animate
       ? `transform ${SETTLE_MS}ms cubic-bezier(.22,.72,.22,1)`
       : 'none';
     cube.style.transform = `translateZ(${-width / 2}px) rotateY(${angle}deg)`;
+  }
+
+  function syncCubeHeight(frontPhysical = ((stepCount % 4) + 4) % 4) {
+    if (!isMobileLayout()) {
+      cube.style.height = '';
+      return;
+    }
+
+    cube.style.height = `${faces[frontPhysical].scrollHeight}px`;
   }
 
   function updateFaces() {
@@ -105,226 +41,104 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
       const physicalOffset = (physicalIndex - frontPhysical + 4) % 4;
       const eventOffset = physicalOffsets[physicalOffset];
       const eventIndex = (currentIndex + eventOffset + count) % count;
+      if (face.dataset.eventIndex !== String(eventIndex)) {
+        face.innerHTML = events[eventIndex].__html;
+        face.dataset.eventIndex = String(eventIndex);
+      }
       face.toggleAttribute('data-front', physicalIndex === frontPhysical);
-      face.innerHTML = events[eventIndex].__html;
     });
 
-    if (onIndexChange) onIndexChange(currentIndex, count);
+    syncCubeHeight(frontPhysical);
+    onIndexChange?.(currentIndex, count);
   }
 
   function completeTransition() {
     if (!animating) return;
     clearTimeout(fallbackTimer);
-    updateFaces();
     animating = false;
-    flushTransitionScroll();
-    processQueue();
+    updateFaces();
   }
 
-  function processQueue() {
-    if (animating || swipeQueue.length === 0 || events.length < 1) return;
-
-    const direction = swipeQueue.shift();
-    animating = true;
+  function navigate(direction) {
+    if (animating || !events.length) return false;
 
     currentIndex = (currentIndex + direction + events.length) % events.length;
     stepCount += direction;
     rotation = stepCount * -90;
-    if (onIndexChange) onIndexChange(currentIndex, events.length);
 
+    if (isMobileLayout()) {
+      animating = true;
+      syncCubeHeight();
+      render(rotation, true);
+      clearTimeout(fallbackTimer);
+      fallbackTimer = setTimeout(completeTransition, SETTLE_MS + 120);
+      window.scrollTo(0, 0);
+      return true;
+    }
+
+    animating = true;
     render(rotation, true);
     clearTimeout(fallbackTimer);
     fallbackTimer = setTimeout(completeTransition, SETTLE_MS + 120);
+    return true;
   }
 
-  function enqueueSwipe(direction, allowWhenSwipingDisabled = false) {
-    if ((!SWIPING_ENABLED && !allowWhenSwipingDisabled) || !events.length) return;
-    swipeQueue.push(direction);
-    processQueue();
-  }
+  let pointerStart = null;
+  app.addEventListener('pointerdown', event => {
+    if (
+      !SWIPING_ENABLED ||
+      !event.isPrimary ||
+      event.button !== 0 ||
+      event.target.closest('a, button, input, select, textarea, [data-no-swipe]')
+    ) {
+      pointerStart = null;
+      return;
+    }
+
+    pointerStart = { pointerId: event.pointerId, x: event.clientX, y: event.clientY };
+  });
+
+  window.addEventListener('pointerup', event => {
+    const start = pointerStart;
+    pointerStart = null;
+    if (!start || start.pointerId !== event.pointerId) return;
+
+    const deltaX = event.clientX - start.x;
+    const deltaY = event.clientY - start.y;
+    if (
+      Math.abs(deltaX) < SWIPE_THRESHOLD ||
+      Math.abs(deltaX) < Math.abs(deltaY) * 1.25
+    ) {
+      return;
+    }
+
+    if (navigate(deltaX < 0 ? 1 : -1)) onSwipe?.();
+  });
+
+  window.addEventListener('pointercancel', () => {
+    pointerStart = null;
+  });
 
   cube.addEventListener('transitionend', event => {
     if (event.propertyName === 'transform') completeTransition();
   });
 
-  app.addEventListener('pointerdown', event => {
-    // Header controls should work without starting a cube drag.
-    if (event.target.closest('[data-no-swipe], button, a, input, select, textarea')) return;
-    if (dragging) return;
-    stopScrollMomentum();
-    startedOnSummary = Boolean(event.target.closest('summary'));
-    pointerType = event.pointerType;
-    deferGesture = startedOnSummary || pointerType === 'touch';
-    dragging = true;
-    pointerId = event.pointerId;
-    startX = event.clientX;
-    startY = event.clientY;
-    lastY = startY;
-    lastMoveTime = event.timeStamp;
-    scrollVelocity = 0;
-    const frontPhysical = ((stepCount % 4) + 4) % 4;
-    const eventCard = event.target.closest('.event-card') ||
-      (event.target.closest('.cube-stage')
-        ? faces[frontPhysical].querySelector('.event-card')
-        : null);
-    scrollTarget = usesNativeVerticalScroll()
-      ? eventCard
-      : event.target.closest('.fight-sections') || eventCard?.querySelector('.fight-sections');
-    gestureAxis = null;
-    pointerCaptured = false;
-    startRotation = rotation;
-    gestureStartedDuringAnimation = animating;
-
-    if (!animating && !deferGesture) cube.style.transition = 'none';
-    if (!deferGesture) {
-      app.setPointerCapture(pointerId);
-      pointerCaptured = true;
-    }
-  });
-
-  app.addEventListener('pointermove', event => {
-    if (!dragging || event.pointerId !== pointerId) return;
-
-    const dx = event.clientX - startX;
-    const dy = event.clientY - startY;
-
-    if (!gestureAxis && Math.max(Math.abs(dx), Math.abs(dy)) > GESTURE_THRESHOLD) {
-      gestureAxis = Math.abs(dx) >= Math.abs(dy) ? 'horizontal' : 'vertical';
-      if (usesNativeVerticalScroll() && gestureAxis === 'vertical') return;
-      if (!SWIPING_ENABLED && gestureAxis === 'horizontal') return;
-      if (deferGesture && gestureAxis === 'horizontal' && !animating) {
-        cube.style.transition = 'none';
-      }
-      if (!pointerCaptured) {
-        app.setPointerCapture(pointerId);
-        pointerCaptured = true;
-      }
-    }
-
-    if (usesNativeVerticalScroll() && gestureAxis === 'vertical') return;
-
-    if (gestureStartedDuringAnimation) {
-      if (gestureAxis === 'vertical') {
-        const deltaY = event.clientY - lastY;
-        const elapsed = event.timeStamp - lastMoveTime;
-        pendingTransitionScroll -= deltaY;
-        if (elapsed > 0 && elapsed <= 80) {
-          const instantaneousVelocity = -deltaY / elapsed;
-          scrollVelocity = scrollVelocity * 0.65 + instantaneousVelocity * 0.35;
-        } else {
-          scrollVelocity = 0;
-        }
-        lastY = event.clientY;
-        lastMoveTime = event.timeStamp;
-      }
-      return;
-    }
-
-    if (!gestureAxis) return;
-
-    if (gestureAxis === 'vertical') {
-      if (scrollTarget) {
-        const deltaY = event.clientY - lastY;
-        const elapsed = event.timeStamp - lastMoveTime;
-        scrollTarget.scrollTop -= deltaY;
-        if (elapsed > 0 && elapsed <= 80) {
-          const instantaneousVelocity = -deltaY / elapsed;
-          scrollVelocity = scrollVelocity * 0.65 + instantaneousVelocity * 0.35;
-        } else {
-          scrollVelocity = 0;
-        }
-      }
-      lastY = event.clientY;
-      lastMoveTime = event.timeStamp;
-      return;
-    }
-
-    if (SWIPING_ENABLED) render(startRotation + (dx / width) * 90, false);
-  });
-
-  function finishGesture(event, cancelled = false) {
-    if (!dragging || event.pointerId !== pointerId) return;
-
-    const dx = event.clientX - startX;
-    const dy = event.clientY - startY;
-    const completedScrollTarget = scrollTarget;
-    const completedScrollVelocity = scrollVelocity;
-    const nativeVerticalScroll = usesNativeVerticalScroll() && gestureAxis === 'vertical';
-    dragging = false;
-    pointerId = null;
-    pointerType = null;
-    startedOnSummary = false;
-    scrollTarget = null;
-    pointerCaptured = false;
-    const shouldRestoreCube = !deferGesture;
-    deferGesture = false;
-
-    if (cancelled) {
-      gestureAxis = null;
-      if (!nativeVerticalScroll && !gestureStartedDuringAnimation && !animating) {
-        render(rotation, true);
-      }
-      return;
-    }
-
-    if (!gestureAxis && Math.max(Math.abs(dx), Math.abs(dy)) > GESTURE_THRESHOLD) {
-      gestureAxis = Math.abs(dx) >= Math.abs(dy) ? 'horizontal' : 'vertical';
-    }
-
-    if (!gestureAxis) {
-      if (shouldRestoreCube && !gestureStartedDuringAnimation && !animating) render(rotation, true);
-      return;
-    }
-
-    if (gestureAxis === 'vertical') {
-      if (!usesNativeVerticalScroll()) {
-        startScrollMomentum(completedScrollTarget, completedScrollVelocity);
-      }
-      gestureAxis = null;
-      return;
-    }
-    if (!SWIPING_ENABLED) {
-      gestureAxis = null;
-      if (!gestureStartedDuringAnimation && !animating) render(rotation, true);
-      return;
-    }
-    gestureAxis = null;
-
-    if (Math.abs(dx) <= Math.abs(dy) * 1.1) {
-      if (!gestureStartedDuringAnimation && !animating) render(rotation, true);
-      return;
-    }
-
-    const threshold = Math.max(40, width * SWIPE_THRESHOLD);
-    if (Math.abs(dx) < threshold) {
-      if (!gestureStartedDuringAnimation && !animating) render(rotation, true);
-      return;
-    }
-
-    onSwipe?.();
-    enqueueSwipe(dx < 0 ? 1 : -1);
-  }
-
-  app.addEventListener('pointerup', event => finishGesture(event));
-  app.addEventListener('pointercancel', event => finishGesture(event, true));
-
   document.addEventListener('keydown', event => {
-    if (!SWIPING_ENABLED) return;
-    if (event.key === 'ArrowLeft') enqueueSwipe(1);
-    if (event.key === 'ArrowRight') enqueueSwipe(-1);
+    if (SWIPING_ENABLED && event.key === 'ArrowLeft') navigate(1);
+    if (SWIPING_ENABLED && event.key === 'ArrowRight') navigate(-1);
   });
 
   window.addEventListener('resize', () => {
-    width = app.clientWidth;
-    render(rotation, false);
+    syncCubeHeight();
+    render(rotation);
   });
 
   updateFaces();
-  render(rotation, false);
+  render(rotation);
 
   return {
-    next: () => enqueueSwipe(1, true),
-    previous: () => enqueueSwipe(-1, true),
+    next: () => navigate(1),
+    previous: () => navigate(-1),
     getCurrentIndex: () => currentIndex
   };
 }
