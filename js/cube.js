@@ -1,4 +1,5 @@
 export function createCube({ app, cube, faces, events, initialIndex = 0, onIndexChange, onSwipe }) {
+  const SWIPING_ENABLED = false;
   const SWIPE_THRESHOLD = 0.14;
   const GESTURE_THRESHOLD = 24;
   const SETTLE_MS = 420;
@@ -136,8 +137,8 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     fallbackTimer = setTimeout(completeTransition, SETTLE_MS + 120);
   }
 
-  function enqueueSwipe(direction) {
-    if (!events.length) return;
+  function enqueueSwipe(direction, allowWhenSwipingDisabled = false) {
+    if ((!SWIPING_ENABLED && !allowWhenSwipingDisabled) || !events.length) return;
     swipeQueue.push(direction);
     processQueue();
   }
@@ -190,6 +191,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     if (!gestureAxis && Math.max(Math.abs(dx), Math.abs(dy)) > GESTURE_THRESHOLD) {
       gestureAxis = Math.abs(dx) >= Math.abs(dy) ? 'horizontal' : 'vertical';
       if (usesNativeVerticalScroll() && gestureAxis === 'vertical') return;
+      if (!SWIPING_ENABLED && gestureAxis === 'horizontal') return;
       if (deferGesture && gestureAxis === 'horizontal' && !animating) {
         cube.style.transition = 'none';
       }
@@ -237,7 +239,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
       return;
     }
 
-    render(startRotation + (dx / width) * 90, false);
+    if (SWIPING_ENABLED) render(startRotation + (dx / width) * 90, false);
   });
 
   function finishGesture(event, cancelled = false) {
@@ -281,6 +283,11 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
       gestureAxis = null;
       return;
     }
+    if (!SWIPING_ENABLED) {
+      gestureAxis = null;
+      if (!gestureStartedDuringAnimation && !animating) render(rotation, true);
+      return;
+    }
     gestureAxis = null;
 
     if (Math.abs(dx) <= Math.abs(dy) * 1.1) {
@@ -302,6 +309,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   app.addEventListener('pointercancel', event => finishGesture(event, true));
 
   document.addEventListener('keydown', event => {
+    if (!SWIPING_ENABLED) return;
     if (event.key === 'ArrowLeft') enqueueSwipe(1);
     if (event.key === 'ArrowRight') enqueueSwipe(-1);
   });
@@ -315,8 +323,8 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   render(rotation, false);
 
   return {
-    next: () => enqueueSwipe(1),
-    previous: () => enqueueSwipe(-1),
+    next: () => enqueueSwipe(1, true),
+    previous: () => enqueueSwipe(-1, true),
     getCurrentIndex: () => currentIndex
   };
 }

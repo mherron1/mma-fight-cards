@@ -303,9 +303,14 @@ async function initApp() {
   const app = document.getElementById('app');
   const cube = document.getElementById('cube');
   const cardProgress = document.getElementById('cardProgress');
+  const eventNavigation = document.getElementById('eventNavigation');
+  const previousEvent = document.getElementById('previousEvent');
+  const nextEvent = document.getElementById('nextEvent');
   const swipeHint = document.getElementById('swipeHint');
 
   function updateCardProgress(index, total) {
+    previousEvent.disabled = total < 2;
+    nextEvent.disabled = total < 2;
     if (cardProgress.childElementCount !== total) {
       cardProgress.replaceChildren(...Array.from({ length: total }, () => {
         const segment = document.createElement('span');
@@ -477,7 +482,7 @@ async function initApp() {
       __html: renderFightCard(event, fighterImageIndex)
     }));
 
-    createCube({
+    const eventControls = createCube({
       app,
       cube,
       faces,
@@ -496,6 +501,10 @@ async function initApp() {
         updateCountdowns();
       }
     });
+    previousEvent.disabled = events.length < 2;
+    nextEvent.disabled = events.length < 2;
+    previousEvent.addEventListener('click', eventControls.previous);
+    nextEvent.addEventListener('click', eventControls.next);
     applyPreferences();
     window.setInterval(updateCountdowns, 1000);
 
