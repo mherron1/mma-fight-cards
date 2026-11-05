@@ -22,25 +22,24 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     cube.style.transform = `translateZ(${-width / 2}px) rotateY(${angle}deg)`;
   }
 
-  function syncCubeHeight(frontPhysical = ((stepCount % 4) + 4) % 4) {
+  function syncCubeHeight() {
     if (!isMobileLayout()) {
       cube.style.height = '';
+      faces.forEach(face => { face.style.height = ''; });
       return;
     }
 
-    const frontFace = faces[frontPhysical];
-    cube.style.height = `${Math.max(
-      frontFace.scrollHeight,
-      Math.ceil(frontFace.getBoundingClientRect().height)
-    )}px`;
-  }
+    const cards = faces
+      .map(face => face.querySelector('.event-card'))
+      .filter(Boolean);
+    const tallestHeight = Math.max(
+      cube.parentElement.clientHeight,
+      ...cards.map(card => Math.ceil(card.scrollHeight))
+    );
 
-  const faceResizeObserver = new ResizeObserver(() => {
-    if (!isMobileLayout() || cube.classList.contains('is-rotating')) return;
-    const frontPhysical = ((stepCount % 4) + 4) % 4;
-    syncCubeHeight(frontPhysical);
-  });
-  faces.forEach(face => faceResizeObserver.observe(face));
+    faces.forEach(face => { face.style.height = `${tallestHeight}px`; });
+    cube.style.height = `${tallestHeight}px`;
+  }
 
   function updateFaces() {
     const count = events.length;
@@ -58,8 +57,6 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
       }
       face.toggleAttribute('data-front', physicalIndex === frontPhysical);
     });
-
-    syncCubeHeight(frontPhysical);
   }
 
   function completeTransition() {
@@ -93,7 +90,6 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     onIndexChange?.(currentIndex, events.length);
 
     if (isMobileLayout()) {
-      syncCubeHeight();
       settleRotation(rotation);
       window.scrollTo(0, 0);
       return true;
@@ -173,8 +169,6 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   cube.addEventListener('transitionend', event => {
     if (event.target === cube && event.propertyName === 'transform') {
       completeTransition();
-    } else if (event.propertyName === 'grid-template-rows' && !animating) {
-      syncCubeHeight();
     }
   });
 
@@ -184,11 +178,11 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   });
 
   window.addEventListener('resize', () => {
-    syncCubeHeight();
     render(rotation);
   });
 
   updateFaces();
+  syncCubeHeight();
   onIndexChange?.(currentIndex, events.length);
   render(rotation);
 

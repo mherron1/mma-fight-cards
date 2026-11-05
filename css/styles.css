@@ -228,10 +228,6 @@ body { min-height: 100%; }
     transform-style: preserve-3d;
     will-change: transform;
   }
-  .cube.is-rotating .cube-face {
-    max-height: calc(100dvh - 53px);
-    overflow: hidden;
-  }
   .cube-face {
     position: absolute;
     top: 0;
@@ -247,7 +243,7 @@ body { min-height: 100%; }
   }
   .event-card {
     height: auto;
-    min-height: calc(100dvh - 53px);
+    min-height: max(100%, calc(100dvh - 53px));
     overflow: visible;
     touch-action: pan-y;
   }
