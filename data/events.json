@@ -51,9 +51,9 @@
           "rankings": [
             {
               "division": "lightweight",
-              "rank": 14,
+              "rank": 13,
               "is_champion": false,
-              "movement": 0,
+              "movement": 1,
               "nationality": "Australia",
               "country_code": "AU"
             }
@@ -194,9 +194,9 @@
           "rankings": [
             {
               "division": "womens-bantamweight",
-              "rank": 6,
+              "rank": 7,
               "is_champion": false,
-              "movement": 0,
+              "movement": -1,
               "nationality": "Russia",
               "country_code": "RU"
             }
@@ -216,9 +216,9 @@
           "rankings": [
             {
               "division": "womens-bantamweight",
-              "rank": 7,
+              "rank": 5,
               "is_champion": false,
-              "movement": 0,
+              "movement": 2,
               "nationality": "Brazil",
               "country_code": "BR"
             }
@@ -707,8 +707,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-227",
-            "fighter_2": "184",
+            "fighter_1": "-230",
+            "fighter_2": "187",
             "status": "consensus_odds"
           }
         },
@@ -784,8 +784,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-201",
-            "fighter_2": "165",
+            "fighter_1": "-206",
+            "fighter_2": "168",
             "status": "consensus_odds"
           }
         },
@@ -822,51 +822,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "233",
-            "fighter_2": "-293",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93281",
-          "card_position": "main_card",
-          "weight_class": "Welterweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Seokhyeon Ko",
-            "nickname": "The Korean Tyson",
-            "record": "13-3-0",
-            "country": "South Korea",
-            "flag": "🇰🇷",
-            "rankings": [],
-            "image": "",
-            "dob": "1993-09-24",
-            "image_credit": null,
-            "height": "5' 10\"",
-            "weight": "170 lbs"
-          },
-          "fighter_2": {
-            "name": "Wellington Turman",
-            "nickname": "The Prodigy",
-            "record": "18-8-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/be6627263b67022dca6175c7ec9def82f6d6c70349291b362ba7913bd8bd17af.webp",
-            "dob": "1996-07-22",
-            "image_credit": {
-              "artist": "Celsojunior96",
-              "license": "CC BY-SA 4.0",
-              "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:WelingtonTurman2.jpg"
-            },
-            "height": "6' 0\"",
-            "weight": "170 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-710",
-            "fighter_2": "486",
+            "fighter_1": "252",
+            "fighter_2": "-318",
             "status": "consensus_odds"
           }
         },
@@ -903,46 +860,122 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "248",
-            "fighter_2": "-315",
+            "fighter_1": "258",
+            "fighter_2": "-330",
             "status": "consensus_odds"
           }
         },
         {
-          "id": "93562",
+          "id": "93279",
           "card_position": "main_card",
-          "weight_class": "Middleweight",
+          "weight_class": "Women's Bantamweight",
           "title_fight": false,
           "fighter_1": {
-            "name": "Mantas Kondratavicius",
-            "nickname": "",
-            "record": "9-1-0",
-            "country": "Lithuania",
-            "flag": "🇱🇹",
+            "name": "Priscila Cachoeira",
+            "nickname": "Zombie Girl",
+            "record": "13-9-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
             "rankings": [],
             "image": "",
-            "dob": "1999-07-17",
+            "dob": "1988-08-19",
             "image_credit": null,
-            "height": "6' 2\"",
-            "weight": "185 lbs"
+            "height": "5' 7\"",
+            "weight": "135 lbs"
           },
           "fighter_2": {
-            "name": "Andre Petroski",
+            "name": "Nina Milošević",
+            "nickname": "Queen Beast",
+            "record": "9-1-0",
+            "country": "Serbia",
+            "flag": "🇷🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-08-08",
+            "image_credit": null,
+            "height": "5' 5\"",
+            "weight": "135 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "370",
+            "fighter_2": "-508",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93615",
+          "card_position": "main_card",
+          "weight_class": "Flyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Mitch Raposo",
             "nickname": "",
-            "record": "13-6-0",
+            "record": "11-3-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
-            "dob": "1991-06-12",
+            "dob": "1998-10-16",
             "image_credit": null,
-            "height": "6' 0\"",
-            "weight": "185 lbs"
+            "height": "5' 5\"",
+            "weight": "125 lbs"
+          },
+          "fighter_2": {
+            "name": "Marcos Degli",
+            "nickname": "Tailandês",
+            "record": "15-3-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "2000-05-13",
+            "image_credit": null,
+            "height": "5' 6\"",
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-298",
-            "fighter_2": "238",
+            "fighter_1": "189",
+            "fighter_2": "-234",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93280",
+          "card_position": "prelim",
+          "weight_class": "Featherweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Keiichiro Nakamura",
+            "nickname": "",
+            "record": "8-1-0",
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "rankings": [],
+            "image": "",
+            "dob": "1998-12-02",
+            "image_credit": null,
+            "height": "5' 10\"",
+            "weight": "145 lbs"
+          },
+          "fighter_2": {
+            "name": "Ollie Schmid",
+            "nickname": "The Hungarian Stallion",
+            "record": "4-3-0",
+            "country": "New Zealand",
+            "flag": "🇳🇿",
+            "rankings": [],
+            "image": "",
+            "dob": "2000-12-28",
+            "image_credit": null,
+            "height": "6' 0\"",
+            "weight": "145 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "-357",
+            "fighter_2": "276",
             "status": "consensus_odds"
           }
         },
@@ -953,7 +986,7 @@
           "title_fight": false,
           "fighter_1": {
             "name": "Gabriel Lorenço",
-            "nickname": "Black Mamba",
+            "nickname": "The Black Mamba",
             "record": "8-1-0",
             "country": "Brazil",
             "flag": "🇧🇷",
@@ -979,8 +1012,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "133",
-            "fighter_2": "-160",
+            "fighter_1": "141",
+            "fighter_2": "-171",
             "status": "consensus_odds"
           }
         },
@@ -1020,9 +1053,9 @@
             "rankings": [
               {
                 "division": "womens-flyweight",
-                "rank": 14,
+                "rank": 15,
                 "is_champion": false,
-                "movement": 0,
+                "movement": -1,
                 "nationality": "Brazil",
                 "country_code": "BR"
               }
@@ -1035,46 +1068,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-219",
-            "fighter_2": "177",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93615",
-          "card_position": "prelim",
-          "weight_class": "Flyweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Mitch Raposo",
-            "nickname": "",
-            "record": "11-3-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "dob": "1998-10-16",
-            "image_credit": null,
-            "height": "5' 5\"",
-            "weight": "125 lbs"
-          },
-          "fighter_2": {
-            "name": "Marcos Degli",
-            "nickname": "Tailandês",
-            "record": "15-3-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [],
-            "image": "",
-            "dob": "2000-05-13",
-            "image_credit": null,
-            "height": "5' 6\"",
-            "weight": "125 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "183",
-            "fighter_2": "-226",
+            "fighter_1": "-230",
+            "fighter_2": "186",
             "status": "consensus_odds"
           }
         },
@@ -1111,51 +1106,13 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-113",
-            "fighter_2": "-108",
+            "fighter_1": "-119",
+            "fighter_2": "-102",
             "status": "consensus_odds"
           }
         },
         {
-          "id": "93280",
-          "card_position": "prelim",
-          "weight_class": "Featherweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Keiichiro Nakamura",
-            "nickname": "",
-            "record": "8-1-0",
-            "country": "Japan",
-            "flag": "🇯🇵",
-            "rankings": [],
-            "image": "",
-            "dob": "1998-12-02",
-            "image_credit": null,
-            "height": "5' 10\"",
-            "weight": "145 lbs"
-          },
-          "fighter_2": {
-            "name": "Ollie Schmid",
-            "nickname": "The Hungarian Stallion",
-            "record": "4-3-0",
-            "country": "New Zealand",
-            "flag": "🇳🇿",
-            "rankings": [],
-            "image": "",
-            "dob": "2000-12-28",
-            "image_credit": null,
-            "height": "6' 0\"",
-            "weight": "145 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-350",
-            "fighter_2": "273",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93277",
+          "id": "93715",
           "card_position": "prelim",
           "weight_class": "Featherweight",
           "title_fight": false,
@@ -1173,60 +1130,103 @@
             "weight": "145 lbs"
           },
           "fighter_2": {
-            "name": "Lucas Brennan",
-            "nickname": "Skywalker",
-            "record": "11-3-0",
+            "name": "Carlos Calderon",
+            "nickname": "Chief",
+            "record": "11-4-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
-            "dob": "2000-06-03",
+            "dob": "1996-02-10",
             "image_credit": null,
-            "height": "5' 10\"",
+            "height": "5' 11\"",
             "weight": "145 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-451",
+            "fighter_2": "334",
+            "status": "consensus_odds"
           }
         },
         {
-          "id": "93279",
+          "id": "93562",
           "card_position": "prelim",
-          "weight_class": "Women's Bantamweight",
+          "weight_class": "Middleweight",
           "title_fight": false,
           "fighter_1": {
-            "name": "Priscila Cachoeira",
-            "nickname": "Zombie Girl",
-            "record": "13-9-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
+            "name": "Mantas Kondratavicius",
+            "nickname": "",
+            "record": "9-1-0",
+            "country": "Lithuania",
+            "flag": "🇱🇹",
             "rankings": [],
             "image": "",
-            "dob": "1988-08-19",
+            "dob": "1999-07-17",
             "image_credit": null,
-            "height": "5' 7\"",
-            "weight": "135 lbs"
+            "height": "6' 2\"",
+            "weight": "185 lbs"
           },
           "fighter_2": {
-            "name": "Nina Milošević",
-            "nickname": "Queen Beast",
-            "record": "9-1-0",
-            "country": "Serbia",
-            "flag": "🇷🇸",
+            "name": "Andre Petroski",
+            "nickname": "",
+            "record": "13-6-0",
+            "country": "United States",
+            "flag": "🇺🇸",
             "rankings": [],
             "image": "",
-            "dob": "1996-08-08",
+            "dob": "1991-06-12",
             "image_credit": null,
-            "height": "5' 5\"",
-            "weight": "135 lbs"
+            "height": "6' 0\"",
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
-            "fighter_1": "352",
-            "fighter_2": "-478",
+            "fighter_1": "-300",
+            "fighter_2": "238",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93281",
+          "card_position": "prelim",
+          "weight_class": "Welterweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Seokhyeon Ko",
+            "nickname": "The Korean Tyson",
+            "record": "13-3-0",
+            "country": "South Korea",
+            "flag": "🇰🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1993-09-24",
+            "image_credit": null,
+            "height": "5' 10\"",
+            "weight": "170 lbs"
+          },
+          "fighter_2": {
+            "name": "Wellington Turman",
+            "nickname": "The Prodigy",
+            "record": "18-8-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/be6627263b67022dca6175c7ec9def82f6d6c70349291b362ba7913bd8bd17af.webp",
+            "dob": "1996-07-22",
+            "image_credit": {
+              "artist": "Celsojunior96",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:WelingtonTurman2.jpg"
+            },
+            "height": "6' 0\"",
+            "weight": "170 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "-735",
+            "fighter_2": "500",
             "status": "consensus_odds"
           }
         },
@@ -1263,8 +1263,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "187",
-            "fighter_2": "-231",
+            "fighter_1": "191",
+            "fighter_2": "-236",
             "status": "consensus_odds"
           }
         }
@@ -1422,8 +1422,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-186",
-            "fighter_2": "152",
+            "fighter_1": "-185",
+            "fighter_2": "151",
             "status": "consensus_odds"
           }
         },
@@ -1474,8 +1474,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-156",
-            "fighter_2": "127",
+            "fighter_1": "-157",
+            "fighter_2": "128",
             "status": "consensus_odds"
           }
         },
@@ -1535,8 +1535,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-162",
-            "fighter_2": "133",
+            "fighter_1": "-172",
+            "fighter_2": "141",
             "status": "consensus_odds"
           }
         },
@@ -1573,8 +1573,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-949",
-            "fighter_2": "584",
+            "fighter_1": "-931",
+            "fighter_2": "578",
             "status": "consensus_odds"
           }
         },
@@ -1616,8 +1616,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-123",
-            "fighter_2": "-102",
+            "fighter_1": "-135",
+            "fighter_2": "111",
             "status": "consensus_odds"
           }
         },
@@ -1654,8 +1654,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "115",
-            "fighter_2": "-144",
+            "fighter_1": "134",
+            "fighter_2": "-163",
             "status": "consensus_odds"
           }
         },
@@ -1697,8 +1697,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "171",
-            "fighter_2": "-221",
+            "fighter_1": "174",
+            "fighter_2": "-219",
             "status": "consensus_odds"
           }
         },
@@ -1735,8 +1735,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-152",
-            "fighter_2": "121",
+            "fighter_1": "-182",
+            "fighter_2": "149",
             "status": "consensus_odds"
           }
         },
@@ -1791,8 +1791,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "171",
-            "fighter_2": "-220",
+            "fighter_1": "172",
+            "fighter_2": "-216",
             "status": "consensus_odds"
           }
         },
@@ -1914,8 +1914,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "310",
-            "fighter_2": "-432",
+            "fighter_1": "292",
+            "fighter_2": "-386",
             "status": "consensus_odds"
           }
         },
@@ -1952,8 +1952,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-119",
-            "fighter_2": "-106",
+            "fighter_1": "-121",
+            "fighter_2": "-102",
             "status": "consensus_odds"
           }
         }
@@ -2033,8 +2033,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "113",
-            "fighter_2": "-136",
+            "fighter_1": "116",
+            "fighter_2": "-142",
             "status": "consensus_odds"
           }
         },
@@ -2113,9 +2113,9 @@
             "rankings": [
               {
                 "division": "lightweight",
-                "rank": 13,
+                "rank": 14,
                 "is_champion": false,
-                "movement": 0,
+                "movement": -1,
                 "nationality": "New Zealand",
                 "country_code": "NZ"
               }
@@ -2554,7 +2554,7 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-151",
+            "fighter_1": "-150",
             "fighter_2": "122",
             "status": "consensus_odds"
           }
@@ -2628,8 +2628,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-202",
-            "fighter_2": "162",
+            "fighter_1": "-201",
+            "fighter_2": "163",
             "status": "consensus_odds"
           }
         },

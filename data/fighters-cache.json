@@ -18821,5 +18821,146 @@
       "source": "native"
     },
     "_cache_updated_at": "2026-11-01T00:11:30.319Z"
+  },
+  "carlos-calderon-3": {
+    "id": 161555,
+    "slug": "carlos-calderon-3",
+    "name": "Carlos Calderon",
+    "nickname": "Chief",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 71,
+    "weight_lbs": 145,
+    "reach_inches": 71,
+    "stance": "Switch",
+    "dob": "1996-02-10",
+    "team": "Havoc MMA",
+    "birthplace": "Los Angeles, California, United States",
+    "records": {
+      "amateur_mma": {
+        "value": "4-0",
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "11-4-0",
+        "wins": 11,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.84,
+        "str_acc": 0.42,
+        "sapm": 4.97,
+        "str_def": 0.33,
+        "td_avg": 3.92,
+        "td_acc": 0.33,
+        "td_def": null,
+        "sub_avg": 0
+      },
+      "slpm": "4.84",
+      "str_acc": "42%",
+      "sapm": "4.97",
+      "str_def": "33%",
+      "td_avg": "3.92",
+      "td_acc": "33%",
+      "td_def": null,
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "4-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "11-4-0",
+        "slpm": "4.84",
+        "str_acc": "42%",
+        "sapm": "4.97",
+        "str_def": "33%",
+        "td_avg": "3.92",
+        "td_acc": "33%",
+        "td_def": null,
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1709,
+      "peak": 1709,
+      "peak_at": "2026-10-02T00:00:00.000Z",
+      "peak_date": "2026-10-02",
+      "fights_rated": 15,
+      "last_fought_at": "2026-10-02T00:00:00.000Z",
+      "last_fought_date": "2026-10-02"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93715,
+      "event_id": 2549,
+      "event_title": "UFC Fight Night: Cortes Acosta vs Walker",
+      "event_slug": "ufc-fight-night-2026-11-07",
+      "org_slug": "ufc",
+      "date": "2026-11-07",
+      "opponent_id": 2865,
+      "opponent_name": "Austin Bashi",
+      "opponent_slug": "austin-bashi",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 84029,
+      "event_id": 2631,
+      "event_title": "Dana White's Contender Series 74",
+      "event_slug": "ufc-2024-10-01",
+      "org_slug": "ufc",
+      "date": "2024-10-01",
+      "opponent_id": 460,
+      "opponent_name": "Alberto Montes",
+      "opponent_slug": "alberto-montes",
+      "result": "loss",
+      "method": "Submission",
+      "round": 2,
+      "time": "02:39",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-05T12:53:15.988Z"
   }
 }
