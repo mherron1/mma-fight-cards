@@ -899,7 +899,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "370",
-            "fighter_2": "-508",
+            "fighter_2": "-506",
             "status": "consensus_odds"
           }
         },
@@ -936,8 +936,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "189",
-            "fighter_2": "-234",
+            "fighter_1": "190",
+            "fighter_2": "-235",
             "status": "consensus_odds"
           }
         },
@@ -1144,8 +1144,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-451",
-            "fighter_2": "334",
+            "fighter_1": "-456",
+            "fighter_2": "342",
             "status": "consensus_odds"
           }
         },
@@ -1225,8 +1225,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-735",
-            "fighter_2": "500",
+            "fighter_1": "-740",
+            "fighter_2": "501",
             "status": "consensus_odds"
           }
         },
@@ -1263,8 +1263,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "191",
-            "fighter_2": "-236",
+            "fighter_1": "190",
+            "fighter_2": "-235",
             "status": "consensus_odds"
           }
         }
@@ -1357,8 +1357,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-256",
-            "fighter_2": "203",
+            "fighter_1": "-255",
+            "fighter_2": "202",
             "status": "consensus_odds"
           }
         },
