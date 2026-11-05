@@ -240,11 +240,13 @@ body { min-height: 100%; }
     overflow: visible;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
+    background: radial-gradient(ellipse at 50% 22%, rgba(128,128,128,.08), transparent 55%), var(--panel);
   }
   .event-card {
     height: auto;
     min-height: max(100%, calc(100dvh - 53px));
     overflow: visible;
+    background: transparent;
     touch-action: pan-y;
   }
   .fight-sections {
