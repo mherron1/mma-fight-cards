@@ -67,6 +67,27 @@ function initSharing() {
   });
 }
 
+function formatFractionalOdds(rawOdds) {
+  const odds = BigInt(rawOdds.trim());
+  const numerator = odds > 0n ? odds : 100n;
+  const denominator = odds > 0n ? 100n : -odds;
+
+  if (numerator * 10n < denominator) {
+    return `1/${(denominator + numerator - 1n) / numerator}`;
+  }
+
+  let bestNumerator = 0n;
+  let bestDenominator = 1n;
+  for (let candidateDenominator = 1n; candidateDenominator <= 10n; candidateDenominator++) {
+    const candidateNumerator = numerator * candidateDenominator / denominator;
+    if (candidateNumerator * bestDenominator > bestNumerator * candidateDenominator) {
+      bestNumerator = candidateNumerator;
+      bestDenominator = candidateDenominator;
+    }
+  }
+  return `${bestNumerator}/${bestDenominator}`;
+}
+
 function initPreferences() {
   const unitsControl = document.getElementById('unitsPreference');
   const oddsControl = document.getElementById('oddsPreference');
@@ -134,14 +155,7 @@ function initPreferences() {
         return;
       }
 
-      let numerator = americanOdds > 0 ? americanOdds : 100;
-      let denominator = americanOdds > 0 ? 100 : Math.abs(americanOdds);
-      let a = numerator;
-      let b = denominator;
-      while (b) [a, b] = [b, a % b];
-      numerator /= a;
-      denominator /= a;
-      element.textContent = `${numerator}/${denominator}`;
+      element.textContent = formatFractionalOdds(rawOdds);
     });
   }
 

@@ -54,3 +54,5 @@ All event and fighter information currently included is fictional placeholder da
 ## Appearance
 
 Choose Light, Dark, or Greyscale in Settings. Greyscale uses the light theme and desaturates the entire page, including photos and flags. The app remembers your choice on that device.
+
+Fractional odds are rounded down to the closest fraction with a denominator of at most 10. For odds below 1/10, a larger denominator is used to avoid displaying zero.
