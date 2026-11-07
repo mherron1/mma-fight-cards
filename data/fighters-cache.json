@@ -18962,5 +18962,2024 @@
       "source": "native"
     },
     "_cache_updated_at": "2026-11-05T12:53:15.988Z"
+  },
+  "joshua-van": {
+    "id": 3,
+    "slug": "joshua-van",
+    "name": "Joshua Van",
+    "nickname": "The Fearless",
+    "nationality": "Myanmar",
+    "country_code": "MM",
+    "second_nationality": "United States",
+    "height_inches": 65,
+    "weight_lbs": 125,
+    "reach_inches": 65,
+    "stance": "Orthodox",
+    "dob": "2001-10-10",
+    "team": "4oz Fight Club",
+    "birthplace": "Hakha , Myanmar",
+    "records": {
+      "amateur_mma": {
+        "value": "4-0",
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "18-2-0",
+        "wins": 18,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "11-1-0",
+        "wins": 11,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 8.26,
+        "str_acc": 0.58,
+        "sapm": 5.83,
+        "str_def": 0.57,
+        "td_avg": 0.7,
+        "td_acc": 0.62,
+        "td_def": 0.75,
+        "sub_avg": 0.3
+      },
+      "slpm": "8.26",
+      "str_acc": "58%",
+      "sapm": "5.83",
+      "str_def": "57%",
+      "td_avg": "0.70",
+      "td_acc": "62%",
+      "td_def": "75%",
+      "sub_avg": "0.3",
+      "basis": {
+        "bouts": 12,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "4-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "18-2-0",
+        "slpm": "8.26",
+        "str_acc": "58%",
+        "sapm": "5.83",
+        "str_def": "57%",
+        "td_avg": "0.70",
+        "td_acc": "62%",
+        "td_def": "75%",
+        "sub_avg": "0.3"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "11-1-0",
+        "slpm": "8.26",
+        "str_acc": "58%",
+        "sapm": "5.83",
+        "str_def": "57%",
+        "td_avg": "0.70",
+        "td_acc": "62%",
+        "td_def": "75%",
+        "sub_avg": "0.3"
+      }
+    ],
+    "power_index": {
+      "rating": 1917,
+      "peak": 1917,
+      "peak_at": "2026-09-19T21:30:00.000Z",
+      "peak_date": "2026-09-19",
+      "fights_rated": 20,
+      "last_fought_at": "2026-09-19T21:30:00.000Z",
+      "last_fought_date": "2026-09-19"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/4f0bea6542946e562d04f8f253df3a7470c44333fe778af715e6a730c477ee60.webp",
+        "width": 610,
+        "height": 620,
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "AlfredoMMA",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Joshua_Van_1.png"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 93574,
+      "event_id": 3553,
+      "event_title": "UFC 336: Van vs Kape",
+      "event_slug": "ufc-336-2027-01-30",
+      "org_slug": "ufc",
+      "date": "2027-01-30",
+      "opponent_id": 113,
+      "opponent_name": "Manel Kape",
+      "opponent_slug": "manel-kape",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Flyweight",
+      "is_title": true,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83412,
+      "event_id": 2536,
+      "event_title": "Crypto.com UFC 331",
+      "event_slug": "ufc-2026-09-20",
+      "org_slug": "ufc",
+      "date": "2026-09-19",
+      "opponent_id": 361,
+      "opponent_name": "Alexandre Pantoja",
+      "opponent_slug": "alexandre-pantoja",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 5,
+      "time": "5:00",
+      "weight_class": "Flyweight",
+      "is_title": true,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:03:58.083Z"
+  },
+  "manel-kape": {
+    "id": 113,
+    "slug": "manel-kape",
+    "name": "Manel Kape",
+    "nickname": "StarBoy",
+    "nationality": "Angola",
+    "country_code": "AO",
+    "second_nationality": null,
+    "height_inches": 65,
+    "weight_lbs": 125,
+    "reach_inches": 68,
+    "stance": "Southpaw",
+    "dob": "1993-11-14",
+    "team": "Xtreme Couture",
+    "birthplace": "Luanda, Angola",
+    "records": {
+      "pro_mma": {
+        "value": "23-7-0",
+        "wins": 23,
+        "losses": 7,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "8-3-0",
+        "wins": 8,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.68,
+        "str_acc": 0.55,
+        "sapm": 3.88,
+        "str_def": 0.57,
+        "td_avg": 0.36,
+        "td_acc": 0.3,
+        "td_def": 0.79,
+        "sub_avg": 0.2
+      },
+      "slpm": "4.68",
+      "str_acc": "55%",
+      "sapm": "3.88",
+      "str_def": "57%",
+      "td_avg": "0.36",
+      "td_acc": "30%",
+      "td_def": "79%",
+      "sub_avg": "0.2",
+      "basis": {
+        "bouts": 11,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "23-7-0",
+        "slpm": "4.68",
+        "str_acc": "55%",
+        "sapm": "3.88",
+        "str_def": "57%",
+        "td_avg": "0.36",
+        "td_acc": "30%",
+        "td_def": "79%",
+        "sub_avg": "0.2"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "8-3-0",
+        "slpm": "4.68",
+        "str_acc": "55%",
+        "sapm": "3.88",
+        "str_def": "57%",
+        "td_avg": "0.36",
+        "td_acc": "30%",
+        "td_def": "79%",
+        "sub_avg": "0.2"
+      }
+    ],
+    "power_index": {
+      "rating": 1831,
+      "peak": 1831,
+      "peak_at": "2026-06-20T21:00:00.000Z",
+      "peak_date": "2026-06-20",
+      "fights_rated": 26,
+      "last_fought_at": "2026-06-20T21:00:00.000Z",
+      "last_fought_date": "2026-06-20"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/c6deff53cbac9d29433386c64554f10579dae7d942cdb61979611614b026f2d7.webp",
+        "width": 687,
+        "height": 973,
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Bruno Massami",
+        "source_page": "https://commons.wikimedia.org/wiki/File:ManelKape2017.png"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 93574,
+      "event_id": 3553,
+      "event_title": "UFC 336: Van vs Kape",
+      "event_slug": "ufc-336-2027-01-30",
+      "org_slug": "ufc",
+      "date": "2027-01-30",
+      "opponent_id": 3,
+      "opponent_name": "Joshua Van",
+      "opponent_slug": "joshua-van",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Flyweight",
+      "is_title": true,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 65999,
+      "event_id": 7,
+      "event_title": "UFC Fight Night: Kape vs Horiguchi",
+      "event_slug": "ufc-fight-night-2026-06-20",
+      "org_slug": "ufc",
+      "date": "2026-06-20",
+      "opponent_id": 114,
+      "opponent_name": "Kyoji Horiguchi",
+      "opponent_slug": "kyoji-horiguchi",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 3,
+      "time": "2:42",
+      "weight_class": "Flyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:04:04.636Z"
+  },
+  "carlos-prates": {
+    "id": 402,
+    "slug": "carlos-prates",
+    "name": "Carlos Prates",
+    "nickname": "The Nightmare",
+    "nationality": "Brazil",
+    "country_code": "BR",
+    "second_nationality": null,
+    "height_inches": 73,
+    "weight_lbs": 170,
+    "reach_inches": 78,
+    "stance": "Switch",
+    "dob": "1993-08-17",
+    "team": "Tiger Muay Thai",
+    "birthplace": "Taubate, Sao Paulo, Brazil",
+    "records": {
+      "one": {
+        "value": "2-1-0",
+        "wins": 2,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "one-official",
+        "scope": "one-only"
+      },
+      "pro_kickboxing": {
+        "value": "2-0",
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-kickboxing"
+      },
+      "pro_mma": {
+        "value": "24-7-0",
+        "wins": 24,
+        "losses": 7,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "pro_muay_thai": {
+        "value": "0-1",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-muay-thai"
+      },
+      "ufc": {
+        "value": "7-1-0",
+        "wins": 7,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.41,
+        "str_acc": 0.55,
+        "sapm": 4.3,
+        "str_def": 0.48,
+        "td_avg": 0.18,
+        "td_acc": 1,
+        "td_def": 0.78,
+        "sub_avg": 0
+      },
+      "slpm": "4.41",
+      "str_acc": "55%",
+      "sapm": "4.30",
+      "str_def": "48%",
+      "td_avg": "0.18",
+      "td_acc": "100%",
+      "td_def": "78%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 9,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "one-only",
+        "source": "one-official",
+        "record": "2-1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-kickboxing",
+        "source": "public-records",
+        "record": "2-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "24-7-0",
+        "slpm": "4.41",
+        "str_acc": "55%",
+        "sapm": "4.30",
+        "str_def": "48%",
+        "td_avg": "0.18",
+        "td_acc": "100%",
+        "td_def": "78%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "pro-muay-thai",
+        "source": "public-records",
+        "record": "0-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "7-1-0",
+        "slpm": "4.38",
+        "str_acc": "54%",
+        "sapm": "4.35",
+        "str_def": "48%",
+        "td_avg": "0.19",
+        "td_acc": "100%",
+        "td_def": "79%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1810,
+      "peak": 1810,
+      "peak_at": "2026-05-02T08:00:00.000Z",
+      "peak_date": "2026-05-02",
+      "fights_rated": 29,
+      "last_fought_at": "2026-05-02T08:00:00.000Z",
+      "last_fought_date": "2026-05-02"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/a3623befdbc298fb7fd97b139e28e82aba524fd2065ad82357f4587273baa6c7.webp",
+        "width": 748,
+        "height": 937,
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Sexto Round",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Carlos_Prates_2026.jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/0017a7eb525f6fb10d567f8fd5b743715f5dbfaaf24c1820aa0284c8aa2eda55.webp",
+        "width": 600,
+        "height": 680,
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Sexto Round",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Carlos_Prates_2025.jpg"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 93575,
+      "event_id": 3553,
+      "event_title": "UFC 336: Van vs Kape",
+      "event_slug": "ufc-336-2027-01-30",
+      "org_slug": "ufc",
+      "date": "2027-01-30",
+      "opponent_id": 400,
+      "opponent_name": "Michael Morales",
+      "opponent_slug": "michael-morales",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight Interim",
+      "is_title": true,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 66063,
+      "event_id": 41,
+      "event_title": "UFC Fight Night: Della Maddalena vs Prates",
+      "event_slug": "ufc-fight-night-2026-05-02",
+      "org_slug": "ufc",
+      "date": "2026-05-02",
+      "opponent_id": 396,
+      "opponent_name": "Jack Della Maddalena",
+      "opponent_slug": "jack-della-maddalena",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 3,
+      "time": "3:17",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:04:11.086Z"
+  },
+  "michael-morales": {
+    "id": 400,
+    "slug": "michael-morales",
+    "name": "Michael Morales",
+    "nickname": null,
+    "nationality": "Ecuador",
+    "country_code": "EC",
+    "second_nationality": null,
+    "height_inches": 72,
+    "weight_lbs": 170,
+    "reach_inches": 79,
+    "stance": "Orthodox",
+    "dob": "1999-06-24",
+    "team": "Entram Gym",
+    "birthplace": "Pasaje, Ecuador",
+    "records": {
+      "pro_mma": {
+        "value": "19-0-0",
+        "wins": 19,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "7-0-0",
+        "wins": 7,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 5.68,
+        "str_acc": 0.49,
+        "sapm": 3.26,
+        "str_def": 0.54,
+        "td_avg": 1.04,
+        "td_acc": 0.42,
+        "td_def": 0.9,
+        "sub_avg": 0
+      },
+      "slpm": "5.68",
+      "str_acc": "49%",
+      "sapm": "3.26",
+      "str_def": "54%",
+      "td_avg": "1.04",
+      "td_acc": "42%",
+      "td_def": "90%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 8,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "19-0-0",
+        "slpm": "5.68",
+        "str_acc": "49%",
+        "sapm": "3.26",
+        "str_def": "54%",
+        "td_avg": "1.04",
+        "td_acc": "42%",
+        "td_def": "90%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "7-0-0",
+        "slpm": "6.25",
+        "str_acc": "50%",
+        "sapm": "3.21",
+        "str_def": "57%",
+        "td_avg": "0.26",
+        "td_acc": "25%",
+        "td_def": "88%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1897,
+      "peak": 1897,
+      "peak_at": "2025-11-16T03:00:00.000Z",
+      "peak_date": "2025-11-16",
+      "fights_rated": 21,
+      "last_fought_at": "2025-11-16T03:00:00.000Z",
+      "last_fought_date": "2025-11-16"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/d9a1918ea506d2e429a82e0f44eebbd08f219bf9a75c3825e59e66978d840303.webp",
+        "width": 1776,
+        "height": 2095,
+        "license": "Public domain",
+        "license_url": null,
+        "artist": "Presidencia de la República del Ecuador",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Michael_Morales._QUITO,_27_DE_MAYO_DEL_2025_(cropped).jpg"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 93575,
+      "event_id": 3553,
+      "event_title": "UFC 336: Van vs Kape",
+      "event_slug": "ufc-336-2027-01-30",
+      "org_slug": "ufc",
+      "date": "2027-01-30",
+      "opponent_id": 402,
+      "opponent_name": "Carlos Prates",
+      "opponent_slug": "carlos-prates",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight Interim",
+      "is_title": true,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 38197,
+      "event_id": 782,
+      "event_title": "VeChain UFC 322: Della Maddalena vs Makhachev",
+      "event_slug": "ufc-2025-11-15",
+      "org_slug": "ufc",
+      "date": "2025-11-16",
+      "opponent_id": 7,
+      "opponent_name": "Sean Brady",
+      "opponent_slug": "sean-brady",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 1,
+      "time": "3:27",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:04:17.572Z"
+  },
+  "quillan-salkilld": {
+    "id": 323,
+    "slug": "quillan-salkilld",
+    "name": "Quillan Salkilld",
+    "nickname": null,
+    "nationality": "Australia",
+    "country_code": "AU",
+    "second_nationality": null,
+    "height_inches": 72,
+    "weight_lbs": 155,
+    "reach_inches": 75,
+    "stance": "Orthodox",
+    "dob": "1999-12-28",
+    "team": "Luistro Combat Academy",
+    "birthplace": "Pinjarra, Australia",
+    "records": {
+      "amateur_mma": {
+        "value": "8-3",
+        "wins": 8,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "13-1-0",
+        "wins": 13,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "6-0-0",
+        "wins": 6,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.73,
+        "str_acc": 0.57,
+        "sapm": 2.79,
+        "str_def": 0.46,
+        "td_avg": 6.86,
+        "td_acc": 0.36,
+        "td_def": 0.81,
+        "sub_avg": 1
+      },
+      "slpm": "4.73",
+      "str_acc": "57%",
+      "sapm": "2.79",
+      "str_def": "46%",
+      "td_avg": "6.86",
+      "td_acc": "36%",
+      "td_def": "81%",
+      "sub_avg": "1.0",
+      "basis": {
+        "bouts": 7,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "8-3",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "13-1-0",
+        "slpm": "4.73",
+        "str_acc": "57%",
+        "sapm": "2.79",
+        "str_def": "46%",
+        "td_avg": "6.86",
+        "td_acc": "36%",
+        "td_def": "81%",
+        "sub_avg": "1.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "6-0-0",
+        "slpm": "4.38",
+        "str_acc": "58%",
+        "sapm": "2.02",
+        "str_def": "50%",
+        "td_avg": "5.74",
+        "td_acc": "33%",
+        "td_def": "77%",
+        "sub_avg": "1.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1893,
+      "peak": 1893,
+      "peak_at": "2026-08-08T21:00:00.000Z",
+      "peak_date": "2026-08-08",
+      "fights_rated": 14,
+      "last_fought_at": "2026-08-08T21:00:00.000Z",
+      "last_fought_date": "2026-08-08"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93671,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 254,
+      "opponent_name": "Benoit Saint Denis",
+      "opponent_slug": "benoit-saint-denis",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Lightweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 82958,
+      "event_id": 2513,
+      "event_title": "UFC Fight Night: Gamrot vs Salkilld",
+      "event_slug": "ufc-fight-night-2026-08-08",
+      "org_slug": "ufc",
+      "date": "2026-08-08",
+      "opponent_id": 178,
+      "opponent_name": "Mateusz Gamrot",
+      "opponent_slug": "mateusz-gamrot",
+      "result": "win",
+      "method": "Submission",
+      "round": 1,
+      "time": "4:25",
+      "weight_class": "Lightweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:04:24.053Z"
+  },
+  "benoit-saint-denis": {
+    "id": 254,
+    "slug": "benoit-saint-denis",
+    "name": "Benoit Saint Denis",
+    "nickname": "God of War",
+    "nationality": "France",
+    "country_code": "FR",
+    "second_nationality": null,
+    "height_inches": 71,
+    "weight_lbs": 155,
+    "reach_inches": 73,
+    "stance": "Southpaw",
+    "dob": "1995-12-18",
+    "team": "CYFIT",
+    "birthplace": "Nîmes, France",
+    "records": {
+      "pro_mma": {
+        "value": "17-4-0",
+        "wins": 17,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "pro_submission_grappling": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-submission-grappling"
+      },
+      "ufc": {
+        "value": "9-4-0",
+        "wins": 9,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 5.43,
+        "str_acc": 0.58,
+        "sapm": 4,
+        "str_def": 0.42,
+        "td_avg": 4.31,
+        "td_acc": 0.36,
+        "td_def": 0.72,
+        "sub_avg": 2.2
+      },
+      "slpm": "5.43",
+      "str_acc": "58%",
+      "sapm": "4.00",
+      "str_def": "42%",
+      "td_avg": "4.31",
+      "td_acc": "36%",
+      "td_def": "72%",
+      "sub_avg": "2.2",
+      "basis": {
+        "bouts": 14,
+        "orgs": [
+          "brave-cf",
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "17-4-0",
+        "slpm": "5.43",
+        "str_acc": "58%",
+        "sapm": "4.00",
+        "str_def": "42%",
+        "td_avg": "4.31",
+        "td_acc": "36%",
+        "td_def": "72%",
+        "sub_avg": "2.2"
+      },
+      {
+        "scope": "pro-submission-grappling",
+        "source": "public-records",
+        "record": "1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "9-4-0",
+        "slpm": "5.58",
+        "str_acc": "58%",
+        "sapm": "4.09",
+        "str_def": "42%",
+        "td_avg": "4.15",
+        "td_acc": "35%",
+        "td_def": "72%",
+        "sub_avg": "1.7"
+      }
+    ],
+    "power_index": {
+      "rating": 1861,
+      "peak": 1909,
+      "peak_at": "2023-11-12T03:00:00.000Z",
+      "peak_date": "2023-11-12",
+      "fights_rated": 22,
+      "last_fought_at": "2026-07-11T21:00:00.000Z",
+      "last_fought_date": "2026-07-11"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/c3487736c6483ddfeccaac2f20e018b63322e3abe556820009cbbfcafa89ba96.webp",
+        "width": 494,
+        "height": 532,
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "ZACK",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Benoit_Saint_Denis_2023.png"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/a7cc6289080a45594e8c176266021e8fc874319fa8523166cf4bbed81542f23a.webp",
+        "width": 2179,
+        "height": 3036,
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Gowdu59",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Benoit_Saint_Denis_Sept-2024.jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/0d48cb34020d9e066708925700fc0d03dda7c466421d4ddffdefe81e81d0892e.webp",
+        "width": 3024,
+        "height": 4032,
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Gowdu59",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Benoit_Saint_Denis_%C3%A0_l%27entra%C3%AEnement.jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/d0f971f3aa095b20dc4e8072eca14ad29078ada8a771c9cfda6cf258c3e52087.webp",
+        "width": 636,
+        "height": 699,
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Lucie Bertaud",
+        "source_page": "https://commons.wikimedia.org/wiki/File:BSD_se_confie_sur_son_pass%C3%A9..._RDV_ce_soir_%C3%A0_23h_!_-_YouTube_-_0-14_(cropped).jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/de931f43163d3096d34ba009569aabee82a365cb0cd136305345fc2922357640.webp",
+        "width": 1889,
+        "height": 1902,
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Gowdu59 (Vincent Saint Denis, father of Benoït Saint Denis)",
+        "source_page": "https://commons.wikimedia.org/wiki/File:BSD_training_in_2020.jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/81b61f78bd27fa9483f893ef3314f649250083a872c92626bd8bbcecee2ba0d3.webp",
+        "width": 1344,
+        "height": 1945,
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Gowdu59",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Beno%C3%AEt_Saint_Denis_militaire.jpg"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 93671,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 323,
+      "opponent_name": "Quillan Salkilld",
+      "opponent_slug": "quillan-salkilld",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Lightweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 66440,
+      "event_id": 5,
+      "event_title": "UFC 329: McGregor vs Holloway 2",
+      "event_slug": "ufc-329-2026-07-12",
+      "org_slug": "ufc",
+      "date": "2026-07-11",
+      "opponent_id": 331,
+      "opponent_name": "Paddy Pimblett",
+      "opponent_slug": "paddy-pimblett",
+      "result": "loss",
+      "method": "Submission",
+      "round": 1,
+      "time": "0:52",
+      "weight_class": "Lightweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:04:30.573Z"
+  },
+  "bogdan-guskov": {
+    "id": 366,
+    "slug": "bogdan-guskov",
+    "name": "Bogdan Guskov",
+    "nickname": "Hitman",
+    "nationality": "Uzbekistan",
+    "country_code": "UZ",
+    "second_nationality": null,
+    "height_inches": 75,
+    "weight_lbs": 205,
+    "reach_inches": 76,
+    "stance": "Orthodox",
+    "dob": "1992-09-12",
+    "team": "GOR MMA",
+    "birthplace": "Dukent, Uzbekistan",
+    "records": {
+      "pro_mma": {
+        "value": "18-4-1",
+        "wins": 18,
+        "losses": 4,
+        "draws": 1,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "4-2-1",
+        "wins": 4,
+        "losses": 2,
+        "draws": 1,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 3.6,
+        "str_acc": 0.57,
+        "sapm": 3.5,
+        "str_def": 0.47,
+        "td_avg": 0,
+        "td_acc": null,
+        "td_def": 0.55,
+        "sub_avg": 0.7
+      },
+      "slpm": "3.60",
+      "str_acc": "57%",
+      "sapm": "3.50",
+      "str_def": "47%",
+      "td_avg": "0.00",
+      "td_acc": null,
+      "td_def": "55%",
+      "sub_avg": "0.7",
+      "basis": {
+        "bouts": 7,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "18-4-1",
+        "slpm": "3.60",
+        "str_acc": "57%",
+        "sapm": "3.50",
+        "str_def": "47%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "55%",
+        "sub_avg": "0.7"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "4-2-1",
+        "slpm": "3.60",
+        "str_acc": "57%",
+        "sapm": "3.50",
+        "str_def": "47%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "55%",
+        "sub_avg": "0.7"
+      }
+    ],
+    "power_index": {
+      "rating": 1770,
+      "peak": 1781,
+      "peak_at": "2025-07-26T16:00:00.000Z",
+      "peak_date": "2025-07-26",
+      "fights_rated": 22,
+      "last_fought_at": "2026-07-25T13:00:00.000Z",
+      "last_fought_date": "2026-07-25"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93672,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 1043,
+      "opponent_name": "Robert Whittaker",
+      "opponent_slug": "robert-whittaker",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Light Heavyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83032,
+      "event_id": 879,
+      "event_title": "UFC Fight Night: Ankalaev vs Guskov",
+      "event_slug": "ufc-2026-07-25",
+      "org_slug": "ufc",
+      "date": "2026-07-25",
+      "opponent_id": 193,
+      "opponent_name": "Magomed Ankalaev",
+      "opponent_slug": "magomed-ankalaev",
+      "result": "loss",
+      "method": "KO/TKO",
+      "round": 5,
+      "time": "2:41",
+      "weight_class": "Light Heavyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:04:37.085Z"
+  },
+  "robert-whittaker": {
+    "id": 1043,
+    "slug": "robert-whittaker",
+    "name": "Robert Whittaker",
+    "nickname": "The Reaper",
+    "nationality": "Australia",
+    "country_code": "AU",
+    "second_nationality": "New Zealand",
+    "height_inches": 72,
+    "weight_lbs": 205,
+    "reach_inches": 73,
+    "stance": "Orthodox",
+    "dob": "1990-12-20",
+    "team": "PMA Super Martial Arts",
+    "birthplace": "Otahuhu, Australia",
+    "records": {
+      "pro_mma": {
+        "value": "28-9-0",
+        "wins": 28,
+        "losses": 9,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "18-7-0",
+        "wins": 18,
+        "losses": 7,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.41,
+        "str_acc": 0.43,
+        "sapm": 3.4,
+        "str_def": 0.59,
+        "td_avg": 0.71,
+        "td_acc": 0.38,
+        "td_def": 0.8,
+        "sub_avg": 0
+      },
+      "slpm": "4.41",
+      "str_acc": "43%",
+      "sapm": "3.40",
+      "str_def": "59%",
+      "td_avg": "0.71",
+      "td_acc": "38%",
+      "td_def": "80%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 25,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "ufc-stats",
+        "record": "28-9-0",
+        "slpm": "4.41",
+        "str_acc": "43%",
+        "sapm": "3.40",
+        "str_def": "59%",
+        "td_avg": "0.71",
+        "td_acc": "38%",
+        "td_def": "80%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "18-7-0",
+        "slpm": "4.41",
+        "str_acc": "43%",
+        "sapm": "3.40",
+        "str_def": "59%",
+        "td_avg": "0.71",
+        "td_acc": "38%",
+        "td_def": "80%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1859,
+      "peak": 1878,
+      "peak_at": "2018-06-09T23:00:00.000Z",
+      "peak_date": "2018-06-09",
+      "fights_rated": 36,
+      "last_fought_at": "2026-07-11T21:00:00.000Z",
+      "last_fought_date": "2026-07-11"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/a3a577c30a16d37176648741909d00de25557b864f9c50dbdd76e81d19a5c93c.webp",
+        "width": 960,
+        "height": 1200,
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Realistkilla",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Robert_whittaker.jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/f8c15842a18640a2807b95a11644da5fb4928c399ba10d8092e1ab2d73a476a4.webp",
+        "width": 522,
+        "height": 692,
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Sexto Round",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Robert_Whittaker_2024.png"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/fec346dda53877d8afcd9d7b69085fae2ed767d2f1c9c189e7a8b1ba4c48d240.webp",
+        "width": 392,
+        "height": 461,
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "MMAnytt",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Robert_Whittaker_UFC_271.jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/ea4982cb289b65018df022503e9464afb0d88a01c0f7bfa40ea793d36542cb57.webp",
+        "width": 1287,
+        "height": 567,
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Sexto Round",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Robert_Whittaker_speaks_with_the_media_at_the_official_UFC_on_ABC_6.png"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/fea65d9b566219fb713aefba8f6ccbe637b403d42c98962a4dea50f3e5e6181d.webp",
+        "width": 626,
+        "height": 720,
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Sexto Round",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Robert_Whittaker_vs_Ikram_Aliskerov_face_off.png"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 93672,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 366,
+      "opponent_name": "Bogdan Guskov",
+      "opponent_slug": "bogdan-guskov",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Light Heavyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 66444,
+      "event_id": 5,
+      "event_title": "UFC 329: McGregor vs Holloway 2",
+      "event_slug": "ufc-329-2026-07-12",
+      "org_slug": "ufc",
+      "date": "2026-07-11",
+      "opponent_id": 329,
+      "opponent_name": "Nikita Krylov",
+      "opponent_slug": "nikita-krylov",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 3,
+      "time": "1:01",
+      "weight_class": "Light Heavyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:04:43.753Z"
+  },
+  "marwan-rahiki": {
+    "id": 540,
+    "slug": "marwan-rahiki",
+    "name": "Marwan Rahiki",
+    "nickname": "Freaky",
+    "nationality": "Morocco",
+    "country_code": "MA",
+    "second_nationality": null,
+    "height_inches": 68,
+    "weight_lbs": 145,
+    "reach_inches": 72,
+    "stance": "Orthodox",
+    "dob": "2002-05-10",
+    "team": "Lion's Den Academy",
+    "birthplace": "Rabat, Morocco",
+    "records": {
+      "amateur_mma": {
+        "value": "5-1",
+        "wins": 5,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "9-1-0",
+        "wins": 9,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "2-1-0",
+        "wins": 2,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 6.69,
+        "str_acc": 0.49,
+        "sapm": 5.91,
+        "str_def": 0.6,
+        "td_avg": 0.43,
+        "td_acc": 0.33,
+        "td_def": 0.38,
+        "sub_avg": 0.4
+      },
+      "slpm": "6.69",
+      "str_acc": "49%",
+      "sapm": "5.91",
+      "str_def": "60%",
+      "td_avg": "0.43",
+      "td_acc": "33%",
+      "td_def": "38%",
+      "sub_avg": "0.4",
+      "basis": {
+        "bouts": 4,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "5-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "9-1-0",
+        "slpm": "6.69",
+        "str_acc": "49%",
+        "sapm": "5.91",
+        "str_def": "60%",
+        "td_avg": "0.43",
+        "td_acc": "33%",
+        "td_def": "38%",
+        "sub_avg": "0.4"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "2-1-0",
+        "slpm": "6.87",
+        "str_acc": "50%",
+        "sapm": "5.87",
+        "str_def": "61%",
+        "td_avg": "0.54",
+        "td_acc": "50%",
+        "td_def": "17%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1776,
+      "peak": 1802,
+      "peak_at": "2026-05-02T08:00:00.000Z",
+      "peak_date": "2026-05-02",
+      "fights_rated": 10,
+      "last_fought_at": "2026-09-12T18:00:00.000Z",
+      "last_fought_date": "2026-09-12"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93709,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 203,
+      "opponent_name": "JooSang Yoo",
+      "opponent_slug": "joosang-yoo",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83442,
+      "event_id": 2523,
+      "event_title": "Noche UFC: Silva vs Delgado",
+      "event_slug": "ufc-fight-night-2026-09-12",
+      "org_slug": "ufc",
+      "date": "2026-09-12",
+      "opponent_id": 592,
+      "opponent_name": "Tommy McMillen",
+      "opponent_slug": "tommy-mcmillen",
+      "result": "loss",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:04:50.095Z"
+  },
+  "joosang-yoo": {
+    "id": 203,
+    "slug": "joosang-yoo",
+    "name": "JooSang Yoo",
+    "nickname": "Zombie Jr.",
+    "nationality": "South Korea",
+    "country_code": "KR",
+    "second_nationality": null,
+    "height_inches": 67,
+    "weight_lbs": 145,
+    "reach_inches": 71,
+    "stance": "Orthodox",
+    "dob": "1994-01-21",
+    "team": "Vamos Gym",
+    "birthplace": "Seoul, South Korea",
+    "records": {
+      "amateur_mma": {
+        "value": "3-0",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "9-2-0",
+        "wins": 9,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-2-0",
+        "wins": 1,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 3.99,
+        "str_acc": 0.43,
+        "sapm": 4.76,
+        "str_def": 0.53,
+        "td_avg": 0.72,
+        "td_acc": 0.25,
+        "td_def": 0.67,
+        "sub_avg": 0
+      },
+      "slpm": "3.99",
+      "str_acc": "43%",
+      "sapm": "4.76",
+      "str_def": "53%",
+      "td_avg": "0.72",
+      "td_acc": "25%",
+      "td_def": "67%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 3,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "3-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "9-2-0",
+        "slpm": "3.99",
+        "str_acc": "43%",
+        "sapm": "4.76",
+        "str_def": "53%",
+        "td_avg": "0.72",
+        "td_acc": "25%",
+        "td_def": "67%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-2-0",
+        "slpm": "3.99",
+        "str_acc": "43%",
+        "sapm": "4.76",
+        "str_def": "53%",
+        "td_avg": "0.72",
+        "td_acc": "25%",
+        "td_def": "67%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1703,
+      "peak": 1759,
+      "peak_at": "2025-06-08T02:00:00.000Z",
+      "peak_date": "2025-06-08",
+      "fights_rated": 11,
+      "last_fought_at": "2026-09-19T21:30:00.000Z",
+      "last_fought_date": "2026-09-19"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93709,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 540,
+      "opponent_name": "Marwan Rahiki",
+      "opponent_slug": "marwan-rahiki",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83424,
+      "event_id": 2536,
+      "event_title": "Crypto.com UFC 331",
+      "event_slug": "ufc-2026-09-20",
+      "org_slug": "ufc",
+      "date": "2026-09-19",
+      "opponent_id": 168,
+      "opponent_name": "Michael Aswell Jr.",
+      "opponent_slug": "michael-aswell-jr",
+      "result": "loss",
+      "method": "Decision - Split",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:04:56.656Z"
+  },
+  "kaan-ofli": {
+    "id": 171,
+    "slug": "kaan-ofli",
+    "name": "Kaan Ofli",
+    "nickname": "Genghis",
+    "nationality": "Turkey",
+    "country_code": "TR",
+    "second_nationality": null,
+    "height_inches": 67,
+    "weight_lbs": 145,
+    "reach_inches": 66,
+    "stance": "Orthodox",
+    "dob": "1993-06-19",
+    "team": "Australian Top Team",
+    "birthplace": "Melbourne, Australia",
+    "records": {
+      "pro_mma": {
+        "value": "15-4-1",
+        "wins": 15,
+        "losses": 4,
+        "draws": 1,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "3-2-0",
+        "wins": 3,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 2.49,
+        "str_acc": 0.48,
+        "sapm": 3.17,
+        "str_def": 0.57,
+        "td_avg": 0.34,
+        "td_acc": 0.07,
+        "td_def": 0,
+        "sub_avg": 0.7
+      },
+      "slpm": "2.49",
+      "str_acc": "48%",
+      "sapm": "3.17",
+      "str_def": "57%",
+      "td_avg": "0.34",
+      "td_acc": "7%",
+      "td_def": "0%",
+      "sub_avg": "0.7",
+      "basis": {
+        "bouts": 5,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "ufc-stats",
+        "record": "15-4-1",
+        "slpm": "2.49",
+        "str_acc": "48%",
+        "sapm": "3.17",
+        "str_def": "57%",
+        "td_avg": "0.34",
+        "td_acc": "7%",
+        "td_def": "0%",
+        "sub_avg": "0.7"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "3-2-0",
+        "slpm": "2.49",
+        "str_acc": "48%",
+        "sapm": "3.17",
+        "str_def": "57%",
+        "td_avg": "0.34",
+        "td_acc": "7%",
+        "td_def": "0%",
+        "sub_avg": "0.7"
+      }
+    ],
+    "power_index": {
+      "rating": 1728,
+      "peak": 1728,
+      "peak_at": "2026-06-27T13:00:00.000Z",
+      "peak_date": "2026-06-27",
+      "fights_rated": 18,
+      "last_fought_at": "2026-06-27T13:00:00.000Z",
+      "last_fought_date": "2026-06-27"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93710,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 90,
+      "opponent_name": "Joanderson Brito",
+      "opponent_slug": "joanderson-brito",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 82670,
+      "event_id": 6,
+      "event_title": "UFC Fight Night: Fiziev vs Torres",
+      "event_slug": "ufc-fight-night-2026-06-27",
+      "org_slug": "ufc",
+      "date": "2026-06-27",
+      "opponent_id": 469,
+      "opponent_name": "Javier Reyes",
+      "opponent_slug": "javier-reyes",
+      "result": "win",
+      "method": "Submission",
+      "round": 1,
+      "time": "4:16",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:05:03.063Z"
+  },
+  "joanderson-brito": {
+    "id": 90,
+    "slug": "joanderson-brito",
+    "name": "Joanderson Brito",
+    "nickname": "Tubarao",
+    "nationality": "Brazil",
+    "country_code": "BR",
+    "second_nationality": null,
+    "height_inches": 68,
+    "weight_lbs": 145,
+    "reach_inches": 72,
+    "stance": "Orthodox",
+    "dob": "1995-02-11",
+    "team": "Chute Boxe - Joao Emilio",
+    "birthplace": "Santa Helena, Maranhao, Brazil",
+    "records": {
+      "pro_mma": {
+        "value": "20-5-1",
+        "wins": 20,
+        "losses": 5,
+        "draws": 1,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "8-3-0",
+        "wins": 8,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 2.53,
+        "str_acc": 0.52,
+        "sapm": 2.31,
+        "str_def": 0.44,
+        "td_avg": 3.16,
+        "td_acc": 0.68,
+        "td_def": 0.58,
+        "sub_avg": 1.2
+      },
+      "slpm": "2.53",
+      "str_acc": "52%",
+      "sapm": "2.31",
+      "str_def": "44%",
+      "td_avg": "3.16",
+      "td_acc": "68%",
+      "td_def": "58%",
+      "sub_avg": "1.2",
+      "basis": {
+        "bouts": 12,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "20-5-1",
+        "slpm": "2.53",
+        "str_acc": "52%",
+        "sapm": "2.31",
+        "str_def": "44%",
+        "td_avg": "3.16",
+        "td_acc": "68%",
+        "td_def": "58%",
+        "sub_avg": "1.2"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "8-3-0",
+        "slpm": "2.33",
+        "str_acc": "51%",
+        "sapm": "2.35",
+        "str_def": "43%",
+        "td_avg": "3.02",
+        "td_acc": "67%",
+        "td_def": "58%",
+        "sub_avg": "1.3"
+      }
+    ],
+    "power_index": {
+      "rating": 1828,
+      "peak": 1828,
+      "peak_at": "2026-09-19T21:30:00.000Z",
+      "peak_date": "2026-09-19",
+      "fights_rated": 24,
+      "last_fought_at": "2026-09-19T21:30:00.000Z",
+      "last_fought_date": "2026-09-19"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93710,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 171,
+      "opponent_name": "Kaan Ofli",
+      "opponent_slug": "kaan-ofli",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83420,
+      "event_id": 2536,
+      "event_title": "Crypto.com UFC 331",
+      "event_slug": "ufc-2026-09-20",
+      "org_slug": "ufc",
+      "date": "2026-09-19",
+      "opponent_id": 346,
+      "opponent_name": "Giga Chikadze",
+      "opponent_slug": "giga-chikadze",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 1,
+      "time": "1:57",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-07T10:05:09.662Z"
   }
 }

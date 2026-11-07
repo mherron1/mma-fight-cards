@@ -1,0 +1,230 @@
+{
+  "ufc-fight-night-2026-11-07": {
+    "fighters": {
+      "waldo-cortes-acosta-2": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 17,
+          "losses": 4,
+          "draws": 0
+        }
+      },
+      "johnny-walker": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 23,
+          "losses": 10,
+          "draws": 0
+        }
+      },
+      "tatiana-suarez": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 13,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "virna-jandiroba": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 23,
+          "losses": 4,
+          "draws": 0
+        }
+      },
+      "davey-grant": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 18,
+          "losses": 8,
+          "draws": 0
+        }
+      },
+      "elijah-smith": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 10,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "billy-elekana": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 10,
+          "losses": 2,
+          "draws": 0
+        }
+      },
+      "lucas-fernando": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 14,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "priscila-cachoeira": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 13,
+          "losses": 9,
+          "draws": 0
+        }
+      },
+      "nina-milosevic": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 9,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "mantas-kondratavicius": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 9,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "mitch-raposo": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 11,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "marcos-degli": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 15,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "keiichiro-nakamura": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 8,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "ollie-schmid": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 4,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "gabriel-lorenco": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 8,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "thomas-petersen": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 11,
+          "losses": 5,
+          "draws": 0
+        }
+      },
+      "karine-silva": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 19,
+          "losses": 7,
+          "draws": 0
+        }
+      },
+      "gabriella-fernandes": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 11,
+          "losses": 4,
+          "draws": 0
+        }
+      },
+      "jose-delano": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 17,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "murtazali-magomedov": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 11,
+          "losses": 0,
+          "draws": 0
+        }
+      },
+      "austin-bashi": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 14,
+          "losses": 2,
+          "draws": 0
+        }
+      },
+      "carlos-calderon-3": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 11,
+          "losses": 4,
+          "draws": 0
+        }
+      },
+      "andre-petroski": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 13,
+          "losses": 6,
+          "draws": 0
+        }
+      },
+      "seokhyeon-ko": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 13,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "wellington-turman": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 18,
+          "losses": 8,
+          "draws": 0
+        }
+      },
+      "jonny-parsons": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 9,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "jose-henrique": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 9,
+          "losses": 1,
+          "draws": 0
+        }
+      }
+    }
+  }
+}

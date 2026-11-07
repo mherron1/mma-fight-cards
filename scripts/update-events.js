@@ -14,7 +14,7 @@ const FIGHTERS_CACHE_FILE = path.join(DATA_DIR, 'fighters-cache.json');
 const API_BASE = 'https://api.ufcalendar.com/v1';
 const API_KEY = process.env.UFCALENDAR_API_KEY;
 
-const EVENT_LIMIT = 5;
+const EVENT_LIMIT = 10;
 const PROFILE_REFRESH_DAYS = 7;
 
 // UFCalendar free plan: 10 requests per minute.
@@ -553,38 +553,21 @@ async function main() {
     }
   );
 
-  // Only include events where UFCalendar has published
-  // at least one fight. This prevents blank event cards.
-  const eventsWithCards = eventDetails
-    .map((detail, index) => ({
-      detail,
-      sourceEvent: upcoming[index]
-    }))
-    .filter(({ detail }) =>
-      Array.isArray(detail.card) && detail.card.length > 0
-    );
 
-  const omittedEvents = eventDetails.length - eventsWithCards.length;
-
-  if (omittedEvents > 0) {
-    console.warn(
-      `Omitting ${omittedEvents} event(s) with no published fight card.`
-    );
-  }
-
-  if (eventsWithCards.length === 0) {
-    throw new Error(
-      'No events with published fight cards were returned. Existing events.json was not changed.'
-    );
-  }
+    // Keep all selected upcoming events, including those
+  // where UFCalendar has not published the fight card yet.
+  const eventsToInclude = eventDetails.map((detail, index) => ({
+    detail,
+    sourceEvent: upcoming[index]
+  }));
 
   console.log(
-    `Continuing with ${eventsWithCards.length} event(s) with published fight cards.`
+    `Continuing with ${eventsToInclude.length} upcoming event(s).`
   );
-
+ 
   const allFighters = new Map();
 
-  for (const { detail } of eventsWithCards) {
+  for (const { detail } of eventsToInclude) {
     for (const bout of detail.card || []) {
       if (
         String(bout.status || '').toLowerCase() === 'cancelled'
@@ -686,7 +669,7 @@ async function main() {
     }
   }
 
-  const events = eventsWithCards.map(({ detail, sourceEvent }) => {
+  const events = eventsToInclude.map(({ detail, sourceEvent }) => {
     const venue = detail.venue || sourceEvent.venue || {};
 
     const timeZone =

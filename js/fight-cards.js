@@ -280,7 +280,7 @@ export function renderFightCard(event, fighterImageIndex = new Map()) {
           </div>
         </details>`;
       }).join('')
-      : '<div class="fight-empty">Fights to be announced</div>';
+      : '<div class="fight-empty">Fights yet to be announced</div>';
   }
 
   const fightSectionsMarkup = `
