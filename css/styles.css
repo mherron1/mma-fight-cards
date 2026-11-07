@@ -417,6 +417,7 @@ body { min-height: 100%; }
   .fight-summary { padding: 14px 16px; touch-action: pan-y; }
   .fight-weight { font-size: 9px; }
   .fight-names { gap: 10px; font-size: 15.7px; }
+  .event-card:not(.results-hidden) .fight-names-with-result { padding-bottom: 16px; }
   .fight-row[open] .fight-details { padding: 14px 16px; }
   .fighter-details { gap: 9px; }
   .fighter-portrait-row { grid-template-columns: minmax(0, 1fr) minmax(100px, auto) minmax(0, 1fr); gap: 12px; }
