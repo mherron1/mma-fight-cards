@@ -307,7 +307,7 @@ export function renderFightCard(event, fighterImageIndex = new Map(), isResultsE
           </span>
           ${hasResults ? `
           <div class="event-schedule">
-            <button class="results-toggle" type="button" aria-pressed="false">Show Results</button>
+            <button class="results-toggle" type="button" aria-label="Show fight results" aria-pressed="false">Show Results</button>
           </div>` : `
           <div class="event-schedule" aria-label="Local fight card start times">
             <span>Main Card: ${escapeHTML(formatLocalTime(event.schedule?.main_card_start_time || ''))}</span>

@@ -1,5 +1,5 @@
 
-const CACHE_NAME = 'fight-cards-v84';
+const CACHE_NAME = 'fight-cards-v90';
 
 const APP_FILES = [
   './',
@@ -8,6 +8,7 @@ const APP_FILES = [
   './manifest.json',
   './css/styles.css',
   './js/app.js',
+  './js/theme.js',
   './js/cube.js',
   './js/fight-cards.js',
   './js/fighter-profile.js',

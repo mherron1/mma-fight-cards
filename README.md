@@ -51,4 +51,6 @@ All event and fighter information currently included is fictional placeholder da
 - The service worker is registered on HTTP/HTTPS hosting. For production, increment `CACHE_NAME` when publishing updated assets and consider a more robust update strategy.
 - A valid 192x192 and 512x512 app icon should be added to `manifest.json` before public PWA distribution.
 
-\n## Appearance\n\nUse the LIGHT / DARK control in the top-right corner to switch themes. The app remembers your choice on that device. The accent colour is red in both themes.\n
+## Appearance
+
+Choose Light, Dark, or Greyscale in Settings. Greyscale uses the light theme and desaturates the entire page, including photos and flags. The app remembers your choice on that device.

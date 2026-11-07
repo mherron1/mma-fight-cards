@@ -1,37 +1,23 @@
 
 import { createFighterImageIndex, getEventHeadshots, renderFightCard } from './fight-cards.js';
 import { createCube } from './cube.js';
+import { applyTheme, getSavedTheme } from './theme.js';
 
 if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
   navigator.serviceWorker.addEventListener('controllerchange', () => location.reload(), { once: true });
 }
 
 function initTheme() {
-  const root = document.documentElement;
-  const toggle = document.getElementById('themeToggle');
-  const toggleText = document.getElementById('themeToggleText');
-  const toggleIcon = document.getElementById('themeToggleIcon');
-  const themeColorMeta = document.getElementById('themeColorMeta');
+  const themePreference = document.getElementById('themePreference');
   const settingsToggle = document.getElementById('settingsToggle');
   const settingsPage = document.getElementById('settingsPage');
   const cubeStage = document.getElementById('cubeStage');
   const cardProgress = document.getElementById('cardProgress');
-  const savedTheme = localStorage.getItem('fight-cards-theme');
-  const initialTheme = savedTheme === 'dark' ? 'dark' : 'light';
-
-  function applyTheme(theme) {
-    root.dataset.theme = theme;
-    const isDark = theme === 'dark';
-    toggleText.textContent = isDark ? 'DARK' : 'LIGHT';
-    toggleIcon.textContent = isDark ? '☾' : '☼';
-    toggle.setAttribute('aria-label', `Switch to ${isDark ? 'light' : 'dark'} mode`);
-    themeColorMeta.setAttribute('content', isDark ? '#101116' : '#f4f4f5');
-    localStorage.setItem('fight-cards-theme', theme);
-  }
-
-  applyTheme(initialTheme);
-  toggle.addEventListener('click', () => {
-    applyTheme(root.dataset.theme === 'dark' ? 'light' : 'dark');
+  themePreference.value = getSavedTheme();
+  applyTheme(themePreference.value);
+  themePreference.addEventListener('change', () => {
+    applyTheme(themePreference.value);
+    localStorage.setItem('fight-cards-theme', themePreference.value);
   });
 
   settingsToggle.addEventListener('click', () => {

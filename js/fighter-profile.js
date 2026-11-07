@@ -1,3 +1,5 @@
+import { applyTheme, getSavedTheme } from './theme.js';
+
 function escapeHTML(value = '') {
   return String(value).replace(/[&<>"']/g, char => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -131,8 +133,7 @@ function renderProfile(fighter, images) {
 }
 
 async function initFighterProfile() {
-  const root = document.documentElement;
-  root.dataset.theme = localStorage.getItem('fight-cards-theme') === 'dark' ? 'dark' : 'light';
+  applyTheme(getSavedTheme());
   const content = document.getElementById('fighterProfile');
   const slug = new URLSearchParams(location.search).get('fighter');
 

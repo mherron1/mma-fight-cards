@@ -57,10 +57,14 @@
               <h2 id="appearanceHeading">Appearance</h2>
               <p>Choose your preferred color theme.</p>
             </div>
-            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode">
-              <span class="theme-toggle-icon" id="themeToggleIcon" aria-hidden="true">☼</span>
-              <span id="themeToggleText">LIGHT</span>
-            </button>
+            <label class="preference-control">
+              <span class="visually-hidden">Appearance</span>
+              <select id="themePreference">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+                <option value="greyscale">Greyscale</option>
+              </select>
+            </label>
           </section>
           <section class="settings-card preference-card" aria-labelledby="unitsHeading">
             <div class="settings-copy">
