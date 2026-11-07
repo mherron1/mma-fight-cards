@@ -169,7 +169,7 @@ function fighterAge(dateOfBirth = '', eventDate = '') {
   );
 }
 
-export function renderFightCard(event, fighterImageIndex = new Map()) {
+export function renderFightCard(event, fighterImageIndex = new Map(), isResultsEvent = false) {
   if (!event) {
     return '<div class="empty-state">No event data available.</div>';
   }
@@ -297,7 +297,7 @@ export function renderFightCard(event, fighterImageIndex = new Map()) {
     </div>`;
 
   return `
-    <article class="event-card${hasResults ? ' results-hidden' : ''}" data-event-id="${escapeHTML(event.id || eventName)}">
+    <article class="event-card${isResultsEvent ? ' is-results-event' : ''}${hasResults ? ' results-hidden' : ''}" data-event-id="${escapeHTML(event.id || eventName)}">
       <header class="event-heading">
         <h1 class="event-title">${escapeHTML(eventName)}</h1>
         <div class="event-subtitle">

@@ -1,7 +1,9 @@
-export function createCube({ app, cube, faces, events, initialIndex = 0, onIndexChange, onSwipe }) {
+export function createCube({ app, cube, faces, events, initialIndex = 0, onIndexChange, onFacesUpdated, onSwipe }) {
   const SWIPING_ENABLED = true;
   const SWIPE_THRESHOLD = 0.14;
   const SETTLE_MS = 420;
+  const EDGE_RESISTANCE = 0.25;
+  const EDGE_MAX_ROTATION = 10;
   const physicalOffsets = [0, 1, 2, -1];
   const isMobileLayout = () => window.matchMedia('(max-width: 899px)').matches;
 
@@ -12,6 +14,8 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
   let rotation = 0;
   let animating = false;
   let fallbackTimer = null;
+  const pendingSwipes = [];
+  const cardResizeObserver = new ResizeObserver(syncCubeHeight);
 
   function render(angle, animate = false) {
     const width = app.clientWidth;
@@ -32,10 +36,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     const cards = faces
       .map(face => face.querySelector('.event-card'))
       .filter(Boolean);
-    const tallestHeight = Math.max(
-      cube.parentElement.clientHeight,
-      ...cards.map(card => Math.ceil(card.scrollHeight))
-    );
+    const tallestHeight = Math.max(0, ...cards.map(card => Math.ceil(card.scrollHeight)));
 
     faces.forEach(face => { face.style.height = `${tallestHeight}px`; });
     cube.style.height = `${tallestHeight}px`;
@@ -51,12 +52,34 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
       const physicalOffset = (physicalIndex - frontPhysical + 4) % 4;
       const eventOffset = physicalOffsets[physicalOffset];
       const eventIndex = (currentIndex + eventOffset + count) % count;
+      face.toggleAttribute('data-out-of-range', currentIndex + eventOffset < 0 || currentIndex + eventOffset >= count);
       if (face.dataset.eventIndex !== String(eventIndex)) {
         face.innerHTML = events[eventIndex].__html;
         face.dataset.eventIndex = String(eventIndex);
       }
       face.toggleAttribute('data-front', physicalIndex === frontPhysical);
     });
+
+    cardResizeObserver.disconnect();
+    faces.forEach(face => {
+      const card = face.querySelector('.event-card');
+      if (card) cardResizeObserver.observe(card);
+    });
+    syncCubeHeight();
+    onFacesUpdated?.();
+  }
+
+  function getCurrentRotation() {
+    const matrix = new DOMMatrixReadOnly(getComputedStyle(cube).transform);
+    const currentAngle = -Math.atan2(matrix.m13, matrix.m11) * 180 / Math.PI;
+    return currentAngle + 360 * Math.round((rotation - currentAngle) / 360);
+  }
+
+  function interruptTransition(currentAngle) {
+    clearTimeout(fallbackTimer);
+    animating = false;
+    render(currentAngle);
+    updateFaces();
   }
 
   function completeTransition() {
@@ -65,6 +88,7 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     animating = false;
     cube.classList.remove('is-rotating');
     updateFaces();
+    if (pendingSwipes.length) navigate(pendingSwipes.shift());
   }
 
   function settleRotation(angle) {
@@ -99,12 +123,19 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     return true;
   }
 
+  function queueSwipe(direction) {
+    if (!animating) return navigate(direction);
+    const targetIndex = currentIndex + pendingSwipes.reduce((index, swipe) => index + swipe, 0) + direction;
+    if (targetIndex < 0 || targetIndex >= events.length) return false;
+    pendingSwipes.push(direction);
+    return true;
+  }
+
   const GESTURE_THRESHOLD = 8;
   let gesture = null;
   app.addEventListener('pointerdown', event => {
     if (
       !SWIPING_ENABLED ||
-      animating ||
       !event.isPrimary ||
       event.button !== 0 ||
       event.target.closest('a, button, input, select, textarea, [data-no-swipe]')
@@ -131,19 +162,35 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
 
     if (!gesture.axis && Math.max(Math.abs(deltaX), Math.abs(deltaY)) >= GESTURE_THRESHOLD) {
       gesture.axis = Math.abs(deltaX) > Math.abs(deltaY) ? 'horizontal' : 'vertical';
-      if (gesture.axis === 'horizontal') app.setPointerCapture(event.pointerId);
+      if (gesture.axis === 'horizontal') {
+        if (animating) {
+          const currentAngle = getCurrentRotation();
+          // Keep the visible face intact until it is closer to the new front face.
+          gesture.queueOnly = pendingSwipes.length > 0 || Math.abs(rotation - currentAngle) > 45;
+          if (!gesture.queueOnly) {
+            interruptTransition(currentAngle);
+            gesture.startRotation = currentAngle;
+          }
+        }
+        app.setPointerCapture(event.pointerId);
+      }
     }
 
     if (gesture.axis !== 'horizontal') return;
 
     event.preventDefault();
+    if (gesture.queueOnly) return;
     if (isMobileLayout()) cube.classList.add('is-rotating');
     const direction = deltaX < 0 ? 1 : -1;
-    render(
-      canNavigate(direction)
-        ? gesture.startRotation + (deltaX / gesture.width) * 90
-        : gesture.startRotation
-    );
+    if (canNavigate(direction)) {
+      render(gesture.startRotation + (deltaX / gesture.width) * 90);
+    } else {
+      const edgeRotation = Math.sign(deltaX) * Math.min(
+        (Math.abs(deltaX) / gesture.width) * 90 * EDGE_RESISTANCE,
+        EDGE_MAX_ROTATION
+      );
+      render(gesture.startRotation + edgeRotation);
+    }
   });
 
   function finishGesture(event, cancelled = false) {
@@ -156,11 +203,17 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
     const deltaX = event.clientX - currentGesture.startX;
     const commitThreshold = Math.max(40, currentGesture.width * SWIPE_THRESHOLD);
     if (cancelled || Math.abs(deltaX) < commitThreshold) {
-      settleRotation(rotation);
+      if (!currentGesture.queueOnly) settleRotation(rotation);
+      return;
+    }
+
+    if (currentGesture.queueOnly) {
+      if (queueSwipe(deltaX < 0 ? 1 : -1)) onSwipe?.();
       return;
     }
 
     if (navigate(deltaX < 0 ? 1 : -1)) onSwipe?.();
+    else settleRotation(rotation);
   }
 
   app.addEventListener('pointerup', event => finishGesture(event));
@@ -179,10 +232,10 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
 
   window.addEventListener('resize', () => {
     render(rotation);
+    syncCubeHeight();
   });
 
   updateFaces();
-  syncCubeHeight();
   onIndexChange?.(currentIndex, events.length);
   render(rotation);
 

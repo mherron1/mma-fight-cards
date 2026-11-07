@@ -1,3 +1,4 @@
+
 import { createFighterImageIndex, getEventHeadshots, renderFightCard } from './fight-cards.js';
 import { createCube } from './cube.js';
 
@@ -366,9 +367,9 @@ async function initApp() {
     if (!frontFace) return null;
 
     return Array.from(frontFace.querySelectorAll('.results-toggle')).find(resultsToggle => {
-        const bounds = resultsToggle.getBoundingClientRect();
-        return event.clientX >= bounds.left && event.clientX <= bounds.right &&
-          event.clientY >= bounds.top && event.clientY <= bounds.bottom;
+      const bounds = resultsToggle.getBoundingClientRect();
+      return event.clientX >= bounds.left && event.clientX <= bounds.right &&
+        event.clientY >= bounds.top && event.clientY <= bounds.bottom;
     }) || null;
   }
 
@@ -377,26 +378,26 @@ async function initApp() {
   app.addEventListener('pointerdown', event => {
     const summary = getFightSummaryAtPoint(event);
     fightTapCandidate = summary
-        ? { pointerId: event.pointerId, summary, x: event.clientX, y: event.clientY }
-        : null;
+      ? { pointerId: event.pointerId, summary, x: event.clientX, y: event.clientY }
+      : null;
     const resultsToggle = event.target.closest('.results-toggle')
-        ? null
-        : getResultsToggleAtPoint(event);
+      ? null
+      : getResultsToggleAtPoint(event);
     resultsTapCandidate = resultsToggle
-        ? { pointerId: event.pointerId, resultsToggle, x: event.clientX, y: event.clientY }
-        : null;
+      ? { pointerId: event.pointerId, resultsToggle, x: event.clientX, y: event.clientY }
+      : null;
   });
   app.addEventListener('pointerup', event => {
     const resultsCandidate = resultsTapCandidate;
     resultsTapCandidate = null;
     if (
-        resultsCandidate &&
-        resultsCandidate.pointerId === event.pointerId &&
-        !event.target.closest('.results-toggle') &&
-        getResultsToggleAtPoint(event) === resultsCandidate.resultsToggle &&
-        Math.hypot(event.clientX - resultsCandidate.x, event.clientY - resultsCandidate.y) <= 24
+      resultsCandidate &&
+      resultsCandidate.pointerId === event.pointerId &&
+      !event.target.closest('.results-toggle') &&
+      getResultsToggleAtPoint(event) === resultsCandidate.resultsToggle &&
+      Math.hypot(event.clientX - resultsCandidate.x, event.clientY - resultsCandidate.y) <= 24
     ) {
-        toggleResults(resultsCandidate.resultsToggle);
+      toggleResults(resultsCandidate.resultsToggle);
     }
 
     const candidate = fightTapCandidate;
@@ -453,6 +454,7 @@ async function initApp() {
     const fighterImageIndex = createFighterImageIndex(fighterImages);
     const upcomingEvents = Array.isArray(data.events) ? data.events : [];
     const latestCompletedEvent = data.latest_completed_event;
+
     const sortedUpcomingEvents = upcomingEvents
       .filter(event => !latestCompletedEvent || event.id !== latestCompletedEvent.id)
       .sort((eventA, eventB) => {
@@ -463,20 +465,64 @@ async function initApp() {
         return dateA - dateB;
       });
 
+    // Find the most recent event that has started but hasn't been
+    // cancelled or postponed.
+    const now = Date.now();
+
+    const activeEvent = sortedUpcomingEvents
+      .filter(event => {
+        const status = String(event.status || '').toLowerCase();
+
+        if (['cancelled', 'postponed'].includes(status)) {
+          return false;
+        }
+
+        const startTime = Date.parse(event.start_time || '');
+        const hasStarted = Number.isFinite(startTime) && startTime <= now;
+
+        const isLive = [
+          'live',
+          'in_progress',
+          'in-progress',
+          'ongoing'
+        ].includes(status);
+
+        return hasStarted || isLive;
+      })
+      .sort((a, b) => {
+        return Date.parse(b.start_time || '') - Date.parse(a.start_time || '');
+      })[0] || null;
+
+    // Keep the completed event immediately before upcoming events.
     const events = latestCompletedEvent
       ? [latestCompletedEvent, ...sortedUpcomingEvents]
       : sortedUpcomingEvents;
 
     if (!events.length) throw new Error('No events found in events.json');
+
     swipeHint.hidden = events.length < 2 || localStorage.getItem('fight-cards-swipe-hint-dismissed') === 'true';
-    const initialIndex = latestCompletedEvent && sortedUpcomingEvents.length ? 1 : 0;
+
+    // Open the active event if one exists. Otherwise open the next upcoming event.
+    const activeEventIndex = activeEvent
+      ? events.findIndex(event => event.id === activeEvent.id)
+      : -1;
+
+    const initialIndex = activeEventIndex >= 0
+      ? activeEventIndex
+      : latestCompletedEvent && sortedUpcomingEvents.length
+        ? 1
+        : 0;
     const preloadedHeadshots = new Set();
     preloadEventHeadshots(events[initialIndex], fighterImageIndex, preloadedHeadshots);
 
     // Render each event once. The cube reuses these pre-rendered cards.
     const preparedEvents = events.map(event => ({
       ...event,
-      __html: renderFightCard(event, fighterImageIndex)
+      __html: renderFightCard(
+        event,
+        fighterImageIndex,
+        Boolean(latestCompletedEvent && event.id === latestCompletedEvent.id)
+      )
     }));
 
     createCube({
@@ -490,6 +536,11 @@ async function initApp() {
         swipeHint.hidden = true;
         localStorage.setItem('fight-cards-swipe-hint-dismissed', 'true');
       },
+      onFacesUpdated() {
+        applyPreferences();
+        spoilerProtection.sync();
+        updateCountdowns();
+      },
       onIndexChange(index, total) {
         preloadEventHeadshots(events[index], fighterImageIndex, preloadedHeadshots);
         updateCardProgress(
@@ -497,12 +548,8 @@ async function initApp() {
           total,
           Boolean(latestCompletedEvent && events[index].id === latestCompletedEvent.id)
         );
-        applyPreferences();
-        spoilerProtection.sync();
-        updateCountdowns();
       }
     });
-    applyPreferences();
     window.setInterval(updateCountdowns, 1000);
 
     if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {

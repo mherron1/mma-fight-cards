@@ -1208,5 +1208,148 @@
     "fullBodySource": "ESPN (temporary)",
     "espnId": "4418809",
     "matchStatus": "matched"
+  },
+  "carlos-calderon-3": {
+    "id": 161555,
+    "slug": "carlos-calderon-3",
+    "name": "Carlos Calderon",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5125484.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5125484.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5125484",
+    "matchStatus": "matched"
+  },
+  "joshua-van": {
+    "id": 3,
+    "slug": "joshua-van",
+    "name": "Joshua Van",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5120301.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5120301.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5120301",
+    "matchStatus": "matched"
+  },
+  "manel-kape": {
+    "id": 113,
+    "slug": "manel-kape",
+    "name": "Manel Kape",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4236504.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4236504.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4236504",
+    "matchStatus": "matched"
+  },
+  "carlos-prates": {
+    "id": 402,
+    "slug": "carlos-prates",
+    "name": "Carlos Prates",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4294832.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4294832.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4294832",
+    "matchStatus": "matched"
+  },
+  "michael-morales": {
+    "id": 400,
+    "slug": "michael-morales",
+    "name": "Michael Morales",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4869426.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4869426.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4869426",
+    "matchStatus": "matched"
+  },
+  "quillan-salkilld": {
+    "id": 323,
+    "slug": "quillan-salkilld",
+    "name": "Quillan Salkilld",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5157667.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5157667.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5157667",
+    "matchStatus": "matched"
+  },
+  "benoit-saint-denis": {
+    "id": 254,
+    "slug": "benoit-saint-denis",
+    "name": "Benoit Saint Denis",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4895362.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4895362.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4895362",
+    "matchStatus": "matched"
+  },
+  "bogdan-guskov": {
+    "id": 366,
+    "slug": "bogdan-guskov",
+    "name": "Bogdan Guskov",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5152109.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5152109.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5152109",
+    "matchStatus": "matched"
+  },
+  "robert-whittaker": {
+    "id": 1043,
+    "slug": "robert-whittaker",
+    "name": "Robert Whittaker",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3009717.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/3009717.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "3009717",
+    "matchStatus": "matched"
+  },
+  "marwan-rahiki": {
+    "id": 540,
+    "slug": "marwan-rahiki",
+    "name": "Marwan Rahiki",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5302274.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5302274.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5302274",
+    "matchStatus": "matched"
+  },
+  "joosang-yoo": {
+    "id": 203,
+    "slug": "joosang-yoo",
+    "name": "JooSang Yoo",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5282139.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5282139.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5282139",
+    "matchStatus": "matched"
+  },
+  "kaan-ofli": {
+    "id": 171,
+    "slug": "kaan-ofli",
+    "name": "Kaan Ofli",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5204223.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5204223.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5204223",
+    "matchStatus": "matched"
+  },
+  "joanderson-brito": {
+    "id": 90,
+    "slug": "joanderson-brito",
+    "name": "Joanderson Brito",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4422355.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4422355.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4422355",
+    "matchStatus": "matched"
   }
 }
