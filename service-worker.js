@@ -1,4 +1,6 @@
-const CACHE_NAME = 'fight-cards-v83';
+
+const CACHE_NAME = 'fight-cards-v84';
+
 const APP_FILES = [
   './',
   './index.html',
@@ -15,36 +17,58 @@ const APP_FILES = [
   './images/fighter-placeholder.png'
 ];
 
+// Install the new service worker and cache the app shell.
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES))
+    caches.open(CACHE_NAME)
+      .then(cache => cache.addAll(APP_FILES))
   );
+
   self.skipWaiting();
 });
 
+// Remove old caches and take control of open pages.
 self.addEventListener('activate', event => {
   event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key)))
-    )
+    Promise.all([
+      caches.keys().then(keys =>
+        Promise.all(
+          keys
+            .filter(key => key.startsWith('fight-cards-') && key !== CACHE_NAME)
+            .map(key => caches.delete(key))
+        )
+      ),
+      self.clients.claim()
+    ])
   );
-  self.clients.claim();
 });
 
+// Network-first strategy: get the latest version whenever online.
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
 
+  const url = new URL(event.request.url);
+
+  // Only handle requests from this website.
+  if (url.origin !== self.location.origin) return;
+
   event.respondWith(
-    fetch(event.request).then(response => {
-        if (response.ok && new URL(event.request.url).origin === self.location.origin) {
+    fetch(event.request)
+      .then(response => {
+        if (response.ok) {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+
+          caches.open(CACHE_NAME).then(cache => {
+            cache.put(event.request, copy);
+          });
         }
+
         return response;
-      }).catch(error =>
+      })
+      .catch(() =>
         caches.match(event.request).then(cached => {
           if (cached) return cached;
-          throw error;
+          return caches.match('./index.html');
         })
       )
   );

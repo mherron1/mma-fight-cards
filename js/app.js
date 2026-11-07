@@ -553,7 +553,9 @@ async function initApp() {
     window.setInterval(updateCountdowns, 1000);
 
     if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-      navigator.serviceWorker.register('./service-worker.js').catch(error => {
+      navigator.serviceWorker.register('./service-worker.js', {
+        updateViaCache: 'none'
+      }).catch(error => {
         console.warn('Service worker registration failed:', error);
       });
     }
