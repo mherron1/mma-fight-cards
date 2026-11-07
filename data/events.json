@@ -1081,7 +1081,7 @@
           "fighter_1": {
             "name": "Jose Delano",
             "nickname": "",
-            "record": "17-3-0",
+            "record": "17-4-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
@@ -1094,7 +1094,7 @@
           "fighter_2": {
             "name": "Murtazali Magomedov",
             "nickname": "The Highlight",
-            "record": "11-0-0",
+            "record": "12-0-0",
             "country": "Kyrgyzstan",
             "flag": "🇰🇬",
             "rankings": [],
@@ -1109,6 +1109,17 @@
             "fighter_1": "-119",
             "fighter_2": "-101",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Murtazali Magomedov",
+            "winner_fighter_id": 2987,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "28 - 29. 28 - 29. 28 - 29."
           }
         },
         {
@@ -1119,7 +1130,7 @@
           "fighter_1": {
             "name": "Austin Bashi",
             "nickname": "",
-            "record": "14-2-0",
+            "record": "15-2-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1132,7 +1143,7 @@
           "fighter_2": {
             "name": "Carlos Calderon",
             "nickname": "Chief",
-            "record": "11-4-0",
+            "record": "11-5-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1147,6 +1158,17 @@
             "fighter_1": "-640",
             "fighter_2": "462",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Austin Bashi",
+            "winner_fighter_id": 2865,
+            "method": "Submission",
+            "method_normalized": "submission",
+            "finish_detail": "",
+            "round": 1,
+            "time": "1:07",
+            "time_seconds": 67,
+            "details": ""
           }
         },
         {
@@ -1157,7 +1179,7 @@
           "fighter_1": {
             "name": "Mantas Kondratavicius",
             "nickname": "",
-            "record": "9-1-0",
+            "record": "9-2-0",
             "country": "Lithuania",
             "flag": "🇱🇹",
             "rankings": [],
@@ -1170,7 +1192,7 @@
           "fighter_2": {
             "name": "Andre Petroski",
             "nickname": "",
-            "record": "13-6-0",
+            "record": "14-6-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1185,6 +1207,17 @@
             "fighter_1": "-310",
             "fighter_2": "249",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Andre Petroski",
+            "winner_fighter_id": 44,
+            "method": "KO/TKO",
+            "method_normalized": "ko_tko",
+            "finish_detail": "",
+            "round": 2,
+            "time": "4:39",
+            "time_seconds": 279,
+            "details": ""
           }
         },
         {
@@ -1195,7 +1228,7 @@
           "fighter_1": {
             "name": "Seokhyeon Ko",
             "nickname": "The Korean Tyson",
-            "record": "13-3-0",
+            "record": "14-3-0",
             "country": "South Korea",
             "flag": "🇰🇷",
             "rankings": [],
@@ -1208,7 +1241,7 @@
           "fighter_2": {
             "name": "Wellington Turman",
             "nickname": "The Prodigy",
-            "record": "18-8-0",
+            "record": "18-9-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
@@ -1228,6 +1261,17 @@
             "fighter_1": "-699",
             "fighter_2": "490",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Seokhyeon Ko",
+            "winner_fighter_id": 405,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "27 - 30. 27 - 30. 27 - 30."
           }
         },
         {
@@ -1238,7 +1282,7 @@
           "fighter_1": {
             "name": "Jonny Parsons",
             "nickname": "The Sluggernaut",
-            "record": "9-3-0",
+            "record": "9-4-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1251,7 +1295,7 @@
           "fighter_2": {
             "name": "Jose Henrique",
             "nickname": "Canela",
-            "record": "9-1-0",
+            "record": "10-1-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
@@ -1266,6 +1310,17 @@
             "fighter_1": "192",
             "fighter_2": "-234",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Jose Henrique",
+            "winner_fighter_id": 286,
+            "method": "KO/TKO",
+            "method_normalized": "ko_tko",
+            "finish_detail": "",
+            "round": 1,
+            "time": "4:16",
+            "time_seconds": 256,
+            "details": ""
           }
         }
       ],
