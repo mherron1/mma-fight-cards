@@ -57,9 +57,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-229",
-          "fighter_2": "187",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Johnny Walker",
@@ -145,9 +145,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-201",
-          "fighter_2": "167",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Tatiana Suarez",
@@ -194,9 +194,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "255",
-          "fighter_2": "-319",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Elijah Smith",
@@ -243,9 +243,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "269",
-          "fighter_2": "-338",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Lucas Fernando",
@@ -292,9 +292,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "385",
-          "fighter_2": "-521",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Nina Milošević",
@@ -341,9 +341,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "195",
-          "fighter_2": "-238",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Mitch Raposo",
@@ -390,9 +390,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-356",
-          "fighter_2": "281",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Ollie Schmid",
@@ -439,9 +439,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "139",
-          "fighter_2": "-167",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Thomas Petersen",
@@ -506,9 +506,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-228",
-          "fighter_2": "186",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Karine Silva",
@@ -555,9 +555,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-119",
-          "fighter_2": "-101",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Murtazali Magomedov",
@@ -604,9 +604,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-640",
-          "fighter_2": "462",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Austin Bashi",
@@ -653,9 +653,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-310",
-          "fighter_2": "249",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Andre Petroski",
@@ -707,9 +707,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-699",
-          "fighter_2": "490",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Seokhyeon Ko",
@@ -756,9 +756,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "192",
-          "fighter_2": "-234",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Jose Henrique",
@@ -862,8 +862,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-232",
-            "fighter_2": "186",
+            "fighter_1": "-224",
+            "fighter_2": "182",
             "status": "consensus_odds"
           }
         },
@@ -928,7 +928,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "-189",
-            "fighter_2": "155",
+            "fighter_2": "157",
             "status": "consensus_odds"
           }
         },
@@ -979,8 +979,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-160",
-            "fighter_2": "131",
+            "fighter_1": "-161",
+            "fighter_2": "133",
             "status": "consensus_odds"
           }
         },
@@ -1040,8 +1040,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-174",
-            "fighter_2": "142",
+            "fighter_1": "-173",
+            "fighter_2": "143",
             "status": "consensus_odds"
           }
         },
@@ -1078,8 +1078,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-899",
-            "fighter_2": "570",
+            "fighter_1": "-933",
+            "fighter_2": "594",
             "status": "consensus_odds"
           }
         },
@@ -1121,8 +1121,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-130",
-            "fighter_2": "106",
+            "fighter_1": "-138",
+            "fighter_2": "115",
             "status": "consensus_odds"
           }
         },
@@ -1159,8 +1159,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "135",
-            "fighter_2": "-163",
+            "fighter_1": "137",
+            "fighter_2": "-164",
             "status": "consensus_odds"
           }
         },
@@ -1202,7 +1202,7 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "176",
+            "fighter_1": "180",
             "fighter_2": "-219",
             "status": "consensus_odds"
           }
@@ -1240,8 +1240,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-174",
-            "fighter_2": "144",
+            "fighter_1": "-169",
+            "fighter_2": "142",
             "status": "consensus_odds"
           }
         },
@@ -1288,7 +1288,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "290",
-            "fighter_2": "-379",
+            "fighter_2": "-365",
             "status": "consensus_odds"
           }
         },
@@ -1343,7 +1343,7 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "174",
+            "fighter_1": "178",
             "fighter_2": "-216",
             "status": "consensus_odds"
           }
@@ -1419,8 +1419,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-117",
-            "fighter_2": "-105",
+            "fighter_1": "-120",
+            "fighter_2": "-101",
             "status": "consensus_odds"
           }
         }
@@ -1561,9 +1561,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-107",
+            "fighter_2": "-109",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1638,33 +1638,6 @@
           "weight_class": "Flyweight",
           "title_fight": false,
           "fighter_1": {
-            "name": "Asu Almabayev",
-            "nickname": "Zulfikar",
-            "record": "24-3-0",
-            "country": "Kazakhstan",
-            "flag": "🇰🇿",
-            "rankings": [
-              {
-                "division": "flyweight",
-                "rank": 7,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Kazakhstan",
-                "country_code": "KZ"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/def1393b98a0e7337ab49918fffb923b4c97614264679aeb99047a202f3483ab.webp",
-            "dob": "1994-01-25",
-            "image_credit": {
-              "artist": "Qazaq Stand Up",
-              "license": "CC BY 4.0",
-              "license_url": "https://creativecommons.org/licenses/by/4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:AsuAlmabayev.png"
-            },
-            "height": "5' 4\"",
-            "weight": "125 lbs"
-          },
-          "fighter_2": {
             "name": "Kyoji Horiguchi",
             "nickname": "Karate Kid",
             "record": "36-6-0",
@@ -1687,6 +1660,33 @@
               "license": "CC BY 3.0",
               "license_url": "https://creativecommons.org/licenses/by/3.0",
               "source_page": "https://commons.wikimedia.org/wiki/File:Kyoji_Horiguchi_2017.jpg"
+            },
+            "height": "5' 4\"",
+            "weight": "125 lbs"
+          },
+          "fighter_2": {
+            "name": "Asu Almabayev",
+            "nickname": "Zulfikar",
+            "record": "24-3-0",
+            "country": "Kazakhstan",
+            "flag": "🇰🇿",
+            "rankings": [
+              {
+                "division": "flyweight",
+                "rank": 7,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "Kazakhstan",
+                "country_code": "KZ"
+              }
+            ],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/def1393b98a0e7337ab49918fffb923b4c97614264679aeb99047a202f3483ab.webp",
+            "dob": "1994-01-25",
+            "image_credit": {
+              "artist": "Qazaq Stand Up",
+              "license": "CC BY 4.0",
+              "license_url": "https://creativecommons.org/licenses/by/4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:AsuAlmabayev.png"
             },
             "height": "5' 4\"",
             "weight": "125 lbs"
@@ -2021,7 +2021,7 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-150",
+            "fighter_1": "-152",
             "fighter_2": "122",
             "status": "consensus_odds"
           }
@@ -2416,7 +2416,7 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-130",
+            "fighter_1": "-131",
             "fighter_2": "106",
             "status": "consensus_odds"
           }
@@ -2482,8 +2482,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-171",
-            "fighter_2": "140",
+            "fighter_1": "-169",
+            "fighter_2": "137",
             "status": "consensus_odds"
           }
         }

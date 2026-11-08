@@ -7159,7 +7159,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:30:28.367Z"
+    "_cache_updated_at": "2026-11-08T14:01:05.509Z"
   },
   "josh-hokit": {
     "id": 105,
@@ -7328,7 +7328,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:30:34.876Z"
+    "_cache_updated_at": "2026-11-08T14:01:11.953Z"
   },
   "kayla-harrison": {
     "id": 2845,
@@ -7473,7 +7473,7 @@
         "source_page": "https://commons.wikimedia.org/wiki/File:Motorcycle_stunts_on_the_South_Lawn_of_the_White_House_ahead_of_UFC_Freedom_250,_Saturday,_June_13,_2026_-_11.jpg"
       },
       {
-        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/99ef0d1b03cb2031f0bfa2ddd5d2d64b7907582dc1b0a131ca252baff17332fd.webp",
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/365bc09f02ded3d14500f0c0d90d8708591ecd08dcb75787056de4a84b39ed04.webp",
         "width": 3029,
         "height": 2016,
         "license": "Public domain",
@@ -7500,7 +7500,7 @@
         "source_page": "https://commons.wikimedia.org/wiki/File:Kayla_Harrison_with_a_fan.JPG"
       },
       {
-        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/a7f89c25314fad479335e487e5b99f3c75e75c712b8c7181defd150a6736c256.webp",
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/2ae65e9edf03c4006784f0e09c26f800f9e8c3367341ea4bb316e6b744d4e15b.webp",
         "width": 3300,
         "height": 2200,
         "license": "Public domain",
@@ -7547,7 +7547,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:30:41.379Z"
+    "_cache_updated_at": "2026-11-08T14:01:18.470Z"
   },
   "amanda-nunes": {
     "id": 1133,
@@ -7725,7 +7725,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:30:47.859Z"
+    "_cache_updated_at": "2026-11-08T14:01:25.074Z"
   },
   "caio-borralho": {
     "id": 253,
@@ -7929,13 +7929,13 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:30:54.370Z"
+    "_cache_updated_at": "2026-11-08T14:01:31.529Z"
   },
   "yousri-belgaroui": {
     "id": 137,
     "slug": "yousri-belgaroui",
     "name": "Yousri Belgaroui",
-    "nickname": null,
+    "nickname": "The Boogeyman",
     "nationality": "Tunisia",
     "country_code": "TN",
     "second_nationality": "Netherlands",
@@ -8092,7 +8092,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:31:00.937Z"
+    "_cache_updated_at": "2026-11-08T14:01:37.956Z"
   },
   "uros-medic": {
     "id": 434,
@@ -8233,7 +8233,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:31:07.542Z"
+    "_cache_updated_at": "2026-11-08T14:01:44.451Z"
   },
   "kevin-holland": {
     "id": 162,
@@ -8430,7 +8430,7 @@
         "source_page": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_congratulates_Kevin_Holland_after_his_victory_during_UFC_316_(54576727207).jpg"
       },
       {
-        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/ebb3b81dbd62b02f09a0158cbbb7363a92c3780975c9115feb3ea2acb101415a.webp",
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/b809c5c4430c63e81677a58795e5fb65ae5a441fe45de9d0c185fb4981e3fde7.webp",
         "width": 3000,
         "height": 2000,
         "license": "Public domain",
@@ -8495,7 +8495,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:31:13.897Z"
+    "_cache_updated_at": "2026-11-08T14:01:51.033Z"
   },
   "bilal-hasan": {
     "id": 52597,
@@ -8611,8 +8611,8 @@
       }
     ],
     "power_index": {
-      "rating": 1829,
-      "peak": 1829,
+      "rating": 1830,
+      "peak": 1830,
       "peak_at": "2026-08-29T07:00:00.000Z",
       "peak_date": "2026-08-29",
       "fights_rated": 10,
@@ -8658,7 +8658,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:31:20.390Z"
+    "_cache_updated_at": "2026-11-08T14:01:57.455Z"
   },
   "luis-gurule": {
     "id": 48,
@@ -8821,7 +8821,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:31:26.915Z"
+    "_cache_updated_at": "2026-11-08T14:02:04.049Z"
   },
   "stephen-thompson": {
     "id": 1146,
@@ -9043,7 +9043,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:31:33.375Z"
+    "_cache_updated_at": "2026-11-08T14:02:10.572Z"
   },
   "charles-radtke": {
     "id": 413,
@@ -9228,7 +9228,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:31:39.947Z"
+    "_cache_updated_at": "2026-11-08T14:02:16.979Z"
   },
   "drew-dober": {
     "id": 148,
@@ -9391,7 +9391,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:31:46.408Z"
+    "_cache_updated_at": "2026-11-08T14:02:23.493Z"
   },
   "chris-duncan": {
     "id": 368,
@@ -9554,7 +9554,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:31:52.883Z"
+    "_cache_updated_at": "2026-11-08T14:02:29.973Z"
   },
   "jim-miller": {
     "id": 17,
@@ -9705,7 +9705,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:31:59.414Z"
+    "_cache_updated_at": "2026-11-08T14:02:36.479Z"
   },
   "terrance-mckinney": {
     "id": 367,
@@ -9890,7 +9890,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:32:05.970Z"
+    "_cache_updated_at": "2026-11-08T14:02:42.998Z"
   },
   "donte-johnson": {
     "id": 418,
@@ -10075,7 +10075,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:32:12.382Z"
+    "_cache_updated_at": "2026-11-08T14:02:49.484Z"
   },
   "cesar-almeida": {
     "id": 348,
@@ -10191,7 +10191,7 @@
       }
     ],
     "power_index": {
-      "rating": 1685,
+      "rating": 1686,
       "peak": 1732,
       "peak_at": "2025-01-12T00:00:00.000Z",
       "peak_date": "2025-01-12",
@@ -10238,7 +10238,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:32:18.890Z"
+    "_cache_updated_at": "2026-11-08T14:02:55.976Z"
   },
   "macy-chiasson": {
     "id": 190,
@@ -10401,7 +10401,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:32:25.425Z"
+    "_cache_updated_at": "2026-11-08T14:03:02.515Z"
   },
   "bia-mesquita": {
     "id": 174,
@@ -10417,7 +10417,7 @@
     "stance": "Orthodox",
     "dob": "1991-04-07",
     "team": "American Top Team",
-    "birthplace": "Brazil",
+    "birthplace": "Rio de Janeiro, Brazil",
     "records": {
       "pro_mma": {
         "value": "8-0-0",
@@ -10564,7 +10564,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:32:31.890Z"
+    "_cache_updated_at": "2026-11-08T14:03:09.003Z"
   },
   "adrian-yanez": {
     "id": 513,
@@ -10727,7 +10727,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:32:38.423Z"
+    "_cache_updated_at": "2026-11-08T14:03:15.577Z"
   },
   "juan-diaz": {
     "id": 32,
@@ -10890,7 +10890,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:32:44.913Z"
+    "_cache_updated_at": "2026-11-08T14:03:22.090Z"
   },
   "nazim-sadykhov": {
     "id": 354,
@@ -11357,7 +11357,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:33:04.406Z"
+    "_cache_updated_at": "2026-11-08T14:03:28.509Z"
   },
   "melquizael-costa": {
     "id": 28,
@@ -11498,7 +11498,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:33:10.978Z"
+    "_cache_updated_at": "2026-11-08T14:03:35.800Z"
   },
   "evan-elder": {
     "id": 982,
@@ -11661,7 +11661,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:33:17.398Z"
+    "_cache_updated_at": "2026-11-08T14:03:41.553Z"
   },
   "samuel-sanches": {
     "id": 33315,
@@ -11780,7 +11780,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:33:23.924Z"
+    "_cache_updated_at": "2026-11-08T14:03:48.032Z"
   },
   "jiri-prochazka": {
     "id": 196,
@@ -11893,7 +11893,7 @@
         "source_page": "https://commons.wikimedia.org/wiki/File:JiriProchazka2022.png"
       },
       {
-        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/3bb95002cbb1f61348bd6d65a57818edf0c5467e63020271178497a2f6ba192a.webp",
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/63cf76d1c7154ccdada05196383485471f4c9fce58fc747204e87c340d666634.webp",
         "width": 1440,
         "height": 810,
         "license": "CC BY 3.0",
@@ -11967,7 +11967,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:33:30.422Z"
+    "_cache_updated_at": "2026-11-08T14:03:54.514Z"
   },
   "navajo-stirling": {
     "id": 116,
@@ -12152,7 +12152,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:33:36.937Z"
+    "_cache_updated_at": "2026-11-08T14:04:01.012Z"
   },
   "aljamain-sterling": {
     "id": 274,
@@ -12168,7 +12168,7 @@
     "stance": "Orthodox",
     "dob": "1989-07-31",
     "team": "Serra-Longo Fight Team",
-    "birthplace": "United States",
+    "birthplace": "Uniondale, New York, United States",
     "records": {
       "amateur_mma": {
         "value": "6-1",
@@ -12369,7 +12369,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:33:43.414Z"
+    "_cache_updated_at": "2026-11-08T14:04:07.564Z"
   },
   "kevin-vallejos": {
     "id": 347,
@@ -12532,7 +12532,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:33:49.944Z"
+    "_cache_updated_at": "2026-11-08T14:04:14.022Z"
   },
   "dan-hooker": {
     "id": 328,
@@ -12705,7 +12705,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:33:56.418Z"
+    "_cache_updated_at": "2026-11-08T14:04:20.593Z"
   },
   "brian-ortega": {
     "id": 275,
@@ -12856,7 +12856,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:34:02.923Z"
+    "_cache_updated_at": "2026-11-08T14:04:27.010Z"
   },
   "jared-cannonier": {
     "id": 1044,
@@ -13038,7 +13038,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:34:09.414Z"
+    "_cache_updated_at": "2026-11-08T14:04:33.529Z"
   },
   "ikram-aliskerov": {
     "id": 441,
@@ -13239,7 +13239,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:34:15.994Z"
+    "_cache_updated_at": "2026-11-08T14:04:40.031Z"
   },
   "shamil-gaziev": {
     "id": 379,
@@ -13403,7 +13403,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:34:22.426Z"
+    "_cache_updated_at": "2026-11-08T14:04:46.538Z"
   },
   "tallison-teixeira": {
     "id": 56,
@@ -13576,7 +13576,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:34:28.930Z"
+    "_cache_updated_at": "2026-11-08T14:04:53.051Z"
   },
   "jake-matthews": {
     "id": 64,
@@ -13727,7 +13727,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:34:35.455Z"
+    "_cache_updated_at": "2026-11-08T14:04:59.538Z"
   },
   "tahir-abdullayev": {
     "id": 72828,
@@ -13890,7 +13890,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:34:41.925Z"
+    "_cache_updated_at": "2026-11-08T14:05:06.023Z"
   },
   "aleksandre-topuria": {
     "id": 373,
@@ -13906,7 +13906,7 @@
     "stance": "Orthodox",
     "dob": "1996-01-28",
     "team": "Climent Club",
-    "birthplace": "Georgia",
+    "birthplace": "Halle, Germany",
     "records": {
       "pro_mma": {
         "value": "7-1-0",
@@ -14050,7 +14050,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:34:48.428Z"
+    "_cache_updated_at": "2026-11-08T14:05:12.516Z"
   },
   "santiago-luna": {
     "id": 228,
@@ -14166,7 +14166,7 @@
       }
     ],
     "power_index": {
-      "rating": 1725,
+      "rating": 1726,
       "peak": 1756,
       "peak_at": "2026-02-28T22:00:00.000Z",
       "peak_date": "2026-02-28",
@@ -14213,7 +14213,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:34:54.938Z"
+    "_cache_updated_at": "2026-11-08T14:05:19.025Z"
   },
   "asu-almabayev": {
     "id": 375,
@@ -14229,7 +14229,7 @@
     "stance": "Orthodox",
     "dob": "1994-01-25",
     "team": "Dar Pro Team Kazakhstan",
-    "birthplace": "Kazakhstan",
+    "birthplace": "Janatalap, Kazakhstan",
     "records": {
       "pro_mma": {
         "value": "24-3-0",
@@ -14239,6 +14239,24 @@
         "no_contests": 0,
         "source": "public-records",
         "scope": "pro-mma"
+      },
+      "pro_submission_grappling": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-submission-grappling"
+      },
+      "pro_wrestling": {
+        "value": "0-1",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-wrestling"
       },
       "ufc": {
         "value": "7-1-0",
@@ -14292,6 +14310,32 @@
         "td_acc": "45%",
         "td_def": "50%",
         "sub_avg": "1.4"
+      },
+      {
+        "scope": "pro-submission-grappling",
+        "source": "public-records",
+        "record": "1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-wrestling",
+        "source": "public-records",
+        "record": "0-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
       },
       {
         "scope": "ufc-only",
@@ -14365,7 +14409,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:35:01.465Z"
+    "_cache_updated_at": "2026-11-08T14:05:25.856Z"
   },
   "kyoji-horiguchi": {
     "id": 114,
@@ -14579,7 +14623,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:35:07.990Z"
+    "_cache_updated_at": "2026-11-08T14:05:32.050Z"
   },
   "amir-albazi": {
     "id": 502,
@@ -14742,7 +14786,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:35:14.458Z"
+    "_cache_updated_at": "2026-11-08T14:05:38.550Z"
   },
   "alessandro-costa": {
     "id": 234,
@@ -14883,7 +14927,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:35:21.038Z"
+    "_cache_updated_at": "2026-11-08T14:05:45.159Z"
   },
   "charles-oliveira": {
     "id": 177,
@@ -15123,7 +15167,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:35:27.465Z"
+    "_cache_updated_at": "2026-11-08T14:05:51.555Z"
   },
   "diego-lopes": {
     "id": 111,
@@ -15323,7 +15367,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:35:33.987Z"
+    "_cache_updated_at": "2026-11-08T14:05:58.060Z"
   },
   "sergei-pavlovich": {
     "id": 55,
@@ -15339,7 +15383,7 @@
     "stance": "Southpaw",
     "dob": "1992-05-13",
     "team": "American Top Team",
-    "birthplace": "Russia",
+    "birthplace": "Orlovsky, Rostov, Russia",
     "records": {
       "pro_mma": {
         "value": "21-3-0",
@@ -15483,7 +15527,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:35:40.469Z"
+    "_cache_updated_at": "2026-11-08T14:06:04.562Z"
   },
   "alex-pereira": {
     "id": 101,
@@ -15662,13 +15706,13 @@
         "source_page": "https://commons.wikimedia.org/wiki/File:Alex_Pereira_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg"
       },
       {
-        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/b1c274db4773a1a48ab7dfc52568e95c7d399ec5536e50567b5606df5303207e.webp",
-        "width": 3000,
-        "height": 2000,
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/105c11e612b4f0383bfb1af4f661cc812ac49bbd69068a7c2a21a0f932f43a12.webp",
+        "width": 1254,
+        "height": 1799,
         "license": "Public domain",
         "license_url": null,
-        "artist": "The White House",
-        "source_page": "https://commons.wikimedia.org/wiki/File:P20260506MR-0795_President_Donald_J._Trump_speaks_with_members_of_the_media_alongside_UFC_fighters_in_the_Oval_Office.jpg"
+        "artist": "U.S. Department of the Interior",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Freedom_250_press_conference_at_the_Lincoln_Memorial_on_June_12,_2026_-_26(cropped).jpg"
       },
       {
         "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/be22faa98a5d846d78e62aedd590390d870df30b405a7c96f8fd2cc12139fc74.webp",
@@ -15680,6 +15724,15 @@
         "source_page": "https://commons.wikimedia.org/wiki/File:Alex_Pereira_UFC_300.png"
       },
       {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/f35acd4e1635c908a0b8aba492daac00e724a4a4a43c86cf7a188adef7a0a851.webp",
+        "width": 3000,
+        "height": 2000,
+        "license": "Public domain",
+        "license_url": null,
+        "artist": "The White House",
+        "source_page": "https://commons.wikimedia.org/wiki/File:P20260506MR-0795_President_Donald_J._Trump_speaks_with_members_of_the_media_alongside_UFC_fighters_in_the_Oval_Office.jpg"
+      },
+      {
         "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/4f812ff40fd233054d9964414502530c1bab4672201d416a1ed3e0c413bae437.webp",
         "width": 870,
         "height": 1119,
@@ -15689,22 +15742,13 @@
         "source_page": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_Ceremonial_Weigh_In_(9748623)_(cropped).jpg"
       },
       {
-        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/8b60829c352066a75a002e1885ddebfc99367589276bcd9294cc3bd1bc11e7fa.webp",
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/a8108575f7b57e242d2178891fce8c8846d0404ec0ea2bb250d0611d2a58b757.webp",
         "width": 4895,
         "height": 3496,
         "license": "Public domain",
         "license_url": null,
         "artist": "U.S. Army photo by Sgt. 1st Class Brittany Primavera",
         "source_page": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_Press_Conference_(9747959).jpg"
-      },
-      {
-        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/3554554119a05eb6f8d4b7c6d9e6a5eae51085bc962d528e30b31779d2a37f3e.webp",
-        "width": 5409,
-        "height": 3864,
-        "license": "Public domain",
-        "license_url": null,
-        "artist": "U.S. Army photo by Sgt. 1st Class Brittany Primavera",
-        "source_page": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_Press_Conference_(9747961).jpg"
       }
     ],
     "next_fight": {
@@ -15745,7 +15789,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:35:46.964Z"
+    "_cache_updated_at": "2026-11-08T14:06:11.053Z"
   },
   "brandon-moreno": {
     "id": 362,
@@ -15927,7 +15971,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:35:53.465Z"
+    "_cache_updated_at": "2026-11-08T14:06:17.550Z"
   },
   "charles-johnson": {
     "id": 279,
@@ -16112,7 +16156,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:36:00.024Z"
+    "_cache_updated_at": "2026-11-08T14:06:24.105Z"
   },
   "quentin-pasley": {
     "id": 34008,
@@ -16128,7 +16172,7 @@
     "stance": "Orthodox",
     "dob": "2001-10-15",
     "team": "Fighting Arts Academy",
-    "birthplace": "United States",
+    "birthplace": "CT, United States",
     "records": {
       "amateur_mma": {
         "value": "7-0",
@@ -16289,7 +16333,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:36:06.482Z"
+    "_cache_updated_at": "2026-11-08T14:06:30.572Z"
   },
   "junior-tafa": {
     "id": 322,
@@ -16497,7 +16541,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:36:12.979Z"
+    "_cache_updated_at": "2026-11-08T14:06:37.092Z"
   },
   "joe-pyfer": {
     "id": 201,
@@ -16541,6 +16585,15 @@
         "no_contests": 0,
         "source": "public-records",
         "scope": "pro-submission-grappling"
+      },
+      "pro_wrestling": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-wrestling"
       },
       "ufc": {
         "value": "7-1-0",
@@ -16611,6 +16664,19 @@
         "scope": "pro-submission-grappling",
         "source": "public-records",
         "record": "3-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-wrestling",
+        "source": "public-records",
+        "record": "1-0",
         "slpm": null,
         "str_acc": null,
         "sapm": null,
@@ -16692,7 +16758,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:36:19.477Z"
+    "_cache_updated_at": "2026-11-08T14:06:43.556Z"
   },
   "bo-nickal": {
     "id": 109,
@@ -16738,9 +16804,9 @@
         "scope": "pro-submission-grappling"
       },
       "pro_wrestling": {
-        "value": "1-0",
-        "wins": 1,
-        "losses": 0,
+        "value": "2-1",
+        "wins": 2,
+        "losses": 1,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
@@ -16827,7 +16893,7 @@
       {
         "scope": "pro-wrestling",
         "source": "public-records",
-        "record": "1-0",
+        "record": "2-1",
         "slpm": null,
         "str_acc": null,
         "sapm": null,
@@ -16936,7 +17002,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:36:26.087Z"
+    "_cache_updated_at": "2026-11-08T14:06:50.065Z"
   },
   "maycee-barber": {
     "id": 356,
@@ -17118,7 +17184,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:36:32.506Z"
+    "_cache_updated_at": "2026-11-08T14:06:56.557Z"
   },
   "carli-judice": {
     "id": 454,
@@ -17281,7 +17347,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-10-31T23:36:38.971Z"
+    "_cache_updated_at": "2026-11-08T14:07:03.062Z"
   },
   "julian-erosa": {
     "id": 522,
