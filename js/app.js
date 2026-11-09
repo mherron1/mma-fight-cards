@@ -531,7 +531,10 @@ async function initApp() {
       faces,
       events: preparedEvents,
       initialIndex,
-      onSwipe() {
+      onSwipe(direction) {
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'card_swipe', { direction });
+        }
         if (swipeHint.hidden) return;
         swipeHint.hidden = true;
         localStorage.setItem('fight-cards-swipe-hint-dismissed', 'true');

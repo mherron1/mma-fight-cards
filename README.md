@@ -48,6 +48,7 @@ All event and fighter information currently included is fictional placeholder da
 
 - The app is designed for portrait mobile screens.
 - The cube has four physical sides; it reuses those sides to display any number of events.
+- Google Analytics records a `card_swipe` event for each accepted pointer swipe, including queued swipes. Its `direction` parameter is `left` or `right` (the gesture direction); rejected gestures and keyboard navigation are not counted. Register `direction` as an event-scoped custom dimension in GA4 to use it in standard reports.
 - The service worker is registered on HTTP/HTTPS hosting. For production, increment `CACHE_NAME` when publishing updated assets and consider a more robust update strategy.
 - A valid 192x192 and 512x512 app icon should be added to `manifest.json` before public PWA distribution.
 

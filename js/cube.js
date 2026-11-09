@@ -207,12 +207,14 @@ export function createCube({ app, cube, faces, events, initialIndex = 0, onIndex
       return;
     }
 
+    const direction = deltaX < 0 ? 1 : -1;
+    const swipeDirection = direction === 1 ? 'left' : 'right';
     if (currentGesture.queueOnly) {
-      if (queueSwipe(deltaX < 0 ? 1 : -1)) onSwipe?.();
+      if (queueSwipe(direction)) onSwipe?.(swipeDirection);
       return;
     }
 
-    if (navigate(deltaX < 0 ? 1 : -1)) onSwipe?.();
+    if (navigate(direction)) onSwipe?.(swipeDirection);
     else settleRotation(rotation);
   }
 
