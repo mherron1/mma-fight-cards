@@ -862,8 +862,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-224",
-            "fighter_2": "182",
+            "fighter_1": "-206",
+            "fighter_2": "169",
             "status": "consensus_odds"
           }
         },
@@ -927,8 +927,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-189",
-            "fighter_2": "157",
+            "fighter_1": "-192",
+            "fighter_2": "160",
             "status": "consensus_odds"
           }
         },
@@ -979,8 +979,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-161",
-            "fighter_2": "133",
+            "fighter_1": "-159",
+            "fighter_2": "132",
             "status": "consensus_odds"
           }
         },
@@ -1040,8 +1040,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-173",
-            "fighter_2": "143",
+            "fighter_1": "-151",
+            "fighter_2": "126",
             "status": "consensus_odds"
           }
         },
@@ -1078,8 +1078,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-933",
-            "fighter_2": "594",
+            "fighter_1": "-1035",
+            "fighter_2": "641",
             "status": "consensus_odds"
           }
         },
@@ -1121,8 +1121,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-138",
-            "fighter_2": "115",
+            "fighter_1": "-148",
+            "fighter_2": "123",
             "status": "consensus_odds"
           }
         },
@@ -1159,8 +1159,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "137",
-            "fighter_2": "-164",
+            "fighter_1": "134",
+            "fighter_2": "-162",
             "status": "consensus_odds"
           }
         },
@@ -1202,8 +1202,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "180",
-            "fighter_2": "-219",
+            "fighter_1": "166",
+            "fighter_2": "-201",
             "status": "consensus_odds"
           }
         },
@@ -1240,8 +1240,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-169",
-            "fighter_2": "142",
+            "fighter_1": "-174",
+            "fighter_2": "144",
             "status": "consensus_odds"
           }
         },
@@ -1287,8 +1287,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "290",
-            "fighter_2": "-365",
+            "fighter_1": "286",
+            "fighter_2": "-370",
             "status": "consensus_odds"
           }
         },
@@ -1343,8 +1343,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "178",
-            "fighter_2": "-216",
+            "fighter_1": "208",
+            "fighter_2": "-258",
             "status": "consensus_odds"
           }
         },
@@ -1419,8 +1419,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-120",
-            "fighter_2": "-101",
+            "fighter_1": "-103",
+            "fighter_2": "-118",
             "status": "consensus_odds"
           }
         }
@@ -1561,8 +1561,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-107",
-            "fighter_2": "-109",
+            "fighter_1": "102",
+            "fighter_2": "-122",
             "status": "consensus_odds"
           }
         },
@@ -1946,6 +1946,546 @@
         "prelims_start_time": "2026-11-21T15:00:00.000Z",
         "early_prelims_start_time": null,
         "timezone": "Asia/Qatar",
+        "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
+      }
+    },
+    {
+      "id": "ufc-fight-night-2026-12-05",
+      "promotion": "UFC",
+      "name": "UFC Fight Night: Adesanya vs Magomedov",
+      "date": "2026-12-05",
+      "start_time": "2026-12-05T15:00:00.000Z",
+      "location": "Riyadh, Saudi Arabia",
+      "venue": "The Venue",
+      "sport": "MMA",
+      "status": "announced",
+      "fights": [
+        {
+          "id": "93761",
+          "card_position": "main_event",
+          "weight_class": "Middleweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Israel Adesanya",
+            "nickname": "The Last Stylebender",
+            "record": "24-6-0",
+            "country": "Nigeria",
+            "flag": "🇳🇬",
+            "rankings": [
+              {
+                "division": "middleweight",
+                "rank": 9,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "Nigeria",
+                "country_code": "NG"
+              }
+            ],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/4967ccdfeee233426df77c9f5509f18615ccfff8fd5355b896684c4225871348.webp",
+            "dob": "1989-07-22",
+            "image_credit": {
+              "artist": "Ewornod",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Israel_Adesanya_2014.jpg"
+            },
+            "height": "6' 4\"",
+            "weight": "185 lbs"
+          },
+          "fighter_2": {
+            "name": "Shara Magomedov",
+            "nickname": "Bullet",
+            "record": "17-1-0",
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "rankings": [
+              {
+                "division": "middleweight",
+                "rank": 15,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "Russia",
+                "country_code": "RU"
+              }
+            ],
+            "image": "",
+            "dob": "1994-05-16",
+            "image_credit": null,
+            "height": "6' 2\"",
+            "weight": "185 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "-158",
+            "fighter_2": "131",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93762",
+          "card_position": "main_card",
+          "weight_class": "Welterweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Ian Machado Garry",
+            "nickname": "The Future",
+            "record": "17-2-0",
+            "country": "Ireland",
+            "flag": "🇮🇪",
+            "rankings": [
+              {
+                "division": "welterweight",
+                "rank": 1,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "Ireland",
+                "country_code": "IE"
+              }
+            ],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/ee9c27cceb4643442503c044aea6fe14424f10b966f668399ed636193b1c9eb4.webp",
+            "dob": "1997-11-17",
+            "image_credit": {
+              "artist": "Oisinvg",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:IanGarry.jpg"
+            },
+            "height": "6' 3\"",
+            "weight": "170 lbs"
+          },
+          "fighter_2": {
+            "name": "Yaroslav Amosov",
+            "nickname": "",
+            "record": "30-1-0",
+            "country": "Ukraine",
+            "flag": "🇺🇦",
+            "rankings": [
+              {
+                "division": "welterweight",
+                "rank": 11,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "Ukraine",
+                "country_code": "UA"
+              }
+            ],
+            "image": "",
+            "dob": "1993-09-09",
+            "image_credit": null,
+            "height": "6' 0\"",
+            "weight": "170 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "-172",
+            "fighter_2": "142",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93763",
+          "card_position": "main_card",
+          "weight_class": "Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Serghei Spivac",
+            "nickname": "Polar Bear",
+            "record": "18-7-0",
+            "country": "Moldova",
+            "flag": "🇲🇩",
+            "rankings": [
+              {
+                "division": "heavyweight",
+                "rank": 9,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "Moldova",
+                "country_code": "MD"
+              }
+            ],
+            "image": "",
+            "dob": "1995-01-24",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "257 lbs"
+          },
+          "fighter_2": {
+            "name": "Mario Pinto",
+            "nickname": "",
+            "record": "13-0-0",
+            "country": "Portugal",
+            "flag": "🇵🇹",
+            "rankings": [
+              {
+                "division": "heavyweight",
+                "rank": 15,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "Portugal",
+                "country_code": "PT"
+              }
+            ],
+            "image": "",
+            "dob": "1998-03-14",
+            "image_credit": null,
+            "height": "6' 5\"",
+            "weight": "265 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93764",
+          "card_position": "main_card",
+          "weight_class": "Welterweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Levan Chokheli",
+            "nickname": "",
+            "record": "15-3-0",
+            "country": "Georgia",
+            "flag": "🇬🇪",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-10-02",
+            "image_credit": null,
+            "height": "5' 11\"",
+            "weight": "170 lbs"
+          },
+          "fighter_2": {
+            "name": "Islam Dulatov",
+            "nickname": "The Ripper",
+            "record": "12-1-0",
+            "country": "Germany",
+            "flag": "🇩🇪",
+            "rankings": [],
+            "image": "",
+            "dob": "1998-08-02",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "170 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93765",
+          "card_position": "main_card",
+          "weight_class": "Lightweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Mairon Santos",
+            "nickname": "The Legend",
+            "record": "18-1-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "2000-06-10",
+            "image_credit": null,
+            "height": "5' 7\"",
+            "weight": "145 lbs"
+          },
+          "fighter_2": {
+            "name": "Akbar Abdullaev",
+            "nickname": "Bakal",
+            "record": "14-0-0",
+            "country": "Kyrgyzstan",
+            "flag": "🇰🇬",
+            "rankings": [],
+            "image": "",
+            "dob": "1997-09-21",
+            "image_credit": null,
+            "height": "5' 9\"",
+            "weight": "155 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93766",
+          "card_position": "main_card",
+          "weight_class": "Light Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Magomed Tuchalov",
+            "nickname": "Tiger",
+            "record": "7-0-0",
+            "country": "United Arab Emirates",
+            "flag": "🇦🇪",
+            "rankings": [],
+            "image": "",
+            "dob": "1999-12-30",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "205 lbs"
+          },
+          "fighter_2": {
+            "name": "Ion Cuțelaba",
+            "nickname": "The Hulk",
+            "record": "20-12-1",
+            "country": "Moldova",
+            "flag": "🇲🇩",
+            "rankings": [],
+            "image": "",
+            "dob": "1993-12-14",
+            "image_credit": null,
+            "height": "6' 1\"",
+            "weight": "205 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93767",
+          "card_position": "main_card",
+          "weight_class": "Flyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Bruno Silva",
+            "nickname": "Bulldog",
+            "record": "15-9-2",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1990-03-16",
+            "image_credit": null,
+            "height": "5' 4\"",
+            "weight": "125 lbs"
+          },
+          "fighter_2": {
+            "name": "Jafel Filho",
+            "nickname": "Pastor",
+            "record": "17-5-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1993-05-05",
+            "image_credit": null,
+            "height": "5' 7\"",
+            "weight": "125 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93768",
+          "card_position": "main_card",
+          "weight_class": "Light Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Uran Satybaldiev",
+            "nickname": "Gorilla",
+            "record": "10-1-0",
+            "country": "Kyrgyzstan",
+            "flag": "🇰🇬",
+            "rankings": [],
+            "image": "",
+            "dob": "1994-08-10",
+            "image_credit": null,
+            "height": "6' 4\"",
+            "weight": "205 lbs"
+          },
+          "fighter_2": {
+            "name": "Ivan Gnizditskiy",
+            "nickname": "Samurai",
+            "record": "7-0-0",
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-05-10",
+            "image_credit": null,
+            "height": "6' 1\"",
+            "weight": "205 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93769",
+          "card_position": "main_card",
+          "weight_class": "Middleweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Marco Tulio",
+            "nickname": "Matuto",
+            "record": "14-3-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1994-06-13",
+            "image_credit": null,
+            "height": "6' 0\"",
+            "weight": "185 lbs"
+          },
+          "fighter_2": {
+            "name": "JunYong Park",
+            "nickname": "The Iron Turtle",
+            "record": "19-7-0",
+            "country": "South Korea",
+            "flag": "🇰🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1991-02-27",
+            "image_credit": null,
+            "height": "5' 10\"",
+            "weight": "185 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93770",
+          "card_position": "main_card",
+          "weight_class": "Bantamweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Pavel Andrusca",
+            "nickname": "",
+            "record": "9-0-0",
+            "country": "Moldova",
+            "flag": "🇲🇩",
+            "rankings": [],
+            "image": "",
+            "dob": "2002-05-08",
+            "image_credit": null,
+            "height": "5' 7\"",
+            "weight": "145 lbs"
+          },
+          "fighter_2": {
+            "name": "Mehemmedeli Osmanli",
+            "nickname": "The Ineffable",
+            "record": "13-2-0",
+            "country": "Azerbaijan",
+            "flag": "🇦🇿",
+            "rankings": [],
+            "image": "",
+            "dob": "2004-08-05",
+            "image_credit": null,
+            "height": "5' 9\"",
+            "weight": "135 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93771",
+          "card_position": "main_card",
+          "weight_class": "Middleweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Modestino Rodrigues",
+            "nickname": "The Slenderman",
+            "record": "8-1-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "2003-10-09",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "185 lbs"
+          },
+          "fighter_2": {
+            "name": "Matthieu Duclos",
+            "nickname": "",
+            "record": "11-3-0",
+            "country": "France",
+            "flag": "🇫🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1995-04-04",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "185 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93772",
+          "card_position": "main_card",
+          "weight_class": "Bantamweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Abdul Hussein",
+            "nickname": "King",
+            "record": "16-2-0",
+            "country": "Finland",
+            "flag": "🇫🇮",
+            "rankings": [],
+            "image": "",
+            "dob": "1997-08-02",
+            "image_credit": null,
+            "height": "5' 7\"",
+            "weight": "135 lbs"
+          },
+          "fighter_2": {
+            "name": "Hecher Sosa",
+            "nickname": "Guanche Warrior",
+            "record": "15-1-0",
+            "country": "Spain",
+            "flag": "🇪🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1995-08-25",
+            "image_credit": null,
+            "height": "5' 9\"",
+            "weight": "135 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        }
+      ],
+      "schedule": {
+        "main_card_start_time": "2026-12-05T18:00:00.000Z",
+        "prelims_start_time": "2026-12-05T15:00:00.000Z",
+        "early_prelims_start_time": null,
+        "timezone": "Asia/Riyadh",
         "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
       }
     },
@@ -2563,8 +3103,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-267",
-            "fighter_2": "208",
+            "fighter_1": "-265",
+            "fighter_2": "210",
             "status": "consensus_odds"
           }
         },
@@ -2624,8 +3164,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "120",
-            "fighter_2": "-140",
+            "fighter_1": "116",
+            "fighter_2": "-139",
             "status": "consensus_odds"
           }
         },
