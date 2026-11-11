@@ -1,3 +1,4 @@
+
 name: Update UFC events
 
 on:
@@ -29,14 +30,19 @@ jobs:
           UFCALENDAR_API_KEY: ${{ secrets.UFCALENDAR_API_KEY }}
         run: node scripts/update-events.js
 
-      - name: Commit updated event data
+      - name: Update fighter image database
+        run: node scripts/collect-espn-fighters.js
+
+      - name: Commit updated event data and fighter images
         run: |
-          if git diff --quiet -- data/events.json data/fighters-cache.json; then
-            echo "No event data changes to commit."
+          if git diff --quiet -- data/events.json data/fighters-cache.json data/fighter-images.json; then
+            echo "No event data or fighter image changes to commit."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/events.json data/fighters-cache.json
-          git commit -m "chore: update UFC event data"
+
+          git add data/events.json data/fighters-cache.json data/fighter-images.json
+          git commit -m "chore: update UFC event data and fighter images"
           git push
