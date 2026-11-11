@@ -25121,5 +25121,1265 @@
       "source": "native"
     },
     "_cache_updated_at": "2026-11-10T15:25:17.202Z"
+  },
+  "heili-alateng": {
+    "id": 7566,
+    "slug": "heili-alateng",
+    "name": "Heili Alateng",
+    "nickname": "The Mongolian Knight",
+    "nationality": "China",
+    "country_code": "CN",
+    "second_nationality": null,
+    "height_inches": 65,
+    "weight_lbs": 135,
+    "reach_inches": 66,
+    "stance": "Orthodox",
+    "dob": "1991-12-14",
+    "team": "Fight Ready",
+    "birthplace": "Beijing, China",
+    "records": {
+      "pro_mma": {
+        "value": "18-10-2",
+        "wins": 18,
+        "losses": 10,
+        "draws": 2,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "6-3-1",
+        "wins": 6,
+        "losses": 3,
+        "draws": 1,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 2.71,
+        "str_acc": 0.32,
+        "sapm": 4.96,
+        "str_def": 0.57,
+        "td_avg": 1.88,
+        "td_acc": 0.43,
+        "td_def": 0.75,
+        "sub_avg": 0
+      },
+      "slpm": "2.71",
+      "str_acc": "32%",
+      "sapm": "4.96",
+      "str_def": "57%",
+      "td_avg": "1.88",
+      "td_acc": "43%",
+      "td_def": "75%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 10,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "18-10-2",
+        "slpm": "2.71",
+        "str_acc": "32%",
+        "sapm": "4.96",
+        "str_def": "57%",
+        "td_avg": "1.88",
+        "td_acc": "43%",
+        "td_def": "75%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "6-3-1",
+        "slpm": "2.71",
+        "str_acc": "32%",
+        "sapm": "4.96",
+        "str_def": "57%",
+        "td_avg": "1.88",
+        "td_acc": "43%",
+        "td_def": "75%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1640,
+      "peak": 1661,
+      "peak_at": "2022-09-11T02:00:00.000Z",
+      "peak_date": "2022-09-11",
+      "fights_rated": 29,
+      "last_fought_at": "2026-09-26T21:00:00.000Z",
+      "last_fought_date": "2026-09-26"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93780,
+      "event_id": 2563,
+      "event_title": "Polymarket UFC 334: Gane vs Hokit",
+      "event_slug": "ufc-2026-11-15",
+      "org_slug": "ufc",
+      "date": "2026-11-14",
+      "opponent_id": 32,
+      "opponent_name": "Juan Díaz",
+      "opponent_slug": "juan-diaz",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Bantamweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 85944,
+      "event_id": 2526,
+      "event_title": "UFC Fight Night: Rosas Jr. vs Barcelos",
+      "event_slug": "ufc-fight-night-289-2026-09-26",
+      "org_slug": "ufc",
+      "date": "2026-09-26",
+      "opponent_id": 568,
+      "opponent_name": "John Castaneda",
+      "opponent_slug": "john-castaneda",
+      "result": "win",
+      "method": "Decision - Split",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Bantamweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-11T22:08:53.400Z"
+  },
+  "george-mangos": {
+    "id": 46556,
+    "slug": "george-mangos",
+    "name": "George Mangos",
+    "nickname": null,
+    "nationality": "Australia",
+    "country_code": "AU",
+    "second_nationality": null,
+    "height_inches": 68,
+    "weight_lbs": 145,
+    "reach_inches": 69,
+    "stance": "Switch",
+    "dob": "2003-08-19",
+    "team": "Lion's Den",
+    "birthplace": "Sydney, Australia",
+    "records": {
+      "amateur_mma": {
+        "value": "6-0",
+        "wins": 6,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "10-1-0",
+        "wins": 10,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-0-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 1,
+        "str_acc": 0.47,
+        "sapm": 0.73,
+        "str_def": 0.58,
+        "td_avg": 0,
+        "td_acc": 0,
+        "td_def": 0.27,
+        "sub_avg": 4.1
+      },
+      "slpm": "1.00",
+      "str_acc": "47%",
+      "sapm": "0.73",
+      "str_def": "58%",
+      "td_avg": "0.00",
+      "td_acc": "0%",
+      "td_def": "27%",
+      "sub_avg": "4.1",
+      "basis": {
+        "bouts": 2,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "6-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "10-1-0",
+        "slpm": "1.00",
+        "str_acc": "47%",
+        "sapm": "0.73",
+        "str_def": "58%",
+        "td_avg": "0.00",
+        "td_acc": "0%",
+        "td_def": "27%",
+        "sub_avg": "4.1"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-0-0",
+        "slpm": "1.13",
+        "str_acc": "40%",
+        "sapm": "1.70",
+        "str_def": "40%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "60%",
+        "sub_avg": "8.5"
+      }
+    ],
+    "power_index": {
+      "rating": 1800,
+      "peak": 1800,
+      "peak_at": "2026-08-28T09:00:00.000Z",
+      "peak_date": "2026-08-28",
+      "fights_rated": 11,
+      "last_fought_at": "2026-08-28T09:00:00.000Z",
+      "last_fought_date": "2026-08-28"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93781,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 46971,
+      "opponent_name": "Dagiisuren Chagnaadorj",
+      "opponent_slug": "dagiisuren-chagnaadorj",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 85953,
+      "event_id": 2564,
+      "event_title": "Road To UFC: Maheshate vs Flowers",
+      "event_slug": "ufc-2026-08-28",
+      "org_slug": "ufc",
+      "date": "2026-08-28",
+      "opponent_id": 6545,
+      "opponent_name": "Ahejiang Ailinuer",
+      "opponent_slug": "ahejiang-ailinuer",
+      "result": "win",
+      "method": "Submission",
+      "round": 2,
+      "time": "2:03",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-11T22:08:59.689Z"
+  },
+  "dagiisuren-chagnaadorj": {
+    "id": 46971,
+    "slug": "dagiisuren-chagnaadorj",
+    "name": "Dagiisuren Chagnaadorj",
+    "nickname": null,
+    "nationality": "Mongolia",
+    "country_code": "MN",
+    "second_nationality": null,
+    "height_inches": 68,
+    "weight_lbs": 145,
+    "reach_inches": 71,
+    "stance": "Orthodox",
+    "dob": "1999-12-31",
+    "team": null,
+    "birthplace": "Otgon, Zavkhan, Mongolia",
+    "records": {
+      "pro_mma": {
+        "value": "12-2-0",
+        "wins": 12,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-0-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 1.4,
+        "str_acc": 0.4,
+        "sapm": 0.35,
+        "str_def": 0,
+        "td_avg": 5.26,
+        "td_acc": 1,
+        "td_def": null,
+        "sub_avg": 5.3
+      },
+      "slpm": "1.40",
+      "str_acc": "40%",
+      "sapm": "0.35",
+      "str_def": "0%",
+      "td_avg": "5.26",
+      "td_acc": "100%",
+      "td_def": null,
+      "sub_avg": "5.3",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "12-2-0",
+        "slpm": "1.40",
+        "str_acc": "40%",
+        "sapm": "0.35",
+        "str_def": "0%",
+        "td_avg": "5.26",
+        "td_acc": "100%",
+        "td_def": null,
+        "sub_avg": "5.3"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-0-0",
+        "slpm": "1.40",
+        "str_acc": "40%",
+        "sapm": "0.35",
+        "str_def": "0%",
+        "td_avg": "5.26",
+        "td_acc": "100%",
+        "td_def": null,
+        "sub_avg": "5.3"
+      }
+    ],
+    "power_index": {
+      "rating": 1721,
+      "peak": 1721,
+      "peak_at": "2026-08-28T09:00:00.000Z",
+      "peak_date": "2026-08-28",
+      "fights_rated": 14,
+      "last_fought_at": "2026-08-28T09:00:00.000Z",
+      "last_fought_date": "2026-08-28"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93781,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 46556,
+      "opponent_name": "George Mangos",
+      "opponent_slug": "george-mangos",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 85957,
+      "event_id": 2564,
+      "event_title": "Road To UFC: Maheshate vs Flowers",
+      "event_slug": "ufc-2026-08-28",
+      "org_slug": "ufc",
+      "date": "2026-08-28",
+      "opponent_id": 5761,
+      "opponent_name": "Young Jae Song",
+      "opponent_slug": "young-jae-song",
+      "result": "win",
+      "method": "Submission",
+      "round": 1,
+      "time": "2:51",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-11T22:09:06.172Z"
+  },
+  "rabindra-dhant": {
+    "id": 8319,
+    "slug": "rabindra-dhant",
+    "name": "Rabindra Dhant",
+    "nickname": null,
+    "nationality": "Nepal",
+    "country_code": "NP",
+    "second_nationality": null,
+    "height_inches": 67,
+    "weight_lbs": 135,
+    "reach_inches": 69,
+    "stance": "Switch",
+    "dob": "1998-11-30",
+    "team": "Locknroll MMA Nepal",
+    "birthplace": "Bajhang, Sudurpashchim Province, Nepal",
+    "records": {
+      "one": {
+        "value": "1-1-0",
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "one-official",
+        "scope": "one-only"
+      },
+      "pro_mma": {
+        "value": "11-1-0",
+        "wins": 11,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-0-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 2.47,
+        "str_acc": 0.51,
+        "sapm": 3.07,
+        "str_def": 0.47,
+        "td_avg": 0,
+        "td_acc": null,
+        "td_def": 0.75,
+        "sub_avg": 1
+      },
+      "slpm": "2.47",
+      "str_acc": "51%",
+      "sapm": "3.07",
+      "str_def": "47%",
+      "td_avg": "0.00",
+      "td_acc": null,
+      "td_def": "75%",
+      "sub_avg": "1.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "one-only",
+        "source": "one-official",
+        "record": "1-1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "11-1-0",
+        "slpm": "2.47",
+        "str_acc": "51%",
+        "sapm": "3.07",
+        "str_def": "47%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "75%",
+        "sub_avg": "1.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-0-0",
+        "slpm": "2.47",
+        "str_acc": "51%",
+        "sapm": "3.07",
+        "str_def": "47%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "75%",
+        "sub_avg": "1.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1742,
+      "peak": 1742,
+      "peak_at": "2026-08-28T09:00:00.000Z",
+      "peak_date": "2026-08-28",
+      "fights_rated": 11,
+      "last_fought_at": "2026-08-28T09:00:00.000Z",
+      "last_fought_date": "2026-08-28"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93782,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 32573,
+      "opponent_name": "Ryo Tajima",
+      "opponent_slug": "ryo-tajima",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Bantamweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 85954,
+      "event_id": 2564,
+      "event_title": "Road To UFC: Maheshate vs Flowers",
+      "event_slug": "ufc-2026-08-28",
+      "org_slug": "ufc",
+      "date": "2026-08-28",
+      "opponent_id": 119292,
+      "opponent_name": "Kasib Murdoch",
+      "opponent_slug": "kasib-murdoch",
+      "result": "win",
+      "method": "Decision - Split",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Bantamweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-11T22:09:12.668Z"
+  },
+  "ryo-tajima": {
+    "id": 32573,
+    "slug": "ryo-tajima",
+    "name": "Ryo Tajima",
+    "nickname": null,
+    "nationality": "Japan",
+    "country_code": "JP",
+    "second_nationality": null,
+    "height_inches": 68,
+    "weight_lbs": 135,
+    "reach_inches": 71,
+    "stance": "Orthodox",
+    "dob": "1999-08-14",
+    "team": null,
+    "birthplace": "Saitama, Japan",
+    "records": {
+      "pro_mma": {
+        "value": "12-3-0",
+        "wins": 12,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-0-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 2.67,
+        "str_acc": 0.56,
+        "sapm": 2.2,
+        "str_def": 0.66,
+        "td_avg": 2,
+        "td_acc": 0.67,
+        "td_def": 0.44,
+        "sub_avg": 0
+      },
+      "slpm": "2.67",
+      "str_acc": "56%",
+      "sapm": "2.20",
+      "str_def": "66%",
+      "td_avg": "2.00",
+      "td_acc": "67%",
+      "td_def": "44%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "12-3-0",
+        "slpm": "2.67",
+        "str_acc": "56%",
+        "sapm": "2.20",
+        "str_def": "66%",
+        "td_avg": "2.00",
+        "td_acc": "67%",
+        "td_def": "44%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-0-0",
+        "slpm": "2.67",
+        "str_acc": "56%",
+        "sapm": "2.20",
+        "str_def": "66%",
+        "td_avg": "2.00",
+        "td_acc": "67%",
+        "td_def": "44%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1740,
+      "peak": 1740,
+      "peak_at": "2026-08-28T09:00:00.000Z",
+      "peak_date": "2026-08-28",
+      "fights_rated": 15,
+      "last_fought_at": "2026-08-28T09:00:00.000Z",
+      "last_fought_date": "2026-08-28"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93782,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 8319,
+      "opponent_name": "Rabindra Dhant",
+      "opponent_slug": "rabindra-dhant",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Bantamweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 85958,
+      "event_id": 2564,
+      "event_title": "Road To UFC: Maheshate vs Flowers",
+      "event_slug": "ufc-2026-08-28",
+      "org_slug": "ufc",
+      "date": "2026-08-28",
+      "opponent_id": 46739,
+      "opponent_name": "Chungreng Koren",
+      "opponent_slug": "chungreng-koren",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Bantamweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-11T22:09:19.189Z"
+  },
+  "jiniushiyue": {
+    "id": 32410,
+    "slug": "jiniushiyue",
+    "name": "Jiniushiyue",
+    "nickname": "Little Vajra",
+    "nationality": "China",
+    "country_code": "CN",
+    "second_nationality": null,
+    "height_inches": 68,
+    "weight_lbs": 125,
+    "reach_inches": 68,
+    "stance": "Southpaw",
+    "dob": "2000-12-09",
+    "team": null,
+    "birthplace": "Sichuan, China",
+    "records": {
+      "pro_mma": {
+        "value": "17-4-0",
+        "wins": 17,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 3.67,
+        "str_acc": null,
+        "sapm": 1.47,
+        "str_def": null,
+        "td_avg": 0,
+        "td_acc": null,
+        "td_def": 0.67,
+        "sub_avg": 0
+      },
+      "slpm": "3.67",
+      "str_acc": null,
+      "sapm": "1.47",
+      "str_def": null,
+      "td_avg": "0.00",
+      "td_acc": null,
+      "td_def": "67%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "brave-cf"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "17-4-0",
+        "slpm": "3.67",
+        "str_acc": null,
+        "sapm": "1.47",
+        "str_def": null,
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "67%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1737,
+      "peak": 1739,
+      "peak_at": "2023-08-27T00:00:00.000Z",
+      "peak_date": "2023-08-27",
+      "fights_rated": 21,
+      "last_fought_at": "2026-05-29T00:00:00.000Z",
+      "last_fought_date": "2026-05-29"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93783,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 112025,
+      "opponent_name": "Takaya Suzuki",
+      "opponent_slug": "takaya-suzuki",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Flyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 87868,
+      "event_id": 2992,
+      "event_title": "BRAVE CF 98",
+      "event_slug": "brave-cf-98-2025-09-19",
+      "org_slug": "brave-cf",
+      "date": "2025-09-19",
+      "opponent_id": 29022,
+      "opponent_name": "Luthando Biko",
+      "opponent_slug": "luthando-biko",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "05:00",
+      "weight_class": "Catchweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-11T22:09:25.689Z"
+  },
+  "takaya-suzuki": {
+    "id": 112025,
+    "slug": "takaya-suzuki",
+    "name": "Takaya Suzuki",
+    "nickname": null,
+    "nationality": "Japan",
+    "country_code": "JP",
+    "second_nationality": null,
+    "height_inches": 67,
+    "weight_lbs": 125,
+    "reach_inches": 68,
+    "stance": "Southpaw",
+    "dob": "2004-09-08",
+    "team": null,
+    "birthplace": "Kawasaki, Kanagawa, Japan",
+    "records": {
+      "amateur_mma": {
+        "value": "3-0",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "9-1-0",
+        "wins": 9,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-0-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 6.44,
+        "str_acc": 0.55,
+        "sapm": 1.85,
+        "str_def": 0.65,
+        "td_avg": 0,
+        "td_acc": null,
+        "td_def": 1,
+        "sub_avg": 0
+      },
+      "slpm": "6.44",
+      "str_acc": "55%",
+      "sapm": "1.85",
+      "str_def": "65%",
+      "td_avg": "0.00",
+      "td_acc": null,
+      "td_def": "100%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "3-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "9-1-0",
+        "slpm": "6.44",
+        "str_acc": "55%",
+        "sapm": "1.85",
+        "str_def": "65%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "100%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-0-0",
+        "slpm": "6.44",
+        "str_acc": "55%",
+        "sapm": "1.85",
+        "str_def": "65%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "100%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1767,
+      "peak": 1767,
+      "peak_at": "2026-08-28T09:00:00.000Z",
+      "peak_date": "2026-08-28",
+      "fights_rated": 10,
+      "last_fought_at": "2026-08-28T09:00:00.000Z",
+      "last_fought_date": "2026-08-28"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93783,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 32410,
+      "opponent_name": "Jiniushiyue",
+      "opponent_slug": "jiniushiyue",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Flyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 85956,
+      "event_id": 2564,
+      "event_title": "Road To UFC: Maheshate vs Flowers",
+      "event_slug": "ufc-2026-08-28",
+      "org_slug": "ufc",
+      "date": "2026-08-28",
+      "opponent_id": 119257,
+      "opponent_name": "Joseph Larcinese",
+      "opponent_slug": "joseph-larcinese",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 3,
+      "time": "0:15",
+      "weight_class": "Flyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-11T22:09:32.273Z"
+  },
+  "meng-bo-2": {
+    "id": 299043,
+    "slug": "meng-bo-2",
+    "name": "Meng Bo",
+    "nickname": null,
+    "nationality": null,
+    "country_code": null,
+    "second_nationality": null,
+    "height_inches": 64,
+    "weight_lbs": 115,
+    "reach_inches": 62,
+    "stance": "Orthodox",
+    "dob": "1996-03-29",
+    "team": null,
+    "birthplace": null,
+    "records": {
+      "pro_mma": {
+        "value": "24-8-0",
+        "wins": 24,
+        "losses": 8,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "pro-mma"
+      }
+    },
+    "stats": null,
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "ufc-stats",
+        "record": "24-8-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      }
+    ],
+    "power_index": null,
+    "images": [],
+    "next_fight": {
+      "fight_id": 93784,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 73491,
+      "opponent_name": "Bo Hyun Park",
+      "opponent_slug": "bo-hyun-park",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Women's Strawweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": null,
+    "_cache_updated_at": "2026-11-11T22:09:38.709Z"
+  },
+  "bo-hyun-park": {
+    "id": 73491,
+    "slug": "bo-hyun-park",
+    "name": "Bo Hyun Park",
+    "nickname": "The Rush",
+    "nationality": "South Korea",
+    "country_code": "KR",
+    "second_nationality": null,
+    "height_inches": 62,
+    "weight_lbs": 115,
+    "reach_inches": 61,
+    "stance": "Orthodox",
+    "dob": "1999-05-14",
+    "team": null,
+    "birthplace": "Seoul, South Korea",
+    "records": {
+      "amateur_mma": {
+        "value": "3-0",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "10-3-0",
+        "wins": 10,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-0-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4,
+        "str_acc": 0.44,
+        "sapm": 4.4,
+        "str_def": 0.54,
+        "td_avg": 1,
+        "td_acc": 0.14,
+        "td_def": 1,
+        "sub_avg": 0
+      },
+      "slpm": "4.00",
+      "str_acc": "44%",
+      "sapm": "4.40",
+      "str_def": "54%",
+      "td_avg": "1.00",
+      "td_acc": "14%",
+      "td_def": "100%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "3-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "10-3-0",
+        "slpm": "4.00",
+        "str_acc": "44%",
+        "sapm": "4.40",
+        "str_def": "54%",
+        "td_avg": "1.00",
+        "td_acc": "14%",
+        "td_def": "100%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-0-0",
+        "slpm": "4.00",
+        "str_acc": "44%",
+        "sapm": "4.40",
+        "str_def": "54%",
+        "td_avg": "1.00",
+        "td_acc": "14%",
+        "td_def": "100%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1643,
+      "peak": 1643,
+      "peak_at": "2026-08-28T09:00:00.000Z",
+      "peak_date": "2026-08-28",
+      "fights_rated": 14,
+      "last_fought_at": "2026-08-28T09:00:00.000Z",
+      "last_fought_date": "2026-08-28"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93784,
+      "event_id": 3541,
+      "event_title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "event_slug": "ufc-fight-night-2027-02-06",
+      "org_slug": "ufc",
+      "date": "2027-02-06",
+      "opponent_id": 299043,
+      "opponent_name": "Meng Bo",
+      "opponent_slug": "meng-bo-2",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Women's Strawweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 85959,
+      "event_id": 2564,
+      "event_title": "Road To UFC: Maheshate vs Flowers",
+      "event_slug": "ufc-2026-08-28",
+      "org_slug": "ufc",
+      "date": "2026-08-28",
+      "opponent_id": 5377,
+      "opponent_name": "Farida Abdueva",
+      "opponent_slug": "farida-abdueva",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Women's Strawweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-11T22:09:45.249Z"
   }
 }
