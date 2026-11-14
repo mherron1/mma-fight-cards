@@ -226,5 +226,217 @@
         }
       }
     }
+  },
+  "ufc-2026-11-15": {
+    "fighters": {
+      "ciryl-gane": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 14,
+          "losses": 2,
+          "draws": 0
+        }
+      },
+      "josh-hokit": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 10,
+          "losses": 0,
+          "draws": 0
+        }
+      },
+      "kayla-harrison": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 19,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "amanda-nunes": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 23,
+          "losses": 5,
+          "draws": 0
+        }
+      },
+      "caio-borralho": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 18,
+          "losses": 2,
+          "draws": 0
+        }
+      },
+      "yousri-belgaroui": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 11,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "uros-medic": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 14,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "kevin-holland": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 29,
+          "losses": 15,
+          "draws": 0
+        }
+      },
+      "bilal-hasan": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 10,
+          "losses": 0,
+          "draws": 0
+        }
+      },
+      "luis-gurule": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 11,
+          "losses": 4,
+          "draws": 0
+        }
+      },
+      "stephen-thompson": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 17,
+          "losses": 9,
+          "draws": 1
+        }
+      },
+      "charles-radtke": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 12,
+          "losses": 5,
+          "draws": 0
+        }
+      },
+      "drew-dober": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 29,
+          "losses": 15,
+          "draws": 0
+        }
+      },
+      "chris-duncan": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 15,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "jim-miller": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 39,
+          "losses": 19,
+          "draws": 0
+        }
+      },
+      "terrance-mckinney": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 18,
+          "losses": 9,
+          "draws": 0
+        }
+      },
+      "donte-johnson": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 9,
+          "losses": 0,
+          "draws": 0
+        }
+      },
+      "cesar-almeida": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 7,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "jared-gordon": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 21,
+          "losses": 9,
+          "draws": 0
+        }
+      },
+      "melquizael-costa": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 26,
+          "losses": 8,
+          "draws": 0
+        }
+      },
+      "macy-chiasson": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 11,
+          "losses": 6,
+          "draws": 0
+        }
+      },
+      "bia-mesquita": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 8,
+          "losses": 0,
+          "draws": 0
+        }
+      },
+      "heili-alateng": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 18,
+          "losses": 10,
+          "draws": 2
+        }
+      },
+      "juan-diaz": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 16,
+          "losses": 1,
+          "draws": 1
+        }
+      },
+      "evan-elder": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 10,
+          "losses": 2,
+          "draws": 0
+        }
+      },
+      "samuel-sanches": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 11,
+          "losses": 1,
+          "draws": 0
+        }
+      }
+    }
   }
 }

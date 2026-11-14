@@ -5,7 +5,7 @@
     "name": "UFC Fight Night: Cortes Acosta vs Walker",
     "date": "2026-11-07",
     "start_time": "2026-11-07T22:00:00.000Z",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, NV, United States",
     "venue": "Meta Apex",
     "sport": "MMA",
     "status": "completed",
@@ -24,9 +24,9 @@
           "rankings": [
             {
               "division": "heavyweight",
-              "rank": 6,
+              "rank": 8,
               "is_champion": false,
-              "movement": 0,
+              "movement": -2,
               "nationality": "Dominican Republic",
               "country_code": "DO"
             }
@@ -43,7 +43,16 @@
           "record": "24-10-0",
           "country": "Brazil",
           "flag": "🇧🇷",
-          "rankings": [],
+          "rankings": [
+            {
+              "division": "heavyweight",
+              "rank": 7,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "Brazil",
+              "country_code": "BR"
+            }
+          ],
           "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/96b0803d7f34b568d2f3d859f4f700f7388153eafe8b95226a0905033fd52982.webp",
           "dob": "1992-03-30",
           "image_credit": {
@@ -66,11 +75,11 @@
           "winner_fighter_id": 7170,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Punches",
           "round": 3,
           "time": "2:27",
           "time_seconds": 147,
-          "details": ""
+          "details": "Punch to Head At Distance"
         }
       },
       {
@@ -124,7 +133,7 @@
               "division": "womens-pound-for-pound",
               "rank": 12,
               "is_champion": false,
-              "movement": -2,
+              "movement": 0,
               "nationality": "Brazil",
               "country_code": "BR"
             },
@@ -203,11 +212,11 @@
           "winner_fighter_id": 511,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Punches",
           "round": 1,
           "time": "1:00",
           "time_seconds": 60,
-          "details": ""
+          "details": "Punches to Head On Ground"
         }
       },
       {
@@ -301,11 +310,11 @@
           "winner_fighter_id": 33223,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Elbows",
           "round": 2,
           "time": "3:40",
           "time_seconds": 220,
-          "details": ""
+          "details": "Elbows to Head From Mount"
         }
       },
       {
@@ -448,11 +457,11 @@
           "winner_fighter_id": 167,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Punches",
           "round": 3,
           "time": "4:47",
           "time_seconds": 287,
-          "details": ""
+          "details": "Punches to Head From Half Guard"
         }
       },
       {
@@ -493,7 +502,7 @@
               "division": "womens-flyweight",
               "rank": 15,
               "is_champion": false,
-              "movement": -1,
+              "movement": 0,
               "nationality": "Brazil",
               "country_code": "BR"
             }
@@ -613,11 +622,11 @@
           "winner_fighter_id": 2865,
           "method": "Submission",
           "method_normalized": "submission",
-          "finish_detail": "",
+          "finish_detail": "Rear-Naked Choke",
           "round": 1,
           "time": "1:07",
           "time_seconds": 67,
-          "details": ""
+          "details": "Rear Naked Choke"
         }
       },
       {
@@ -662,11 +671,11 @@
           "winner_fighter_id": 44,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Punches",
           "round": 2,
           "time": "4:39",
           "time_seconds": 279,
-          "details": ""
+          "details": "Punches to Head From Mount"
         }
       },
       {
@@ -765,11 +774,11 @@
           "winner_fighter_id": 286,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Punches",
           "round": 1,
           "time": "4:16",
           "time_seconds": 256,
-          "details": ""
+          "details": "Punches to Head At Distance"
         }
       }
     ],
@@ -788,7 +797,7 @@
       "name": "Polymarket UFC 334: Gane vs Hokit",
       "date": "2026-11-14",
       "start_time": "2026-11-14T22:00:00.000Z",
-      "location": "New York, New York, United States",
+      "location": "New York, NY, United States",
       "venue": "Madison Square Garden",
       "sport": "MMA",
       "status": "announced",
@@ -815,9 +824,9 @@
               },
               {
                 "division": "mens-pound-for-pound",
-                "rank": 11,
+                "rank": 12,
                 "is_champion": false,
-                "movement": 0,
+                "movement": -1,
                 "nationality": "France",
                 "country_code": "FR"
               }
@@ -862,8 +871,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-206",
-            "fighter_2": "169",
+            "fighter_1": "-211",
+            "fighter_2": "175",
             "status": "consensus_odds"
           }
         },
@@ -927,8 +936,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-192",
-            "fighter_2": "160",
+            "fighter_1": "-167",
+            "fighter_2": "140",
             "status": "consensus_odds"
           }
         },
@@ -979,8 +988,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-159",
-            "fighter_2": "132",
+            "fighter_1": "-161",
+            "fighter_2": "133",
             "status": "consensus_odds"
           }
         },
@@ -998,9 +1007,9 @@
             "rankings": [
               {
                 "division": "welterweight",
-                "rank": 12,
+                "rank": 11,
                 "is_champion": false,
-                "movement": 0,
+                "movement": 1,
                 "nationality": "Serbia",
                 "country_code": "RS"
               }
@@ -1040,8 +1049,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-151",
-            "fighter_2": "126",
+            "fighter_1": "-160",
+            "fighter_2": "134",
             "status": "consensus_odds"
           }
         },
@@ -1078,8 +1087,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-1035",
-            "fighter_2": "641",
+            "fighter_1": "-1104",
+            "fighter_2": "678",
             "status": "consensus_odds"
           }
         },
@@ -1121,8 +1130,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-148",
-            "fighter_2": "123",
+            "fighter_1": "-135",
+            "fighter_2": "113",
             "status": "consensus_odds"
           }
         },
@@ -1159,8 +1168,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "134",
-            "fighter_2": "-162",
+            "fighter_1": "156",
+            "fighter_2": "-187",
             "status": "consensus_odds"
           }
         },
@@ -1202,15 +1211,15 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "166",
-            "fighter_2": "-201",
+            "fighter_1": "174",
+            "fighter_2": "-211",
             "status": "consensus_odds"
           }
         },
         {
           "id": "93616",
           "card_position": "prelim",
-          "weight_class": "Middleweight",
+          "weight_class": "Catchweight",
           "title_fight": false,
           "fighter_1": {
             "name": "Donte Johnson",
@@ -1240,8 +1249,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-174",
-            "fighter_2": "144",
+            "fighter_1": "-195",
+            "fighter_2": "163",
             "status": "consensus_odds"
           }
         },
@@ -1287,8 +1296,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "286",
-            "fighter_2": "-370",
+            "fighter_1": "304",
+            "fighter_2": "-401",
             "status": "consensus_odds"
           }
         },
@@ -1306,9 +1315,9 @@
             "rankings": [
               {
                 "division": "womens-bantamweight",
-                "rank": 9,
+                "rank": 10,
                 "is_champion": false,
-                "movement": 0,
+                "movement": -1,
                 "nationality": "United States",
                 "country_code": "US"
               }
@@ -1343,27 +1352,27 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "208",
-            "fighter_2": "-258",
+            "fighter_1": "207",
+            "fighter_2": "-254",
             "status": "consensus_odds"
           }
         },
         {
-          "id": "93112",
+          "id": "93780",
           "card_position": "early_prelim",
           "weight_class": "Bantamweight",
           "title_fight": false,
           "fighter_1": {
-            "name": "Adrian Yanez",
-            "nickname": "",
-            "record": "18-6-1",
-            "country": "United States",
-            "flag": "🇺🇸",
+            "name": "Heili Alateng",
+            "nickname": "The Mongolian Knight",
+            "record": "18-10-2",
+            "country": "China",
+            "flag": "🇨🇳",
             "rankings": [],
             "image": "",
-            "dob": "1993-11-29",
+            "dob": "1991-12-14",
             "image_credit": null,
-            "height": "5' 7\"",
+            "height": "5' 5\"",
             "weight": "135 lbs"
           },
           "fighter_2": {
@@ -1381,9 +1390,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "316",
+            "fighter_2": "-417",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1500,8 +1509,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "117",
-            "fighter_2": "-142",
+            "fighter_1": "123",
+            "fighter_2": "-148",
             "status": "consensus_odds"
           }
         },
@@ -1561,8 +1570,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "102",
-            "fighter_2": "-122",
+            "fighter_1": "110",
+            "fighter_2": "-134",
             "status": "consensus_odds"
           }
         },
@@ -1582,7 +1591,7 @@
                 "division": "lightweight",
                 "rank": 14,
                 "is_champion": false,
-                "movement": -1,
+                "movement": 0,
                 "nationality": "New Zealand",
                 "country_code": "NZ"
               }
@@ -1627,9 +1636,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-166",
+            "fighter_2": "132",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1693,9 +1702,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-204",
+            "fighter_2": "162",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1714,7 +1723,7 @@
                 "division": "middleweight",
                 "rank": 12,
                 "is_champion": false,
-                "movement": -1,
+                "movement": 0,
                 "nationality": "United States",
                 "country_code": "US"
               }
@@ -1759,9 +1768,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "269",
+            "fighter_2": "-363",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1802,9 +1811,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-231",
+            "fighter_2": "181",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1845,9 +1854,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-226",
+            "fighter_2": "176",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1892,9 +1901,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "112",
+            "fighter_2": "-140",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1935,9 +1944,85 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-168",
+            "fighter_2": "134",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93819",
+          "card_position": "prelim",
+          "weight_class": "Lightweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Nikolas Motta",
+            "nickname": "Iron",
+            "record": "15-6-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1993-02-08",
+            "image_credit": null,
+            "height": "5' 9\"",
+            "weight": "155 lbs"
+          },
+          "fighter_2": {
+            "name": "Dom Mar Fan",
+            "nickname": "Street Buddha",
+            "record": "9-3-0",
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "rankings": [],
+            "image": "",
+            "dob": "2000-03-19",
+            "image_credit": null,
+            "height": "5' 11\"",
+            "weight": "155 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "124",
+            "fighter_2": "-145",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93820",
+          "card_position": "prelim",
+          "weight_class": "Light Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Diyar Nurgozhay",
+            "nickname": "",
+            "record": "12-2-0",
+            "country": "Kazakhstan",
+            "flag": "🇰🇿",
+            "rankings": [],
+            "image": "",
+            "dob": "1997-04-22",
+            "image_credit": null,
+            "height": "6' 2\"",
+            "weight": "205 lbs"
+          },
+          "fighter_2": {
+            "name": "Alik Lorenz",
+            "nickname": "",
+            "record": "8-2-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1997-01-25",
+            "image_credit": null,
+            "height": "6' 2\"",
+            "weight": "205 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "-265",
+            "fighter_2": "220",
+            "status": "consensus_odds"
           }
         }
       ],
@@ -2016,8 +2101,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-158",
-            "fighter_2": "131",
+            "fighter_1": "-155",
+            "fighter_2": "129",
             "status": "consensus_odds"
           }
         },
@@ -2062,9 +2147,9 @@
             "rankings": [
               {
                 "division": "welterweight",
-                "rank": 11,
+                "rank": 12,
                 "is_champion": false,
-                "movement": 0,
+                "movement": -1,
                 "nationality": "Ukraine",
                 "country_code": "UA"
               }
@@ -2096,9 +2181,9 @@
             "rankings": [
               {
                 "division": "heavyweight",
-                "rank": 9,
+                "rank": 10,
                 "is_champion": false,
-                "movement": 0,
+                "movement": -1,
                 "nationality": "Moldova",
                 "country_code": "MD"
               }
@@ -2115,16 +2200,7 @@
             "record": "13-0-0",
             "country": "Portugal",
             "flag": "🇵🇹",
-            "rankings": [
-              {
-                "division": "heavyweight",
-                "rank": 15,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Portugal",
-                "country_code": "PT"
-              }
-            ],
+            "rankings": [],
             "image": "",
             "dob": "1998-03-14",
             "image_credit": null,
@@ -2495,7 +2571,7 @@
       "name": "UFC 335: Oliveira vs Lopes",
       "date": "2026-12-12",
       "start_time": "2026-12-12T22:00:00.000Z",
-      "location": "Las Vegas, Nevada, United States",
+      "location": "Las Vegas, NV, United States",
       "venue": "T-Mobile Arena",
       "sport": "MMA",
       "status": "announced",
@@ -2678,7 +2754,16 @@
             "record": "20-9-0",
             "country": "United States",
             "flag": "🇺🇸",
-            "rankings": [],
+            "rankings": [
+              {
+                "division": "flyweight",
+                "rank": 14,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "United States",
+                "country_code": "US"
+              }
+            ],
             "image": "",
             "dob": "1991-01-10",
             "image_credit": null,
@@ -2956,8 +3041,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-131",
-            "fighter_2": "106",
+            "fighter_1": "-128",
+            "fighter_2": "104",
             "status": "consensus_odds"
           }
         },
@@ -3104,7 +3189,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "-265",
-            "fighter_2": "210",
+            "fighter_2": "211",
             "status": "consensus_odds"
           }
         },
@@ -3124,7 +3209,7 @@
                 "division": "light-heavyweight",
                 "rank": 8,
                 "is_champion": false,
-                "movement": 2,
+                "movement": 0,
                 "nationality": "Uzbekistan",
                 "country_code": "UZ"
               }
@@ -3144,9 +3229,9 @@
             "rankings": [
               {
                 "division": "light-heavyweight",
-                "rank": 11,
+                "rank": 10,
                 "is_champion": false,
-                "movement": 0,
+                "movement": 1,
                 "nationality": "Australia",
                 "country_code": "AU"
               }
@@ -3164,8 +3249,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "116",
-            "fighter_2": "-139",
+            "fighter_1": "117",
+            "fighter_2": "-140",
             "status": "consensus_odds"
           }
         },
@@ -3237,6 +3322,158 @@
             "image_credit": null,
             "height": "5' 8\"",
             "weight": "145 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93781",
+          "card_position": "main_card",
+          "weight_class": "Featherweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "George Mangos",
+            "nickname": "",
+            "record": "10-1-0",
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "rankings": [],
+            "image": "",
+            "dob": "2003-08-19",
+            "image_credit": null,
+            "height": "5' 8\"",
+            "weight": "145 lbs"
+          },
+          "fighter_2": {
+            "name": "Dagiisuren Chagnaadorj",
+            "nickname": "",
+            "record": "12-2-0",
+            "country": "Mongolia",
+            "flag": "🇲🇳",
+            "rankings": [],
+            "image": "",
+            "dob": "1999-12-31",
+            "image_credit": null,
+            "height": "5' 8\"",
+            "weight": "145 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93782",
+          "card_position": "prelim",
+          "weight_class": "Bantamweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Rabindra Dhant",
+            "nickname": "",
+            "record": "11-1-0",
+            "country": "Nepal",
+            "flag": "🇳🇵",
+            "rankings": [],
+            "image": "",
+            "dob": "1998-11-30",
+            "image_credit": null,
+            "height": "5' 7\"",
+            "weight": "135 lbs"
+          },
+          "fighter_2": {
+            "name": "Ryo Tajima",
+            "nickname": "",
+            "record": "12-3-0",
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "rankings": [],
+            "image": "",
+            "dob": "1999-08-14",
+            "image_credit": null,
+            "height": "5' 8\"",
+            "weight": "135 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93783",
+          "card_position": "prelim",
+          "weight_class": "Flyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Jiniushiyue",
+            "nickname": "Little Vajra",
+            "record": "17-4-0",
+            "country": "China",
+            "flag": "🇨🇳",
+            "rankings": [],
+            "image": "",
+            "dob": "2000-12-09",
+            "image_credit": null,
+            "height": "5' 8\"",
+            "weight": "125 lbs"
+          },
+          "fighter_2": {
+            "name": "Takaya Suzuki",
+            "nickname": "",
+            "record": "9-1-0",
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "rankings": [],
+            "image": "",
+            "dob": "2004-09-08",
+            "image_credit": null,
+            "height": "5' 7\"",
+            "weight": "125 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93784",
+          "card_position": "prelim",
+          "weight_class": "Women's Strawweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Meng Bo",
+            "nickname": "",
+            "record": "24-8-0",
+            "country": "",
+            "flag": "",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-03-29",
+            "image_credit": null,
+            "height": "5' 4\"",
+            "weight": "115 lbs"
+          },
+          "fighter_2": {
+            "name": "Bo Hyun Park",
+            "nickname": "The Rush",
+            "record": "10-3-0",
+            "country": "South Korea",
+            "flag": "🇰🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1999-05-14",
+            "image_credit": null,
+            "height": "5' 2\"",
+            "weight": "115 lbs"
           },
           "odds": {
             "format": "American",
