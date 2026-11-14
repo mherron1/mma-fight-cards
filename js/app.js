@@ -228,12 +228,20 @@ function updateCountdowns() {
     let units;
 
     if (Number.isNaN(startTime)) {
+      countdown.classList.remove('is-started');
       display = 'Start time TBA';
     } else {
       const remainingSeconds = Math.floor((startTime - Date.now()) / 1000);
       if (remainingSeconds <= 0) {
-        display = 'Event completed';
+        if (countdown.dataset.display === 'started') return;
+        countdown.dataset.display = 'started';
+        countdown.textContent = '';
+        countdown.classList.remove('is-status');
+        countdown.classList.add('is-started');
+        countdown.removeAttribute('aria-label');
+        return;
       } else {
+        countdown.classList.remove('is-started');
         const totalMinutes = Math.floor(remainingSeconds / 60);
         const days = Math.floor(totalMinutes / 1440);
         const hours = Math.floor((totalMinutes % 1440) / 60);

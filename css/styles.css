@@ -137,6 +137,7 @@ body { min-height: 100%; }
 .event-date-location { display: flex; min-width: 0; flex: 1 1 auto; flex-direction: column; align-items: flex-start; gap: 2px; }
 .event-countdown { display: inline-flex; flex: 0 0 auto; align-items: center; gap: 2px; margin-top: 4px; color: inherit; font-weight: inherit; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .event-countdown[hidden] { display: none; }
+.event-countdown.is-started { display: none; }
 .countdown-units { display: none; }
 .countdown-compact { display: inline-flex; align-items: center; gap: 2px; }
 .event-countdown.is-status { color: var(--muted); font-size: 11px; letter-spacing: .3px; }
