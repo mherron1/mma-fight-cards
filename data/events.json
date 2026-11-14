@@ -1365,7 +1365,7 @@
           "fighter_1": {
             "name": "Heili Alateng",
             "nickname": "The Mongolian Knight",
-            "record": "18-10-2",
+            "record": "18-11-2",
             "country": "China",
             "flag": "🇨🇳",
             "rankings": [],
@@ -1378,7 +1378,7 @@
           "fighter_2": {
             "name": "Juan Díaz",
             "nickname": "Pegajoso",
-            "record": "16-1-1",
+            "record": "17-1-1",
             "country": "Peru",
             "flag": "🇵🇪",
             "rankings": [],
@@ -1393,6 +1393,17 @@
             "fighter_1": "316",
             "fighter_2": "-417",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Juan Díaz",
+            "winner_fighter_id": 32,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "27 - 30. 27 - 30. 27 - 30."
           }
         },
         {
@@ -1403,7 +1414,7 @@
           "fighter_1": {
             "name": "Evan Elder",
             "nickname": "The Phenom",
-            "record": "10-2-0",
+            "record": "11-2-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1416,7 +1427,7 @@
           "fighter_2": {
             "name": "Samuel Sanches",
             "nickname": "The Prodigy",
-            "record": "11-1-0",
+            "record": "11-2-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
@@ -1431,6 +1442,17 @@
             "fighter_1": "-103",
             "fighter_2": "-118",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Evan Elder",
+            "winner_fighter_id": 982,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "26 - 30. 26 - 30. 26 - 30."
           }
         }
       ],

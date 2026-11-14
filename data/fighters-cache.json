@@ -10746,8 +10746,8 @@
     "birthplace": "Lima, Peru",
     "records": {
       "pro_mma": {
-        "value": "16-1-1",
-        "wins": 16,
+        "value": "17-1-1",
+        "wins": 17,
         "losses": 1,
         "draws": 1,
         "no_contests": 0,
@@ -11526,8 +11526,8 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "10-2-0",
-        "wins": 10,
+        "value": "11-2-0",
+        "wins": 11,
         "losses": 2,
         "draws": 0,
         "no_contests": 0,
@@ -11680,9 +11680,9 @@
     "birthplace": "Salvador, Bahia, Brazil",
     "records": {
       "pro_mma": {
-        "value": "11-1-0",
+        "value": "11-2-0",
         "wins": 11,
-        "losses": 1,
+        "losses": 2,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
@@ -25139,9 +25139,9 @@
     "birthplace": "Beijing, China",
     "records": {
       "pro_mma": {
-        "value": "18-10-2",
+        "value": "18-11-2",
         "wins": 18,
-        "losses": 10,
+        "losses": 11,
         "draws": 2,
         "no_contests": 0,
         "source": "public-records",
