@@ -169,7 +169,7 @@ function fighterAge(dateOfBirth = '', eventDate = '') {
   );
 }
 
-export function renderFightCard(event, fighterImageIndex = new Map(), isResultsEvent = false) {
+export function renderFightCard(event, fighterImageIndex = new Map(), isResultsEvent = false, isActiveEvent = false) {
   if (!event) {
     return '<div class="empty-state">No event data available.</div>';
   }
@@ -297,7 +297,7 @@ export function renderFightCard(event, fighterImageIndex = new Map(), isResultsE
     </div>`;
 
   return `
-    <article class="event-card${isResultsEvent ? ' is-results-event' : ''}${hasResults ? ' results-hidden' : ''}" data-event-id="${escapeHTML(event.id || eventName)}">
+    <article class="event-card${isResultsEvent ? ' is-results-event' : ''}${isActiveEvent ? ' is-active-event' : ''}${hasResults && !isActiveEvent ? ' results-hidden' : ''}" data-event-id="${escapeHTML(event.id || eventName)}">
       <header class="event-heading">
         <h1 class="event-title">${escapeHTML(eventName)}</h1>
         <div class="event-subtitle">
@@ -305,7 +305,7 @@ export function renderFightCard(event, fighterImageIndex = new Map(), isResultsE
             <span>${escapeHTML(formatEventDate(event.date || 'Date TBA'))}</span>
             <span>${escapeHTML(eventLocation(event.location || 'Location TBA'))}</span>
           </span>
-          ${hasResults ? `
+          ${isResultsEvent && hasResults && !isActiveEvent ? `
           <div class="event-schedule">
             <button class="results-toggle" type="button" aria-label="Show fight results" aria-pressed="false">Show Results</button>
           </div>` : `
@@ -313,6 +313,7 @@ export function renderFightCard(event, fighterImageIndex = new Map(), isResultsE
             <span>Main Card: ${escapeHTML(formatLocalTime(event.schedule?.main_card_start_time || ''))}</span>
             <span>Prelims: ${escapeHTML(formatLocalTime(event.schedule?.prelims_start_time || ''))}</span>
             ${event.schedule?.early_prelims_start_time ? `<span>Early Prelims: ${escapeHTML(formatLocalTime(event.schedule.early_prelims_start_time))}</span>` : ''}
+            ${hasResults && !isActiveEvent ? '<button class="results-toggle" type="button" aria-label="Show fight results" aria-pressed="false">Show Results</button>' : ''}
           </div>`}
         </div>
         <span class="event-countdown" data-start="${escapeHTML(event.start_time || '')}" aria-live="off">Start time TBA</span>

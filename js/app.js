@@ -188,15 +188,16 @@ function initSpoilerProtection() {
   control.checked = defaultHideResults;
 
   function applyToCard(eventCard, showResults) {
-    eventCard.classList.toggle('results-hidden', !showResults);
+    const shouldShowResults = eventCard.classList.contains('is-active-event') || showResults;
+    eventCard.classList.toggle('results-hidden', !shouldShowResults);
     const resultsToggle = eventCard.querySelector('.results-toggle');
     if (resultsToggle) {
-      resultsToggle.setAttribute('aria-pressed', String(showResults));
-      resultsToggle.textContent = showResults ? 'Hide Results' : 'Show Results';
+      resultsToggle.setAttribute('aria-pressed', String(shouldShowResults));
+      resultsToggle.textContent = shouldShowResults ? 'Hide Results' : 'Show Results';
     }
 
     if (eventCard.dataset.eventId) {
-      eventVisibility.set(eventCard.dataset.eventId, showResults);
+      eventVisibility.set(eventCard.dataset.eventId, shouldShowResults);
     }
   }
 
@@ -529,7 +530,8 @@ async function initApp() {
       __html: renderFightCard(
         event,
         fighterImageIndex,
-        Boolean(latestCompletedEvent && event.id === latestCompletedEvent.id)
+        Boolean(latestCompletedEvent && event.id === latestCompletedEvent.id),
+        Boolean(activeEvent && event.id === activeEvent.id)
       )
     }));
 
