@@ -19200,7 +19200,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:03:58.083Z"
+    "_cache_updated_at": "2026-11-14T13:55:12.299Z"
   },
   "manel-kape": {
     "id": 113,
@@ -19351,7 +19351,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:04:04.636Z"
+    "_cache_updated_at": "2026-11-14T13:55:19.127Z"
   },
   "carlos-prates": {
     "id": 402,
@@ -19577,7 +19577,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:04:11.086Z"
+    "_cache_updated_at": "2026-11-14T13:55:25.294Z"
   },
   "michael-morales": {
     "id": 400,
@@ -19673,11 +19673,11 @@
     "power_index": {
       "rating": 1897,
       "peak": 1897,
-      "peak_at": "2025-11-16T03:00:00.000Z",
-      "peak_date": "2025-11-16",
+      "peak_at": "2025-11-15T23:00:00.000Z",
+      "peak_date": "2025-11-15",
       "fights_rated": 21,
-      "last_fought_at": "2025-11-16T03:00:00.000Z",
-      "last_fought_date": "2025-11-16"
+      "last_fought_at": "2025-11-15T23:00:00.000Z",
+      "last_fought_date": "2025-11-15"
     },
     "images": [
       {
@@ -19715,7 +19715,7 @@
       "event_title": "VeChain UFC 322: Della Maddalena vs Makhachev",
       "event_slug": "ufc-2025-11-15",
       "org_slug": "ufc",
-      "date": "2025-11-16",
+      "date": "2025-11-15",
       "opponent_id": 7,
       "opponent_name": "Sean Brady",
       "opponent_slug": "sean-brady",
@@ -19728,7 +19728,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:04:17.572Z"
+    "_cache_updated_at": "2026-11-14T13:55:31.782Z"
   },
   "quillan-salkilld": {
     "id": 323,
@@ -19891,7 +19891,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:04:24.053Z"
+    "_cache_updated_at": "2026-11-14T13:55:38.305Z"
   },
   "benoit-saint-denis": {
     "id": 254,
@@ -20010,8 +20010,8 @@
     "power_index": {
       "rating": 1861,
       "peak": 1909,
-      "peak_at": "2023-11-12T03:00:00.000Z",
-      "peak_date": "2023-11-12",
+      "peak_at": "2023-11-11T23:00:00.000Z",
+      "peak_date": "2023-11-11",
       "fights_rated": 22,
       "last_fought_at": "2026-07-11T21:00:00.000Z",
       "last_fought_date": "2026-07-11"
@@ -20110,7 +20110,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:04:30.573Z"
+    "_cache_updated_at": "2026-11-14T13:55:44.840Z"
   },
   "bogdan-guskov": {
     "id": 366,
@@ -20205,7 +20205,7 @@
     ],
     "power_index": {
       "rating": 1770,
-      "peak": 1781,
+      "peak": 1780,
       "peak_at": "2025-07-26T16:00:00.000Z",
       "peak_date": "2025-07-26",
       "fights_rated": 22,
@@ -20251,7 +20251,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:04:37.085Z"
+    "_cache_updated_at": "2026-11-14T13:55:51.324Z"
   },
   "robert-whittaker": {
     "id": 1043,
@@ -20438,7 +20438,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:04:43.753Z"
+    "_cache_updated_at": "2026-11-14T13:55:57.805Z"
   },
   "marwan-rahiki": {
     "id": 540,
@@ -20554,8 +20554,8 @@
       }
     ],
     "power_index": {
-      "rating": 1776,
-      "peak": 1802,
+      "rating": 1777,
+      "peak": 1803,
       "peak_at": "2026-05-02T08:00:00.000Z",
       "peak_date": "2026-05-02",
       "fights_rated": 10,
@@ -20601,7 +20601,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:04:50.095Z"
+    "_cache_updated_at": "2026-11-14T13:56:04.290Z"
   },
   "joosang-yoo": {
     "id": 203,
@@ -20764,7 +20764,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:04:56.656Z"
+    "_cache_updated_at": "2026-11-14T13:56:10.799Z"
   },
   "kaan-ofli": {
     "id": 171,
@@ -20905,7 +20905,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:05:03.063Z"
+    "_cache_updated_at": "2026-11-14T13:56:17.306Z"
   },
   "joanderson-brito": {
     "id": 90,
@@ -21046,7 +21046,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-07T10:05:09.662Z"
+    "_cache_updated_at": "2026-11-14T13:56:23.804Z"
   },
   "israel-adesanya": {
     "id": 523,
@@ -26381,5 +26381,613 @@
       "source": "native"
     },
     "_cache_updated_at": "2026-11-11T22:09:45.249Z"
+  },
+  "nikolas-motta": {
+    "id": 1165,
+    "slug": "nikolas-motta",
+    "name": "Nikolas Motta",
+    "nickname": "Iron",
+    "nationality": "Brazil",
+    "country_code": "BR",
+    "second_nationality": null,
+    "height_inches": 69,
+    "weight_lbs": 155,
+    "reach_inches": 70,
+    "stance": "Orthodox",
+    "dob": "1993-02-08",
+    "team": "Xtreme Couture",
+    "birthplace": "Governador Valadares, Minas Gerais, Brazil",
+    "records": {
+      "pro_mma": {
+        "value": "15-6-0",
+        "wins": 15,
+        "losses": 6,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "3-3-0 (1 NC)",
+        "wins": 3,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 1,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.13,
+        "str_acc": 0.38,
+        "sapm": 5.28,
+        "str_def": 0.52,
+        "td_avg": 0,
+        "td_acc": null,
+        "td_def": 0.83,
+        "sub_avg": 0
+      },
+      "slpm": "4.13",
+      "str_acc": "38%",
+      "sapm": "5.28",
+      "str_def": "52%",
+      "td_avg": "0.00",
+      "td_acc": null,
+      "td_def": "83%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 8,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "15-6-0",
+        "slpm": "4.13",
+        "str_acc": "38%",
+        "sapm": "5.28",
+        "str_def": "52%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "83%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "3-3-0 (1 NC)",
+        "slpm": "4.52",
+        "str_acc": "41%",
+        "sapm": "5.77",
+        "str_def": "48%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "82%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1701,
+      "peak": 1714,
+      "peak_at": "2024-11-23T08:00:00.000Z",
+      "peak_date": "2024-11-23",
+      "fights_rated": 20,
+      "last_fought_at": "2025-06-21T16:00:00.000Z",
+      "last_fought_date": "2025-06-21"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93819,
+      "event_id": 3533,
+      "event_title": "UFC Fight Night: Prochazka vs Stirling",
+      "event_slug": "ufc-fight-night-2026-11-21",
+      "org_slug": "ufc",
+      "date": "2026-11-21",
+      "opponent_id": 317,
+      "opponent_name": "Dom Mar Fan",
+      "opponent_slug": "dom-mar-fan",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Lightweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 60275,
+      "event_id": 710,
+      "event_title": "UFC Fight Night: Hill vs Rountree Jr.",
+      "event_slug": "ufc-fight-night-2025-06-21",
+      "org_slug": "ufc",
+      "date": "2025-06-21",
+      "opponent_id": 354,
+      "opponent_name": "Nazim Sadykhov",
+      "opponent_slug": "nazim-sadykhov",
+      "result": "loss",
+      "method": "KO/TKO",
+      "round": 2,
+      "time": "4:17",
+      "weight_class": "Lightweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-14T13:54:46.266Z"
+  },
+  "dom-mar-fan": {
+    "id": 317,
+    "slug": "dom-mar-fan",
+    "name": "Dom Mar Fan",
+    "nickname": "Street Buddha",
+    "nationality": "Australia",
+    "country_code": "AU",
+    "second_nationality": null,
+    "height_inches": 71,
+    "weight_lbs": 155,
+    "reach_inches": 75,
+    "stance": "Orthodox",
+    "dob": "2000-03-19",
+    "team": "Team Compton Training Centre",
+    "birthplace": "Brisbane, Queensland, Australia",
+    "records": {
+      "amateur_mma": {
+        "value": "5-1",
+        "wins": 5,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "9-3-0",
+        "wins": 9,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-1-0",
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 5.28,
+        "str_acc": 0.57,
+        "sapm": 3.64,
+        "str_def": 0.49,
+        "td_avg": 0.79,
+        "td_acc": 0.25,
+        "td_def": 0.82,
+        "sub_avg": 0
+      },
+      "slpm": "5.28",
+      "str_acc": "57%",
+      "sapm": "3.64",
+      "str_def": "49%",
+      "td_avg": "0.79",
+      "td_acc": "25%",
+      "td_def": "82%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 2,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "5-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "9-3-0",
+        "slpm": "5.28",
+        "str_acc": "57%",
+        "sapm": "3.64",
+        "str_def": "49%",
+        "td_avg": "0.79",
+        "td_acc": "25%",
+        "td_def": "82%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-1-0",
+        "slpm": "5.28",
+        "str_acc": "57%",
+        "sapm": "3.64",
+        "str_def": "49%",
+        "td_avg": "0.79",
+        "td_acc": "25%",
+        "td_def": "82%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1653,
+      "peak": 1686,
+      "peak_at": "2026-01-31T22:00:00.000Z",
+      "peak_date": "2026-01-31",
+      "fights_rated": 12,
+      "last_fought_at": "2026-05-02T08:00:00.000Z",
+      "last_fought_date": "2026-05-02"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93819,
+      "event_id": 3533,
+      "event_title": "UFC Fight Night: Prochazka vs Stirling",
+      "event_slug": "ufc-fight-night-2026-11-21",
+      "org_slug": "ufc",
+      "date": "2026-11-21",
+      "opponent_id": 1165,
+      "opponent_name": "Nikolas Motta",
+      "opponent_slug": "nikolas-motta",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Lightweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 66075,
+      "event_id": 41,
+      "event_title": "UFC Fight Night: Della Maddalena vs Prates",
+      "event_slug": "ufc-fight-night-2026-05-02",
+      "org_slug": "ufc",
+      "date": "2026-05-02",
+      "opponent_id": 548,
+      "opponent_name": "Kody Steele",
+      "opponent_slug": "kody-steele",
+      "result": "loss",
+      "method": "Submission",
+      "round": 1,
+      "time": "3:56",
+      "weight_class": "Lightweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-14T13:54:52.786Z"
+  },
+  "diyar-nurgozhay": {
+    "id": 130,
+    "slug": "diyar-nurgozhay",
+    "name": "Diyar Nurgozhay",
+    "nickname": null,
+    "nationality": "Kazakhstan",
+    "country_code": "KZ",
+    "second_nationality": null,
+    "height_inches": 74,
+    "weight_lbs": 205,
+    "reach_inches": 74,
+    "stance": "Southpaw",
+    "dob": "1997-04-22",
+    "team": "Arlan MMA Pro Team",
+    "birthplace": "Almaty, Kazakhstan",
+    "records": {
+      "amateur_mma": {
+        "value": "2-0",
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "12-2-0",
+        "wins": 12,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "2-2-0",
+        "wins": 2,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 5.19,
+        "str_acc": 0.61,
+        "sapm": 2.81,
+        "str_def": 0.6,
+        "td_avg": 1.19,
+        "td_acc": 0.75,
+        "td_def": 0.73,
+        "sub_avg": 0
+      },
+      "slpm": "5.19",
+      "str_acc": "61%",
+      "sapm": "2.81",
+      "str_def": "60%",
+      "td_avg": "1.19",
+      "td_acc": "75%",
+      "td_def": "73%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 5,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "2-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "12-2-0",
+        "slpm": "5.19",
+        "str_acc": "61%",
+        "sapm": "2.81",
+        "str_def": "60%",
+        "td_avg": "1.19",
+        "td_acc": "75%",
+        "td_def": "73%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "2-2-0",
+        "slpm": "5.68",
+        "str_acc": "63%",
+        "sapm": "2.84",
+        "str_def": "57%",
+        "td_avg": "1.54",
+        "td_acc": "75%",
+        "td_def": "70%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1714,
+      "peak": 1721,
+      "peak_at": "2024-10-01T22:00:00.000Z",
+      "peak_date": "2024-10-01",
+      "fights_rated": 14,
+      "last_fought_at": "2026-08-08T21:00:00.000Z",
+      "last_fought_date": "2026-08-08"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93820,
+      "event_id": 3533,
+      "event_title": "UFC Fight Night: Prochazka vs Stirling",
+      "event_slug": "ufc-fight-night-2026-11-21",
+      "org_slug": "ufc",
+      "date": "2026-11-21",
+      "opponent_id": 12369,
+      "opponent_name": "Alik Lorenz",
+      "opponent_slug": "alik-lorenz",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Light Heavyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83093,
+      "event_id": 2513,
+      "event_title": "UFC Fight Night: Gamrot vs Salkilld",
+      "event_slug": "ufc-fight-night-2026-08-08",
+      "org_slug": "ufc",
+      "date": "2026-08-08",
+      "opponent_id": 514,
+      "opponent_name": "Bruno Lopes",
+      "opponent_slug": "bruno-lopes",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 1,
+      "time": "4:59",
+      "weight_class": "Light Heavyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-14T13:54:59.293Z"
+  },
+  "alik-lorenz": {
+    "id": 12369,
+    "slug": "alik-lorenz",
+    "name": "Alik Lorenz",
+    "nickname": null,
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 74,
+    "weight_lbs": 205,
+    "reach_inches": 77,
+    "stance": "Orthodox",
+    "dob": "1997-01-25",
+    "team": "Hard Drive MMA",
+    "birthplace": "Durant, Iowa, United States",
+    "records": {
+      "amateur_mma": {
+        "value": "3-0",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "8-2-0",
+        "wins": 8,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 9.71,
+        "str_acc": 0.55,
+        "sapm": 10.4,
+        "str_def": 0.29,
+        "td_avg": 0,
+        "td_acc": 0,
+        "td_def": null,
+        "sub_avg": 0
+      },
+      "slpm": "9.71",
+      "str_acc": "55%",
+      "sapm": "10.40",
+      "str_def": "29%",
+      "td_avg": "0.00",
+      "td_acc": "0%",
+      "td_def": null,
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 2,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "3-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "8-2-0",
+        "slpm": "9.71",
+        "str_acc": "55%",
+        "sapm": "10.40",
+        "str_def": "29%",
+        "td_avg": "0.00",
+        "td_acc": "0%",
+        "td_def": null,
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1712,
+      "peak": 1712,
+      "peak_at": "2026-08-18T23:00:00.000Z",
+      "peak_date": "2026-08-18",
+      "fights_rated": 10,
+      "last_fought_at": "2026-08-18T23:00:00.000Z",
+      "last_fought_date": "2026-08-18"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93820,
+      "event_id": 3533,
+      "event_title": "UFC Fight Night: Prochazka vs Stirling",
+      "event_slug": "ufc-fight-night-2026-11-21",
+      "org_slug": "ufc",
+      "date": "2026-11-21",
+      "opponent_id": 130,
+      "opponent_name": "Diyar Nurgozhay",
+      "opponent_slug": "diyar-nurgozhay",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Light Heavyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83749,
+      "event_id": 2552,
+      "event_title": "Dana White's Contender Series 88",
+      "event_slug": "ufc-dwcs-88-2026-08-18",
+      "org_slug": "ufc",
+      "date": "2026-08-18",
+      "opponent_id": 12806,
+      "opponent_name": "Mahamed Aly",
+      "opponent_slug": "mahamed-aly",
+      "result": "win",
+      "method": "KO (punches)",
+      "round": 1,
+      "time": "2:23",
+      "weight_class": "Light Heavyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-14T13:55:05.837Z"
   }
 }

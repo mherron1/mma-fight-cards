@@ -5,7 +5,7 @@
     "name": "UFC Fight Night: Cortes Acosta vs Walker",
     "date": "2026-11-07",
     "start_time": "2026-11-07T22:00:00.000Z",
-    "location": "Las Vegas, Nevada, United States",
+    "location": "Las Vegas, NV, United States",
     "venue": "Meta Apex",
     "sport": "MMA",
     "status": "completed",
@@ -75,11 +75,11 @@
           "winner_fighter_id": 7170,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Punches",
           "round": 3,
           "time": "2:27",
           "time_seconds": 147,
-          "details": ""
+          "details": "Punch to Head At Distance"
         }
       },
       {
@@ -212,11 +212,11 @@
           "winner_fighter_id": 511,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Punches",
           "round": 1,
           "time": "1:00",
           "time_seconds": 60,
-          "details": ""
+          "details": "Punches to Head On Ground"
         }
       },
       {
@@ -310,11 +310,11 @@
           "winner_fighter_id": 33223,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Elbows",
           "round": 2,
           "time": "3:40",
           "time_seconds": 220,
-          "details": ""
+          "details": "Elbows to Head From Mount"
         }
       },
       {
@@ -457,11 +457,11 @@
           "winner_fighter_id": 167,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Punches",
           "round": 3,
           "time": "4:47",
           "time_seconds": 287,
-          "details": ""
+          "details": "Punches to Head From Half Guard"
         }
       },
       {
@@ -622,11 +622,11 @@
           "winner_fighter_id": 2865,
           "method": "Submission",
           "method_normalized": "submission",
-          "finish_detail": "",
+          "finish_detail": "Rear-Naked Choke",
           "round": 1,
           "time": "1:07",
           "time_seconds": 67,
-          "details": ""
+          "details": "Rear Naked Choke"
         }
       },
       {
@@ -671,11 +671,11 @@
           "winner_fighter_id": 44,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Punches",
           "round": 2,
           "time": "4:39",
           "time_seconds": 279,
-          "details": ""
+          "details": "Punches to Head From Mount"
         }
       },
       {
@@ -774,11 +774,11 @@
           "winner_fighter_id": 286,
           "method": "KO/TKO",
           "method_normalized": "ko_tko",
-          "finish_detail": "",
+          "finish_detail": "Punches",
           "round": 1,
           "time": "4:16",
           "time_seconds": 256,
-          "details": ""
+          "details": "Punches to Head At Distance"
         }
       }
     ],
@@ -797,7 +797,7 @@
       "name": "Polymarket UFC 334: Gane vs Hokit",
       "date": "2026-11-14",
       "start_time": "2026-11-14T22:00:00.000Z",
-      "location": "New York, New York, United States",
+      "location": "New York, NY, United States",
       "venue": "Madison Square Garden",
       "sport": "MMA",
       "status": "announced",
@@ -871,8 +871,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-187",
-            "fighter_2": "154",
+            "fighter_1": "-211",
+            "fighter_2": "175",
             "status": "consensus_odds"
           }
         },
@@ -936,8 +936,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-178",
-            "fighter_2": "148",
+            "fighter_1": "-167",
+            "fighter_2": "140",
             "status": "consensus_odds"
           }
         },
@@ -989,7 +989,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "-161",
-            "fighter_2": "134",
+            "fighter_2": "133",
             "status": "consensus_odds"
           }
         },
@@ -1049,8 +1049,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-159",
-            "fighter_2": "132",
+            "fighter_1": "-160",
+            "fighter_2": "134",
             "status": "consensus_odds"
           }
         },
@@ -1087,8 +1087,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-1101",
-            "fighter_2": "670",
+            "fighter_1": "-1104",
+            "fighter_2": "678",
             "status": "consensus_odds"
           }
         },
@@ -1130,8 +1130,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-154",
-            "fighter_2": "127",
+            "fighter_1": "-135",
+            "fighter_2": "113",
             "status": "consensus_odds"
           }
         },
@@ -1168,8 +1168,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "154",
-            "fighter_2": "-185",
+            "fighter_1": "156",
+            "fighter_2": "-187",
             "status": "consensus_odds"
           }
         },
@@ -1211,7 +1211,7 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "173",
+            "fighter_1": "174",
             "fighter_2": "-211",
             "status": "consensus_odds"
           }
@@ -1219,7 +1219,7 @@
         {
           "id": "93616",
           "card_position": "prelim",
-          "weight_class": "Middleweight",
+          "weight_class": "Catchweight",
           "title_fight": false,
           "fighter_1": {
             "name": "Donte Johnson",
@@ -1249,8 +1249,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-176",
-            "fighter_2": "146",
+            "fighter_1": "-195",
+            "fighter_2": "163",
             "status": "consensus_odds"
           }
         },
@@ -1296,8 +1296,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "300",
-            "fighter_2": "-396",
+            "fighter_1": "304",
+            "fighter_2": "-401",
             "status": "consensus_odds"
           }
         },
@@ -1352,8 +1352,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "211",
-            "fighter_2": "-263",
+            "fighter_1": "207",
+            "fighter_2": "-254",
             "status": "consensus_odds"
           }
         },
@@ -1390,8 +1390,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "304",
-            "fighter_2": "-397",
+            "fighter_1": "316",
+            "fighter_2": "-417",
             "status": "consensus_odds"
           }
         },
@@ -1428,8 +1428,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-101",
-            "fighter_2": "-120",
+            "fighter_1": "-103",
+            "fighter_2": "-118",
             "status": "consensus_odds"
           }
         }
@@ -1509,8 +1509,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "116",
-            "fighter_2": "-141",
+            "fighter_1": "123",
+            "fighter_2": "-148",
             "status": "consensus_odds"
           }
         },
@@ -1570,8 +1570,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "101",
-            "fighter_2": "-124",
+            "fighter_1": "110",
+            "fighter_2": "-134",
             "status": "consensus_odds"
           }
         },
@@ -1636,9 +1636,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-166",
+            "fighter_2": "132",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1702,9 +1702,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-204",
+            "fighter_2": "162",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1768,9 +1768,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "269",
+            "fighter_2": "-363",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1811,9 +1811,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-231",
+            "fighter_2": "181",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1854,9 +1854,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-226",
+            "fighter_2": "176",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1901,9 +1901,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "112",
+            "fighter_2": "-140",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1944,9 +1944,85 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-168",
+            "fighter_2": "134",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93819",
+          "card_position": "prelim",
+          "weight_class": "Lightweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Nikolas Motta",
+            "nickname": "Iron",
+            "record": "15-6-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1993-02-08",
+            "image_credit": null,
+            "height": "5' 9\"",
+            "weight": "155 lbs"
+          },
+          "fighter_2": {
+            "name": "Dom Mar Fan",
+            "nickname": "Street Buddha",
+            "record": "9-3-0",
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "rankings": [],
+            "image": "",
+            "dob": "2000-03-19",
+            "image_credit": null,
+            "height": "5' 11\"",
+            "weight": "155 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "124",
+            "fighter_2": "-145",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93820",
+          "card_position": "prelim",
+          "weight_class": "Light Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Diyar Nurgozhay",
+            "nickname": "",
+            "record": "12-2-0",
+            "country": "Kazakhstan",
+            "flag": "🇰🇿",
+            "rankings": [],
+            "image": "",
+            "dob": "1997-04-22",
+            "image_credit": null,
+            "height": "6' 2\"",
+            "weight": "205 lbs"
+          },
+          "fighter_2": {
+            "name": "Alik Lorenz",
+            "nickname": "",
+            "record": "8-2-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1997-01-25",
+            "image_credit": null,
+            "height": "6' 2\"",
+            "weight": "205 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "-265",
+            "fighter_2": "220",
+            "status": "consensus_odds"
           }
         }
       ],
@@ -2025,8 +2101,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-152",
-            "fighter_2": "126",
+            "fighter_1": "-155",
+            "fighter_2": "129",
             "status": "consensus_odds"
           }
         },
@@ -2086,7 +2162,7 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-173",
+            "fighter_1": "-172",
             "fighter_2": "142",
             "status": "consensus_odds"
           }
@@ -2495,7 +2571,7 @@
       "name": "UFC 335: Oliveira vs Lopes",
       "date": "2026-12-12",
       "start_time": "2026-12-12T22:00:00.000Z",
-      "location": "Las Vegas, Nevada, United States",
+      "location": "Las Vegas, NV, United States",
       "venue": "T-Mobile Arena",
       "sport": "MMA",
       "status": "announced",
@@ -2965,8 +3041,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-131",
-            "fighter_2": "106",
+            "fighter_1": "-128",
+            "fighter_2": "104",
             "status": "consensus_odds"
           }
         },
@@ -3113,7 +3189,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "-265",
-            "fighter_2": "210",
+            "fighter_2": "211",
             "status": "consensus_odds"
           }
         },
@@ -3173,8 +3249,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "116",
-            "fighter_2": "-139",
+            "fighter_1": "117",
+            "fighter_2": "-140",
             "status": "consensus_odds"
           }
         },

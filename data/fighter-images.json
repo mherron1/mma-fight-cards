@@ -1714,5 +1714,49 @@
     "fullBodySource": null,
     "espnId": null,
     "matchStatus": "not-found"
+  },
+  "nikolas-motta": {
+    "id": 1165,
+    "slug": "nikolas-motta",
+    "name": "Nikolas Motta",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3897242.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/3897242.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "3897242",
+    "matchStatus": "matched"
+  },
+  "dom-mar-fan": {
+    "id": 317,
+    "slug": "dom-mar-fan",
+    "name": "Dom Mar Fan",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5157806.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5157806.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5157806",
+    "matchStatus": "matched"
+  },
+  "diyar-nurgozhay": {
+    "id": 130,
+    "slug": "diyar-nurgozhay",
+    "name": "Diyar Nurgozhay",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5213352.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5213352.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5213352",
+    "matchStatus": "matched"
+  },
+  "alik-lorenz": {
+    "id": 12369,
+    "slug": "alik-lorenz",
+    "name": "Alik Lorenz",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5220971.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5220971.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5220971",
+    "matchStatus": "matched"
   }
 }
