@@ -3,12 +3,10 @@ name: Update UFC live event
 
 on:
   schedule:
-    # Friday, Saturday and Sunday evenings (UTC)
-    - cron: '*/30 16-23 * * 5,6,0'
-
-    # Saturday, Sunday and Monday mornings (UTC)
-    - cron: '*/30 0-7 * * 6,0,1'
-    - cron: '0 8 * * 6,0,1'
+    # Every 15 minutes from Saturday 23:00 UTC to Sunday 08:00 UTC
+    - cron: '*/15 23 * * 6'
+    - cron: '*/15 0-7 * * 0'
+    - cron: '0 8 * * 0'
 
   workflow_dispatch:
 
