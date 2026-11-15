@@ -26989,5 +26989,1086 @@
       "source": "native"
     },
     "_cache_updated_at": "2026-11-14T13:55:05.837Z"
+  },
+  "yair-rodriguez": {
+    "id": 1116,
+    "slug": "yair-rodriguez",
+    "name": "Yair Rodriguez",
+    "nickname": "El Pantera",
+    "nationality": "Mexico",
+    "country_code": "MX",
+    "second_nationality": null,
+    "height_inches": 71,
+    "weight_lbs": 145,
+    "reach_inches": 71,
+    "stance": "Orthodox",
+    "dob": "1992-10-06",
+    "team": "Valle Flow Striking (VFS Academy)",
+    "birthplace": "Parral, Chihuahua, Mexico",
+    "records": {
+      "pro_mma": {
+        "value": "21-6-0 (1 NC)",
+        "wins": 21,
+        "losses": 6,
+        "draws": 0,
+        "no_contests": 1,
+        "source": "ufc-stats",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "11-4-0 (1 NC)",
+        "wins": 11,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 1,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.65,
+        "str_acc": 0.47,
+        "sapm": 3.78,
+        "str_def": 0.53,
+        "td_avg": 0.71,
+        "td_acc": 0.29,
+        "td_def": 0.59,
+        "sub_avg": 0.6
+      },
+      "slpm": "4.65",
+      "str_acc": "47%",
+      "sapm": "3.78",
+      "str_def": "53%",
+      "td_avg": "0.71",
+      "td_acc": "29%",
+      "td_def": "59%",
+      "sub_avg": "0.6",
+      "basis": {
+        "bouts": 16,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "ufc-stats",
+        "record": "21-6-0 (1 NC)",
+        "slpm": "4.65",
+        "str_acc": "47%",
+        "sapm": "3.78",
+        "str_def": "53%",
+        "td_avg": "0.71",
+        "td_acc": "29%",
+        "td_def": "59%",
+        "sub_avg": "0.6"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "11-4-0 (1 NC)",
+        "slpm": "4.65",
+        "str_acc": "47%",
+        "sapm": "3.78",
+        "str_def": "53%",
+        "td_avg": "0.71",
+        "td_acc": "29%",
+        "td_def": "59%",
+        "sub_avg": "0.6"
+      }
+    ],
+    "power_index": {
+      "rating": 1713,
+      "peak": 1793,
+      "peak_at": "2017-01-15T23:00:00.000Z",
+      "peak_date": "2017-01-15",
+      "fights_rated": 24,
+      "last_fought_at": "2025-04-12T22:00:00.000Z",
+      "last_fought_date": "2025-04-12"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/66f08b854098665951da19f066aef451aa938744b6367dff687ba75392c39db7.webp",
+        "width": 500,
+        "height": 588,
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "File:Carrera con Yair \"Pantera\" Rodríguez -i---i- (30657689682).jpg: PLEASE COMPLETE AUTHOR INFORMATION derivative work: Alexander Gustafsson",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Carrera_con_Yair_%22Pantera%22_Rodr%C3%ADguez_-i---i-_(30657689682)_cropped.jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/8fee38a572b1536b6308c2f09199c466b5dfa95ee6c16da4bd363d3bd7cf819e.webp",
+        "width": 1739,
+        "height": 1162,
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Gobierno CDMX",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Carrera_con_Yair_%22Pantera%22_Rodr%C3%ADguez_-i---i-_(30139082833).jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/8599001588601dea198ef3b76856833e2c8aa8f338811eb8a1edd108cfbb5fc0.webp",
+        "width": 1729,
+        "height": 1154,
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Gobierno CDMX",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Carrera_con_Yair_%22Pantera%22_Rodr%C3%ADguez_-i---i-_(30139084963).jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/72e1d1d7c1886c6029eb01e88135caef1022fe993a9c9bfd7f089c19f78d38da.webp",
+        "width": 1716,
+        "height": 1145,
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Gobierno CDMX",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Carrera_con_Yair_%22Pantera%22_Rodr%C3%ADguez_-i---i-_(30139085243).jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/058b9ce969100372f0eba6fd69a168629df83af17bf99d93a3076e227446c287.webp",
+        "width": 1806,
+        "height": 1206,
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Gobierno CDMX",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Carrera_con_Yair_%22Pantera%22_Rodr%C3%ADguez_-i---i-_(30473897990).jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/8734116e70d39b89e7f60601b71d54ca264330068fe715c834a9ca2ee8db9750.webp",
+        "width": 1920,
+        "height": 1280,
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Gobierno CDMX",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Carrera_con_Yair_%22Pantera%22_Rodr%C3%ADguez_-i---i-_(30473901050).jpg"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 93823,
+      "event_id": 3554,
+      "event_title": "UFC Dallas",
+      "event_slug": "ufc-fight-night-2027-01-17",
+      "org_slug": "ufc",
+      "date": "2027-01-16",
+      "opponent_id": 112,
+      "opponent_name": "Steve Garcia",
+      "opponent_slug": "steve-garcia",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 60968,
+      "event_id": 701,
+      "event_title": "UFC 314: Volkanovski vs Lopes",
+      "event_slug": "ufc-314-2025-04-12",
+      "org_slug": "ufc",
+      "date": "2025-04-12",
+      "opponent_id": 577,
+      "opponent_name": "Patricio Pitbull",
+      "opponent_slug": "patricio-pitbull",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-15T06:11:34.584Z"
+  },
+  "steve-garcia": {
+    "id": 112,
+    "slug": "steve-garcia",
+    "name": "Steve Garcia",
+    "nickname": "Mean Machine",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 72,
+    "weight_lbs": 145,
+    "reach_inches": 75,
+    "stance": "Southpaw",
+    "dob": "1992-05-22",
+    "team": "Jackson-Wink MMA",
+    "birthplace": "Albuquerque, New Mexico, United States",
+    "records": {
+      "amateur_mma": {
+        "value": "3-0",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "19-6-0",
+        "wins": 19,
+        "losses": 6,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "8-3-0",
+        "wins": 8,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 5.41,
+        "str_acc": 0.48,
+        "sapm": 2.19,
+        "str_def": 0.61,
+        "td_avg": 0.83,
+        "td_acc": 0.5,
+        "td_def": 0.86,
+        "sub_avg": 0.4
+      },
+      "slpm": "5.41",
+      "str_acc": "48%",
+      "sapm": "2.19",
+      "str_def": "61%",
+      "td_avg": "0.83",
+      "td_acc": "50%",
+      "td_def": "86%",
+      "sub_avg": "0.4",
+      "basis": {
+        "bouts": 12,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "3-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "19-6-0",
+        "slpm": "5.41",
+        "str_acc": "48%",
+        "sapm": "2.19",
+        "str_def": "61%",
+        "td_avg": "0.83",
+        "td_acc": "50%",
+        "td_def": "86%",
+        "sub_avg": "0.4"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "8-3-0",
+        "slpm": "4.98",
+        "str_acc": "47%",
+        "sapm": "2.01",
+        "str_def": "63%",
+        "td_avg": "0.88",
+        "td_acc": "57%",
+        "td_def": "80%",
+        "sub_avg": "0.4"
+      }
+    ],
+    "power_index": {
+      "rating": 1771,
+      "peak": 1786,
+      "peak_at": "2025-11-01T20:00:00.000Z",
+      "peak_date": "2025-11-01",
+      "fights_rated": 26,
+      "last_fought_at": "2026-06-15T00:00:00.000Z",
+      "last_fought_date": "2026-06-15"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/038aca8ef63b763e756f9cf9d3afecd1c4fcfe0923f5e7667c9cfa97fc5734eb.webp",
+        "width": 1290,
+        "height": 1794,
+        "license": "Public domain",
+        "license_url": null,
+        "artist": "The White House",
+        "source_page": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_press_conference_at_the_Lincoln_Memorial_in_Washington,_D.C.,_Friday,_June_12,_2026_-_10(cropped).jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/721017fca1d7bb06016089e2a768c44d0b3d97dfb7010045e5721c8e35917d27.webp",
+        "width": 3000,
+        "height": 2000,
+        "license": "Public domain",
+        "license_url": null,
+        "artist": "The White House",
+        "source_page": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_press_conference_at_the_Lincoln_Memorial_in_Washington,_D.C.,_Friday,_June_12,_2026_-_21.jpg"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/68e6b9ee6feead7038ba9a1ec85d212e3a7fd3ae1d76e424557f676f31b21cd2.webp",
+        "width": 301,
+        "height": 424,
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Karyn Bryant",
+        "source_page": "https://commons.wikimedia.org/wiki/File:SteveGarcia.png"
+      },
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/6faa88e58d82b0d0164b2b68f1e4eaab160c2385827ff207a0e4bad0e90162fc.webp",
+        "width": 4000,
+        "height": 2667,
+        "license": "Public domain",
+        "license_url": null,
+        "artist": "The White House",
+        "source_page": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250,_the_mixed_martial_arts_event_produced_by_the_Ultimate_Fighting_Championship,_Sunday,_June_14,_2026,_in_the_Grand_Foyer_of_the_White_House_-_24.jpg"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 93823,
+      "event_id": 3554,
+      "event_title": "UFC Dallas",
+      "event_slug": "ufc-fight-night-2027-01-17",
+      "org_slug": "ufc",
+      "date": "2027-01-16",
+      "opponent_id": 1116,
+      "opponent_name": "Yair Rodriguez",
+      "opponent_slug": "yair-rodriguez",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 66010,
+      "event_id": 8,
+      "event_title": "UFC Freedom 250",
+      "event_slug": "ufc-2026-06-15",
+      "org_slug": "ufc",
+      "date": "2026-06-15",
+      "opponent_id": 111,
+      "opponent_name": "Diego Lopes",
+      "opponent_slug": "diego-lopes",
+      "result": "loss",
+      "method": "KO/TKO",
+      "round": 2,
+      "time": "2:42",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-15T06:11:41.088Z"
+  },
+  "daniel-rodriguez": {
+    "id": 761,
+    "slug": "daniel-rodriguez",
+    "name": "Daniel Rodriguez",
+    "nickname": "D-Rod",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 73,
+    "weight_lbs": 170,
+    "reach_inches": 74,
+    "stance": "Southpaw",
+    "dob": "1986-12-31",
+    "team": "Syndicate MMA",
+    "birthplace": "Los Angeles, California, United States",
+    "records": {
+      "amateur_mma": {
+        "value": "7-0",
+        "wins": 7,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "20-6-0",
+        "wins": 20,
+        "losses": 6,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "10-5-0",
+        "wins": 10,
+        "losses": 5,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 7.19,
+        "str_acc": 0.49,
+        "sapm": 5.44,
+        "str_def": 0.57,
+        "td_avg": 0.51,
+        "td_acc": 0.5,
+        "td_def": 0.64,
+        "sub_avg": 0.1
+      },
+      "slpm": "7.19",
+      "str_acc": "49%",
+      "sapm": "5.44",
+      "str_def": "57%",
+      "td_avg": "0.51",
+      "td_acc": "50%",
+      "td_def": "64%",
+      "sub_avg": "0.1",
+      "basis": {
+        "bouts": 16,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "7-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "20-6-0",
+        "slpm": "7.19",
+        "str_acc": "49%",
+        "sapm": "5.44",
+        "str_def": "57%",
+        "td_avg": "0.51",
+        "td_acc": "50%",
+        "td_def": "64%",
+        "sub_avg": "0.1"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "10-5-0",
+        "slpm": "7.18",
+        "str_acc": "49%",
+        "sapm": "5.36",
+        "str_def": "57%",
+        "td_avg": "0.18",
+        "td_acc": "29%",
+        "td_def": "64%",
+        "sub_avg": "0.1"
+      }
+    ],
+    "power_index": {
+      "rating": 1825,
+      "peak": 1880,
+      "peak_at": "2022-09-11T02:00:00.000Z",
+      "peak_date": "2022-09-11",
+      "fights_rated": 26,
+      "last_fought_at": "2026-08-01T14:00:00.000Z",
+      "last_fought_date": "2026-08-01"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93824,
+      "event_id": 3554,
+      "event_title": "UFC Dallas",
+      "event_slug": "ufc-fight-night-2027-01-17",
+      "org_slug": "ufc",
+      "date": "2027-01-16",
+      "opponent_id": 4967,
+      "opponent_name": "Roberto Soldic",
+      "opponent_slug": "roberto-soldic",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 66464,
+      "event_id": 881,
+      "event_title": "UFC Fight Night: Medić vs Rodriguez",
+      "event_slug": "ufc-fight-night-2026-08-01",
+      "org_slug": "ufc",
+      "date": "2026-08-01",
+      "opponent_id": 434,
+      "opponent_name": "Uros Medic",
+      "opponent_slug": "uros-medic",
+      "result": "loss",
+      "method": "KO/TKO",
+      "round": 1,
+      "time": "0:30",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-15T06:11:47.589Z"
+  },
+  "roberto-soldic": {
+    "id": 4967,
+    "slug": "roberto-soldic",
+    "name": "Roberto Soldic",
+    "nickname": "Robocop",
+    "nationality": "Croatia",
+    "country_code": "HR",
+    "second_nationality": null,
+    "height_inches": 70,
+    "weight_lbs": 170,
+    "reach_inches": 73,
+    "stance": "Southpaw",
+    "dob": "1995-01-25",
+    "team": "RRC Gym",
+    "birthplace": "Nova Bila, Bosnia–Herzegovina",
+    "records": {
+      "one": {
+        "value": "1-1-0",
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "one-official",
+        "scope": "one-only"
+      },
+      "pro_boxing": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-boxing"
+      },
+      "pro_mma": {
+        "value": "22-4-0",
+        "wins": 22,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-0-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 5.85,
+        "str_acc": 0.58,
+        "sapm": 2.19,
+        "str_def": 0.75,
+        "td_avg": 2.66,
+        "td_acc": 1,
+        "td_def": null,
+        "sub_avg": 0
+      },
+      "slpm": "5.85",
+      "str_acc": "58%",
+      "sapm": "2.19",
+      "str_def": "75%",
+      "td_avg": "2.66",
+      "td_acc": "100%",
+      "td_def": null,
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 2,
+        "orgs": [
+          "one",
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "one-only",
+        "source": "one-official",
+        "record": "1-1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-boxing",
+        "source": "public-records",
+        "record": "1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "22-4-0",
+        "slpm": "5.85",
+        "str_acc": "58%",
+        "sapm": "2.19",
+        "str_def": "75%",
+        "td_avg": "2.66",
+        "td_acc": "100%",
+        "td_def": null,
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-0-0",
+        "slpm": "6.27",
+        "str_acc": "58%",
+        "sapm": "1.80",
+        "str_def": "75%",
+        "td_avg": "3.00",
+        "td_acc": "100%",
+        "td_def": null,
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1713,
+      "peak": 1869,
+      "peak_at": "2021-12-18T00:00:00.000Z",
+      "peak_date": "2021-12-18",
+      "fights_rated": 26,
+      "last_fought_at": "2026-10-03T20:00:00.000Z",
+      "last_fought_date": "2026-10-03"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/ab6e6b032b8acba859038e7b6df48d81eb39890f83e75d574c522648b7086cff.webp",
+        "width": 1920,
+        "height": 1080,
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "PIXSELL",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Roberto_Soldi%C4%87.png"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 93824,
+      "event_id": 3554,
+      "event_title": "UFC Dallas",
+      "event_slug": "ufc-fight-night-2027-01-17",
+      "org_slug": "ufc",
+      "date": "2027-01-16",
+      "opponent_id": 761,
+      "opponent_name": "Daniel Rodriguez",
+      "opponent_slug": "daniel-rodriguez",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 92979,
+      "event_id": 2545,
+      "event_title": "UFC 332: Silva vs Wang",
+      "event_slug": "ufc-332-2026-10-04",
+      "org_slug": "ufc",
+      "date": "2026-10-03",
+      "opponent_id": 951,
+      "opponent_name": "Khaos Williams",
+      "opponent_slug": "khaos-williams",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-15T06:11:54.104Z"
+  },
+  "chidi-njokuani": {
+    "id": 485,
+    "slug": "chidi-njokuani",
+    "name": "Chidi Njokuani",
+    "nickname": "Bang Bang",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 75,
+    "weight_lbs": 170,
+    "reach_inches": 80,
+    "stance": "Orthodox",
+    "dob": "1988-12-31",
+    "team": "Janjira Muay Thai",
+    "birthplace": "Dallas, Texas, United States",
+    "records": {
+      "amateur_muay_thai": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-muay-thai"
+      },
+      "pro_mma": {
+        "value": "26-12-0",
+        "wins": 26,
+        "losses": 12,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "6-5-0",
+        "wins": 6,
+        "losses": 5,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 6.3,
+        "str_acc": 0.63,
+        "sapm": 3.75,
+        "str_def": 0.58,
+        "td_avg": 0,
+        "td_acc": 0,
+        "td_def": 0.75,
+        "sub_avg": 0.1
+      },
+      "slpm": "6.30",
+      "str_acc": "63%",
+      "sapm": "3.75",
+      "str_def": "58%",
+      "td_avg": "0.00",
+      "td_acc": "0%",
+      "td_def": "75%",
+      "sub_avg": "0.1",
+      "basis": {
+        "bouts": 12,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-muay-thai",
+        "source": "public-records",
+        "record": "1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "26-12-0",
+        "slpm": "6.30",
+        "str_acc": "63%",
+        "sapm": "3.75",
+        "str_def": "58%",
+        "td_avg": "0.00",
+        "td_acc": "0%",
+        "td_def": "75%",
+        "sub_avg": "0.1"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "6-5-0",
+        "slpm": "6.38",
+        "str_acc": "62%",
+        "sapm": "4.06",
+        "str_def": "57%",
+        "td_avg": "0.00",
+        "td_acc": "0%",
+        "td_def": "75%",
+        "sub_avg": "0.2"
+      }
+    ],
+    "power_index": {
+      "rating": 1760,
+      "peak": 1783,
+      "peak_at": "2022-05-21T20:00:00.000Z",
+      "peak_date": "2022-05-21",
+      "fights_rated": 38,
+      "last_fought_at": "2026-08-15T21:30:00.000Z",
+      "last_fought_date": "2026-08-15"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93825,
+      "event_id": 3554,
+      "event_title": "UFC Dallas",
+      "event_slug": "ufc-fight-night-2027-01-17",
+      "org_slug": "ufc",
+      "date": "2027-01-16",
+      "opponent_id": 520,
+      "opponent_name": "Ignacio Bahamondes",
+      "opponent_slug": "ignacio-bahamondes",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83407,
+      "event_id": 2,
+      "event_title": "UFC 330: Makhachev vs Machado Garry",
+      "event_slug": "ufc-330-2026-08-15",
+      "org_slug": "ufc",
+      "date": "2026-08-15",
+      "opponent_id": 13,
+      "opponent_name": "Joel Álvarez",
+      "opponent_slug": "joel-alvarez",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-15T06:12:00.648Z"
+  },
+  "ignacio-bahamondes": {
+    "id": 520,
+    "slug": "ignacio-bahamondes",
+    "name": "Ignacio Bahamondes",
+    "nickname": "La Jaula",
+    "nationality": "Chile",
+    "country_code": "CL",
+    "second_nationality": null,
+    "height_inches": 75,
+    "weight_lbs": 170,
+    "reach_inches": 75,
+    "stance": "Orthodox",
+    "dob": "1997-08-27",
+    "team": "Valle Flow Striking",
+    "birthplace": "Santiago, Chile",
+    "records": {
+      "amateur_mma": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "18-7-0",
+        "wins": 18,
+        "losses": 7,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "7-4-0",
+        "wins": 7,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 5.9,
+        "str_acc": 0.46,
+        "sapm": 3.93,
+        "str_def": 0.56,
+        "td_avg": 0,
+        "td_acc": 0,
+        "td_def": 0.69,
+        "sub_avg": 0.6
+      },
+      "slpm": "5.90",
+      "str_acc": "46%",
+      "sapm": "3.93",
+      "str_def": "56%",
+      "td_avg": "0.00",
+      "td_acc": "0%",
+      "td_def": "69%",
+      "sub_avg": "0.6",
+      "basis": {
+        "bouts": 12,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "18-7-0",
+        "slpm": "5.90",
+        "str_acc": "46%",
+        "sapm": "3.93",
+        "str_def": "56%",
+        "td_avg": "0.00",
+        "td_acc": "0%",
+        "td_def": "69%",
+        "sub_avg": "0.6"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "7-4-0",
+        "slpm": "5.73",
+        "str_acc": "46%",
+        "sapm": "4.00",
+        "str_def": "55%",
+        "td_avg": "0.00",
+        "td_acc": "0%",
+        "td_def": "65%",
+        "sub_avg": "0.6"
+      }
+    ],
+    "power_index": {
+      "rating": 1783,
+      "peak": 1797,
+      "peak_at": "2025-03-09T03:00:00.000Z",
+      "peak_date": "2025-03-09",
+      "fights_rated": 25,
+      "last_fought_at": "2026-09-12T18:00:00.000Z",
+      "last_fought_date": "2026-09-12"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 93825,
+      "event_id": 3554,
+      "event_title": "UFC Dallas",
+      "event_slug": "ufc-fight-night-2027-01-17",
+      "org_slug": "ufc",
+      "date": "2027-01-16",
+      "opponent_id": 485,
+      "opponent_name": "Chidi Njokuani",
+      "opponent_slug": "chidi-njokuani",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83282,
+      "event_id": 2523,
+      "event_title": "Noche UFC: Silva vs Delgado",
+      "event_slug": "ufc-fight-night-2026-09-12",
+      "org_slug": "ufc",
+      "date": "2026-09-12",
+      "opponent_id": 63,
+      "opponent_name": "Muslim Salikhov",
+      "opponent_slug": "muslim-salikhov",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-15T06:12:07.143Z"
   }
 }

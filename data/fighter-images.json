@@ -1758,5 +1758,71 @@
     "fullBodySource": "ESPN (temporary)",
     "espnId": "5220971",
     "matchStatus": "matched"
+  },
+  "yair-rodriguez": {
+    "id": 1116,
+    "slug": "yair-rodriguez",
+    "name": "Yair Rodriguez",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3155420.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/3155420.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "3155420",
+    "matchStatus": "matched"
+  },
+  "steve-garcia": {
+    "id": 112,
+    "slug": "steve-garcia",
+    "name": "Steve Garcia",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3023804.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/3023804.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "3023804",
+    "matchStatus": "matched"
+  },
+  "daniel-rodriguez": {
+    "id": 761,
+    "slug": "daniel-rodriguez",
+    "name": "Daniel Rodriguez",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4426312.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4426312.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4426312",
+    "matchStatus": "matched"
+  },
+  "roberto-soldic": {
+    "id": 4967,
+    "slug": "roberto-soldic",
+    "name": "Roberto Soldic",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4274796.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4274796.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4274796",
+    "matchStatus": "matched"
+  },
+  "chidi-njokuani": {
+    "id": 485,
+    "slug": "chidi-njokuani",
+    "name": "Chidi Njokuani",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2959422.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/2959422.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "2959422",
+    "matchStatus": "matched"
+  },
+  "ignacio-bahamondes": {
+    "id": 520,
+    "slug": "ignacio-bahamondes",
+    "name": "Ignacio Bahamondes",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4038116.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4038116.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4038116",
+    "matchStatus": "matched"
   }
 }
