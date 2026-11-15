@@ -1262,7 +1262,7 @@
           "fighter_1": {
             "name": "Jared Gordon",
             "nickname": "Flash",
-            "record": "21-9-0",
+            "record": "21-10-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1275,7 +1275,7 @@
           "fighter_2": {
             "name": "Melquizael Costa",
             "nickname": "The Dalmatian",
-            "record": "26-8-0",
+            "record": "27-8-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -1299,6 +1299,17 @@
             "fighter_1": "304",
             "fighter_2": "-401",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Melquizael Costa",
+            "winner_fighter_id": 28,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "28 - 29. 28 - 29. 28 - 29."
           }
         },
         {
@@ -1309,7 +1320,7 @@
           "fighter_1": {
             "name": "Macy Chiasson",
             "nickname": "",
-            "record": "11-6-0",
+            "record": "11-7-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -1331,7 +1342,7 @@
           "fighter_2": {
             "name": "Bia Mesquita",
             "nickname": "The Lady GOAT",
-            "record": "8-0-0",
+            "record": "9-0-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -1355,6 +1366,17 @@
             "fighter_1": "207",
             "fighter_2": "-254",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Bia Mesquita",
+            "winner_fighter_id": 174,
+            "method": "Submission",
+            "method_normalized": "submission",
+            "finish_detail": "Rear-Naked Choke",
+            "round": 1,
+            "time": "3:23",
+            "time_seconds": 203,
+            "details": "Rear Naked Choke"
           }
         },
         {
