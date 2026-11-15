@@ -949,7 +949,7 @@
           "fighter_1": {
             "name": "Caio Borralho",
             "nickname": "The Natural",
-            "record": "18-2-0",
+            "record": "19-2-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [
@@ -976,7 +976,7 @@
           "fighter_2": {
             "name": "Yousri Belgaroui",
             "nickname": "The Boogeyman",
-            "record": "11-3-0",
+            "record": "11-4-0",
             "country": "Tunisia",
             "flag": "🇹🇳",
             "rankings": [],
@@ -991,6 +991,17 @@
             "fighter_1": "-161",
             "fighter_2": "133",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Caio Borralho",
+            "winner_fighter_id": 253,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "27 - 30. 27 - 30. 27 - 30."
           }
         },
         {
@@ -1062,7 +1073,7 @@
             "round": 3,
             "time": "5:00",
             "time_seconds": 300,
-            "details": "27 - 30. 28 - 28. 28 - 28."
+            "details": "27 - 29. 28 - 28. 28 - 28."
           }
         },
         {

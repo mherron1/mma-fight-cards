@@ -7753,8 +7753,8 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "18-2-0",
-        "wins": 18,
+        "value": "19-2-0",
+        "wins": 19,
         "losses": 2,
         "draws": 0,
         "no_contests": 0,
@@ -7957,9 +7957,9 @@
         "scope": "pro-kickboxing"
       },
       "pro_mma": {
-        "value": "11-3-0",
+        "value": "11-4-0",
         "wins": 11,
-        "losses": 3,
+        "losses": 4,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
