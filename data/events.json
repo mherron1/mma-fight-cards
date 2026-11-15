@@ -1224,7 +1224,7 @@
           "fighter_1": {
             "name": "Donte Johnson",
             "nickname": "Lock Jaw",
-            "record": "9-0-0",
+            "record": "9-1-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1237,7 +1237,7 @@
           "fighter_2": {
             "name": "Cesar Almeida",
             "nickname": "Cesinha",
-            "record": "7-3-0",
+            "record": "8-3-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
@@ -1252,6 +1252,17 @@
             "fighter_1": "-195",
             "fighter_2": "163",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Cesar Almeida",
+            "winner_fighter_id": 348,
+            "method": "KO/TKO",
+            "method_normalized": "ko_tko",
+            "finish_detail": "Punches",
+            "round": 1,
+            "time": "3:20",
+            "time_seconds": 200,
+            "details": "Punch to Head At Distance"
           }
         },
         {
