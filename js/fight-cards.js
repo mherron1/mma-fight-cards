@@ -205,7 +205,7 @@ export function renderFightCard(event, fighterImageIndex = new Map(), isResultsE
           : '';
 
         return `
-        <details class="fight-row">
+        <details class="fight-row${result ? ' is-completed' : ''}">
           <summary class="fight-summary">
             <div class="fight-weight">
               ${escapeHTML(fight.card_position === 'main_event' ? 'Main Event · ' : '')}${escapeHTML(weightClass)}${fight.title_fight ? ' · Title' : ''}

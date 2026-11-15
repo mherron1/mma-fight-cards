@@ -194,6 +194,7 @@ body { min-height: 100%; }
 .fight-row { background: var(--row-bg); border: 1px solid var(--row-border); border-radius: 7px; overflow: hidden; }
 .fight-row:not([open]) { background: var(--panel-soft); }
 :root[data-theme="light"] .fight-row:not([open]) { background: color-mix(in srgb, var(--panel-soft) 25%, white); }
+.event-card.is-active-event .fight-row.is-completed { background: linear-gradient(to top, color-mix(in srgb, var(--accent) 8%, var(--panel-soft)), var(--panel-soft)); }
 .fight-summary { position: relative; display: block; padding: 9px 10px; cursor: pointer; list-style: none; touch-action: pan-y; }
 .fight-summary::-webkit-details-marker { display: none; }
 
