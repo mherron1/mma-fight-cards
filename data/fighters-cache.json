@@ -9573,9 +9573,9 @@
     "birthplace": "Sparta, New Jersey, United States",
     "records": {
       "pro_mma": {
-        "value": "39-19-0",
+        "value": "39-20-0",
         "wins": 39,
-        "losses": 19,
+        "losses": 20,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
@@ -9733,8 +9733,8 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "18-9-0",
-        "wins": 18,
+        "value": "19-9-0",
+        "wins": 19,
         "losses": 9,
         "draws": 0,
         "no_contests": 0,

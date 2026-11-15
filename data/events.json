@@ -1181,7 +1181,7 @@
           "fighter_1": {
             "name": "Jim Miller",
             "nickname": "A-10",
-            "record": "39-19-0",
+            "record": "39-20-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1199,7 +1199,7 @@
           "fighter_2": {
             "name": "Terrance McKinney",
             "nickname": "T. Wrecks",
-            "record": "18-9-0",
+            "record": "19-9-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1214,6 +1214,17 @@
             "fighter_1": "174",
             "fighter_2": "-211",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Terrance McKinney",
+            "winner_fighter_id": 367,
+            "method": "KO/TKO",
+            "method_normalized": "ko_tko",
+            "finish_detail": "Punches",
+            "round": 1,
+            "time": "1:53",
+            "time_seconds": 113,
+            "details": "Punch to Head At Distance"
           }
         },
         {
