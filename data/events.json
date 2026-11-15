@@ -861,8 +861,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "122",
-            "fighter_2": "-147",
+            "fighter_1": "125",
+            "fighter_2": "-150",
             "status": "consensus_odds"
           }
         },
@@ -922,8 +922,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "111",
-            "fighter_2": "-134",
+            "fighter_1": "109",
+            "fighter_2": "-132",
             "status": "consensus_odds"
           }
         },
@@ -1120,8 +1120,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "274",
-            "fighter_2": "-356",
+            "fighter_1": "273",
+            "fighter_2": "-355",
             "status": "consensus_odds"
           }
         },
@@ -1163,8 +1163,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-240",
-            "fighter_2": "195",
+            "fighter_1": "-244",
+            "fighter_2": "196",
             "status": "consensus_odds"
           }
         },
@@ -1206,8 +1206,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-216",
-            "fighter_2": "175",
+            "fighter_1": "-214",
+            "fighter_2": "173",
             "status": "consensus_odds"
           }
         },
@@ -1253,8 +1253,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "113",
-            "fighter_2": "-138",
+            "fighter_1": "111",
+            "fighter_2": "-136",
             "status": "consensus_odds"
           }
         },
@@ -1296,8 +1296,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-167",
-            "fighter_2": "137",
+            "fighter_1": "-174",
+            "fighter_2": "143",
             "status": "consensus_odds"
           }
         },
@@ -1335,7 +1335,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "130",
-            "fighter_2": "-154",
+            "fighter_2": "-156",
             "status": "consensus_odds"
           }
         },
@@ -1372,8 +1372,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-260",
-            "fighter_2": "213",
+            "fighter_1": "-258",
+            "fighter_2": "209",
             "status": "consensus_odds"
           }
         }
@@ -1514,8 +1514,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-178",
-            "fighter_2": "147",
+            "fighter_1": "-180",
+            "fighter_2": "149",
             "status": "consensus_odds"
           }
         },
@@ -2297,7 +2297,7 @@
     {
       "id": "ufc-fight-night-2027-01-17",
       "promotion": "UFC",
-      "name": "UFC Dallas",
+      "name": "UFC Fight Night: Rodriguez vs Garcia",
       "date": "2027-01-16",
       "start_time": "2027-01-16T22:00:00.000Z",
       "location": "Dallas, TX, United States",
@@ -2467,6 +2467,92 @@
         "prelims_start_time": "2027-01-16T22:00:00.000Z",
         "early_prelims_start_time": null,
         "timezone": "America/Chicago",
+        "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
+      }
+    },
+    {
+      "id": "ufc-fight-night-2027-01-23",
+      "promotion": "UFC",
+      "name": "UFC Fight Night: Bonfim vs Brady",
+      "date": "2027-01-23",
+      "start_time": "2027-01-23T20:00:00.000Z",
+      "location": "Las Vegas, NV, United States",
+      "venue": "Meta Apex",
+      "sport": "MMA",
+      "status": "announced",
+      "fights": [
+        {
+          "id": "93827",
+          "card_position": "main_event",
+          "weight_class": "Welterweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Gabriel Bonfim",
+            "nickname": "Marretinha",
+            "record": "20-1-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [
+              {
+                "division": "welterweight",
+                "rank": 5,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "Brazil",
+                "country_code": "BR"
+              }
+            ],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/01f9e0e703f708c15102299934cc5dc8e1a24dd3bf3acd78969070e201d4e33e.webp",
+            "dob": "1997-08-20",
+            "image_credit": {
+              "artist": "Sexto Round",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Gabriel_Bonfim_2025.jpg"
+            },
+            "height": "6' 1\"",
+            "weight": "170 lbs"
+          },
+          "fighter_2": {
+            "name": "Sean Brady",
+            "nickname": "",
+            "record": "19-2-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [
+              {
+                "division": "welterweight",
+                "rank": 6,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "United States",
+                "country_code": "US"
+              }
+            ],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/de3c4acc7b88c47c3c97586e630b9f8ea41cd5d9273035064c37793edf12f8ec.webp",
+            "dob": "1992-11-23",
+            "image_credit": {
+              "artist": "WEIGHING IN",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:SeanBrady.jpg"
+            },
+            "height": "5' 10\"",
+            "weight": "170 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        }
+      ],
+      "schedule": {
+        "main_card_start_time": "2027-01-23T22:00:00.000Z",
+        "prelims_start_time": "2027-01-23T20:00:00.000Z",
+        "early_prelims_start_time": null,
+        "timezone": "America/Los_Angeles",
         "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
       }
     },

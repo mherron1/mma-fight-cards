@@ -11876,8 +11876,8 @@
     "power_index": {
       "rating": 1823,
       "peak": 1887,
-      "peak_at": "2022-06-12T02:00:00.000Z",
-      "peak_date": "2022-06-12",
+      "peak_at": "2022-06-11T23:00:00.000Z",
+      "peak_date": "2022-06-11",
       "fights_rated": 36,
       "last_fought_at": "2026-04-11T21:30:00.000Z",
       "last_fought_date": "2026-04-11"
@@ -11967,7 +11967,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:03:54.514Z"
+    "_cache_updated_at": "2026-11-15T14:29:08.175Z"
   },
   "navajo-stirling": {
     "id": 116,
@@ -12024,22 +12024,22 @@
     },
     "stats": {
       "values": {
-        "slpm": 6.14,
-        "str_acc": 0.53,
-        "sapm": 2.43,
-        "str_def": 0.6,
+        "slpm": 6.47,
+        "str_acc": 0.55,
+        "sapm": 2.56,
+        "str_def": 0.58,
         "td_avg": 0.82,
-        "td_acc": 0.31,
-        "td_def": 0.7,
+        "td_acc": 0.25,
+        "td_def": 0.71,
         "sub_avg": 0
       },
-      "slpm": "6.14",
-      "str_acc": "53%",
-      "sapm": "2.43",
-      "str_def": "60%",
+      "slpm": "6.47",
+      "str_acc": "55%",
+      "sapm": "2.56",
+      "str_def": "58%",
       "td_avg": "0.82",
-      "td_acc": "31%",
-      "td_def": "70%",
+      "td_acc": "25%",
+      "td_def": "71%",
       "sub_avg": "0.0",
       "basis": {
         "bouts": 7,
@@ -12068,13 +12068,13 @@
         "scope": "pro-mma",
         "source": "public-records",
         "record": "11-0-0",
-        "slpm": "6.14",
-        "str_acc": "53%",
-        "sapm": "2.43",
-        "str_def": "60%",
+        "slpm": "6.47",
+        "str_acc": "55%",
+        "sapm": "2.56",
+        "str_def": "58%",
         "td_avg": "0.82",
-        "td_acc": "31%",
-        "td_def": "70%",
+        "td_acc": "25%",
+        "td_def": "71%",
         "sub_avg": "0.0"
       },
       {
@@ -12152,7 +12152,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:04:01.012Z"
+    "_cache_updated_at": "2026-11-15T14:29:14.696Z"
   },
   "aljamain-sterling": {
     "id": 274,
@@ -12369,7 +12369,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:04:07.564Z"
+    "_cache_updated_at": "2026-11-15T14:29:21.184Z"
   },
   "kevin-vallejos": {
     "id": 347,
@@ -12417,22 +12417,22 @@
     },
     "stats": {
       "values": {
-        "slpm": 4.98,
-        "str_acc": 0.39,
-        "sapm": 3.27,
-        "str_def": 0.68,
+        "slpm": 6.12,
+        "str_acc": 0.48,
+        "sapm": 4.41,
+        "str_def": 0.57,
         "td_avg": 0.66,
         "td_acc": 0.29,
-        "td_def": 0.83,
+        "td_def": 0.85,
         "sub_avg": 0
       },
-      "slpm": "4.98",
-      "str_acc": "39%",
-      "sapm": "3.27",
-      "str_def": "68%",
+      "slpm": "6.12",
+      "str_acc": "48%",
+      "sapm": "4.41",
+      "str_def": "57%",
       "td_avg": "0.66",
       "td_acc": "29%",
-      "td_def": "83%",
+      "td_def": "85%",
       "sub_avg": "0.0",
       "basis": {
         "bouts": 6,
@@ -12461,13 +12461,13 @@
         "scope": "pro-mma",
         "source": "public-records",
         "record": "18-1-0",
-        "slpm": "4.98",
-        "str_acc": "39%",
-        "sapm": "3.27",
-        "str_def": "68%",
+        "slpm": "6.12",
+        "str_acc": "48%",
+        "sapm": "4.41",
+        "str_def": "57%",
         "td_avg": "0.66",
         "td_acc": "29%",
-        "td_def": "83%",
+        "td_def": "85%",
         "sub_avg": "0.0"
       },
       {
@@ -12532,7 +12532,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:04:14.022Z"
+    "_cache_updated_at": "2026-11-15T14:29:27.679Z"
   },
   "dan-hooker": {
     "id": 328,
@@ -12705,7 +12705,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:04:20.593Z"
+    "_cache_updated_at": "2026-11-15T14:29:34.162Z"
   },
   "brian-ortega": {
     "id": 275,
@@ -12856,7 +12856,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:04:27.010Z"
+    "_cache_updated_at": "2026-11-15T14:29:40.662Z"
   },
   "jared-cannonier": {
     "id": 1044,
@@ -13038,7 +13038,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:04:33.529Z"
+    "_cache_updated_at": "2026-11-15T14:29:47.282Z"
   },
   "ikram-aliskerov": {
     "id": 441,
@@ -13086,21 +13086,21 @@
     },
     "stats": {
       "values": {
-        "slpm": 4.89,
-        "str_acc": 0.59,
-        "sapm": 3.98,
-        "str_def": 0.5,
+        "slpm": 5.02,
+        "str_acc": 0.61,
+        "sapm": 4.21,
+        "str_def": 0.45,
         "td_avg": 3.35,
-        "td_acc": 0.54,
+        "td_acc": 0.52,
         "td_def": 1,
         "sub_avg": 0.5
       },
-      "slpm": "4.89",
-      "str_acc": "59%",
-      "sapm": "3.98",
-      "str_def": "50%",
+      "slpm": "5.02",
+      "str_acc": "61%",
+      "sapm": "4.21",
+      "str_def": "45%",
       "td_avg": "3.35",
-      "td_acc": "54%",
+      "td_acc": "52%",
       "td_def": "100%",
       "sub_avg": "0.5",
       "basis": {
@@ -13131,12 +13131,12 @@
         "scope": "pro-mma",
         "source": "public-records",
         "record": "18-2-0",
-        "slpm": "4.89",
-        "str_acc": "59%",
-        "sapm": "3.98",
-        "str_def": "50%",
+        "slpm": "5.02",
+        "str_acc": "61%",
+        "sapm": "4.21",
+        "str_def": "45%",
         "td_avg": "3.35",
-        "td_acc": "54%",
+        "td_acc": "52%",
         "td_def": "100%",
         "sub_avg": "0.5"
       },
@@ -13155,8 +13155,8 @@
       }
     ],
     "power_index": {
-      "rating": 1845,
-      "peak": 1845,
+      "rating": 1846,
+      "peak": 1846,
       "peak_at": "2026-06-27T13:00:00.000Z",
       "peak_date": "2026-06-27",
       "fights_rated": 20,
@@ -13239,7 +13239,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:04:40.031Z"
+    "_cache_updated_at": "2026-11-15T14:29:53.656Z"
   },
   "shamil-gaziev": {
     "id": 379,
@@ -13287,20 +13287,20 @@
     },
     "stats": {
       "values": {
-        "slpm": 2.96,
+        "slpm": 2.97,
         "str_acc": 0.46,
-        "sapm": 4.56,
+        "sapm": 4.59,
         "str_def": 0.45,
-        "td_avg": 0.89,
+        "td_avg": 0.9,
         "td_acc": 0.25,
         "td_def": 0.83,
         "sub_avg": 0.2
       },
-      "slpm": "2.96",
+      "slpm": "2.97",
       "str_acc": "46%",
-      "sapm": "4.56",
+      "sapm": "4.59",
       "str_def": "45%",
-      "td_avg": "0.89",
+      "td_avg": "0.90",
       "td_acc": "25%",
       "td_def": "83%",
       "sub_avg": "0.2",
@@ -13332,11 +13332,11 @@
         "scope": "pro-mma",
         "source": "public-records",
         "record": "15-3-0",
-        "slpm": "2.96",
+        "slpm": "2.97",
         "str_acc": "46%",
-        "sapm": "4.56",
+        "sapm": "4.59",
         "str_def": "45%",
-        "td_avg": "0.89",
+        "td_avg": "0.90",
         "td_acc": "25%",
         "td_def": "83%",
         "sub_avg": "0.2"
@@ -13403,7 +13403,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:04:46.538Z"
+    "_cache_updated_at": "2026-11-15T14:30:00.324Z"
   },
   "tallison-teixeira": {
     "id": 56,
@@ -13576,7 +13576,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:04:53.051Z"
+    "_cache_updated_at": "2026-11-15T14:30:06.682Z"
   },
   "jake-matthews": {
     "id": 64,
@@ -13727,7 +13727,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:04:59.538Z"
+    "_cache_updated_at": "2026-11-15T14:30:13.161Z"
   },
   "tahir-abdullayev": {
     "id": 72828,
@@ -13890,7 +13890,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:05:06.023Z"
+    "_cache_updated_at": "2026-11-15T14:30:19.701Z"
   },
   "aleksandre-topuria": {
     "id": 373,
@@ -13986,10 +13986,10 @@
     "power_index": {
       "rating": 1643,
       "peak": 1643,
-      "peak_at": "2025-11-22T18:00:00.000Z",
+      "peak_at": "2025-11-22T15:00:00.000Z",
       "peak_date": "2025-11-22",
       "fights_rated": 8,
-      "last_fought_at": "2025-11-22T18:00:00.000Z",
+      "last_fought_at": "2025-11-22T15:00:00.000Z",
       "last_fought_date": "2025-11-22"
     },
     "images": [
@@ -14050,7 +14050,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:05:12.516Z"
+    "_cache_updated_at": "2026-11-15T14:30:26.163Z"
   },
   "santiago-luna": {
     "id": 228,
@@ -14213,7 +14213,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:05:19.025Z"
+    "_cache_updated_at": "2026-11-15T14:30:32.687Z"
   },
   "asu-almabayev": {
     "id": 375,
@@ -14409,7 +14409,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:05:25.856Z"
+    "_cache_updated_at": "2026-11-15T14:30:39.186Z"
   },
   "kyoji-horiguchi": {
     "id": 114,
@@ -14623,7 +14623,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:05:32.050Z"
+    "_cache_updated_at": "2026-11-15T14:30:45.706Z"
   },
   "amir-albazi": {
     "id": 502,
@@ -14741,8 +14741,8 @@
     "power_index": {
       "rating": 1713,
       "peak": 1802,
-      "peak_at": "2023-06-04T01:00:00.000Z",
-      "peak_date": "2023-06-04",
+      "peak_at": "2023-06-03T22:00:00.000Z",
+      "peak_date": "2023-06-03",
       "fights_rated": 18,
       "last_fought_at": "2026-02-07T22:00:00.000Z",
       "last_fought_date": "2026-02-07"
@@ -14786,7 +14786,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:05:38.550Z"
+    "_cache_updated_at": "2026-11-15T14:30:52.278Z"
   },
   "alessandro-costa": {
     "id": 234,
@@ -14927,7 +14927,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:05:45.159Z"
+    "_cache_updated_at": "2026-11-15T14:30:58.704Z"
   },
   "charles-oliveira": {
     "id": 177,
@@ -15067,8 +15067,8 @@
     "power_index": {
       "rating": 1964,
       "peak": 1971,
-      "peak_at": "2022-05-08T02:00:00.000Z",
-      "peak_date": "2022-05-08",
+      "peak_at": "2022-05-07T21:30:00.000Z",
+      "peak_date": "2022-05-07",
       "fights_rated": 48,
       "last_fought_at": "2026-03-07T22:30:00.000Z",
       "last_fought_date": "2026-03-07"
@@ -15167,7 +15167,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:05:51.555Z"
+    "_cache_updated_at": "2026-11-15T14:31:05.178Z"
   },
   "diego-lopes": {
     "id": 111,
@@ -15367,7 +15367,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:05:58.060Z"
+    "_cache_updated_at": "2026-11-15T14:31:11.695Z"
   },
   "sergei-pavlovich": {
     "id": 55,
@@ -15463,7 +15463,7 @@
     "power_index": {
       "rating": 1848,
       "peak": 1854,
-      "peak_at": "2019-10-26T12:00:00.000Z",
+      "peak_at": "2019-10-26T09:00:00.000Z",
       "peak_date": "2019-10-26",
       "fights_rated": 24,
       "last_fought_at": "2026-05-30T08:00:00.000Z",
@@ -15527,7 +15527,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:06:04.562Z"
+    "_cache_updated_at": "2026-11-15T14:31:18.196Z"
   },
   "alex-pereira": {
     "id": 101,
@@ -15689,8 +15689,8 @@
     "power_index": {
       "rating": 1909,
       "peak": 1970,
-      "peak_at": "2025-10-05T02:00:00.000Z",
-      "peak_date": "2025-10-05",
+      "peak_at": "2025-10-04T22:00:00.000Z",
+      "peak_date": "2025-10-04",
       "fights_rated": 17,
       "last_fought_at": "2026-06-15T00:00:00.000Z",
       "last_fought_date": "2026-06-15"
@@ -15789,7 +15789,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:06:11.053Z"
+    "_cache_updated_at": "2026-11-15T14:31:24.721Z"
   },
   "brandon-moreno": {
     "id": 362,
@@ -15971,7 +15971,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:06:17.550Z"
+    "_cache_updated_at": "2026-11-15T14:31:31.267Z"
   },
   "charles-johnson": {
     "id": 279,
@@ -16156,7 +16156,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:06:24.105Z"
+    "_cache_updated_at": "2026-11-15T14:31:37.702Z"
   },
   "quentin-pasley": {
     "id": 34008,
@@ -16213,20 +16213,20 @@
     },
     "stats": {
       "values": {
-        "slpm": 5.87,
+        "slpm": 5.98,
         "str_acc": 0.62,
-        "sapm": 2.94,
+        "sapm": 2.99,
         "str_def": 0.39,
-        "td_avg": 3.15,
+        "td_avg": 3.2,
         "td_acc": 1,
         "td_def": 1,
         "sub_avg": 0
       },
-      "slpm": "5.87",
+      "slpm": "5.98",
       "str_acc": "62%",
-      "sapm": "2.94",
+      "sapm": "2.99",
       "str_def": "39%",
-      "td_avg": "3.15",
+      "td_avg": "3.20",
       "td_acc": "100%",
       "td_def": "100%",
       "sub_avg": "0.0",
@@ -16270,11 +16270,11 @@
         "scope": "pro-mma",
         "source": "public-records",
         "record": "4-0-0",
-        "slpm": "5.87",
+        "slpm": "5.98",
         "str_acc": "62%",
-        "sapm": "2.94",
+        "sapm": "2.99",
         "str_def": "39%",
-        "td_avg": "3.15",
+        "td_avg": "3.20",
         "td_acc": "100%",
         "td_def": "100%",
         "sub_avg": "0.0"
@@ -16325,15 +16325,15 @@
       "opponent_name": "Arlind Berisha",
       "opponent_slug": "arlind-berisha",
       "result": "win",
-      "method": "KO",
+      "method": "KO (elbows)",
       "round": 1,
-      "time": "04:46",
+      "time": "4:41",
       "weight_class": "Light Heavyweight",
       "is_title": false,
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:06:30.572Z"
+    "_cache_updated_at": "2026-11-15T14:31:44.226Z"
   },
   "junior-tafa": {
     "id": 322,
@@ -16541,7 +16541,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:06:37.092Z"
+    "_cache_updated_at": "2026-11-15T14:31:50.717Z"
   },
   "joe-pyfer": {
     "id": 201,
@@ -16758,7 +16758,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:06:43.556Z"
+    "_cache_updated_at": "2026-11-15T14:31:57.322Z"
   },
   "bo-nickal": {
     "id": 109,
@@ -17002,7 +17002,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:06:50.065Z"
+    "_cache_updated_at": "2026-11-15T14:32:03.707Z"
   },
   "maycee-barber": {
     "id": 356,
@@ -17120,8 +17120,8 @@
     "power_index": {
       "rating": 1752,
       "peak": 1844,
-      "peak_at": "2024-03-10T03:00:00.000Z",
-      "peak_date": "2024-03-10",
+      "peak_at": "2024-03-09T23:00:00.000Z",
+      "peak_date": "2024-03-09",
       "fights_rated": 18,
       "last_fought_at": "2026-03-28T21:00:00.000Z",
       "last_fought_date": "2026-03-28"
@@ -17184,7 +17184,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:06:56.557Z"
+    "_cache_updated_at": "2026-11-15T14:32:10.212Z"
   },
   "carli-judice": {
     "id": 454,
@@ -17300,8 +17300,8 @@
       }
     ],
     "power_index": {
-      "rating": 1713,
-      "peak": 1713,
+      "rating": 1716,
+      "peak": 1716,
       "peak_at": "2026-08-22T21:00:00.000Z",
       "peak_date": "2026-08-22",
       "fights_rated": 9,
@@ -17347,7 +17347,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-08T14:07:03.062Z"
+    "_cache_updated_at": "2026-11-15T14:32:16.727Z"
   },
   "julian-erosa": {
     "id": 522,
@@ -28070,5 +28070,351 @@
       "source": "native"
     },
     "_cache_updated_at": "2026-11-15T06:12:07.143Z"
+  },
+  "gabriel-bonfim": {
+    "id": 78,
+    "slug": "gabriel-bonfim",
+    "name": "Gabriel Bonfim",
+    "nickname": "Marretinha",
+    "nationality": "Brazil",
+    "country_code": "BR",
+    "second_nationality": null,
+    "height_inches": 73,
+    "weight_lbs": 170,
+    "reach_inches": 72,
+    "stance": "Orthodox",
+    "dob": "1997-08-20",
+    "team": "Cerrado MMA",
+    "birthplace": "Brasilia, Federal District, Brazil",
+    "records": {
+      "pro_mma": {
+        "value": "20-1-0",
+        "wins": 20,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "7-1-0",
+        "wins": 7,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.76,
+        "str_acc": 0.47,
+        "sapm": 3.61,
+        "str_def": 0.65,
+        "td_avg": 2.57,
+        "td_acc": 0.54,
+        "td_def": 0.79,
+        "sub_avg": 1
+      },
+      "slpm": "4.76",
+      "str_acc": "47%",
+      "sapm": "3.61",
+      "str_def": "65%",
+      "td_avg": "2.57",
+      "td_acc": "54%",
+      "td_def": "79%",
+      "sub_avg": "1.0",
+      "basis": {
+        "bouts": 9,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "20-1-0",
+        "slpm": "4.76",
+        "str_acc": "47%",
+        "sapm": "3.61",
+        "str_def": "65%",
+        "td_avg": "2.57",
+        "td_acc": "54%",
+        "td_def": "79%",
+        "sub_avg": "1.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "7-1-0",
+        "slpm": "4.69",
+        "str_acc": "48%",
+        "sapm": "3.56",
+        "str_def": "64%",
+        "td_avg": "2.52",
+        "td_acc": "52%",
+        "td_def": "79%",
+        "sub_avg": "0.9"
+      }
+    ],
+    "power_index": {
+      "rating": 1843,
+      "peak": 1843,
+      "peak_at": "2026-06-06T21:00:00.000Z",
+      "peak_date": "2026-06-06",
+      "fights_rated": 21,
+      "last_fought_at": "2026-06-06T21:00:00.000Z",
+      "last_fought_date": "2026-06-06"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/01f9e0e703f708c15102299934cc5dc8e1a24dd3bf3acd78969070e201d4e33e.webp",
+        "width": 570,
+        "height": 570,
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Sexto Round",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Gabriel_Bonfim_2025.jpg"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 93827,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 7,
+      "opponent_name": "Sean Brady",
+      "opponent_slug": "sean-brady",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 66012,
+      "event_id": 9,
+      "event_title": "UFC Fight Night: Muhammad vs Bonfim",
+      "event_slug": "ufc-fight-night-2026-06-06",
+      "org_slug": "ufc",
+      "date": "2026-06-06",
+      "opponent_id": 77,
+      "opponent_name": "Belal Muhammad",
+      "opponent_slug": "belal-muhammad",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 5,
+      "time": "5:00",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-15T14:28:55.468Z"
+  },
+  "sean-brady": {
+    "id": 7,
+    "slug": "sean-brady",
+    "name": "Sean Brady",
+    "nickname": null,
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 70,
+    "weight_lbs": 170,
+    "reach_inches": 72,
+    "stance": "Orthodox",
+    "dob": "1992-11-23",
+    "team": "Marquez MMA",
+    "birthplace": "Philadelphia, Pennsylvania, United States",
+    "records": {
+      "amateur_mma": {
+        "value": "5-0",
+        "wins": 5,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "19-2-0",
+        "wins": 19,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "pro_submission_grappling": {
+        "value": "3-0",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-submission-grappling"
+      },
+      "ufc": {
+        "value": "9-2-0",
+        "wins": 9,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.08,
+        "str_acc": 0.53,
+        "sapm": 2.77,
+        "str_def": 0.6,
+        "td_avg": 3.58,
+        "td_acc": 0.51,
+        "td_def": 0.87,
+        "sub_avg": 0.8
+      },
+      "slpm": "4.08",
+      "str_acc": "53%",
+      "sapm": "2.77",
+      "str_def": "60%",
+      "td_avg": "3.58",
+      "td_acc": "51%",
+      "td_def": "87%",
+      "sub_avg": "0.8",
+      "basis": {
+        "bouts": 11,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "5-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "19-2-0",
+        "slpm": "4.08",
+        "str_acc": "53%",
+        "sapm": "2.77",
+        "str_def": "60%",
+        "td_avg": "3.58",
+        "td_acc": "51%",
+        "td_def": "87%",
+        "sub_avg": "0.8"
+      },
+      {
+        "scope": "pro-submission-grappling",
+        "source": "public-records",
+        "record": "3-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "9-2-0",
+        "slpm": "4.08",
+        "str_acc": "53%",
+        "sapm": "2.77",
+        "str_def": "60%",
+        "td_avg": "3.58",
+        "td_acc": "51%",
+        "td_def": "87%",
+        "sub_avg": "0.8"
+      }
+    ],
+    "power_index": {
+      "rating": 1906,
+      "peak": 1915,
+      "peak_at": "2025-03-22T17:00:00.000Z",
+      "peak_date": "2025-03-22",
+      "fights_rated": 21,
+      "last_fought_at": "2026-05-09T21:00:00.000Z",
+      "last_fought_date": "2026-05-09"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/de3c4acc7b88c47c3c97586e630b9f8ea41cd5d9273035064c37793edf12f8ec.webp",
+        "width": 540,
+        "height": 455,
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "WEIGHING IN",
+        "source_page": "https://commons.wikimedia.org/wiki/File:SeanBrady.jpg"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 93827,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 78,
+      "opponent_name": "Gabriel Bonfim",
+      "opponent_slug": "gabriel-bonfim",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 66053,
+      "event_id": 12,
+      "event_title": "UFC 328: Chimaev vs Strickland",
+      "event_slug": "ufc-328-2026-05-09",
+      "org_slug": "ufc",
+      "date": "2026-05-09",
+      "opponent_id": 8,
+      "opponent_name": "Joaquin Buckley",
+      "opponent_slug": "joaquin-buckley",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-15T14:29:01.662Z"
   }
 }

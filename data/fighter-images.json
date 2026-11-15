@@ -1824,5 +1824,27 @@
     "fullBodySource": "ESPN (temporary)",
     "espnId": "4038116",
     "matchStatus": "matched"
+  },
+  "gabriel-bonfim": {
+    "id": 78,
+    "slug": "gabriel-bonfim",
+    "name": "Gabriel Bonfim",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4921516.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4921516.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4921516",
+    "matchStatus": "matched"
+  },
+  "sean-brady": {
+    "id": 7,
+    "slug": "sean-brady",
+    "name": "Sean Brady",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4295192.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4295192.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4295192",
+    "matchStatus": "matched"
   }
 }
