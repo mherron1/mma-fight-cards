@@ -1062,7 +1062,7 @@
           "fighter_1": {
             "name": "Bilal Hasan",
             "nickname": "The IndoNinja",
-            "record": "10-0-0",
+            "record": "10-1-0",
             "country": "Indonesia",
             "flag": "🇮🇩",
             "rankings": [],
@@ -1075,7 +1075,7 @@
           "fighter_2": {
             "name": "Luis Gurule",
             "nickname": "Grim",
-            "record": "11-4-0",
+            "record": "12-4-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1090,6 +1090,17 @@
             "fighter_1": "-1104",
             "fighter_2": "678",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Luis Gurule",
+            "winner_fighter_id": 48,
+            "method": "Decision - Split",
+            "method_normalized": "decision_split",
+            "finish_detail": "Split",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "28 - 29. 29 - 28. 28 - 29."
           }
         },
         {
