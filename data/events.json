@@ -884,7 +884,7 @@
           "fighter_1": {
             "name": "Kayla Harrison",
             "nickname": "",
-            "record": "19-1-0",
+            "record": "20-1-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -919,7 +919,7 @@
           "fighter_2": {
             "name": "Amanda Nunes",
             "nickname": "The Lioness",
-            "record": "23-5-0",
+            "record": "23-6-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
@@ -939,6 +939,17 @@
             "fighter_1": "-167",
             "fighter_2": "140",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Kayla Harrison",
+            "winner_fighter_id": 2845,
+            "method": "Submission",
+            "method_normalized": "submission",
+            "finish_detail": "Rear-Naked Choke",
+            "round": 4,
+            "time": "1:29",
+            "time_seconds": 89,
+            "details": "Rear Naked Choke"
           }
         },
         {

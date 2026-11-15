@@ -7356,8 +7356,8 @@
         "scope": "pro-judo"
       },
       "pro_mma": {
-        "value": "19-1-0",
-        "wins": 19,
+        "value": "20-1-0",
+        "wins": 20,
         "losses": 1,
         "draws": 0,
         "no_contests": 0,
@@ -7566,9 +7566,9 @@
     "birthplace": "Pojuca, Bahia, Brazil",
     "records": {
       "pro_mma": {
-        "value": "23-5-0",
+        "value": "23-6-0",
         "wins": 23,
-        "losses": 5,
+        "losses": 6,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
