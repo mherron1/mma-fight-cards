@@ -1001,7 +1001,7 @@
           "fighter_1": {
             "name": "Uros Medic",
             "nickname": "The Doctor",
-            "record": "14-3-0",
+            "record": "14-3-1",
             "country": "Serbia",
             "flag": "🇷🇸",
             "rankings": [
@@ -1023,7 +1023,7 @@
           "fighter_2": {
             "name": "Kevin Holland",
             "nickname": "Trailblazer",
-            "record": "29-15-0",
+            "record": "29-15-1",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -1052,6 +1052,17 @@
             "fighter_1": "-160",
             "fighter_2": "134",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "",
+            "winner_fighter_id": null,
+            "method": "Draw (Majority)",
+            "method_normalized": "draw",
+            "finish_detail": "Majority",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "27 - 30. 28 - 28. 28 - 28."
           }
         },
         {

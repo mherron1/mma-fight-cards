@@ -8111,10 +8111,10 @@
     "birthplace": "Novi Sad, Serbia",
     "records": {
       "pro_mma": {
-        "value": "14-3-0",
+        "value": "14-3-1",
         "wins": 14,
         "losses": 3,
-        "draws": 0,
+        "draws": 1,
         "no_contests": 0,
         "source": "public-records",
         "scope": "pro-mma"
@@ -8261,10 +8261,10 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "29-15-0",
+        "value": "29-15-1",
         "wins": 29,
         "losses": 15,
-        "draws": 0,
+        "draws": 1,
         "no_contests": 0,
         "source": "public-records",
         "scope": "pro-mma"
