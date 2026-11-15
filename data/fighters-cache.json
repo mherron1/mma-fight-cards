@@ -8858,8 +8858,8 @@
         "scope": "pro-kickboxing"
       },
       "pro_mma": {
-        "value": "17-9-1",
-        "wins": 17,
+        "value": "18-9-1",
+        "wins": 18,
         "losses": 9,
         "draws": 1,
         "no_contests": 0,
@@ -9071,9 +9071,9 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "12-5-0",
+        "value": "12-6-0",
         "wins": 12,
-        "losses": 5,
+        "losses": 6,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
@@ -9256,9 +9256,9 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "29-15-0",
+        "value": "29-16-0",
         "wins": 29,
-        "losses": 15,
+        "losses": 16,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
@@ -9419,8 +9419,8 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "15-3-0",
-        "wins": 15,
+        "value": "16-3-0",
+        "wins": 16,
         "losses": 3,
         "draws": 0,
         "no_contests": 0,

@@ -1100,7 +1100,7 @@
           "fighter_1": {
             "name": "Stephen Thompson",
             "nickname": "Wonderboy",
-            "record": "17-9-1",
+            "record": "18-9-1",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1118,7 +1118,7 @@
           "fighter_2": {
             "name": "Charles Radtke",
             "nickname": "Chuck Buffalo",
-            "record": "12-5-0",
+            "record": "12-6-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1133,6 +1133,17 @@
             "fighter_1": "-135",
             "fighter_2": "113",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Stephen Thompson",
+            "winner_fighter_id": 1146,
+            "method": "KO/TKO",
+            "method_normalized": "ko_tko",
+            "finish_detail": "Spinning Wheel Kick",
+            "round": 3,
+            "time": "2:54",
+            "time_seconds": 174,
+            "details": "Kick to Head At Distance (Wheel Kick)"
           }
         },
         {
@@ -1143,7 +1154,7 @@
           "fighter_1": {
             "name": "Drew Dober",
             "nickname": "",
-            "record": "29-15-0",
+            "record": "29-16-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1156,7 +1167,7 @@
           "fighter_2": {
             "name": "Chris Duncan",
             "nickname": "The Problem",
-            "record": "15-3-0",
+            "record": "16-3-0",
             "country": "Scotland",
             "flag": "",
             "rankings": [],
@@ -1171,6 +1182,17 @@
             "fighter_1": "156",
             "fighter_2": "-187",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Chris Duncan",
+            "winner_fighter_id": 368,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "27 - 30. 27 - 30. 28 - 29."
           }
         },
         {
