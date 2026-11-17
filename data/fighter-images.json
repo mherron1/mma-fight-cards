@@ -1846,5 +1846,115 @@
     "fullBodySource": "ESPN (temporary)",
     "espnId": "4295192",
     "matchStatus": "matched"
+  },
+  "kyler-phillips": {
+    "id": 570,
+    "slug": "kyler-phillips",
+    "name": "Kyler Phillips",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4237015.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4237015.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4237015",
+    "matchStatus": "matched"
+  },
+  "ethyn-ewing": {
+    "id": 392,
+    "slug": "ethyn-ewing",
+    "name": "Ethyn Ewing",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4917037.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4917037.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4917037",
+    "matchStatus": "matched"
+  },
+  "damian-pinas": {
+    "id": 458,
+    "slug": "damian-pinas",
+    "name": "Damian Pinas",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5292022.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5292022.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5292022",
+    "matchStatus": "matched"
+  },
+  "baisangur-susurkaev": {
+    "id": 23,
+    "slug": "baisangur-susurkaev",
+    "name": "Baisangur Susurkaev",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5296753.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5296753.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5296753",
+    "matchStatus": "matched"
+  },
+  "lance-gibson-jr": {
+    "id": 340,
+    "slug": "lance-gibson-jr",
+    "name": "Lance Gibson Jr.",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4687537.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4687537.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4687537",
+    "matchStatus": "matched"
+  },
+  "michael-johnson": {
+    "id": 464,
+    "slug": "michael-johnson",
+    "name": "Michael Johnson",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2488476.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/2488476.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "2488476",
+    "matchStatus": "matched"
+  },
+  "serhiy-sidey": {
+    "id": 2867,
+    "slug": "serhiy-sidey",
+    "name": "Serhiy Sidey",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5146229.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5146229.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5146229",
+    "matchStatus": "matched"
+  },
+  "louis-lee-scott": {
+    "id": 5396,
+    "slug": "louis-lee-scott",
+    "name": "Louis Lee Scott",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5212852.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5212852.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5212852",
+    "matchStatus": "matched"
+  },
+  "cameron-nelson": {
+    "id": 53075,
+    "slug": "cameron-nelson",
+    "name": "Cameron Nelson",
+    "headshot": null,
+    "headshotSource": null,
+    "fullBody": null,
+    "fullBodySource": null,
+    "espnId": null,
+    "matchStatus": "not-found"
+  },
+  "sean-clancy-jr": {
+    "id": 41907,
+    "slug": "sean-clancy-jr",
+    "name": "Sean Clancy Jr.",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5364353.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5364353.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5364353",
+    "matchStatus": "matched"
   }
 }

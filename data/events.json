@@ -861,8 +861,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "125",
-            "fighter_2": "-150",
+            "fighter_1": "131",
+            "fighter_2": "-157",
             "status": "consensus_odds"
           }
         },
@@ -922,8 +922,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "109",
-            "fighter_2": "-132",
+            "fighter_1": "110",
+            "fighter_2": "-134",
             "status": "consensus_odds"
           }
         },
@@ -988,8 +988,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-163",
-            "fighter_2": "134",
+            "fighter_1": "-186",
+            "fighter_2": "153",
             "status": "consensus_odds"
           }
         },
@@ -1055,7 +1055,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "-201",
-            "fighter_2": "164",
+            "fighter_2": "165",
             "status": "consensus_odds"
           }
         },
@@ -1120,8 +1120,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "273",
-            "fighter_2": "-355",
+            "fighter_1": "247",
+            "fighter_2": "-315",
             "status": "consensus_odds"
           }
         },
@@ -1163,8 +1163,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-244",
-            "fighter_2": "196",
+            "fighter_1": "-286",
+            "fighter_2": "227",
             "status": "consensus_odds"
           }
         },
@@ -1206,8 +1206,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-214",
-            "fighter_2": "173",
+            "fighter_1": "-202",
+            "fighter_2": "165",
             "status": "consensus_odds"
           }
         },
@@ -1253,8 +1253,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "111",
-            "fighter_2": "-136",
+            "fighter_1": "-116",
+            "fighter_2": "-105",
             "status": "consensus_odds"
           }
         },
@@ -1296,8 +1296,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-174",
-            "fighter_2": "143",
+            "fighter_1": "-249",
+            "fighter_2": "200",
             "status": "consensus_odds"
           }
         },
@@ -1334,8 +1334,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "130",
-            "fighter_2": "-156",
+            "fighter_1": "133",
+            "fighter_2": "-162",
             "status": "consensus_odds"
           }
         },
@@ -1372,8 +1372,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-258",
-            "fighter_2": "209",
+            "fighter_1": "-254",
+            "fighter_2": "205",
             "status": "consensus_odds"
           }
         }
@@ -1453,8 +1453,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-155",
-            "fighter_2": "128",
+            "fighter_1": "-159",
+            "fighter_2": "130",
             "status": "consensus_odds"
           }
         },
@@ -1514,8 +1514,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-180",
-            "fighter_2": "149",
+            "fighter_1": "-182",
+            "fighter_2": "147",
             "status": "consensus_odds"
           }
         },
@@ -1620,7 +1620,7 @@
             "dob": "2000-06-10",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "145 lbs"
+            "weight": "155 lbs"
           },
           "fighter_2": {
             "name": "Akbar Abdullaev",
@@ -1810,7 +1810,7 @@
             "dob": "2002-05-08",
             "image_credit": null,
             "height": "5' 7\"",
-            "weight": "145 lbs"
+            "weight": "135 lbs"
           },
           "fighter_2": {
             "name": "Mehemmedeli Osmanli",
@@ -1822,7 +1822,7 @@
             "image": "",
             "dob": "2004-08-05",
             "image_credit": null,
-            "height": "5' 9\"",
+            "height": "",
             "weight": "135 lbs"
           },
           "odds": {
@@ -2130,35 +2130,35 @@
           }
         },
         {
-          "id": "93487",
+          "id": "93848",
           "card_position": "main_card",
-          "weight_class": "Light Heavyweight",
+          "weight_class": "Bantamweight",
           "title_fight": false,
           "fighter_1": {
-            "name": "Quentin Pasley",
-            "nickname": "",
-            "record": "4-0-0",
+            "name": "Kyler Phillips",
+            "nickname": "The Matrix",
+            "record": "12-5-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
             "image": "",
-            "dob": "2001-10-15",
+            "dob": "1995-06-12",
             "image_credit": null,
-            "height": "6' 4\"",
-            "weight": "205 lbs"
+            "height": "5' 8\"",
+            "weight": "135 lbs"
           },
           "fighter_2": {
-            "name": "Junior Tafa",
-            "nickname": "The Juggernaut",
-            "record": "7-6-0",
-            "country": "New Zealand",
-            "flag": "🇳🇿",
+            "name": "Ethyn Ewing",
+            "nickname": "The Professor Finesser",
+            "record": "10-2-0",
+            "country": "United States",
+            "flag": "🇺🇸",
             "rankings": [],
             "image": "",
-            "dob": "1996-09-21",
+            "dob": "1996-02-19",
             "image_credit": null,
-            "height": "6' 3\"",
-            "weight": "205 lbs"
+            "height": "5' 6\"",
+            "weight": "135 lbs"
           },
           "odds": {
             "format": "American",
@@ -2277,6 +2277,82 @@
             "image_credit": null,
             "height": "5' 7\"",
             "weight": "125 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93487",
+          "card_position": "main_card",
+          "weight_class": "Light Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Quentin Pasley",
+            "nickname": "",
+            "record": "4-0-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "2001-10-15",
+            "image_credit": null,
+            "height": "6' 4\"",
+            "weight": "205 lbs"
+          },
+          "fighter_2": {
+            "name": "Junior Tafa",
+            "nickname": "The Juggernaut",
+            "record": "7-6-0",
+            "country": "New Zealand",
+            "flag": "🇳🇿",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-09-21",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "205 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93849",
+          "card_position": "main_card",
+          "weight_class": "Middleweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Damian Pinas",
+            "nickname": "The Baba Yaga",
+            "record": "11-1-0",
+            "country": "Aruba",
+            "flag": "🇸🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "2002-03-12",
+            "image_credit": null,
+            "height": "6' 1\"",
+            "weight": "185 lbs"
+          },
+          "fighter_2": {
+            "name": "Baisangur Susurkaev",
+            "nickname": "The Real Hunter",
+            "record": "12-0-0",
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "rankings": [],
+            "image": "",
+            "dob": "2001-01-08",
+            "image_credit": null,
+            "height": "6' 2\"",
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
@@ -2636,8 +2712,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-128",
-            "fighter_2": "104",
+            "fighter_1": "-131",
+            "fighter_2": "106",
             "status": "consensus_odds"
           }
         },
@@ -2705,6 +2781,125 @@
             "fighter_1": "-169",
             "fighter_2": "137",
             "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93845",
+          "card_position": "main_card",
+          "weight_class": "Lightweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Lance Gibson Jr.",
+            "nickname": "Fearless",
+            "record": "10-2-0",
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "rankings": [],
+            "image": "",
+            "dob": "1995-02-02",
+            "image_credit": null,
+            "height": "5' 9\"",
+            "weight": "155 lbs"
+          },
+          "fighter_2": {
+            "name": "Michael Johnson",
+            "nickname": "The Menace",
+            "record": "25-20-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/d6238b4ba6a64924626b8f08b69e14da3d9364d1dffd94845c284a21282449b7.webp",
+            "dob": "1986-06-04",
+            "image_credit": {
+              "artist": "Richard Norris",
+              "license": "CC BY-SA 4.0",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Michael_Johnson_2018.jpg"
+            },
+            "height": "5' 10\"",
+            "weight": "155 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93846",
+          "card_position": "main_card",
+          "weight_class": "Bantamweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Serhiy Sidey",
+            "nickname": "",
+            "record": "12-2-0",
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-07-04",
+            "image_credit": null,
+            "height": "5' 11\"",
+            "weight": "135 lbs"
+          },
+          "fighter_2": {
+            "name": "Louis Lee Scott",
+            "nickname": "Lightning",
+            "record": "10-0-0",
+            "country": "England",
+            "flag": "",
+            "rankings": [],
+            "image": "",
+            "dob": "2000-02-26",
+            "image_credit": null,
+            "height": "5' 8\"",
+            "weight": "135 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93847",
+          "card_position": "main_card",
+          "weight_class": "Welterweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Cameron Nelson",
+            "nickname": "",
+            "record": "8-1-0",
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "rankings": [],
+            "image": "",
+            "dob": "1998-07-28",
+            "image_credit": null,
+            "height": "5' 11\"",
+            "weight": "170 lbs"
+          },
+          "fighter_2": {
+            "name": "Sean Clancy Jr.",
+            "nickname": "The One",
+            "record": "9-0-0",
+            "country": "Scotland",
+            "flag": "",
+            "rankings": [],
+            "image": "",
+            "dob": "2002-11-25",
+            "image_credit": null,
+            "height": "6' 1\"",
+            "weight": "170 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
           }
         }
       ],
@@ -2783,8 +2978,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-265",
-            "fighter_2": "211",
+            "fighter_1": "-318",
+            "fighter_2": "251",
             "status": "consensus_odds"
           }
         },
@@ -2845,7 +3040,7 @@
           "odds": {
             "format": "American",
             "fighter_1": "117",
-            "fighter_2": "-140",
+            "fighter_2": "-142",
             "status": "consensus_odds"
           }
         },
