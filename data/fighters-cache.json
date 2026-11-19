@@ -25424,7 +25424,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-11T22:08:59.689Z"
+    "_cache_updated_at": "2026-11-19T16:14:36.984Z"
   },
   "dagiisuren-chagnaadorj": {
     "id": 46971,
@@ -25439,7 +25439,7 @@
     "reach_inches": 71,
     "stance": "Orthodox",
     "dob": "1999-12-31",
-    "team": null,
+    "team": "Shandas MMA",
     "birthplace": "Otgon, Zavkhan, Mongolia",
     "records": {
       "pro_mma": {
@@ -25565,7 +25565,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-11T22:09:06.172Z"
+    "_cache_updated_at": "2026-11-19T16:14:43.448Z"
   },
   "rabindra-dhant": {
     "id": 8319,
@@ -25728,7 +25728,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-11T22:09:12.668Z"
+    "_cache_updated_at": "2026-11-19T16:14:49.917Z"
   },
   "ryo-tajima": {
     "id": 32573,
@@ -25743,7 +25743,7 @@
     "reach_inches": 71,
     "stance": "Orthodox",
     "dob": "1999-08-14",
-    "team": null,
+    "team": "OOTA DOJO",
     "birthplace": "Saitama, Japan",
     "records": {
       "pro_mma": {
@@ -25869,7 +25869,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-11T22:09:19.189Z"
+    "_cache_updated_at": "2026-11-19T16:14:56.427Z"
   },
   "jiniushiyue": {
     "id": 32410,
@@ -25884,7 +25884,7 @@
     "reach_inches": 68,
     "stance": "Southpaw",
     "dob": "2000-12-09",
-    "team": null,
+    "team": "Enbo Fight Club",
     "birthplace": "Sichuan, China",
     "records": {
       "pro_mma": {
@@ -25988,7 +25988,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-11T22:09:25.689Z"
+    "_cache_updated_at": "2026-11-19T16:15:02.931Z"
   },
   "takaya-suzuki": {
     "id": 112025,
@@ -26003,7 +26003,7 @@
     "reach_inches": 68,
     "stance": "Southpaw",
     "dob": "2004-09-08",
-    "team": null,
+    "team": "Kill Cliff FC",
     "birthplace": "Kawasaki, Kanagawa, Japan",
     "records": {
       "amateur_mma": {
@@ -26151,7 +26151,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-11T22:09:32.273Z"
+    "_cache_updated_at": "2026-11-19T16:15:09.448Z"
   },
   "meng-bo-2": {
     "id": 299043,
@@ -26217,7 +26217,7 @@
       "source": "native"
     },
     "last_fight": null,
-    "_cache_updated_at": "2026-11-11T22:09:38.709Z"
+    "_cache_updated_at": "2026-11-19T16:15:15.917Z"
   },
   "bo-hyun-park": {
     "id": 73491,
@@ -26232,7 +26232,7 @@
     "reach_inches": 61,
     "stance": "Orthodox",
     "dob": "1999-05-14",
-    "team": null,
+    "team": "MOB Training Center",
     "birthplace": "Seoul, South Korea",
     "records": {
       "amateur_mma": {
@@ -26380,7 +26380,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-11T22:09:45.249Z"
+    "_cache_updated_at": "2026-11-19T16:15:22.433Z"
   },
   "nikolas-motta": {
     "id": 1165,

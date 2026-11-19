@@ -32,9 +32,9 @@
             },
             {
               "division": "mens-pound-for-pound",
-              "rank": 12,
+              "rank": 8,
               "is_champion": false,
-              "movement": -1,
+              "movement": 4,
               "nationality": "France",
               "country_code": "FR"
             }
@@ -117,9 +117,9 @@
             },
             {
               "division": "womens-pound-for-pound",
-              "rank": 2,
+              "rank": 1,
               "is_champion": false,
-              "movement": 0,
+              "movement": 1,
               "nationality": "United States",
               "country_code": "US"
             }
@@ -141,7 +141,24 @@
           "record": "23-6-0",
           "country": "Brazil",
           "flag": "🇧🇷",
-          "rankings": [],
+          "rankings": [
+            {
+              "division": "womens-bantamweight",
+              "rank": 1,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "Brazil",
+              "country_code": "BR"
+            },
+            {
+              "division": "womens-pound-for-pound",
+              "rank": 10,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "Brazil",
+              "country_code": "BR"
+            }
+          ],
           "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/b333f886f2a5d2513f4e14d1ab35dfd43c179941c87187fe563a7a1653b6d67c.webp",
           "dob": "1988-05-30",
           "image_credit": {
@@ -248,9 +265,9 @@
           "rankings": [
             {
               "division": "welterweight",
-              "rank": 11,
+              "rank": 12,
               "is_champion": false,
-              "movement": 1,
+              "movement": -1,
               "nationality": "Serbia",
               "country_code": "RS"
             }
@@ -270,9 +287,9 @@
           "rankings": [
             {
               "division": "welterweight",
-              "rank": 15,
+              "rank": 14,
               "is_champion": false,
-              "movement": 0,
+              "movement": 1,
               "nationality": "United States",
               "country_code": "US"
             }
@@ -585,16 +602,7 @@
           "record": "27-8-0",
           "country": "Brazil",
           "flag": "🇧🇷",
-          "rankings": [
-            {
-              "division": "featherweight",
-              "rank": 12,
-              "is_champion": false,
-              "movement": 0,
-              "nationality": "Brazil",
-              "country_code": "BR"
-            }
-          ],
+          "rankings": [],
           "image": "",
           "dob": "1996-09-14",
           "image_credit": null,
@@ -633,9 +641,9 @@
           "rankings": [
             {
               "division": "womens-bantamweight",
-              "rank": 10,
+              "rank": 12,
               "is_champion": false,
-              "movement": -1,
+              "movement": -2,
               "nationality": "United States",
               "country_code": "US"
             }
@@ -655,9 +663,9 @@
           "rankings": [
             {
               "division": "womens-bantamweight",
-              "rank": 11,
+              "rank": 8,
               "is_champion": false,
-              "movement": 0,
+              "movement": 3,
               "nationality": "Brazil",
               "country_code": "BR"
             }
@@ -861,8 +869,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "131",
-            "fighter_2": "-157",
+            "fighter_1": "143",
+            "fighter_2": "-173",
             "status": "consensus_odds"
           }
         },
@@ -922,8 +930,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "110",
-            "fighter_2": "-134",
+            "fighter_1": "109",
+            "fighter_2": "-132",
             "status": "consensus_odds"
           }
         },
@@ -988,8 +996,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-186",
-            "fighter_2": "153",
+            "fighter_1": "-190",
+            "fighter_2": "157",
             "status": "consensus_odds"
           }
         },
@@ -1054,8 +1062,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-201",
-            "fighter_2": "165",
+            "fighter_1": "-194",
+            "fighter_2": "160",
             "status": "consensus_odds"
           }
         },
@@ -1120,8 +1128,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "247",
-            "fighter_2": "-315",
+            "fighter_1": "239",
+            "fighter_2": "-301",
             "status": "consensus_odds"
           }
         },
@@ -1163,8 +1171,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-286",
-            "fighter_2": "227",
+            "fighter_1": "-282",
+            "fighter_2": "224",
             "status": "consensus_odds"
           }
         },
@@ -1206,8 +1214,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-202",
-            "fighter_2": "165",
+            "fighter_1": "-198",
+            "fighter_2": "163",
             "status": "consensus_odds"
           }
         },
@@ -1253,8 +1261,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-116",
-            "fighter_2": "-105",
+            "fighter_1": "-110",
+            "fighter_2": "-110",
             "status": "consensus_odds"
           }
         },
@@ -1296,8 +1304,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-249",
-            "fighter_2": "200",
+            "fighter_1": "-255",
+            "fighter_2": "204",
             "status": "consensus_odds"
           }
         },
@@ -1334,8 +1342,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "133",
-            "fighter_2": "-162",
+            "fighter_1": "140",
+            "fighter_2": "-169",
             "status": "consensus_odds"
           }
         },
@@ -1372,8 +1380,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-254",
-            "fighter_2": "205",
+            "fighter_1": "-246",
+            "fighter_2": "199",
             "status": "consensus_odds"
           }
         }
@@ -1453,8 +1461,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-159",
-            "fighter_2": "130",
+            "fighter_1": "-165",
+            "fighter_2": "134",
             "status": "consensus_odds"
           }
         },
@@ -1499,9 +1507,9 @@
             "rankings": [
               {
                 "division": "welterweight",
-                "rank": 12,
+                "rank": 11,
                 "is_champion": false,
-                "movement": -1,
+                "movement": 1,
                 "nationality": "Ukraine",
                 "country_code": "UA"
               }
@@ -1514,8 +1522,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-182",
-            "fighter_2": "147",
+            "fighter_1": "-185",
+            "fighter_2": "150",
             "status": "consensus_odds"
           }
         },
@@ -1535,7 +1543,7 @@
                 "division": "heavyweight",
                 "rank": 10,
                 "is_champion": false,
-                "movement": -1,
+                "movement": 0,
                 "nationality": "Moldova",
                 "country_code": "MD"
               }
@@ -1682,7 +1690,7 @@
         },
         {
           "id": "93767",
-          "card_position": "main_card",
+          "card_position": "prelim",
           "weight_class": "Flyweight",
           "title_fight": false,
           "fighter_1": {
@@ -1720,7 +1728,7 @@
         },
         {
           "id": "93768",
-          "card_position": "main_card",
+          "card_position": "prelim",
           "weight_class": "Light Heavyweight",
           "title_fight": false,
           "fighter_1": {
@@ -1758,7 +1766,7 @@
         },
         {
           "id": "93769",
-          "card_position": "main_card",
+          "card_position": "prelim",
           "weight_class": "Middleweight",
           "title_fight": false,
           "fighter_1": {
@@ -1796,7 +1804,7 @@
         },
         {
           "id": "93770",
-          "card_position": "main_card",
+          "card_position": "prelim",
           "weight_class": "Bantamweight",
           "title_fight": false,
           "fighter_1": {
@@ -1834,7 +1842,7 @@
         },
         {
           "id": "93771",
-          "card_position": "main_card",
+          "card_position": "prelim",
           "weight_class": "Middleweight",
           "title_fight": false,
           "fighter_1": {
@@ -1872,7 +1880,7 @@
         },
         {
           "id": "93772",
-          "card_position": "main_card",
+          "card_position": "prelim",
           "weight_class": "Bantamweight",
           "title_fight": false,
           "fighter_1": {
@@ -1989,7 +1997,7 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-152",
+            "fighter_1": "-151",
             "fighter_2": "122",
             "status": "consensus_odds"
           }
@@ -2000,6 +2008,41 @@
           "weight_class": "Heavyweight",
           "title_fight": false,
           "fighter_1": {
+            "name": "Alex Pereira",
+            "nickname": "Poatan",
+            "record": "13-4-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [
+              {
+                "division": "light-heavyweight",
+                "rank": 3,
+                "is_champion": false,
+                "movement": 0,
+                "nationality": "Brazil",
+                "country_code": "BR"
+              },
+              {
+                "division": "mens-pound-for-pound",
+                "rank": 11,
+                "is_champion": false,
+                "movement": -1,
+                "nationality": "Brazil",
+                "country_code": "BR"
+              }
+            ],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/5eea322677071ecd1e50dc6dd155626526b52c1d7acc7f6e5567d2a3136c6256.webp",
+            "dob": "1987-07-07",
+            "image_credit": {
+              "artist": "The White House",
+              "license": "Public domain",
+              "license_url": "",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Alex_Pereira_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg"
+            },
+            "height": "6' 4\"",
+            "weight": "251 lbs"
+          },
+          "fighter_2": {
             "name": "Sergei Pavlovich",
             "nickname": "",
             "record": "21-3-0",
@@ -2026,45 +2069,10 @@
             "height": "6' 3\"",
             "weight": "257 lbs"
           },
-          "fighter_2": {
-            "name": "Alex Pereira",
-            "nickname": "Poatan",
-            "record": "13-4-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [
-              {
-                "division": "light-heavyweight",
-                "rank": 3,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Brazil",
-                "country_code": "BR"
-              },
-              {
-                "division": "mens-pound-for-pound",
-                "rank": 10,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Brazil",
-                "country_code": "BR"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/5eea322677071ecd1e50dc6dd155626526b52c1d7acc7f6e5567d2a3136c6256.webp",
-            "dob": "1987-07-07",
-            "image_credit": {
-              "artist": "The White House",
-              "license": "Public domain",
-              "license_url": "",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Alex_Pereira_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg"
-            },
-            "height": "6' 4\"",
-            "weight": "251 lbs"
-          },
           "odds": {
             "format": "American",
-            "fighter_1": "-201",
-            "fighter_2": "163",
+            "fighter_1": "163",
+            "fighter_2": "-201",
             "status": "consensus_odds"
           }
         },
@@ -2168,72 +2176,6 @@
           }
         },
         {
-          "id": "93368",
-          "card_position": "main_card",
-          "weight_class": "Middleweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Joe Pyfer",
-            "nickname": "Bodybagz",
-            "record": "16-3-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [
-              {
-                "division": "middleweight",
-                "rank": 6,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "United States",
-                "country_code": "US"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/3e2e600e41e0a6500cc0185c42f88a5cdb32c243ebe5a39991f356e3ae67eced.webp",
-            "dob": "1996-09-17",
-            "image_credit": {
-              "artist": "Checkin' Ringside",
-              "license": "CC BY 4.0",
-              "license_url": "https://creativecommons.org/licenses/by/4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:JoePyfer.jpg"
-            },
-            "height": "6' 2\"",
-            "weight": "185 lbs"
-          },
-          "fighter_2": {
-            "name": "Bo Nickal",
-            "nickname": "",
-            "record": "9-1-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [
-              {
-                "division": "middleweight",
-                "rank": 14,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "United States",
-                "country_code": "US"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/9ed1d92c4222bcef8ab4e5a92d09edf2d022b1e3843c87822ec030720929d17d.webp",
-            "dob": "1996-01-14",
-            "image_credit": {
-              "artist": "Noah Riffe",
-              "license": "Public domain",
-              "license_url": "",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Bo_Nickal_(52791819473).jpg"
-            },
-            "height": "6' 1\"",
-            "weight": "185 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-190",
-            "fighter_2": "156",
-            "status": "consensus_odds"
-          }
-        },
-        {
           "id": "93484",
           "card_position": "main_card",
           "weight_class": "Women's Flyweight",
@@ -2286,44 +2228,6 @@
           }
         },
         {
-          "id": "93487",
-          "card_position": "main_card",
-          "weight_class": "Light Heavyweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Quentin Pasley",
-            "nickname": "",
-            "record": "4-0-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "dob": "2001-10-15",
-            "image_credit": null,
-            "height": "6' 4\"",
-            "weight": "205 lbs"
-          },
-          "fighter_2": {
-            "name": "Junior Tafa",
-            "nickname": "The Juggernaut",
-            "record": "7-6-0",
-            "country": "New Zealand",
-            "flag": "🇳🇿",
-            "rankings": [],
-            "image": "",
-            "dob": "1996-09-21",
-            "image_credit": null,
-            "height": "6' 3\"",
-            "weight": "205 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
-          }
-        },
-        {
           "id": "93849",
           "card_position": "main_card",
           "weight_class": "Middleweight",
@@ -2353,6 +2257,44 @@
             "image_credit": null,
             "height": "6' 2\"",
             "weight": "185 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93487",
+          "card_position": "early_prelim",
+          "weight_class": "Light Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Quentin Pasley",
+            "nickname": "",
+            "record": "4-0-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "2001-10-15",
+            "image_credit": null,
+            "height": "6' 4\"",
+            "weight": "205 lbs"
+          },
+          "fighter_2": {
+            "name": "Junior Tafa",
+            "nickname": "The Juggernaut",
+            "record": "7-6-0",
+            "country": "New Zealand",
+            "flag": "🇳🇿",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-09-21",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "205 lbs"
           },
           "odds": {
             "format": "American",
@@ -2397,7 +2339,7 @@
                 "division": "featherweight",
                 "rank": 7,
                 "is_champion": false,
-                "movement": -1,
+                "movement": 0,
                 "nationality": "Mexico",
                 "country_code": "MX"
               }
@@ -2461,9 +2403,9 @@
             "rankings": [
               {
                 "division": "welterweight",
-                "rank": 14,
+                "rank": 15,
                 "is_champion": false,
-                "movement": 0,
+                "movement": -1,
                 "nationality": "United States",
                 "country_code": "US"
               }
@@ -2551,7 +2493,7 @@
       "promotion": "UFC",
       "name": "UFC Fight Night: Bonfim vs Brady",
       "date": "2027-01-23",
-      "start_time": "2027-01-23T20:00:00.000Z",
+      "start_time": "2027-01-23T22:00:00.000Z",
       "location": "Las Vegas, NV, United States",
       "venue": "Meta Apex",
       "sport": "MMA",
@@ -2625,8 +2567,8 @@
         }
       ],
       "schedule": {
-        "main_card_start_time": "2027-01-23T22:00:00.000Z",
-        "prelims_start_time": "2027-01-23T20:00:00.000Z",
+        "main_card_start_time": "2027-01-24T01:00:00.000Z",
+        "prelims_start_time": "2027-01-23T22:00:00.000Z",
         "early_prelims_start_time": null,
         "timezone": "America/Los_Angeles",
         "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
@@ -2978,8 +2920,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-318",
-            "fighter_2": "251",
+            "fighter_1": "-327",
+            "fighter_2": "256",
             "status": "consensus_odds"
           }
         },
@@ -3021,7 +2963,7 @@
                 "division": "light-heavyweight",
                 "rank": 10,
                 "is_champion": false,
-                "movement": 1,
+                "movement": 0,
                 "nationality": "Australia",
                 "country_code": "AU"
               }
@@ -3039,8 +2981,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "117",
-            "fighter_2": "-142",
+            "fighter_1": "118",
+            "fighter_2": "-143",
             "status": "consensus_odds"
           }
         },
