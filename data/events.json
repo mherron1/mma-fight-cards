@@ -1009,7 +1009,7 @@
           "fighter_1": {
             "name": "Kyoji Horiguchi",
             "nickname": "Karate Kid",
-            "record": "36-6-0",
+            "record": "37-6-0",
             "country": "Japan",
             "flag": "🇯🇵",
             "rankings": [
@@ -1036,7 +1036,7 @@
           "fighter_2": {
             "name": "Asu Almabayev",
             "nickname": "Zulfikar",
-            "record": "24-3-0",
+            "record": "24-4-0",
             "country": "Kazakhstan",
             "flag": "🇰🇿",
             "rankings": [
@@ -1065,6 +1065,17 @@
             "fighter_1": "-193",
             "fighter_2": "162",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Kyoji Horiguchi",
+            "winner_fighter_id": 114,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "27 - 30. 27 - 30. 28 - 29."
           }
         },
         {

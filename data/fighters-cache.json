@@ -14232,9 +14232,9 @@
     "birthplace": "Janatalap, Kazakhstan",
     "records": {
       "pro_mma": {
-        "value": "24-3-0",
+        "value": "24-4-0",
         "wins": 24,
-        "losses": 3,
+        "losses": 4,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
@@ -14446,8 +14446,8 @@
         "scope": "pro-kickboxing"
       },
       "pro_mma": {
-        "value": "36-6-0",
-        "wins": 36,
+        "value": "37-6-0",
+        "wins": 37,
         "losses": 6,
         "draws": 0,
         "no_contests": 0,
