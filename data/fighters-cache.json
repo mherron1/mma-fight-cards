@@ -12884,9 +12884,9 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "18-10-0",
+        "value": "18-11-0",
         "wins": 18,
-        "losses": 10,
+        "losses": 11,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
@@ -13066,8 +13066,8 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "18-2-0",
-        "wins": 18,
+        "value": "19-2-0",
+        "wins": 19,
         "losses": 2,
         "draws": 0,
         "no_contests": 0,
@@ -13267,9 +13267,9 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "15-3-0",
+        "value": "15-4-0",
         "wins": 15,
-        "losses": 3,
+        "losses": 4,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
@@ -13431,8 +13431,8 @@
         "scope": "pro-kickboxing"
       },
       "pro_mma": {
-        "value": "9-2-0",
-        "wins": 9,
+        "value": "10-2-0",
+        "wins": 10,
         "losses": 2,
         "draws": 0,
         "no_contests": 0,
@@ -13909,9 +13909,9 @@
     "birthplace": "Halle, Germany",
     "records": {
       "pro_mma": {
-        "value": "7-1-0",
+        "value": "7-2-0",
         "wins": 7,
-        "losses": 1,
+        "losses": 2,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
@@ -14078,8 +14078,8 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "8-1-0",
-        "wins": 8,
+        "value": "9-1-0",
+        "wins": 9,
         "losses": 1,
         "draws": 0,
         "no_contests": 0,

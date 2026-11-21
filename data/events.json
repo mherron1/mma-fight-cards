@@ -1075,7 +1075,7 @@
           "fighter_1": {
             "name": "Jared Cannonier",
             "nickname": "Tha Killa Gorilla",
-            "record": "18-10-0",
+            "record": "18-11-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -1102,7 +1102,7 @@
           "fighter_2": {
             "name": "Ikram Aliskerov",
             "nickname": "",
-            "record": "18-2-0",
+            "record": "19-2-0",
             "country": "Russia",
             "flag": "🇷🇺",
             "rankings": [
@@ -1131,6 +1131,17 @@
             "fighter_1": "247",
             "fighter_2": "-306",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Ikram Aliskerov",
+            "winner_fighter_id": 441,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "27 - 30. 27 - 30. 27 - 30."
           }
         },
         {
@@ -1141,7 +1152,7 @@
           "fighter_1": {
             "name": "Aleksandre Topuria",
             "nickname": "El Conquistador",
-            "record": "7-1-0",
+            "record": "7-2-0",
             "country": "Georgia",
             "flag": "🇬🇪",
             "rankings": [],
@@ -1159,7 +1170,7 @@
           "fighter_2": {
             "name": "Santiago Luna",
             "nickname": "BorderBoy",
-            "record": "8-1-0",
+            "record": "9-1-0",
             "country": "Mexico",
             "flag": "🇲🇽",
             "rankings": [],
@@ -1174,6 +1185,17 @@
             "fighter_1": "-281",
             "fighter_2": "229",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Santiago Luna",
+            "winner_fighter_id": 228,
+            "method": "Decision - Split",
+            "method_normalized": "decision_split",
+            "finish_detail": "Split",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "27 - 30. 29 - 28. 28 - 29."
           }
         },
         {
@@ -1184,7 +1206,7 @@
           "fighter_1": {
             "name": "Shamil Gaziev",
             "nickname": "",
-            "record": "15-3-0",
+            "record": "15-4-0",
             "country": "Russia",
             "flag": "🇷🇺",
             "rankings": [],
@@ -1197,7 +1219,7 @@
           "fighter_2": {
             "name": "Tallison Teixeira",
             "nickname": "Xicao",
-            "record": "9-2-0",
+            "record": "10-2-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
@@ -1217,6 +1239,17 @@
             "fighter_1": "-193",
             "fighter_2": "162",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Tallison Teixeira",
+            "winner_fighter_id": 56,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "27 - 30. 28 - 29. 28 - 29."
           }
         },
         {
