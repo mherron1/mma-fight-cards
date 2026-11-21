@@ -11799,9 +11799,9 @@
     "birthplace": "Hosteradice, Czech Republic",
     "records": {
       "pro_mma": {
-        "value": "32-6-1",
+        "value": "32-7-1",
         "wins": 32,
-        "losses": 6,
+        "losses": 7,
         "draws": 1,
         "no_contests": 0,
         "source": "public-records",
@@ -11995,8 +11995,8 @@
         "scope": "pro-kickboxing"
       },
       "pro_mma": {
-        "value": "11-0-0",
-        "wins": 11,
+        "value": "12-0-0",
+        "wins": 12,
         "losses": 0,
         "draws": 0,
         "no_contests": 0,
@@ -12180,9 +12180,9 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "26-5-0",
+        "value": "26-6-0",
         "wins": 26,
-        "losses": 5,
+        "losses": 6,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
@@ -12397,8 +12397,8 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "18-1-0",
-        "wins": 18,
+        "value": "19-1-0",
+        "wins": 19,
         "losses": 1,
         "draws": 0,
         "no_contests": 0,

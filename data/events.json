@@ -1,64 +1,101 @@
 {
   "latest_completed_event": {
-    "id": "ufc-2026-11-15",
+    "id": "ufc-fight-night-2026-11-21",
     "promotion": "UFC",
-    "name": "Polymarket UFC 334: Gane vs Hokit",
-    "date": "2026-11-14",
-    "start_time": "2026-11-14T22:00:00.000Z",
-    "location": "New York, NY, United States",
-    "venue": "Madison Square Garden",
+    "name": "UFC Fight Night: Prochazka vs Stirling",
+    "date": "2026-11-21",
+    "start_time": "2026-11-21T15:00:00.000Z",
+    "location": "Doha, Qatar",
+    "venue": "ABHA Arena",
     "sport": "MMA",
     "status": "completed",
     "fights": [
       {
-        "id": "93102",
+        "id": "93290",
         "card_position": "main_event",
-        "weight_class": "Heavyweight",
-        "title_fight": true,
+        "weight_class": "Light Heavyweight",
+        "title_fight": false,
         "fighter_1": {
-          "name": "Ciryl Gane",
-          "nickname": "Bon Gamin",
-          "record": "14-2-0",
-          "country": "France",
-          "flag": "🇫🇷",
+          "name": "Jiri Prochazka",
+          "nickname": "BJP",
+          "record": "32-7-1",
+          "country": "Czech Republic",
+          "flag": "🇨🇿",
           "rankings": [
             {
-              "division": "heavyweight",
-              "rank": 0,
-              "is_champion": true,
-              "movement": 0,
-              "nationality": "France",
-              "country_code": "FR"
-            },
-            {
-              "division": "mens-pound-for-pound",
-              "rank": 8,
+              "division": "light-heavyweight",
+              "rank": 2,
               "is_champion": false,
-              "movement": 4,
-              "nationality": "France",
-              "country_code": "FR"
+              "movement": 0,
+              "nationality": "Czech Republic",
+              "country_code": "CZ"
             }
           ],
-          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/219e06e48da6748cae88e58dbf4fc56807801b1a95fa8ed0144fd0630b0fdae9.webp",
-          "dob": "1990-04-12",
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/d664efefb69d00c9eb4fd61335a82fc1be8e79950a3d39c9052369909692202a.webp",
+          "dob": "1992-10-14",
           "image_credit": {
-            "artist": "The White House",
-            "license": "Public domain",
-            "license_url": "",
-            "source_page": "https://commons.wikimedia.org/wiki/File:Ciryl_Gane_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg"
+            "artist": "Show Jana Krause",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0",
+            "source_page": "https://commons.wikimedia.org/wiki/File:JiriProchazka2022.png"
           },
-          "height": "6' 4\"",
-          "weight": "247 lbs"
+          "height": "6' 3\"",
+          "weight": "205 lbs"
         },
         "fighter_2": {
-          "name": "Josh Hokit",
+          "name": "Navajo Stirling",
           "nickname": "",
-          "record": "10-0-0",
+          "record": "12-0-0",
+          "country": "New Zealand",
+          "flag": "🇳🇿",
+          "rankings": [
+            {
+              "division": "light-heavyweight",
+              "rank": 5,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "New Zealand",
+              "country_code": "NZ"
+            }
+          ],
+          "image": "",
+          "dob": "1997-11-07",
+          "image_credit": null,
+          "height": "6' 4\"",
+          "weight": "205 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "159",
+          "fighter_2": "-189",
+          "status": "consensus_odds"
+        },
+        "result": {
+          "winner": "Navajo Stirling",
+          "winner_fighter_id": 116,
+          "method": "KO/TKO",
+          "method_normalized": "ko_tko",
+          "finish_detail": "Punches",
+          "round": 2,
+          "time": "4:58",
+          "time_seconds": 298,
+          "details": "Punch to Head At Distance"
+        }
+      },
+      {
+        "id": "93291",
+        "card_position": "main_card",
+        "weight_class": "Featherweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Aljamain Sterling",
+          "nickname": "Funk Master",
+          "record": "26-6-0",
           "country": "United States",
           "flag": "🇺🇸",
           "rankings": [
             {
-              "division": "heavyweight",
+              "division": "featherweight",
               "rank": 4,
               "is_champion": false,
               "movement": 0,
@@ -66,406 +103,48 @@
               "country_code": "US"
             }
           ],
-          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/5cef17f98a78a5c5a277caf61d6d3c5ded911c689891b76420d3d4353c83f84e.webp",
-          "dob": "1997-11-12",
-          "image_credit": {
-            "artist": "U.S. Army photo by Sgt. 1st Class Brittany Primavera",
-            "license": "Public domain",
-            "license_url": "",
-            "source_page": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_Press_Conference_(9747953)_(cropped).jpg"
-          },
-          "height": "6' 1\"",
-          "weight": "235 lbs"
-        },
-        "odds": {
-          "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
-        },
-        "result": {
-          "winner": "Ciryl Gane",
-          "winner_fighter_id": 102,
-          "method": "Decision - Unanimous",
-          "method_normalized": "decision_unanimous",
-          "finish_detail": "Unanimous",
-          "round": 5,
-          "time": "5:00",
-          "time_seconds": 300,
-          "details": "47 - 48. 47 - 48. 47 - 48."
-        }
-      },
-      {
-        "id": "93103",
-        "card_position": "main_card",
-        "weight_class": "Women's Bantamweight",
-        "title_fight": true,
-        "fighter_1": {
-          "name": "Kayla Harrison",
-          "nickname": "",
-          "record": "20-1-0",
-          "country": "United States",
-          "flag": "🇺🇸",
-          "rankings": [
-            {
-              "division": "womens-bantamweight",
-              "rank": 0,
-              "is_champion": true,
-              "movement": 0,
-              "nationality": "United States",
-              "country_code": "US"
-            },
-            {
-              "division": "womens-pound-for-pound",
-              "rank": 1,
-              "is_champion": false,
-              "movement": 1,
-              "nationality": "United States",
-              "country_code": "US"
-            }
-          ],
-          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/4597b62f267d12765462e999a9cb7cef45fb512ade8105c6f7f7c79e03db00a7.webp",
-          "dob": "1990-07-02",
-          "image_credit": {
-            "artist": "The White House",
-            "license": "Public domain",
-            "license_url": "",
-            "source_page": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_congratulates_Kayla_Harrison_after_her_victory_during_UFC_316_(54577590491)_(cropped).jpg"
-          },
-          "height": "5' 8\"",
-          "weight": "135 lbs"
-        },
-        "fighter_2": {
-          "name": "Amanda Nunes",
-          "nickname": "The Lioness",
-          "record": "23-6-0",
-          "country": "Brazil",
-          "flag": "🇧🇷",
-          "rankings": [
-            {
-              "division": "womens-bantamweight",
-              "rank": 1,
-              "is_champion": false,
-              "movement": 0,
-              "nationality": "Brazil",
-              "country_code": "BR"
-            },
-            {
-              "division": "womens-pound-for-pound",
-              "rank": 10,
-              "is_champion": false,
-              "movement": 0,
-              "nationality": "Brazil",
-              "country_code": "BR"
-            }
-          ],
-          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/b333f886f2a5d2513f4e14d1ab35dfd43c179941c87187fe563a7a1653b6d67c.webp",
-          "dob": "1988-05-30",
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/9531db7115d5203a3e14c7269f9bf6c2f28b44052f825e802117a54df98d74a0.webp",
+          "dob": "1989-07-31",
           "image_credit": {
             "artist": "MMAnytt",
             "license": "CC BY 3.0",
             "license_url": "https://creativecommons.org/licenses/by/3.0",
-            "source_page": "https://commons.wikimedia.org/wiki/File:Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_(cropped).jpg"
+            "source_page": "https://commons.wikimedia.org/wiki/File:Alijamain_Sterling_at_UFC_228.jpg"
           },
-          "height": "5' 8\"",
-          "weight": "135 lbs"
+          "height": "5' 7\"",
+          "weight": "145 lbs"
         },
-        "odds": {
-          "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
-        },
-        "result": {
-          "winner": "Kayla Harrison",
-          "winner_fighter_id": 2845,
-          "method": "Submission",
-          "method_normalized": "submission",
-          "finish_detail": "Rear-Naked Choke",
-          "round": 4,
-          "time": "1:29",
-          "time_seconds": 89,
-          "details": "Rear Naked Choke"
-        }
-      },
-      {
-        "id": "93104",
-        "card_position": "main_card",
-        "weight_class": "Middleweight",
-        "title_fight": false,
-        "fighter_1": {
-          "name": "Caio Borralho",
-          "nickname": "The Natural",
-          "record": "19-2-0",
-          "country": "Brazil",
-          "flag": "🇧🇷",
+        "fighter_2": {
+          "name": "Kevin Vallejos",
+          "nickname": "El Chino",
+          "record": "19-1-0",
+          "country": "Argentina",
+          "flag": "🇦🇷",
           "rankings": [
             {
-              "division": "middleweight",
-              "rank": 5,
+              "division": "featherweight",
+              "rank": 9,
               "is_champion": false,
               "movement": 0,
-              "nationality": "Brazil",
-              "country_code": "BR"
-            }
-          ],
-          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8acef4e24fcbcbc31e8bd3ccea7bfb97c228d3d66ab0595b84caf7b196e0e189.webp",
-          "dob": "1993-01-16",
-          "image_credit": {
-            "artist": "BDA - Batalha Da Aldeia",
-            "license": "CC BY 3.0",
-            "license_url": "https://creativecommons.org/licenses/by/3.0",
-            "source_page": "https://commons.wikimedia.org/wiki/File:Borralho_en_Future_FC.png"
-          },
-          "height": "6' 1\"",
-          "weight": "185 lbs"
-        },
-        "fighter_2": {
-          "name": "Yousri Belgaroui",
-          "nickname": "The Boogeyman",
-          "record": "11-4-0",
-          "country": "Tunisia",
-          "flag": "🇹🇳",
-          "rankings": [],
-          "image": "",
-          "dob": "1992-06-02",
-          "image_credit": null,
-          "height": "6' 6\"",
-          "weight": "185 lbs"
-        },
-        "odds": {
-          "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
-        },
-        "result": {
-          "winner": "Caio Borralho",
-          "winner_fighter_id": 253,
-          "method": "Decision - Unanimous",
-          "method_normalized": "decision_unanimous",
-          "finish_detail": "Unanimous",
-          "round": 3,
-          "time": "5:00",
-          "time_seconds": 300,
-          "details": "27 - 30. 27 - 30. 27 - 30."
-        }
-      },
-      {
-        "id": "93105",
-        "card_position": "main_card",
-        "weight_class": "Welterweight",
-        "title_fight": false,
-        "fighter_1": {
-          "name": "Uros Medic",
-          "nickname": "The Doctor",
-          "record": "14-3-1",
-          "country": "Serbia",
-          "flag": "🇷🇸",
-          "rankings": [
-            {
-              "division": "welterweight",
-              "rank": 12,
-              "is_champion": false,
-              "movement": -1,
-              "nationality": "Serbia",
-              "country_code": "RS"
+              "nationality": "Argentina",
+              "country_code": "AR"
             }
           ],
           "image": "",
-          "dob": "1993-04-25",
-          "image_credit": null,
-          "height": "6' 1\"",
-          "weight": "170 lbs"
-        },
-        "fighter_2": {
-          "name": "Kevin Holland",
-          "nickname": "Trailblazer",
-          "record": "29-15-1",
-          "country": "United States",
-          "flag": "🇺🇸",
-          "rankings": [
-            {
-              "division": "welterweight",
-              "rank": 14,
-              "is_champion": false,
-              "movement": 1,
-              "nationality": "United States",
-              "country_code": "US"
-            }
-          ],
-          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/e7dcefa7448ad53f42116eaa2071e8c258b16c71bf38e12cbcedb16e4aa463c6.webp",
-          "dob": "1992-11-05",
-          "image_credit": {
-            "artist": "The White House",
-            "license": "Public domain",
-            "license_url": "",
-            "source_page": "https://commons.wikimedia.org/wiki/File:Kevin_Holland_at_UFC_316_(54576727207).jpg"
-          },
-          "height": "6' 3\"",
-          "weight": "170 lbs"
-        },
-        "odds": {
-          "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
-        },
-        "result": {
-          "winner": "",
-          "winner_fighter_id": null,
-          "method": "Draw (Majority)",
-          "method_normalized": "draw",
-          "finish_detail": "Majority",
-          "round": 3,
-          "time": "5:00",
-          "time_seconds": 300,
-          "details": "27 - 29. 28 - 28. 28 - 28."
-        }
-      },
-      {
-        "id": "93106",
-        "card_position": "main_card",
-        "weight_class": "Flyweight",
-        "title_fight": false,
-        "fighter_1": {
-          "name": "Bilal Hasan",
-          "nickname": "The IndoNinja",
-          "record": "10-1-0",
-          "country": "Indonesia",
-          "flag": "🇮🇩",
-          "rankings": [],
-          "image": "",
-          "dob": "2001-07-16",
+          "dob": "2001-12-08",
           "image_credit": null,
           "height": "5' 7\"",
-          "weight": "125 lbs"
-        },
-        "fighter_2": {
-          "name": "Luis Gurule",
-          "nickname": "Grim",
-          "record": "12-4-0",
-          "country": "United States",
-          "flag": "🇺🇸",
-          "rankings": [],
-          "image": "",
-          "dob": "1993-11-16",
-          "image_credit": null,
-          "height": "5' 5\"",
-          "weight": "125 lbs"
+          "weight": "145 lbs"
         },
         "odds": {
           "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
+          "fighter_1": "101",
+          "fighter_2": "-120",
+          "status": "consensus_odds"
         },
         "result": {
-          "winner": "Luis Gurule",
-          "winner_fighter_id": 48,
-          "method": "Decision - Split",
-          "method_normalized": "decision_split",
-          "finish_detail": "Split",
-          "round": 3,
-          "time": "5:00",
-          "time_seconds": 300,
-          "details": "28 - 29. 29 - 28. 28 - 29."
-        }
-      },
-      {
-        "id": "93107",
-        "card_position": "prelim",
-        "weight_class": "Welterweight",
-        "title_fight": false,
-        "fighter_1": {
-          "name": "Stephen Thompson",
-          "nickname": "Wonderboy",
-          "record": "18-9-1",
-          "country": "United States",
-          "flag": "🇺🇸",
-          "rankings": [],
-          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8df6f81e2d113fa75629bf16f5bcb166a48fd7f97f0cc37993111751b4bb3cfc.webp",
-          "dob": "1983-02-11",
-          "image_credit": {
-            "artist": "Cpl. Devin Nichols",
-            "license": "Public domain",
-            "license_url": "",
-            "source_page": "https://commons.wikimedia.org/wiki/File:From_cancer_to_company_commander_130802-M-AR522-306_(cropped).jpg"
-          },
-          "height": "6' 0\"",
-          "weight": "170 lbs"
-        },
-        "fighter_2": {
-          "name": "Charles Radtke",
-          "nickname": "Chuck Buffalo",
-          "record": "12-6-0",
-          "country": "United States",
-          "flag": "🇺🇸",
-          "rankings": [],
-          "image": "",
-          "dob": "1990-07-09",
-          "image_credit": null,
-          "height": "5' 9\"",
-          "weight": "170 lbs"
-        },
-        "odds": {
-          "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
-        },
-        "result": {
-          "winner": "Stephen Thompson",
-          "winner_fighter_id": 1146,
-          "method": "KO/TKO",
-          "method_normalized": "ko_tko",
-          "finish_detail": "Spinning Wheel Kick",
-          "round": 3,
-          "time": "2:54",
-          "time_seconds": 174,
-          "details": "Kick to Head At Distance (Wheel Kick)"
-        }
-      },
-      {
-        "id": "93108",
-        "card_position": "prelim",
-        "weight_class": "Lightweight",
-        "title_fight": false,
-        "fighter_1": {
-          "name": "Drew Dober",
-          "nickname": "",
-          "record": "29-16-0",
-          "country": "United States",
-          "flag": "🇺🇸",
-          "rankings": [],
-          "image": "",
-          "dob": "1988-10-19",
-          "image_credit": null,
-          "height": "5' 8\"",
-          "weight": "155 lbs"
-        },
-        "fighter_2": {
-          "name": "Chris Duncan",
-          "nickname": "The Problem",
-          "record": "16-3-0",
-          "country": "Scotland",
-          "flag": "",
-          "rankings": [],
-          "image": "",
-          "dob": "1993-05-10",
-          "image_credit": null,
-          "height": "5' 10\"",
-          "weight": "155 lbs"
-        },
-        "odds": {
-          "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
-        },
-        "result": {
-          "winner": "Chris Duncan",
-          "winner_fighter_id": 368,
+          "winner": "Kevin Vallejos",
+          "winner_fighter_id": 347,
           "method": "Decision - Unanimous",
           "method_normalized": "decision_unanimous",
           "finish_detail": "Unanimous",
@@ -476,264 +155,73 @@
         }
       },
       {
-        "id": "93109",
-        "card_position": "prelim",
+        "id": "93292",
+        "card_position": "main_card",
         "weight_class": "Lightweight",
         "title_fight": false,
         "fighter_1": {
-          "name": "Jim Miller",
-          "nickname": "A-10",
-          "record": "39-20-0",
-          "country": "United States",
-          "flag": "🇺🇸",
-          "rankings": [],
-          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8b90203b78285b0dfd274d236775ca843b2fb21fd028e75bbe3cc4b5fc54d945.webp",
-          "dob": "1983-08-30",
+          "name": "Dan Hooker",
+          "nickname": "The Hangman",
+          "record": "25-15-0",
+          "country": "New Zealand",
+          "flag": "🇳🇿",
+          "rankings": [
+            {
+              "division": "lightweight",
+              "rank": 14,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "New Zealand",
+              "country_code": "NZ"
+            }
+          ],
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/e8cf473acbe6765680df9508cd5fc97972202152a5c935b3585e5cfb1af8ee5e.webp",
+          "dob": "1990-02-13",
           "image_credit": {
-            "artist": "Aleks Ozolins",
-            "license": "CC0",
-            "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-            "source_page": "https://commons.wikimedia.org/wiki/File:Jim.miller.2.jpg"
+            "artist": "Fight Bros NZ",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0",
+            "source_page": "https://commons.wikimedia.org/wiki/File:DanHooker2016.png"
           },
-          "height": "5' 8\"",
+          "height": "6' 0\"",
           "weight": "155 lbs"
         },
         "fighter_2": {
-          "name": "Terrance McKinney",
-          "nickname": "T. Wrecks",
-          "record": "19-9-0",
-          "country": "United States",
-          "flag": "🇺🇸",
-          "rankings": [],
-          "image": "",
-          "dob": "1994-09-15",
-          "image_credit": null,
-          "height": "5' 10\"",
-          "weight": "155 lbs"
-        },
-        "odds": {
-          "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
-        },
-        "result": {
-          "winner": "Terrance McKinney",
-          "winner_fighter_id": 367,
-          "method": "KO/TKO",
-          "method_normalized": "ko_tko",
-          "finish_detail": "Punches",
-          "round": 1,
-          "time": "1:53",
-          "time_seconds": 113,
-          "details": "Punch to Head At Distance"
-        }
-      },
-      {
-        "id": "93616",
-        "card_position": "prelim",
-        "weight_class": "Catch Weight",
-        "title_fight": false,
-        "fighter_1": {
-          "name": "Donte Johnson",
-          "nickname": "Lock Jaw",
-          "record": "9-1-0",
-          "country": "United States",
-          "flag": "🇺🇸",
-          "rankings": [],
-          "image": "",
-          "dob": "1999-01-25",
-          "image_credit": null,
-          "height": "5' 8\"",
-          "weight": "185 lbs"
-        },
-        "fighter_2": {
-          "name": "Cesar Almeida",
-          "nickname": "Cesinha",
-          "record": "8-3-0",
-          "country": "Brazil",
-          "flag": "🇧🇷",
-          "rankings": [],
-          "image": "",
-          "dob": "1988-03-28",
-          "image_credit": null,
-          "height": "6' 1\"",
-          "weight": "185 lbs"
-        },
-        "odds": {
-          "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
-        },
-        "result": {
-          "winner": "Cesar Almeida",
-          "winner_fighter_id": 348,
-          "method": "KO/TKO",
-          "method_normalized": "ko_tko",
-          "finish_detail": "Punches",
-          "round": 1,
-          "time": "3:20",
-          "time_seconds": 200,
-          "details": "Punch to Head At Distance"
-        }
-      },
-      {
-        "id": "93620",
-        "card_position": "early_prelim",
-        "weight_class": "Lightweight",
-        "title_fight": false,
-        "fighter_1": {
-          "name": "Jared Gordon",
-          "nickname": "Flash",
-          "record": "21-10-0",
-          "country": "United States",
-          "flag": "🇺🇸",
-          "rankings": [],
-          "image": "",
-          "dob": "1988-09-06",
-          "image_credit": null,
-          "height": "5' 9\"",
-          "weight": "155 lbs"
-        },
-        "fighter_2": {
-          "name": "Melquizael Costa",
-          "nickname": "The Dalmatian",
-          "record": "27-8-0",
-          "country": "Brazil",
-          "flag": "🇧🇷",
-          "rankings": [],
-          "image": "",
-          "dob": "1996-09-14",
-          "image_credit": null,
-          "height": "5' 10\"",
-          "weight": "155 lbs"
-        },
-        "odds": {
-          "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
-        },
-        "result": {
-          "winner": "Melquizael Costa",
-          "winner_fighter_id": 28,
-          "method": "Decision - Unanimous",
-          "method_normalized": "decision_unanimous",
-          "finish_detail": "Unanimous",
-          "round": 3,
-          "time": "5:00",
-          "time_seconds": 300,
-          "details": "28 - 29. 28 - 29. 28 - 29."
-        }
-      },
-      {
-        "id": "93111",
-        "card_position": "early_prelim",
-        "weight_class": "Women's Bantamweight",
-        "title_fight": false,
-        "fighter_1": {
-          "name": "Macy Chiasson",
-          "nickname": "",
-          "record": "11-7-0",
+          "name": "Brian Ortega",
+          "nickname": "T-City",
+          "record": "16-6-0",
           "country": "United States",
           "flag": "🇺🇸",
           "rankings": [
             {
-              "division": "womens-bantamweight",
-              "rank": 12,
+              "division": "featherweight",
+              "rank": 13,
               "is_champion": false,
-              "movement": -2,
+              "movement": 0,
               "nationality": "United States",
               "country_code": "US"
             }
           ],
-          "image": "",
-          "dob": "1991-07-27",
-          "image_credit": null,
-          "height": "5' 11\"",
-          "weight": "135 lbs"
-        },
-        "fighter_2": {
-          "name": "Bia Mesquita",
-          "nickname": "The Lady GOAT",
-          "record": "9-0-0",
-          "country": "Brazil",
-          "flag": "🇧🇷",
-          "rankings": [
-            {
-              "division": "womens-bantamweight",
-              "rank": 8,
-              "is_champion": false,
-              "movement": 3,
-              "nationality": "Brazil",
-              "country_code": "BR"
-            }
-          ],
-          "image": "",
-          "dob": "1991-04-07",
-          "image_credit": null,
-          "height": "5' 4\"",
-          "weight": "135 lbs"
-        },
-        "odds": {
-          "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
-        },
-        "result": {
-          "winner": "Bia Mesquita",
-          "winner_fighter_id": 174,
-          "method": "Submission",
-          "method_normalized": "submission",
-          "finish_detail": "Rear-Naked Choke",
-          "round": 1,
-          "time": "3:23",
-          "time_seconds": 203,
-          "details": "Rear Naked Choke"
-        }
-      },
-      {
-        "id": "93780",
-        "card_position": "early_prelim",
-        "weight_class": "Bantamweight",
-        "title_fight": false,
-        "fighter_1": {
-          "name": "Heili Alateng",
-          "nickname": "The Mongolian Knight",
-          "record": "18-11-2",
-          "country": "China",
-          "flag": "🇨🇳",
-          "rankings": [],
-          "image": "",
-          "dob": "1991-12-14",
-          "image_credit": null,
-          "height": "5' 5\"",
-          "weight": "135 lbs"
-        },
-        "fighter_2": {
-          "name": "Juan Díaz",
-          "nickname": "Pegajoso",
-          "record": "17-1-1",
-          "country": "Peru",
-          "flag": "🇵🇪",
-          "rankings": [],
-          "image": "",
-          "dob": "1998-06-03",
-          "image_credit": null,
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/4e93b94c21313f01da1a39fabf275a7f3346f528d3193340668d7b483cade3c2.webp",
+          "dob": "1991-02-21",
+          "image_credit": {
+            "artist": "MMAnytt",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0",
+            "source_page": "https://commons.wikimedia.org/wiki/File:Brian_Ortega_on_MMAnytt.jpg"
+          },
           "height": "5' 8\"",
-          "weight": "135 lbs"
+          "weight": "155 lbs"
         },
         "odds": {
           "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
+          "fighter_1": "-196",
+          "fighter_2": "164",
+          "status": "consensus_odds"
         },
         "result": {
-          "winner": "Juan Díaz",
-          "winner_fighter_id": 32,
+          "winner": "Dan Hooker",
+          "winner_fighter_id": 328,
           "method": "Decision - Unanimous",
           "method_normalized": "decision_unanimous",
           "finish_detail": "Unanimous",
@@ -744,804 +232,536 @@
         }
       },
       {
-        "id": "93621",
-        "card_position": "early_prelim",
-        "weight_class": "Lightweight",
+        "id": "93258",
+        "card_position": "main_card",
+        "weight_class": "Flyweight",
         "title_fight": false,
         "fighter_1": {
-          "name": "Evan Elder",
-          "nickname": "The Phenom",
-          "record": "11-2-0",
-          "country": "United States",
-          "flag": "🇺🇸",
-          "rankings": [],
-          "image": "",
-          "dob": "1997-04-11",
-          "image_credit": null,
-          "height": "5' 10\"",
-          "weight": "155 lbs"
+          "name": "Kyoji Horiguchi",
+          "nickname": "Karate Kid",
+          "record": "37-6-0",
+          "country": "Japan",
+          "flag": "🇯🇵",
+          "rankings": [
+            {
+              "division": "flyweight",
+              "rank": 5,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "Japan",
+              "country_code": "JP"
+            }
+          ],
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/882bce16dab0fdad834f32bf617100f426df8289d3734b121ffb6bf994174827.webp",
+          "dob": "1990-10-12",
+          "image_credit": {
+            "artist": "Bruno Massami",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0",
+            "source_page": "https://commons.wikimedia.org/wiki/File:Kyoji_Horiguchi_2017.jpg"
+          },
+          "height": "5' 4\"",
+          "weight": "125 lbs"
         },
         "fighter_2": {
-          "name": "Samuel Sanches",
-          "nickname": "The Prodigy",
-          "record": "11-2-0",
-          "country": "Brazil",
-          "flag": "🇧🇷",
-          "rankings": [],
-          "image": "",
-          "dob": "2003-01-28",
-          "image_credit": null,
-          "height": "5' 10\"",
-          "weight": "155 lbs"
+          "name": "Asu Almabayev",
+          "nickname": "Zulfikar",
+          "record": "24-4-0",
+          "country": "Kazakhstan",
+          "flag": "🇰🇿",
+          "rankings": [
+            {
+              "division": "flyweight",
+              "rank": 7,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "Kazakhstan",
+              "country_code": "KZ"
+            }
+          ],
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/def1393b98a0e7337ab49918fffb923b4c97614264679aeb99047a202f3483ab.webp",
+          "dob": "1994-01-25",
+          "image_credit": {
+            "artist": "Qazaq Stand Up",
+            "license": "CC BY 4.0",
+            "license_url": "https://creativecommons.org/licenses/by/4.0",
+            "source_page": "https://commons.wikimedia.org/wiki/File:AsuAlmabayev.png"
+          },
+          "height": "5' 4\"",
+          "weight": "125 lbs"
         },
         "odds": {
           "format": "American",
-          "fighter_1": "",
-          "fighter_2": "",
-          "status": "not_available"
+          "fighter_1": "-193",
+          "fighter_2": "162",
+          "status": "consensus_odds"
         },
         "result": {
-          "winner": "Evan Elder",
-          "winner_fighter_id": 982,
+          "winner": "Kyoji Horiguchi",
+          "winner_fighter_id": 114,
           "method": "Decision - Unanimous",
           "method_normalized": "decision_unanimous",
           "finish_detail": "Unanimous",
           "round": 3,
           "time": "5:00",
           "time_seconds": 300,
-          "details": "26 - 30. 26 - 30. 26 - 30."
+          "details": "27 - 30. 27 - 30. 28 - 29."
+        }
+      },
+      {
+        "id": "93255",
+        "card_position": "main_card",
+        "weight_class": "Middleweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Jared Cannonier",
+          "nickname": "Tha Killa Gorilla",
+          "record": "18-11-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [
+            {
+              "division": "middleweight",
+              "rank": 12,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "United States",
+              "country_code": "US"
+            }
+          ],
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/7f73af897af39e8eba9019061f103da1b6baec6f7ddeb4862bdc2a393e6e97d9.webp",
+          "dob": "1984-03-16",
+          "image_credit": {
+            "artist": "MMAnytt",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0",
+            "source_page": "https://commons.wikimedia.org/wiki/File:Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg"
+          },
+          "height": "5' 11\"",
+          "weight": "185 lbs"
+        },
+        "fighter_2": {
+          "name": "Ikram Aliskerov",
+          "nickname": "",
+          "record": "19-2-0",
+          "country": "Russia",
+          "flag": "🇷🇺",
+          "rankings": [
+            {
+              "division": "middleweight",
+              "rank": 13,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "Russia",
+              "country_code": "RU"
+            }
+          ],
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/62dcda2643af8d12ee774816a014463772dbb81b1a070285d18bbedf9cfff5c0.webp",
+          "dob": "1992-12-07",
+          "image_credit": {
+            "artist": "Sexto Round",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0",
+            "source_page": "https://commons.wikimedia.org/wiki/File:Ikram_Aliskerov_2024.png"
+          },
+          "height": "6' 0\"",
+          "weight": "185 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "247",
+          "fighter_2": "-306",
+          "status": "consensus_odds"
+        },
+        "result": {
+          "winner": "Ikram Aliskerov",
+          "winner_fighter_id": 441,
+          "method": "Decision - Unanimous",
+          "method_normalized": "decision_unanimous",
+          "finish_detail": "Unanimous",
+          "round": 3,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": "27 - 30. 27 - 30. 27 - 30."
+        }
+      },
+      {
+        "id": "93257",
+        "card_position": "prelim",
+        "weight_class": "Bantamweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Aleksandre Topuria",
+          "nickname": "El Conquistador",
+          "record": "7-2-0",
+          "country": "Georgia",
+          "flag": "🇬🇪",
+          "rankings": [],
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8bb2b9569cc664d0e5772f49382fa3876f4b9480f0f3b0b28417d6d340336950.webp",
+          "dob": "1996-01-28",
+          "image_credit": {
+            "artist": "U.S. Army photo by Sgt. 1st Class Brittany Primavera",
+            "license": "Public domain",
+            "license_url": "",
+            "source_page": "https://commons.wikimedia.org/wiki/File:Aleksandre_Topuria_at_the_UFC_Freedom_250_Ceremony.jpg"
+          },
+          "height": "5' 7\"",
+          "weight": "135 lbs"
+        },
+        "fighter_2": {
+          "name": "Santiago Luna",
+          "nickname": "BorderBoy",
+          "record": "9-1-0",
+          "country": "Mexico",
+          "flag": "🇲🇽",
+          "rankings": [],
+          "image": "",
+          "dob": "2004-08-06",
+          "image_credit": null,
+          "height": "5' 9\"",
+          "weight": "135 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "-281",
+          "fighter_2": "229",
+          "status": "consensus_odds"
+        },
+        "result": {
+          "winner": "Santiago Luna",
+          "winner_fighter_id": 228,
+          "method": "Decision - Split",
+          "method_normalized": "decision_split",
+          "finish_detail": "Split",
+          "round": 3,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": "27 - 30. 29 - 28. 28 - 29."
+        }
+      },
+      {
+        "id": "93293",
+        "card_position": "prelim",
+        "weight_class": "Heavyweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Shamil Gaziev",
+          "nickname": "",
+          "record": "15-4-0",
+          "country": "Russia",
+          "flag": "🇷🇺",
+          "rankings": [],
+          "image": "",
+          "dob": "1990-02-10",
+          "image_credit": null,
+          "height": "6' 4\"",
+          "weight": "265 lbs"
+        },
+        "fighter_2": {
+          "name": "Tallison Teixeira",
+          "nickname": "Xicao",
+          "record": "10-2-0",
+          "country": "Brazil",
+          "flag": "🇧🇷",
+          "rankings": [],
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/bccc91e1ca7b3216f20e9423a1c438fef301673dec614a82fa6a3e3f5714e653.webp",
+          "dob": "1999-12-07",
+          "image_credit": {
+            "artist": "Sexto Round",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0",
+            "source_page": "https://commons.wikimedia.org/wiki/File:Tallison_Teixeira_2025.jpg"
+          },
+          "height": "6' 7\"",
+          "weight": "258 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "-193",
+          "fighter_2": "162",
+          "status": "consensus_odds"
+        },
+        "result": {
+          "winner": "Tallison Teixeira",
+          "winner_fighter_id": 56,
+          "method": "Decision - Unanimous",
+          "method_normalized": "decision_unanimous",
+          "finish_detail": "Unanimous",
+          "round": 3,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": "27 - 30. 28 - 29. 28 - 29."
+        }
+      },
+      {
+        "id": "93259",
+        "card_position": "prelim",
+        "weight_class": "Flyweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Amir Albazi",
+          "nickname": "The Prince",
+          "record": "18-3-0",
+          "country": "Iraq",
+          "flag": "🇮🇶",
+          "rankings": [
+            {
+              "division": "flyweight",
+              "rank": 9,
+              "is_champion": false,
+              "movement": 0,
+              "nationality": "Iraq",
+              "country_code": "IQ"
+            }
+          ],
+          "image": "",
+          "dob": "1993-10-27",
+          "image_credit": null,
+          "height": "5' 5\"",
+          "weight": "125 lbs"
+        },
+        "fighter_2": {
+          "name": "Alessandro Costa",
+          "nickname": "Nono",
+          "record": "17-6-0",
+          "country": "Brazil",
+          "flag": "🇧🇷",
+          "rankings": [],
+          "image": "",
+          "dob": "1996-01-28",
+          "image_credit": null,
+          "height": "5' 4\"",
+          "weight": "125 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "-108",
+          "fighter_2": "-111",
+          "status": "consensus_odds"
+        },
+        "result": {
+          "winner": "Amir Albazi",
+          "winner_fighter_id": 502,
+          "method": "Submission",
+          "method_normalized": "submission",
+          "finish_detail": "Rear-Naked Choke",
+          "round": 3,
+          "time": "4:34",
+          "time_seconds": 274,
+          "details": "Rear Naked Choke (One-arm RNC)"
+        }
+      },
+      {
+        "id": "93256",
+        "card_position": "prelim",
+        "weight_class": "Welterweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Jake Matthews",
+          "nickname": "The Celtic Kid",
+          "record": "23-9-0",
+          "country": "Australia",
+          "flag": "🇦🇺",
+          "rankings": [],
+          "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/824f94e4084ead31a99fcdba20b6986f5d4a9adb27bbf8998038b512567ffc4f.webp",
+          "dob": "1994-08-19",
+          "image_credit": {
+            "artist": "Realistkilla",
+            "license": "CC0",
+            "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "source_page": "https://commons.wikimedia.org/wiki/File:Jake_Mattews_%26_Jon_Jones.jpg"
+          },
+          "height": "5' 11\"",
+          "weight": "170 lbs"
+        },
+        "fighter_2": {
+          "name": "Tahir Abdullayev",
+          "nickname": "Tank",
+          "record": "23-3-0",
+          "country": "Azerbaijan",
+          "flag": "🇦🇿",
+          "rankings": [],
+          "image": "",
+          "dob": "1997-02-02",
+          "image_credit": null,
+          "height": "5' 8\"",
+          "weight": "170 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "-258",
+          "fighter_2": "210",
+          "status": "consensus_odds"
+        },
+        "result": {
+          "winner": "Tahir Abdullayev",
+          "winner_fighter_id": 72828,
+          "method": "Decision - Unanimous",
+          "method_normalized": "decision_unanimous",
+          "finish_detail": "Unanimous",
+          "round": 3,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": "27 - 30. 27 - 30. 28 - 29."
+        }
+      },
+      {
+        "id": "93819",
+        "card_position": "prelim",
+        "weight_class": "Lightweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Nikolas Motta",
+          "nickname": "Iron",
+          "record": "15-7-0",
+          "country": "Brazil",
+          "flag": "🇧🇷",
+          "rankings": [],
+          "image": "",
+          "dob": "1993-02-08",
+          "image_credit": null,
+          "height": "5' 9\"",
+          "weight": "155 lbs"
+        },
+        "fighter_2": {
+          "name": "Dom Mar Fan",
+          "nickname": "Street Buddha",
+          "record": "10-3-0",
+          "country": "Australia",
+          "flag": "🇦🇺",
+          "rankings": [],
+          "image": "",
+          "dob": "2000-03-19",
+          "image_credit": null,
+          "height": "5' 11\"",
+          "weight": "155 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "151",
+          "fighter_2": "-180",
+          "status": "consensus_odds"
+        },
+        "result": {
+          "winner": "Dom Mar Fan",
+          "winner_fighter_id": 317,
+          "method": "Decision - Unanimous",
+          "method_normalized": "decision_unanimous",
+          "finish_detail": "Unanimous",
+          "round": 3,
+          "time": "5:00",
+          "time_seconds": 300,
+          "details": "26 - 30. 26 - 30. 27 - 29."
+        }
+      },
+      {
+        "id": "93820",
+        "card_position": "prelim",
+        "weight_class": "Light Heavyweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Diyar Nurgozhay",
+          "nickname": "",
+          "record": "13-2-0",
+          "country": "Kazakhstan",
+          "flag": "🇰🇿",
+          "rankings": [],
+          "image": "",
+          "dob": "1997-04-22",
+          "image_credit": null,
+          "height": "6' 2\"",
+          "weight": "205 lbs"
+        },
+        "fighter_2": {
+          "name": "Alik Lorenz",
+          "nickname": "",
+          "record": "8-3-0",
+          "country": "United States",
+          "flag": "🇺🇸",
+          "rankings": [],
+          "image": "",
+          "dob": "1997-01-25",
+          "image_credit": null,
+          "height": "6' 2\"",
+          "weight": "205 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "-265",
+          "fighter_2": "216",
+          "status": "consensus_odds"
+        },
+        "result": {
+          "winner": "Diyar Nurgozhay",
+          "winner_fighter_id": 130,
+          "method": "KO/TKO",
+          "method_normalized": "ko_tko",
+          "finish_detail": "Head Kick",
+          "round": 2,
+          "time": "0:24",
+          "time_seconds": 24,
+          "details": "Kick to Head At Distance"
+        }
+      },
+      {
+        "id": "93886",
+        "card_position": "prelim",
+        "weight_class": "Lightweight",
+        "title_fight": false,
+        "fighter_1": {
+          "name": "Shoaib Yousaf",
+          "nickname": "The Assassin",
+          "record": "14-4-0",
+          "country": "United Kingdom",
+          "flag": "🇬🇧",
+          "rankings": [],
+          "image": "",
+          "dob": "1995-08-07",
+          "image_credit": null,
+          "height": "5' 10\"",
+          "weight": "155 lbs"
+        },
+        "fighter_2": {
+          "name": "John Mitchell",
+          "nickname": "The Cork Horse",
+          "record": "12-3-0",
+          "country": "Ireland",
+          "flag": "🇮🇪",
+          "rankings": [],
+          "image": "",
+          "dob": "1995-07-21",
+          "image_credit": null,
+          "height": "5' 11\"",
+          "weight": "155 lbs"
+        },
+        "odds": {
+          "format": "American",
+          "fighter_1": "123",
+          "fighter_2": "-146",
+          "status": "consensus_odds"
+        },
+        "result": {
+          "winner": "John Mitchell",
+          "winner_fighter_id": 5603,
+          "method": "KO/TKO",
+          "method_normalized": "ko_tko",
+          "finish_detail": "Knees",
+          "round": 1,
+          "time": "3:50",
+          "time_seconds": 230,
+          "details": "Knee to Head At Distance"
         }
       }
     ],
     "schedule": {
-      "main_card_start_time": "2026-11-15T02:00:00.000Z",
-      "prelims_start_time": "2026-11-15T00:00:00.000Z",
-      "early_prelims_start_time": "2026-11-14T22:00:00.000Z",
-      "timezone": "America/New_York",
+      "main_card_start_time": "2026-11-21T18:00:00.000Z",
+      "prelims_start_time": "2026-11-21T15:00:00.000Z",
+      "early_prelims_start_time": null,
+      "timezone": "Asia/Qatar",
       "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
     }
   },
   "events": [
-    {
-      "id": "ufc-fight-night-2026-11-21",
-      "promotion": "UFC",
-      "name": "UFC Fight Night: Prochazka vs Stirling",
-      "date": "2026-11-21",
-      "start_time": "2026-11-21T15:00:00.000Z",
-      "location": "Doha, Qatar",
-      "venue": "ABHA Arena",
-      "sport": "MMA",
-      "status": "announced",
-      "fights": [
-        {
-          "id": "93290",
-          "card_position": "main_event",
-          "weight_class": "Light Heavyweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Jiri Prochazka",
-            "nickname": "BJP",
-            "record": "32-6-1",
-            "country": "Czech Republic",
-            "flag": "🇨🇿",
-            "rankings": [
-              {
-                "division": "light-heavyweight",
-                "rank": 2,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Czech Republic",
-                "country_code": "CZ"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/d664efefb69d00c9eb4fd61335a82fc1be8e79950a3d39c9052369909692202a.webp",
-            "dob": "1992-10-14",
-            "image_credit": {
-              "artist": "Show Jana Krause",
-              "license": "CC BY 3.0",
-              "license_url": "https://creativecommons.org/licenses/by/3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:JiriProchazka2022.png"
-            },
-            "height": "6' 3\"",
-            "weight": "205 lbs"
-          },
-          "fighter_2": {
-            "name": "Navajo Stirling",
-            "nickname": "",
-            "record": "11-0-0",
-            "country": "New Zealand",
-            "flag": "🇳🇿",
-            "rankings": [
-              {
-                "division": "light-heavyweight",
-                "rank": 5,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "New Zealand",
-                "country_code": "NZ"
-              }
-            ],
-            "image": "",
-            "dob": "1997-11-07",
-            "image_credit": null,
-            "height": "6' 4\"",
-            "weight": "205 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "159",
-            "fighter_2": "-189",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93291",
-          "card_position": "main_card",
-          "weight_class": "Featherweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Aljamain Sterling",
-            "nickname": "Funk Master",
-            "record": "26-5-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [
-              {
-                "division": "featherweight",
-                "rank": 4,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "United States",
-                "country_code": "US"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/9531db7115d5203a3e14c7269f9bf6c2f28b44052f825e802117a54df98d74a0.webp",
-            "dob": "1989-07-31",
-            "image_credit": {
-              "artist": "MMAnytt",
-              "license": "CC BY 3.0",
-              "license_url": "https://creativecommons.org/licenses/by/3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Alijamain_Sterling_at_UFC_228.jpg"
-            },
-            "height": "5' 7\"",
-            "weight": "145 lbs"
-          },
-          "fighter_2": {
-            "name": "Kevin Vallejos",
-            "nickname": "El Chino",
-            "record": "18-1-0",
-            "country": "Argentina",
-            "flag": "🇦🇷",
-            "rankings": [
-              {
-                "division": "featherweight",
-                "rank": 9,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Argentina",
-                "country_code": "AR"
-              }
-            ],
-            "image": "",
-            "dob": "2001-12-08",
-            "image_credit": null,
-            "height": "5' 7\"",
-            "weight": "145 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "101",
-            "fighter_2": "-120",
-            "status": "consensus_odds"
-          }
-        },
-        {
-          "id": "93292",
-          "card_position": "main_card",
-          "weight_class": "Lightweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Dan Hooker",
-            "nickname": "The Hangman",
-            "record": "25-15-0",
-            "country": "New Zealand",
-            "flag": "🇳🇿",
-            "rankings": [
-              {
-                "division": "lightweight",
-                "rank": 14,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "New Zealand",
-                "country_code": "NZ"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/e8cf473acbe6765680df9508cd5fc97972202152a5c935b3585e5cfb1af8ee5e.webp",
-            "dob": "1990-02-13",
-            "image_credit": {
-              "artist": "Fight Bros NZ",
-              "license": "CC BY 3.0",
-              "license_url": "https://creativecommons.org/licenses/by/3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:DanHooker2016.png"
-            },
-            "height": "6' 0\"",
-            "weight": "155 lbs"
-          },
-          "fighter_2": {
-            "name": "Brian Ortega",
-            "nickname": "T-City",
-            "record": "16-6-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [
-              {
-                "division": "featherweight",
-                "rank": 13,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "United States",
-                "country_code": "US"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/4e93b94c21313f01da1a39fabf275a7f3346f528d3193340668d7b483cade3c2.webp",
-            "dob": "1991-02-21",
-            "image_credit": {
-              "artist": "MMAnytt",
-              "license": "CC BY 3.0",
-              "license_url": "https://creativecommons.org/licenses/by/3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Brian_Ortega_on_MMAnytt.jpg"
-            },
-            "height": "5' 8\"",
-            "weight": "155 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-196",
-            "fighter_2": "164",
-            "status": "consensus_odds"
-          },
-          "result": {
-            "winner": "Dan Hooker",
-            "winner_fighter_id": 328,
-            "method": "Decision - Unanimous",
-            "method_normalized": "decision_unanimous",
-            "finish_detail": "Unanimous",
-            "round": 3,
-            "time": "5:00",
-            "time_seconds": 300,
-            "details": "27 - 30. 27 - 30. 27 - 30."
-          }
-        },
-        {
-          "id": "93258",
-          "card_position": "main_card",
-          "weight_class": "Flyweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Kyoji Horiguchi",
-            "nickname": "Karate Kid",
-            "record": "37-6-0",
-            "country": "Japan",
-            "flag": "🇯🇵",
-            "rankings": [
-              {
-                "division": "flyweight",
-                "rank": 5,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Japan",
-                "country_code": "JP"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/882bce16dab0fdad834f32bf617100f426df8289d3734b121ffb6bf994174827.webp",
-            "dob": "1990-10-12",
-            "image_credit": {
-              "artist": "Bruno Massami",
-              "license": "CC BY 3.0",
-              "license_url": "https://creativecommons.org/licenses/by/3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Kyoji_Horiguchi_2017.jpg"
-            },
-            "height": "5' 4\"",
-            "weight": "125 lbs"
-          },
-          "fighter_2": {
-            "name": "Asu Almabayev",
-            "nickname": "Zulfikar",
-            "record": "24-4-0",
-            "country": "Kazakhstan",
-            "flag": "🇰🇿",
-            "rankings": [
-              {
-                "division": "flyweight",
-                "rank": 7,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Kazakhstan",
-                "country_code": "KZ"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/def1393b98a0e7337ab49918fffb923b4c97614264679aeb99047a202f3483ab.webp",
-            "dob": "1994-01-25",
-            "image_credit": {
-              "artist": "Qazaq Stand Up",
-              "license": "CC BY 4.0",
-              "license_url": "https://creativecommons.org/licenses/by/4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:AsuAlmabayev.png"
-            },
-            "height": "5' 4\"",
-            "weight": "125 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-193",
-            "fighter_2": "162",
-            "status": "consensus_odds"
-          },
-          "result": {
-            "winner": "Kyoji Horiguchi",
-            "winner_fighter_id": 114,
-            "method": "Decision - Unanimous",
-            "method_normalized": "decision_unanimous",
-            "finish_detail": "Unanimous",
-            "round": 3,
-            "time": "5:00",
-            "time_seconds": 300,
-            "details": "27 - 30. 27 - 30. 28 - 29."
-          }
-        },
-        {
-          "id": "93255",
-          "card_position": "main_card",
-          "weight_class": "Middleweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Jared Cannonier",
-            "nickname": "Tha Killa Gorilla",
-            "record": "18-11-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [
-              {
-                "division": "middleweight",
-                "rank": 12,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "United States",
-                "country_code": "US"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/7f73af897af39e8eba9019061f103da1b6baec6f7ddeb4862bdc2a393e6e97d9.webp",
-            "dob": "1984-03-16",
-            "image_credit": {
-              "artist": "MMAnytt",
-              "license": "CC BY 3.0",
-              "license_url": "https://creativecommons.org/licenses/by/3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg"
-            },
-            "height": "5' 11\"",
-            "weight": "185 lbs"
-          },
-          "fighter_2": {
-            "name": "Ikram Aliskerov",
-            "nickname": "",
-            "record": "19-2-0",
-            "country": "Russia",
-            "flag": "🇷🇺",
-            "rankings": [
-              {
-                "division": "middleweight",
-                "rank": 13,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Russia",
-                "country_code": "RU"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/62dcda2643af8d12ee774816a014463772dbb81b1a070285d18bbedf9cfff5c0.webp",
-            "dob": "1992-12-07",
-            "image_credit": {
-              "artist": "Sexto Round",
-              "license": "CC BY 3.0",
-              "license_url": "https://creativecommons.org/licenses/by/3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Ikram_Aliskerov_2024.png"
-            },
-            "height": "6' 0\"",
-            "weight": "185 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "247",
-            "fighter_2": "-306",
-            "status": "consensus_odds"
-          },
-          "result": {
-            "winner": "Ikram Aliskerov",
-            "winner_fighter_id": 441,
-            "method": "Decision - Unanimous",
-            "method_normalized": "decision_unanimous",
-            "finish_detail": "Unanimous",
-            "round": 3,
-            "time": "5:00",
-            "time_seconds": 300,
-            "details": "27 - 30. 27 - 30. 27 - 30."
-          }
-        },
-        {
-          "id": "93257",
-          "card_position": "prelim",
-          "weight_class": "Bantamweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Aleksandre Topuria",
-            "nickname": "El Conquistador",
-            "record": "7-2-0",
-            "country": "Georgia",
-            "flag": "🇬🇪",
-            "rankings": [],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/8bb2b9569cc664d0e5772f49382fa3876f4b9480f0f3b0b28417d6d340336950.webp",
-            "dob": "1996-01-28",
-            "image_credit": {
-              "artist": "U.S. Army photo by Sgt. 1st Class Brittany Primavera",
-              "license": "Public domain",
-              "license_url": "",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Aleksandre_Topuria_at_the_UFC_Freedom_250_Ceremony.jpg"
-            },
-            "height": "5' 7\"",
-            "weight": "135 lbs"
-          },
-          "fighter_2": {
-            "name": "Santiago Luna",
-            "nickname": "BorderBoy",
-            "record": "9-1-0",
-            "country": "Mexico",
-            "flag": "🇲🇽",
-            "rankings": [],
-            "image": "",
-            "dob": "2004-08-06",
-            "image_credit": null,
-            "height": "5' 9\"",
-            "weight": "135 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-281",
-            "fighter_2": "229",
-            "status": "consensus_odds"
-          },
-          "result": {
-            "winner": "Santiago Luna",
-            "winner_fighter_id": 228,
-            "method": "Decision - Split",
-            "method_normalized": "decision_split",
-            "finish_detail": "Split",
-            "round": 3,
-            "time": "5:00",
-            "time_seconds": 300,
-            "details": "27 - 30. 29 - 28. 28 - 29."
-          }
-        },
-        {
-          "id": "93293",
-          "card_position": "prelim",
-          "weight_class": "Heavyweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Shamil Gaziev",
-            "nickname": "",
-            "record": "15-4-0",
-            "country": "Russia",
-            "flag": "🇷🇺",
-            "rankings": [],
-            "image": "",
-            "dob": "1990-02-10",
-            "image_credit": null,
-            "height": "6' 4\"",
-            "weight": "265 lbs"
-          },
-          "fighter_2": {
-            "name": "Tallison Teixeira",
-            "nickname": "Xicao",
-            "record": "10-2-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/bccc91e1ca7b3216f20e9423a1c438fef301673dec614a82fa6a3e3f5714e653.webp",
-            "dob": "1999-12-07",
-            "image_credit": {
-              "artist": "Sexto Round",
-              "license": "CC BY 3.0",
-              "license_url": "https://creativecommons.org/licenses/by/3.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Tallison_Teixeira_2025.jpg"
-            },
-            "height": "6' 7\"",
-            "weight": "258 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-193",
-            "fighter_2": "162",
-            "status": "consensus_odds"
-          },
-          "result": {
-            "winner": "Tallison Teixeira",
-            "winner_fighter_id": 56,
-            "method": "Decision - Unanimous",
-            "method_normalized": "decision_unanimous",
-            "finish_detail": "Unanimous",
-            "round": 3,
-            "time": "5:00",
-            "time_seconds": 300,
-            "details": "27 - 30. 28 - 29. 28 - 29."
-          }
-        },
-        {
-          "id": "93259",
-          "card_position": "prelim",
-          "weight_class": "Flyweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Amir Albazi",
-            "nickname": "The Prince",
-            "record": "18-3-0",
-            "country": "Iraq",
-            "flag": "🇮🇶",
-            "rankings": [
-              {
-                "division": "flyweight",
-                "rank": 9,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "Iraq",
-                "country_code": "IQ"
-              }
-            ],
-            "image": "",
-            "dob": "1993-10-27",
-            "image_credit": null,
-            "height": "5' 5\"",
-            "weight": "125 lbs"
-          },
-          "fighter_2": {
-            "name": "Alessandro Costa",
-            "nickname": "Nono",
-            "record": "17-6-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [],
-            "image": "",
-            "dob": "1996-01-28",
-            "image_credit": null,
-            "height": "5' 4\"",
-            "weight": "125 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-108",
-            "fighter_2": "-111",
-            "status": "consensus_odds"
-          },
-          "result": {
-            "winner": "Amir Albazi",
-            "winner_fighter_id": 502,
-            "method": "Submission",
-            "method_normalized": "submission",
-            "finish_detail": "Rear-Naked Choke",
-            "round": 3,
-            "time": "4:34",
-            "time_seconds": 274,
-            "details": "Rear Naked Choke (One-arm RNC)"
-          }
-        },
-        {
-          "id": "93256",
-          "card_position": "prelim",
-          "weight_class": "Welterweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Jake Matthews",
-            "nickname": "The Celtic Kid",
-            "record": "23-9-0",
-            "country": "Australia",
-            "flag": "🇦🇺",
-            "rankings": [],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/824f94e4084ead31a99fcdba20b6986f5d4a9adb27bbf8998038b512567ffc4f.webp",
-            "dob": "1994-08-19",
-            "image_credit": {
-              "artist": "Realistkilla",
-              "license": "CC0",
-              "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Jake_Mattews_%26_Jon_Jones.jpg"
-            },
-            "height": "5' 11\"",
-            "weight": "170 lbs"
-          },
-          "fighter_2": {
-            "name": "Tahir Abdullayev",
-            "nickname": "Tank",
-            "record": "23-3-0",
-            "country": "Azerbaijan",
-            "flag": "🇦🇿",
-            "rankings": [],
-            "image": "",
-            "dob": "1997-02-02",
-            "image_credit": null,
-            "height": "5' 8\"",
-            "weight": "170 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-258",
-            "fighter_2": "210",
-            "status": "consensus_odds"
-          },
-          "result": {
-            "winner": "Tahir Abdullayev",
-            "winner_fighter_id": 72828,
-            "method": "Decision - Unanimous",
-            "method_normalized": "decision_unanimous",
-            "finish_detail": "Unanimous",
-            "round": 3,
-            "time": "5:00",
-            "time_seconds": 300,
-            "details": "27 - 30. 27 - 30. 28 - 29."
-          }
-        },
-        {
-          "id": "93819",
-          "card_position": "prelim",
-          "weight_class": "Lightweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Nikolas Motta",
-            "nickname": "Iron",
-            "record": "15-7-0",
-            "country": "Brazil",
-            "flag": "🇧🇷",
-            "rankings": [],
-            "image": "",
-            "dob": "1993-02-08",
-            "image_credit": null,
-            "height": "5' 9\"",
-            "weight": "155 lbs"
-          },
-          "fighter_2": {
-            "name": "Dom Mar Fan",
-            "nickname": "Street Buddha",
-            "record": "10-3-0",
-            "country": "Australia",
-            "flag": "🇦🇺",
-            "rankings": [],
-            "image": "",
-            "dob": "2000-03-19",
-            "image_credit": null,
-            "height": "5' 11\"",
-            "weight": "155 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "151",
-            "fighter_2": "-180",
-            "status": "consensus_odds"
-          },
-          "result": {
-            "winner": "Dom Mar Fan",
-            "winner_fighter_id": 317,
-            "method": "Decision - Unanimous",
-            "method_normalized": "decision_unanimous",
-            "finish_detail": "Unanimous",
-            "round": 3,
-            "time": "5:00",
-            "time_seconds": 300,
-            "details": "26 - 30. 26 - 30. 27 - 29."
-          }
-        },
-        {
-          "id": "93820",
-          "card_position": "prelim",
-          "weight_class": "Light Heavyweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Diyar Nurgozhay",
-            "nickname": "",
-            "record": "13-2-0",
-            "country": "Kazakhstan",
-            "flag": "🇰🇿",
-            "rankings": [],
-            "image": "",
-            "dob": "1997-04-22",
-            "image_credit": null,
-            "height": "6' 2\"",
-            "weight": "205 lbs"
-          },
-          "fighter_2": {
-            "name": "Alik Lorenz",
-            "nickname": "",
-            "record": "8-3-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "dob": "1997-01-25",
-            "image_credit": null,
-            "height": "6' 2\"",
-            "weight": "205 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "-265",
-            "fighter_2": "216",
-            "status": "consensus_odds"
-          },
-          "result": {
-            "winner": "Diyar Nurgozhay",
-            "winner_fighter_id": 130,
-            "method": "KO/TKO",
-            "method_normalized": "ko_tko",
-            "finish_detail": "Head Kick",
-            "round": 2,
-            "time": "0:24",
-            "time_seconds": 24,
-            "details": "Kick to Head At Distance"
-          }
-        },
-        {
-          "id": "93886",
-          "card_position": "prelim",
-          "weight_class": "Lightweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Shoaib Yousaf",
-            "nickname": "The Assassin",
-            "record": "14-4-0",
-            "country": "United Kingdom",
-            "flag": "🇬🇧",
-            "rankings": [],
-            "image": "",
-            "dob": "1995-08-07",
-            "image_credit": null,
-            "height": "5' 10\"",
-            "weight": "155 lbs"
-          },
-          "fighter_2": {
-            "name": "John Mitchell",
-            "nickname": "The Cork Horse",
-            "record": "12-3-0",
-            "country": "Ireland",
-            "flag": "🇮🇪",
-            "rankings": [],
-            "image": "",
-            "dob": "1995-07-21",
-            "image_credit": null,
-            "height": "5' 11\"",
-            "weight": "155 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "123",
-            "fighter_2": "-146",
-            "status": "consensus_odds"
-          },
-          "result": {
-            "winner": "John Mitchell",
-            "winner_fighter_id": 5603,
-            "method": "KO/TKO",
-            "method_normalized": "ko_tko",
-            "finish_detail": "Knees",
-            "round": 1,
-            "time": "3:50",
-            "time_seconds": 230,
-            "details": "Knee to Head At Distance"
-          }
-        }
-      ],
-      "schedule": {
-        "main_card_start_time": "2026-11-21T18:00:00.000Z",
-        "prelims_start_time": "2026-11-21T15:00:00.000Z",
-        "early_prelims_start_time": null,
-        "timezone": "Asia/Qatar",
-        "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
-      }
-    },
     {
       "id": "ufc-fight-night-2026-12-05",
       "promotion": "UFC",
