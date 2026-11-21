@@ -1227,7 +1227,7 @@
           "fighter_1": {
             "name": "Amir Albazi",
             "nickname": "The Prince",
-            "record": "17-3-0",
+            "record": "18-3-0",
             "country": "Iraq",
             "flag": "🇮🇶",
             "rankings": [
@@ -1249,7 +1249,7 @@
           "fighter_2": {
             "name": "Alessandro Costa",
             "nickname": "Nono",
-            "record": "17-5-0",
+            "record": "17-6-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
@@ -1264,6 +1264,17 @@
             "fighter_1": "-108",
             "fighter_2": "-111",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Amir Albazi",
+            "winner_fighter_id": 502,
+            "method": "Submission",
+            "method_normalized": "submission",
+            "finish_detail": "Rear-Naked Choke",
+            "round": 3,
+            "time": "4:34",
+            "time_seconds": 274,
+            "details": "Rear Naked Choke (One-arm RNC)"
           }
         },
         {
@@ -1274,7 +1285,7 @@
           "fighter_1": {
             "name": "Jake Matthews",
             "nickname": "The Celtic Kid",
-            "record": "23-8-0",
+            "record": "23-9-0",
             "country": "Australia",
             "flag": "🇦🇺",
             "rankings": [],
@@ -1292,7 +1303,7 @@
           "fighter_2": {
             "name": "Tahir Abdullayev",
             "nickname": "Tank",
-            "record": "22-3-0",
+            "record": "23-3-0",
             "country": "Azerbaijan",
             "flag": "🇦🇿",
             "rankings": [],
@@ -1307,6 +1318,17 @@
             "fighter_1": "-258",
             "fighter_2": "210",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Tahir Abdullayev",
+            "winner_fighter_id": 72828,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "27 - 30. 27 - 30. 28 - 29."
           }
         },
         {
@@ -1317,7 +1339,7 @@
           "fighter_1": {
             "name": "Nikolas Motta",
             "nickname": "Iron",
-            "record": "15-6-0",
+            "record": "15-7-0",
             "country": "Brazil",
             "flag": "🇧🇷",
             "rankings": [],
@@ -1330,7 +1352,7 @@
           "fighter_2": {
             "name": "Dom Mar Fan",
             "nickname": "Street Buddha",
-            "record": "9-3-0",
+            "record": "10-3-0",
             "country": "Australia",
             "flag": "🇦🇺",
             "rankings": [],
@@ -1345,6 +1367,17 @@
             "fighter_1": "151",
             "fighter_2": "-180",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Dom Mar Fan",
+            "winner_fighter_id": 317,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "26 - 30. 26 - 30. 27 - 29."
           }
         },
         {
@@ -1355,7 +1388,7 @@
           "fighter_1": {
             "name": "Diyar Nurgozhay",
             "nickname": "",
-            "record": "12-2-0",
+            "record": "13-2-0",
             "country": "Kazakhstan",
             "flag": "🇰🇿",
             "rankings": [],
@@ -1368,7 +1401,7 @@
           "fighter_2": {
             "name": "Alik Lorenz",
             "nickname": "",
-            "record": "8-2-0",
+            "record": "8-3-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [],
@@ -1383,6 +1416,17 @@
             "fighter_1": "-265",
             "fighter_2": "216",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Diyar Nurgozhay",
+            "winner_fighter_id": 130,
+            "method": "KO/TKO",
+            "method_normalized": "ko_tko",
+            "finish_detail": "Head Kick",
+            "round": 2,
+            "time": "0:24",
+            "time_seconds": 24,
+            "details": "Kick to Head At Distance"
           }
         },
         {
@@ -1393,7 +1437,7 @@
           "fighter_1": {
             "name": "Shoaib Yousaf",
             "nickname": "The Assassin",
-            "record": "14-3-0",
+            "record": "14-4-0",
             "country": "United Kingdom",
             "flag": "🇬🇧",
             "rankings": [],
@@ -1406,7 +1450,7 @@
           "fighter_2": {
             "name": "John Mitchell",
             "nickname": "The Cork Horse",
-            "record": "11-3-0",
+            "record": "12-3-0",
             "country": "Ireland",
             "flag": "🇮🇪",
             "rankings": [],
@@ -1421,6 +1465,17 @@
             "fighter_1": "123",
             "fighter_2": "-146",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "John Mitchell",
+            "winner_fighter_id": 5603,
+            "method": "KO/TKO",
+            "method_normalized": "ko_tko",
+            "finish_detail": "Knees",
+            "round": 1,
+            "time": "3:50",
+            "time_seconds": 230,
+            "details": "Knee to Head At Distance"
           }
         }
       ],

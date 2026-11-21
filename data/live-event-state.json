@@ -438,5 +438,201 @@
         }
       }
     }
+  },
+  "ufc-fight-night-2026-11-21": {
+    "fighters": {
+      "jiri-prochazka": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 32,
+          "losses": 6,
+          "draws": 1
+        }
+      },
+      "navajo-stirling": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 11,
+          "losses": 0,
+          "draws": 0
+        }
+      },
+      "aljamain-sterling": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 26,
+          "losses": 5,
+          "draws": 0
+        }
+      },
+      "kevin-vallejos": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 18,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "dan-hooker": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 24,
+          "losses": 15,
+          "draws": 0
+        }
+      },
+      "brian-ortega": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 16,
+          "losses": 5,
+          "draws": 0
+        }
+      },
+      "kyoji-horiguchi": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 36,
+          "losses": 6,
+          "draws": 0
+        }
+      },
+      "asu-almabayev": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 24,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "jared-cannonier": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 18,
+          "losses": 10,
+          "draws": 0
+        }
+      },
+      "ikram-aliskerov": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 18,
+          "losses": 2,
+          "draws": 0
+        }
+      },
+      "aleksandre-topuria": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 7,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "santiago-luna": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 8,
+          "losses": 1,
+          "draws": 0
+        }
+      },
+      "shamil-gaziev": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 15,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "tallison-teixeira": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 9,
+          "losses": 2,
+          "draws": 0
+        }
+      },
+      "amir-albazi": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 17,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "alessandro-costa": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 17,
+          "losses": 5,
+          "draws": 0
+        }
+      },
+      "jake-matthews": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 23,
+          "losses": 8,
+          "draws": 0
+        }
+      },
+      "tahir-abdullayev": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 22,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "nikolas-motta": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 15,
+          "losses": 6,
+          "draws": 0
+        }
+      },
+      "dom-mar-fan": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 9,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "diyar-nurgozhay": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 12,
+          "losses": 2,
+          "draws": 0
+        }
+      },
+      "alik-lorenz": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 8,
+          "losses": 2,
+          "draws": 0
+        }
+      },
+      "shoaib-yousaf": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 14,
+          "losses": 3,
+          "draws": 0
+        }
+      },
+      "john-mitchell": {
+        "record_key": "pro_mma",
+        "base": {
+          "wins": 11,
+          "losses": 3,
+          "draws": 0
+        }
+      }
+    }
   }
 }
