@@ -869,8 +869,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "143",
-            "fighter_2": "-173",
+            "fighter_1": "159",
+            "fighter_2": "-189",
             "status": "consensus_odds"
           }
         },
@@ -930,8 +930,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "109",
-            "fighter_2": "-132",
+            "fighter_1": "101",
+            "fighter_2": "-120",
             "status": "consensus_odds"
           }
         },
@@ -996,8 +996,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-190",
-            "fighter_2": "157",
+            "fighter_1": "-196",
+            "fighter_2": "164",
             "status": "consensus_odds"
           }
         },
@@ -1062,8 +1062,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-194",
-            "fighter_2": "160",
+            "fighter_1": "-193",
+            "fighter_2": "162",
             "status": "consensus_odds"
           }
         },
@@ -1128,8 +1128,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "239",
-            "fighter_2": "-301",
+            "fighter_1": "247",
+            "fighter_2": "-306",
             "status": "consensus_odds"
           }
         },
@@ -1171,8 +1171,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-282",
-            "fighter_2": "224",
+            "fighter_1": "-281",
+            "fighter_2": "229",
             "status": "consensus_odds"
           }
         },
@@ -1214,8 +1214,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-198",
-            "fighter_2": "163",
+            "fighter_1": "-193",
+            "fighter_2": "162",
             "status": "consensus_odds"
           }
         },
@@ -1261,8 +1261,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-110",
-            "fighter_2": "-110",
+            "fighter_1": "-108",
+            "fighter_2": "-111",
             "status": "consensus_odds"
           }
         },
@@ -1304,8 +1304,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-255",
-            "fighter_2": "204",
+            "fighter_1": "-258",
+            "fighter_2": "210",
             "status": "consensus_odds"
           }
         },
@@ -1342,8 +1342,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "140",
-            "fighter_2": "-169",
+            "fighter_1": "151",
+            "fighter_2": "-180",
             "status": "consensus_odds"
           }
         },
@@ -1380,8 +1380,46 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-246",
-            "fighter_2": "199",
+            "fighter_1": "-265",
+            "fighter_2": "216",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93886",
+          "card_position": "prelim",
+          "weight_class": "Lightweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Shoaib Yousaf",
+            "nickname": "The Assassin",
+            "record": "14-3-0",
+            "country": "United Kingdom",
+            "flag": "🇬🇧",
+            "rankings": [],
+            "image": "",
+            "dob": "1995-08-07",
+            "image_credit": null,
+            "height": "5' 10\"",
+            "weight": "155 lbs"
+          },
+          "fighter_2": {
+            "name": "John Mitchell",
+            "nickname": "The Cork Horse",
+            "record": "11-3-0",
+            "country": "Ireland",
+            "flag": "🇮🇪",
+            "rankings": [],
+            "image": "",
+            "dob": "1995-07-21",
+            "image_credit": null,
+            "height": "5' 11\"",
+            "weight": "155 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "123",
+            "fighter_2": "-146",
             "status": "consensus_odds"
           }
         }
@@ -1461,8 +1499,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-165",
-            "fighter_2": "134",
+            "fighter_1": "-168",
+            "fighter_2": "136",
             "status": "consensus_odds"
           }
         },
@@ -1522,8 +1560,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-185",
-            "fighter_2": "150",
+            "fighter_1": "-186",
+            "fighter_2": "151",
             "status": "consensus_odds"
           }
         },
@@ -1997,8 +2035,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-151",
-            "fighter_2": "122",
+            "fighter_1": "-152",
+            "fighter_2": "123",
             "status": "consensus_odds"
           }
         },
@@ -2442,6 +2480,49 @@
           }
         },
         {
+          "id": "93875",
+          "card_position": "main_card",
+          "weight_class": "Welterweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Geoff Neal",
+            "nickname": "Handz of Steel",
+            "record": "16-8-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/339ec3fe54912f6bce31533d53d75f533cef7d3e9ec216cd7b16dd02e0aa04aa.webp",
+            "dob": "1990-08-28",
+            "image_credit": {
+              "artist": "MMAnytt",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Geoff_Neal_at_UFC_228.jpg"
+            },
+            "height": "5' 11\"",
+            "weight": "170 lbs"
+          },
+          "fighter_2": {
+            "name": "Chris Curtis",
+            "nickname": "Action-Man",
+            "record": "32-13-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1987-07-15",
+            "image_credit": null,
+            "height": "5' 10\"",
+            "weight": "170 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
           "id": "93825",
           "card_position": "main_card",
           "weight_class": "Welterweight",
@@ -2471,6 +2552,358 @@
             "image_credit": null,
             "height": "6' 3\"",
             "weight": "170 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93876",
+          "card_position": "main_card",
+          "weight_class": "Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Ryan Spann",
+            "nickname": "Superman",
+            "record": "24-12-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1991-08-24",
+            "image_credit": null,
+            "height": "6' 5\"",
+            "weight": "264 lbs"
+          },
+          "fighter_2": {
+            "name": "Louie Sutherland",
+            "nickname": "Vanilla Gorilla",
+            "record": "11-6-0",
+            "country": "Scotland",
+            "flag": "",
+            "rankings": [],
+            "image": "",
+            "dob": "1994-02-08",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "258 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93877",
+          "card_position": "main_card",
+          "weight_class": "Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Kennedy Nzechukwu",
+            "nickname": "Chosen",
+            "record": "14-7-1",
+            "country": "Nigeria",
+            "flag": "🇳🇬",
+            "rankings": [],
+            "image": "",
+            "dob": "1992-06-13",
+            "image_credit": null,
+            "height": "6' 5\"",
+            "weight": "244 lbs"
+          },
+          "fighter_2": {
+            "name": "Elisha Ellison",
+            "nickname": "The Snack Panther",
+            "record": "5-3-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1997-03-05",
+            "image_credit": null,
+            "height": "6' 0\"",
+            "weight": "238 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93878",
+          "card_position": "main_card",
+          "weight_class": "Middleweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Gilbert Urbina",
+            "nickname": "The RGV Bad Boy",
+            "record": "8-5-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-04-05",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "185 lbs"
+          },
+          "fighter_2": {
+            "name": "Robert Valentin",
+            "nickname": "Robzilla",
+            "record": "13-6-0 (1 NC)",
+            "country": "Switzerland",
+            "flag": "🇨🇭",
+            "rankings": [],
+            "image": "",
+            "dob": "1995-03-31",
+            "image_credit": null,
+            "height": "6' 2\"",
+            "weight": "185 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93879",
+          "card_position": "main_card",
+          "weight_class": "Flyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Alden Coria",
+            "nickname": "Cobra",
+            "record": "13-4-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1998-04-24",
+            "image_credit": null,
+            "height": "5' 8\"",
+            "weight": "125 lbs"
+          },
+          "fighter_2": {
+            "name": "Michael Aljarouj",
+            "nickname": "The Soldier",
+            "record": "13-4-0",
+            "country": "France",
+            "flag": "🇫🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1997-08-21",
+            "image_credit": null,
+            "height": "5' 5\"",
+            "weight": "125 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93880",
+          "card_position": "main_card",
+          "weight_class": "Lightweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Diego Ferreira",
+            "nickname": "",
+            "record": "20-7-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1985-01-18",
+            "image_credit": null,
+            "height": "5' 9\"",
+            "weight": "155 lbs"
+          },
+          "fighter_2": {
+            "name": "MarQuel Mederos",
+            "nickname": "",
+            "record": "12-1-1",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-11-30",
+            "image_credit": null,
+            "height": "5' 10\"",
+            "weight": "155 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93881",
+          "card_position": "main_card",
+          "weight_class": "Lightweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Magomed Zaynukov",
+            "nickname": "Wild Chanko",
+            "record": "9-0-0",
+            "country": "Russia",
+            "flag": "🇷🇺",
+            "rankings": [],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/a9093f37ee0e9f763e96778d6681ba6fad549c8037721c7a29202b79b68a262c.webp",
+            "dob": "1995-01-02",
+            "image_credit": {
+              "artist": "Conollyb at English Wikipedia",
+              "license": "Public domain",
+              "license_url": "",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Vehicle_drug_search_australia.jpg"
+            },
+            "height": "5' 10\"",
+            "weight": "155 lbs"
+          },
+          "fighter_2": {
+            "name": "Piero Guaylupo",
+            "nickname": "El Lobo",
+            "record": "12-0-0",
+            "country": "Peru",
+            "flag": "🇵🇪",
+            "rankings": [],
+            "image": "",
+            "dob": "2004-10-29",
+            "image_credit": null,
+            "height": "5' 8\"",
+            "weight": "155 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93882",
+          "card_position": "main_card",
+          "weight_class": "Bantamweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "John Garza",
+            "nickname": "Mowgli",
+            "record": "6-2-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "2002-10-30",
+            "image_credit": null,
+            "height": "5' 7\"",
+            "weight": "135 lbs"
+          },
+          "fighter_2": {
+            "name": "Toshiomi Kazama",
+            "nickname": "",
+            "record": "11-5-0",
+            "country": "Japan",
+            "flag": "🇯🇵",
+            "rankings": [],
+            "image": "",
+            "dob": "1997-05-15",
+            "image_credit": null,
+            "height": "5' 7\"",
+            "weight": "135 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93883",
+          "card_position": "main_card",
+          "weight_class": "Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Steven Asplund",
+            "nickname": "Concrete",
+            "record": "8-2-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1998-07-16",
+            "image_credit": null,
+            "height": "6' 5\"",
+            "weight": "260 lbs"
+          },
+          "fighter_2": {
+            "name": "Gokhan Saricam",
+            "nickname": "",
+            "record": "12-2-0",
+            "country": "Turkey",
+            "flag": "🇹🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1991-02-28",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "265 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "93884",
+          "card_position": "main_card",
+          "weight_class": "Women's Strawweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Sam Hughes",
+            "nickname": "Sampage",
+            "record": "11-7-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1992-06-28",
+            "image_credit": null,
+            "height": "5' 5\"",
+            "weight": "115 lbs"
+          },
+          "fighter_2": {
+            "name": "Karolina Kowalkiewicz",
+            "nickname": "",
+            "record": "16-10-0",
+            "country": "Poland",
+            "flag": "🇵🇱",
+            "rankings": [],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/daf7750f8590ffc7b125094bc8bb22520689986c156bf0e0ed5e0b4721330e9a.webp",
+            "dob": "1985-10-15",
+            "image_credit": {
+              "artist": "Roger Gor",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Karolina_Kowalkiewicz_wa%C5%BCenie_KSW_30.jpg"
+            },
+            "height": "5' 3\"",
+            "weight": "115 lbs"
           },
           "odds": {
             "format": "American",
@@ -2885,9 +3318,14 @@
                 "country_code": "AU"
               }
             ],
-            "image": "",
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/eb0b21194f889c44d28f5bcdfb7ab3a4e4b2121cc8772b85b5826d970cfce0a3.webp",
             "dob": "1999-12-28",
-            "image_credit": null,
+            "image_credit": {
+              "artist": "Dsdcrewsmoke",
+              "license": "CC0",
+              "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Qsalkilld.png"
+            },
             "height": "6' 0\"",
             "weight": "155 lbs"
           },
@@ -2984,6 +3422,44 @@
             "fighter_1": "118",
             "fighter_2": "-143",
             "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93885",
+          "card_position": "main_card",
+          "weight_class": "Welterweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Jonathan Micallef",
+            "nickname": "The Captain",
+            "record": "10-1-0",
+            "country": "Australia",
+            "flag": "🇦🇺",
+            "rankings": [],
+            "image": "",
+            "dob": "1999-03-05",
+            "image_credit": null,
+            "height": "6' 0\"",
+            "weight": "170 lbs"
+          },
+          "fighter_2": {
+            "name": "Sam Patterson",
+            "nickname": "The Future",
+            "record": "15-3-1",
+            "country": "United Kingdom",
+            "flag": "🇬🇧",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-04-30",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "170 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
           }
         },
         {
@@ -3304,6 +3780,25 @@
       "schedule": {
         "main_card_start_time": "2027-02-13T22:00:00.000Z",
         "prelims_start_time": "2027-02-13T20:00:00.000Z",
+        "early_prelims_start_time": null,
+        "timezone": "America/New_York",
+        "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
+      }
+    },
+    {
+      "id": "ufc-337-2027-02-20",
+      "promotion": "UFC",
+      "name": "UFC 337",
+      "date": "2027-02-20",
+      "start_time": "2027-02-20T20:00:00.000Z",
+      "location": "Orlando, FL, United States",
+      "venue": "Kia Center",
+      "sport": "MMA",
+      "status": "announced",
+      "fights": [],
+      "schedule": {
+        "main_card_start_time": "2027-02-20T22:00:00.000Z",
+        "prelims_start_time": "2027-02-20T20:00:00.000Z",
         "early_prelims_start_time": null,
         "timezone": "America/New_York",
         "time_note": "Times are supplied by UFCalendar; check local broadcaster listings."
