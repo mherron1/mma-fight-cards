@@ -943,7 +943,7 @@
           "fighter_1": {
             "name": "Dan Hooker",
             "nickname": "The Hangman",
-            "record": "24-15-0",
+            "record": "25-15-0",
             "country": "New Zealand",
             "flag": "🇳🇿",
             "rankings": [
@@ -970,7 +970,7 @@
           "fighter_2": {
             "name": "Brian Ortega",
             "nickname": "T-City",
-            "record": "16-5-0",
+            "record": "16-6-0",
             "country": "United States",
             "flag": "🇺🇸",
             "rankings": [
@@ -999,6 +999,17 @@
             "fighter_1": "-196",
             "fighter_2": "164",
             "status": "consensus_odds"
+          },
+          "result": {
+            "winner": "Dan Hooker",
+            "winner_fighter_id": 328,
+            "method": "Decision - Unanimous",
+            "method_normalized": "decision_unanimous",
+            "finish_detail": "Unanimous",
+            "round": 3,
+            "time": "5:00",
+            "time_seconds": 300,
+            "details": "27 - 30. 27 - 30. 27 - 30."
           }
         },
         {

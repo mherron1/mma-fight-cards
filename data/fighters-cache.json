@@ -12560,8 +12560,8 @@
         "scope": "amateur-mma"
       },
       "pro_mma": {
-        "value": "24-15-0",
-        "wins": 24,
+        "value": "25-15-0",
+        "wins": 25,
         "losses": 15,
         "draws": 0,
         "no_contests": 0,
@@ -12724,9 +12724,9 @@
     "birthplace": "Torrance, California",
     "records": {
       "pro_mma": {
-        "value": "16-5-0",
+        "value": "16-6-0",
         "wins": 16,
-        "losses": 5,
+        "losses": 6,
         "draws": 0,
         "no_contests": 0,
         "source": "public-records",
