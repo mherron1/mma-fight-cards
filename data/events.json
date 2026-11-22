@@ -66,9 +66,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "159",
-          "fighter_2": "-189",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Navajo Stirling",
@@ -138,9 +138,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "101",
-          "fighter_2": "-120",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Kevin Vallejos",
@@ -215,9 +215,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-196",
-          "fighter_2": "164",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Dan Hooker",
@@ -292,9 +292,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-193",
-          "fighter_2": "162",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Kyoji Horiguchi",
@@ -369,9 +369,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "247",
-          "fighter_2": "-306",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Ikram Aliskerov",
@@ -423,9 +423,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-281",
-          "fighter_2": "229",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Santiago Luna",
@@ -477,9 +477,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-193",
-          "fighter_2": "162",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Tallison Teixeira",
@@ -535,9 +535,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-108",
-          "fighter_2": "-111",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Amir Albazi",
@@ -589,9 +589,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-258",
-          "fighter_2": "210",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Tahir Abdullayev",
@@ -638,9 +638,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "151",
-          "fighter_2": "-180",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Dom Mar Fan",
@@ -687,9 +687,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "-265",
-          "fighter_2": "216",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "Diyar Nurgozhay",
@@ -736,9 +736,9 @@
         },
         "odds": {
           "format": "American",
-          "fighter_1": "123",
-          "fighter_2": "-146",
-          "status": "consensus_odds"
+          "fighter_1": "",
+          "fighter_2": "",
+          "status": "not_available"
         },
         "result": {
           "winner": "John Mitchell",
@@ -829,8 +829,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-168",
-            "fighter_2": "136",
+            "fighter_1": "-165",
+            "fighter_2": "134",
             "status": "consensus_odds"
           }
         },
@@ -890,8 +890,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-186",
-            "fighter_2": "151",
+            "fighter_1": "-185",
+            "fighter_2": "150",
             "status": "consensus_odds"
           }
         },
@@ -1439,7 +1439,7 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "163",
+            "fighter_1": "164",
             "fighter_2": "-201",
             "status": "consensus_odds"
           }
@@ -2352,7 +2352,7 @@
           "id": "93574",
           "card_position": "main_event",
           "weight_class": "Flyweight",
-          "title_fight": true,
+          "title_fight": false,
           "fighter_1": {
             "name": "Joshua Van",
             "nickname": "The Fearless",
@@ -2426,7 +2426,7 @@
           "id": "93575",
           "card_position": "main_card",
           "weight_class": "Welterweight Interim",
-          "title_fight": true,
+          "title_fight": false,
           "fighter_1": {
             "name": "Carlos Prates",
             "nickname": "The Nightmare",
@@ -2483,8 +2483,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-169",
-            "fighter_2": "137",
+            "fighter_1": "-179",
+            "fighter_2": "146",
             "status": "consensus_odds"
           }
         },
@@ -3035,7 +3035,7 @@
       "name": "UFC Fight Night: Pyfer vs Nickal",
       "date": "2027-02-13",
       "start_time": "2027-02-13T20:00:00.000Z",
-      "location": "Cleveland, United States",
+      "location": "Cleveland, OH, United States",
       "venue": "Rocket Arena",
       "sport": "MMA",
       "status": "announced",

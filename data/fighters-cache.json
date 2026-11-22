@@ -14944,6 +14944,14 @@
     "dob": "1989-10-17",
     "team": "Chute Boxe Diego Lima",
     "birthplace": "Guaruja, Sao Paulo, Brazil",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T03:54:07.704Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "1-0",
@@ -15167,7 +15175,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:31:05.178Z"
+    "_cache_updated_at": "2026-11-22T15:01:39.107Z"
   },
   "diego-lopes": {
     "id": 111,
@@ -15184,6 +15192,14 @@
     "dob": "1994-12-30",
     "team": "Lobo Gym MMA",
     "birthplace": "Manaus, Amazonas, Brazil",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:14:38.366Z"
+      }
+    ],
     "records": {
       "pro_mma": {
         "value": "28-8-0",
@@ -15367,7 +15383,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:31:11.695Z"
+    "_cache_updated_at": "2026-11-22T15:01:45.773Z"
   },
   "sergei-pavlovich": {
     "id": 55,
@@ -15384,6 +15400,14 @@
     "dob": "1992-05-13",
     "team": "American Top Team",
     "birthplace": "Orlovsky, Rostov, Russia",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T03:38:12.785Z"
+      }
+    ],
     "records": {
       "pro_mma": {
         "value": "21-3-0",
@@ -15527,7 +15551,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:31:18.196Z"
+    "_cache_updated_at": "2026-11-22T15:01:52.087Z"
   },
   "alex-pereira": {
     "id": 101,
@@ -15544,6 +15568,14 @@
     "dob": "1987-07-07",
     "team": "Teixeira MMA & Fitness",
     "birthplace": "São Bernardo do Campo, São Paulo, Brazil",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:14:41.547Z"
+      }
+    ],
     "records": {
       "amateur_kickboxing": {
         "value": "2-1",
@@ -15789,7 +15821,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:31:24.721Z"
+    "_cache_updated_at": "2026-11-22T15:01:58.584Z"
   },
   "brandon-moreno": {
     "id": 362,
@@ -15806,6 +15838,14 @@
     "dob": "1993-12-07",
     "team": "Fortis MMA",
     "birthplace": "Tijuana, Baja California, Mexico",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T03:45:35.877Z"
+      }
+    ],
     "records": {
       "pro_mma": {
         "value": "24-10-2",
@@ -15971,7 +16011,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:31:31.267Z"
+    "_cache_updated_at": "2026-11-22T15:02:05.089Z"
   },
   "charles-johnson": {
     "id": 279,
@@ -15988,6 +16028,14 @@
     "dob": "1991-01-10",
     "team": "Murcielago MMA",
     "birthplace": "Topeka, Kansas, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:12:31.419Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "14-3-1",
@@ -16156,7 +16204,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:31:37.702Z"
+    "_cache_updated_at": "2026-11-22T15:02:11.667Z"
   },
   "quentin-pasley": {
     "id": 34008,
@@ -16173,6 +16221,14 @@
     "dob": "2001-10-15",
     "team": "Fighting Arts Academy",
     "birthplace": "CT, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:01:24.413Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "7-0",
@@ -16333,7 +16389,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:31:44.226Z"
+    "_cache_updated_at": "2026-11-22T15:02:18.090Z"
   },
   "junior-tafa": {
     "id": 322,
@@ -16350,6 +16406,14 @@
     "dob": "1996-09-21",
     "team": "NTG Fight & Fitness",
     "birthplace": "Avondale, New Zealand",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:15:12.540Z"
+      }
+    ],
     "records": {
       "pro_boxing": {
         "value": "1-0",
@@ -16541,7 +16605,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:31:50.717Z"
+    "_cache_updated_at": "2026-11-22T15:02:24.580Z"
   },
   "joe-pyfer": {
     "id": 201,
@@ -16558,6 +16622,14 @@
     "dob": "1996-09-17",
     "team": "Marquez MMA",
     "birthplace": "Vineland, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:13:09.094Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "4-1",
@@ -16721,12 +16793,12 @@
       }
     ],
     "next_fight": {
-      "fight_id": 93368,
-      "event_id": 2562,
-      "event_title": "UFC 335: Oliveira vs Lopes",
-      "event_slug": "ufc-335-2026-12-13",
+      "fight_id": 93826,
+      "event_id": 3604,
+      "event_title": "UFC Fight Night: Pyfer vs Nickal",
+      "event_slug": "ufc-fight-night-2027-02-13",
       "org_slug": "ufc",
-      "date": "2026-12-12",
+      "date": "2027-02-13",
       "opponent_id": 109,
       "opponent_name": "Bo Nickal",
       "opponent_slug": "bo-nickal",
@@ -16758,7 +16830,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:31:57.322Z"
+    "_cache_updated_at": "2026-11-22T15:02:31.093Z"
   },
   "bo-nickal": {
     "id": 109,
@@ -16775,6 +16847,14 @@
     "dob": "1996-01-14",
     "team": "American Top Team",
     "birthplace": "Rifle, Colorado, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:12:06.573Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "2-0",
@@ -16965,12 +17045,12 @@
       }
     ],
     "next_fight": {
-      "fight_id": 93368,
-      "event_id": 2562,
-      "event_title": "UFC 335: Oliveira vs Lopes",
-      "event_slug": "ufc-335-2026-12-13",
+      "fight_id": 93826,
+      "event_id": 3604,
+      "event_title": "UFC Fight Night: Pyfer vs Nickal",
+      "event_slug": "ufc-fight-night-2027-02-13",
       "org_slug": "ufc",
-      "date": "2026-12-12",
+      "date": "2027-02-13",
       "opponent_id": 201,
       "opponent_name": "Joe Pyfer",
       "opponent_slug": "joe-pyfer",
@@ -17002,7 +17082,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:32:03.707Z"
+    "_cache_updated_at": "2026-11-22T15:02:37.598Z"
   },
   "maycee-barber": {
     "id": 356,
@@ -17019,6 +17099,14 @@
     "dob": "1998-05-18",
     "team": "Fort Collins Martial Arts",
     "birthplace": "Greeley, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T03:48:30.558Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "1-0",
@@ -17184,7 +17272,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:32:10.212Z"
+    "_cache_updated_at": "2026-11-22T15:02:44.143Z"
   },
   "carli-judice": {
     "id": 454,
@@ -17201,6 +17289,14 @@
     "dob": "1999-03-02",
     "team": "Headkicks MMA",
     "birthplace": "Lafayette, Lousiana, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:04:07.502Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "4-0",
@@ -17347,7 +17443,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:32:16.727Z"
+    "_cache_updated_at": "2026-11-22T15:02:50.603Z"
   },
   "julian-erosa": {
     "id": 522,
@@ -27143,6 +27239,14 @@
     "dob": "1992-10-06",
     "team": "Valle Flow Striking (VFS Academy)",
     "birthplace": "Parral, Chihuahua, Mexico",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T03:43:01.734Z"
+      }
+    ],
     "records": {
       "pro_mma": {
         "value": "21-6-0 (1 NC)",
@@ -27287,7 +27391,7 @@
     "next_fight": {
       "fight_id": 93823,
       "event_id": 3554,
-      "event_title": "UFC Dallas",
+      "event_title": "UFC Fight Night: Rodriguez vs Garcia",
       "event_slug": "ufc-fight-night-2027-01-17",
       "org_slug": "ufc",
       "date": "2027-01-16",
@@ -27322,7 +27426,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T06:11:34.584Z"
+    "_cache_updated_at": "2026-11-22T15:00:47.355Z"
   },
   "steve-garcia": {
     "id": 112,
@@ -27339,6 +27443,14 @@
     "dob": "1992-05-22",
     "team": "Jackson-Wink MMA",
     "birthplace": "Albuquerque, New Mexico, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:17:25.582Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "3-0",
@@ -27487,7 +27599,7 @@
     "next_fight": {
       "fight_id": 93823,
       "event_id": 3554,
-      "event_title": "UFC Dallas",
+      "event_title": "UFC Fight Night: Rodriguez vs Garcia",
       "event_slug": "ufc-fight-night-2027-01-17",
       "org_slug": "ufc",
       "date": "2027-01-16",
@@ -27522,7 +27634,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T06:11:41.088Z"
+    "_cache_updated_at": "2026-11-22T15:00:53.550Z"
   },
   "daniel-rodriguez": {
     "id": 761,
@@ -27539,6 +27651,14 @@
     "dob": "1986-12-31",
     "team": "Syndicate MMA",
     "birthplace": "Los Angeles, California, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T03:36:48.002Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "7-0",
@@ -27650,7 +27770,7 @@
     "next_fight": {
       "fight_id": 93824,
       "event_id": 3554,
-      "event_title": "UFC Dallas",
+      "event_title": "UFC Fight Night: Rodriguez vs Garcia",
       "event_slug": "ufc-fight-night-2027-01-17",
       "org_slug": "ufc",
       "date": "2027-01-16",
@@ -27685,7 +27805,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T06:11:47.589Z"
+    "_cache_updated_at": "2026-11-22T15:01:00.520Z"
   },
   "roberto-soldic": {
     "id": 4967,
@@ -27702,6 +27822,14 @@
     "dob": "1995-01-25",
     "team": "RRC Gym",
     "birthplace": "Nova Bila, Bosnia–Herzegovina",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:01:22.482Z"
+      }
+    ],
     "records": {
       "one": {
         "value": "1-1-0",
@@ -27846,7 +27974,7 @@
     "next_fight": {
       "fight_id": 93824,
       "event_id": 3554,
-      "event_title": "UFC Dallas",
+      "event_title": "UFC Fight Night: Rodriguez vs Garcia",
       "event_slug": "ufc-fight-night-2027-01-17",
       "org_slug": "ufc",
       "date": "2027-01-16",
@@ -27881,7 +28009,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T06:11:54.104Z"
+    "_cache_updated_at": "2026-11-22T15:01:06.560Z"
   },
   "chidi-njokuani": {
     "id": 485,
@@ -27898,6 +28026,14 @@
     "dob": "1988-12-31",
     "team": "Janjira Muay Thai",
     "birthplace": "Dallas, Texas, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:15:51.705Z"
+      }
+    ],
     "records": {
       "amateur_muay_thai": {
         "value": "1-0",
@@ -28009,7 +28145,7 @@
     "next_fight": {
       "fight_id": 93825,
       "event_id": 3554,
-      "event_title": "UFC Dallas",
+      "event_title": "UFC Fight Night: Rodriguez vs Garcia",
       "event_slug": "ufc-fight-night-2027-01-17",
       "org_slug": "ufc",
       "date": "2027-01-16",
@@ -28044,7 +28180,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T06:12:00.648Z"
+    "_cache_updated_at": "2026-11-22T15:01:13.068Z"
   },
   "ignacio-bahamondes": {
     "id": 520,
@@ -28061,6 +28197,14 @@
     "dob": "1997-08-27",
     "team": "Valle Flow Striking",
     "birthplace": "Santiago, Chile",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:16:20.040Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "1-0",
@@ -28172,7 +28316,7 @@
     "next_fight": {
       "fight_id": 93825,
       "event_id": 3554,
-      "event_title": "UFC Dallas",
+      "event_title": "UFC Fight Night: Rodriguez vs Garcia",
       "event_slug": "ufc-fight-night-2027-01-17",
       "org_slug": "ufc",
       "date": "2027-01-16",
@@ -28207,7 +28351,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T06:12:07.143Z"
+    "_cache_updated_at": "2026-11-22T15:01:19.550Z"
   },
   "gabriel-bonfim": {
     "id": 78,
@@ -28224,6 +28368,14 @@
     "dob": "1997-08-20",
     "team": "Cerrado MMA",
     "birthplace": "Brasilia, Federal District, Brazil",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T04:12:09.741Z"
+      }
+    ],
     "records": {
       "pro_mma": {
         "value": "20-1-0",
@@ -28358,7 +28510,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:28:55.468Z"
+    "_cache_updated_at": "2026-11-22T15:01:26.068Z"
   },
   "sean-brady": {
     "id": 7,
@@ -28375,6 +28527,14 @@
     "dob": "1992-11-23",
     "team": "Marquez MMA",
     "birthplace": "Philadelphia, Pennsylvania, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-22T03:37:53.330Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "5-0",
@@ -28553,7 +28713,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-15T14:29:01.662Z"
+    "_cache_updated_at": "2026-11-22T15:01:32.608Z"
   },
   "kyler-phillips": {
     "id": 570,
