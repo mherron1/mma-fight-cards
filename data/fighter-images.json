@@ -2220,5 +2220,181 @@
     "fullBodySource": "ESPN (temporary)",
     "espnId": "5088916",
     "matchStatus": "matched"
+  },
+  "luke-riley": {
+    "id": 377,
+    "slug": "luke-riley",
+    "name": "Luke Riley",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5146696.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5146696.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5146696",
+    "matchStatus": "matched"
+  },
+  "gabriel-santos": {
+    "id": 2768,
+    "slug": "gabriel-santos",
+    "name": "Gabriel Santos",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5109762.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5109762.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5109762",
+    "matchStatus": "matched"
+  },
+  "mateusz-rebecki": {
+    "id": 16,
+    "slug": "mateusz-rebecki",
+    "name": "Mateusz Rębecki",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4689965.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4689965.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4689965",
+    "matchStatus": "matched"
+  },
+  "elves-brener": {
+    "id": 2765,
+    "slug": "elves-brener",
+    "name": "Elves Brener",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5110006.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5110006.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5110006",
+    "matchStatus": "matched"
+  },
+  "jacqueline-cavalcanti": {
+    "id": 42,
+    "slug": "jacqueline-cavalcanti",
+    "name": "Jacqueline Cavalcanti",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4916251.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4916251.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4916251",
+    "matchStatus": "matched"
+  },
+  "michelle-montague": {
+    "id": 218,
+    "slug": "michelle-montague",
+    "name": "Michelle Montague",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4916259.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4916259.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4916259",
+    "matchStatus": "matched"
+  },
+  "roque-conceicao": {
+    "id": 31848,
+    "slug": "roque-conceicao",
+    "name": "Roque Conceição",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5310567.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5310567.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5310567",
+    "matchStatus": "matched"
+  },
+  "nilson-rojas": {
+    "id": 11849,
+    "slug": "nilson-rojas",
+    "name": "Nilson Rojas",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5399264.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5399264.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5399264",
+    "matchStatus": "matched"
+  },
+  "tanner-boser": {
+    "id": 562,
+    "slug": "tanner-boser",
+    "name": "Tanner Boser",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4232775.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4232775.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4232775",
+    "matchStatus": "matched"
+  },
+  "jose-montanha": {
+    "id": 2986,
+    "slug": "jose-montanha",
+    "name": "Jose Montanha",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5351808.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5351808.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5351808",
+    "matchStatus": "matched"
+  },
+  "marc-andre-barriault": {
+    "id": 505,
+    "slug": "marc-andre-barriault",
+    "name": "Marc-Andre Barriault",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4415883.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4415883.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4415883",
+    "matchStatus": "matched"
+  },
+  "tresean-gore": {
+    "id": 584,
+    "slug": "tresean-gore",
+    "name": "Tresean Gore",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4815999.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4815999.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4815999",
+    "matchStatus": "matched"
+  },
+  "gable-steveson": {
+    "id": 2985,
+    "slug": "gable-steveson",
+    "name": "Gable Steveson",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5214652.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5214652.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5214652",
+    "matchStatus": "matched"
+  },
+  "terrance-chatman": {
+    "id": 55708,
+    "slug": "terrance-chatman",
+    "name": "Terrance Chatman",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5397621.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5397621.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5397621",
+    "matchStatus": "matched"
+  },
+  "julien-leblanc": {
+    "id": 567,
+    "slug": "julien-leblanc",
+    "name": "Julien Leblanc",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4807973.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/4807973.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "4807973",
+    "matchStatus": "matched"
+  },
+  "vlasto-cepo": {
+    "id": 2989,
+    "slug": "vlasto-cepo",
+    "name": "Vlasto Cepo",
+    "headshot": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/5351430.png&w=600&h=436",
+    "headshotSource": "ESPN Combiner (temporary)",
+    "fullBody": "https://a.espncdn.com/i/headshots/mma/players/full/5351430.png",
+    "fullBodySource": "ESPN (temporary)",
+    "espnId": "5351430",
+    "matchStatus": "matched"
   }
 }

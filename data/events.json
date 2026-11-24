@@ -829,8 +829,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-165",
-            "fighter_2": "134",
+            "fighter_1": "-173",
+            "fighter_2": "140",
             "status": "consensus_odds"
           }
         },
@@ -890,8 +890,46 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-185",
-            "fighter_2": "150",
+            "fighter_1": "-193",
+            "fighter_2": "156",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "93764",
+          "card_position": "main_card",
+          "weight_class": "Welterweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Levan Chokheli",
+            "nickname": "",
+            "record": "15-3-0",
+            "country": "Georgia",
+            "flag": "🇬🇪",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-10-02",
+            "image_credit": null,
+            "height": "5' 11\"",
+            "weight": "170 lbs"
+          },
+          "fighter_2": {
+            "name": "Islam Dulatov",
+            "nickname": "The Ripper",
+            "record": "12-1-0",
+            "country": "Germany",
+            "flag": "🇩🇪",
+            "rankings": [],
+            "image": "",
+            "dob": "1998-08-02",
+            "image_credit": null,
+            "height": "6' 3\"",
+            "weight": "170 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "164",
+            "fighter_2": "-206",
             "status": "consensus_odds"
           }
         },
@@ -937,47 +975,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
-          }
-        },
-        {
-          "id": "93764",
-          "card_position": "main_card",
-          "weight_class": "Welterweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Levan Chokheli",
-            "nickname": "",
-            "record": "15-3-0",
-            "country": "Georgia",
-            "flag": "🇬🇪",
-            "rankings": [],
-            "image": "",
-            "dob": "1996-10-02",
-            "image_credit": null,
-            "height": "5' 11\"",
-            "weight": "170 lbs"
-          },
-          "fighter_2": {
-            "name": "Islam Dulatov",
-            "nickname": "The Ripper",
-            "record": "12-1-0",
-            "country": "Germany",
-            "flag": "🇩🇪",
-            "rankings": [],
-            "image": "",
-            "dob": "1998-08-02",
-            "image_credit": null,
-            "height": "6' 3\"",
-            "weight": "170 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "256",
+            "fighter_2": "-334",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1013,9 +1013,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "239",
+            "fighter_2": "-311",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1051,9 +1051,47 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-190",
+            "fighter_2": "154",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "94124",
+          "card_position": "prelim",
+          "weight_class": "Featherweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Luke Riley",
+            "nickname": "",
+            "record": "14-0-0",
+            "country": "England",
+            "flag": "",
+            "rankings": [],
+            "image": "",
+            "dob": "1999-06-30",
+            "image_credit": null,
+            "height": "5' 9\"",
+            "weight": "145 lbs"
+          },
+          "fighter_2": {
+            "name": "Gabriel Santos",
+            "nickname": "Mosquitinho",
+            "record": "12-2-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-11-28",
+            "image_credit": null,
+            "height": "5' 9\"",
+            "weight": "145 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "-156",
+            "fighter_2": "126",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1089,9 +1127,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "125",
+            "fighter_2": "-154",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1127,9 +1165,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-116",
+            "fighter_2": "-107",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1165,9 +1203,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-183",
+            "fighter_2": "147",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1203,9 +1241,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-138",
+            "fighter_2": "112",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1241,9 +1279,9 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "119",
+            "fighter_2": "-145",
+            "status": "consensus_odds"
           }
         },
         {
@@ -1279,9 +1317,47 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
+            "fighter_1": "-152",
+            "fighter_2": "124",
+            "status": "consensus_odds"
+          }
+        },
+        {
+          "id": "94125",
+          "card_position": "prelim",
+          "weight_class": "Lightweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Mateusz Rębecki",
+            "nickname": "",
+            "record": "21-5-0",
+            "country": "Poland",
+            "flag": "🇵🇱",
+            "rankings": [],
+            "image": "",
+            "dob": "1992-10-03",
+            "image_credit": null,
+            "height": "5' 7\"",
+            "weight": "155 lbs"
+          },
+          "fighter_2": {
+            "name": "Elves Brener",
+            "nickname": "",
+            "record": "17-6-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1997-09-27",
+            "image_credit": null,
+            "height": "5' 10\"",
+            "weight": "155 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "-149",
+            "fighter_2": "122",
+            "status": "consensus_odds"
           }
         }
       ],
@@ -1439,8 +1515,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "164",
-            "fighter_2": "-201",
+            "fighter_1": "163",
+            "fighter_2": "-200",
             "status": "consensus_odds"
           }
         },
@@ -1506,96 +1582,6 @@
           }
         },
         {
-          "id": "93848",
-          "card_position": "main_card",
-          "weight_class": "Bantamweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Kyler Phillips",
-            "nickname": "The Matrix",
-            "record": "12-5-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "dob": "1995-06-12",
-            "image_credit": null,
-            "height": "5' 8\"",
-            "weight": "135 lbs"
-          },
-          "fighter_2": {
-            "name": "Ethyn Ewing",
-            "nickname": "The Professor Finesser",
-            "record": "10-2-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "dob": "1996-02-19",
-            "image_credit": null,
-            "height": "5' 6\"",
-            "weight": "135 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
-          }
-        },
-        {
-          "id": "93484",
-          "card_position": "main_card",
-          "weight_class": "Women's Flyweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Maycee Barber",
-            "nickname": "The Future",
-            "record": "15-3-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [
-              {
-                "division": "womens-flyweight",
-                "rank": 7,
-                "is_champion": false,
-                "movement": 0,
-                "nationality": "United States",
-                "country_code": "US"
-              }
-            ],
-            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/c50010f6a7eb192a32c5e4236d5093e302f074664ac0b57e5b0e556feb614ce3.webp",
-            "dob": "1998-05-18",
-            "image_credit": {
-              "artist": "Maritza Sanchez",
-              "license": "CC BY 4.0",
-              "license_url": "https://creativecommons.org/licenses/by/4.0",
-              "source_page": "https://commons.wikimedia.org/wiki/File:Maycee_Barber_(cropped).png"
-            },
-            "height": "5' 5\"",
-            "weight": "125 lbs"
-          },
-          "fighter_2": {
-            "name": "Carli Judice",
-            "nickname": "Crispy",
-            "record": "7-2-0",
-            "country": "United States",
-            "flag": "🇺🇸",
-            "rankings": [],
-            "image": "",
-            "dob": "1999-03-02",
-            "image_credit": null,
-            "height": "5' 7\"",
-            "weight": "125 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
-          }
-        },
-        {
           "id": "93849",
           "card_position": "main_card",
           "weight_class": "Middleweight",
@@ -1634,6 +1620,100 @@
           }
         },
         {
+          "id": "93848",
+          "card_position": "main_card",
+          "weight_class": "Bantamweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Kyler Phillips",
+            "nickname": "The Matrix",
+            "record": "12-5-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1995-06-12",
+            "image_credit": null,
+            "height": "5' 8\"",
+            "weight": "135 lbs"
+          },
+          "fighter_2": {
+            "name": "Ethyn Ewing",
+            "nickname": "The Professor Finesser",
+            "record": "10-2-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-02-19",
+            "image_credit": null,
+            "height": "5' 6\"",
+            "weight": "135 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "94146",
+          "card_position": "early_prelim",
+          "weight_class": "Women's Bantamweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Jacqueline Cavalcanti",
+            "nickname": "The Nightmare",
+            "record": "10-2-0",
+            "country": "Portugal",
+            "flag": "🇵🇹",
+            "rankings": [
+              {
+                "division": "womens-bantamweight",
+                "rank": 9,
+                "is_champion": false,
+                "movement": -1,
+                "nationality": "Portugal",
+                "country_code": "PT"
+              }
+            ],
+            "image": "",
+            "dob": "1997-08-29",
+            "image_credit": null,
+            "height": "5' 8\"",
+            "weight": "135 lbs"
+          },
+          "fighter_2": {
+            "name": "Michelle Montague",
+            "nickname": "The Wild One",
+            "record": "8-0-0",
+            "country": "New Zealand",
+            "flag": "🇳🇿",
+            "rankings": [
+              {
+                "division": "womens-bantamweight",
+                "rank": 11,
+                "is_champion": false,
+                "movement": 1,
+                "nationality": "New Zealand",
+                "country_code": "NZ"
+              }
+            ],
+            "image": "",
+            "dob": "1993-11-25",
+            "image_credit": null,
+            "height": "5' 9\"",
+            "weight": "135 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
           "id": "93487",
           "card_position": "early_prelim",
           "weight_class": "Light Heavyweight",
@@ -1663,6 +1743,44 @@
             "image_credit": null,
             "height": "6' 3\"",
             "weight": "205 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "94147",
+          "card_position": "early_prelim",
+          "weight_class": "Flyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Roque Conceição",
+            "nickname": "Moreira Junior",
+            "record": "12-3-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1999-10-27",
+            "image_credit": null,
+            "height": "5' 5\"",
+            "weight": "125 lbs"
+          },
+          "fighter_2": {
+            "name": "Nilson Rojas",
+            "nickname": "El Rayo",
+            "record": "9-1-0",
+            "country": "Peru",
+            "flag": "🇵🇪",
+            "rankings": [],
+            "image": "",
+            "dob": "1999-04-21",
+            "image_credit": null,
+            "height": "5' 6\"",
+            "weight": "125 lbs"
           },
           "odds": {
             "format": "American",
@@ -2352,7 +2470,7 @@
           "id": "93574",
           "card_position": "main_event",
           "weight_class": "Flyweight",
-          "title_fight": false,
+          "title_fight": true,
           "fighter_1": {
             "name": "Joshua Van",
             "nickname": "The Fearless",
@@ -2426,7 +2544,7 @@
           "id": "93575",
           "card_position": "main_card",
           "weight_class": "Welterweight Interim",
-          "title_fight": false,
+          "title_fight": true,
           "fighter_1": {
             "name": "Carlos Prates",
             "nickname": "The Nightmare",
@@ -2483,8 +2601,8 @@
           },
           "odds": {
             "format": "American",
-            "fighter_1": "-179",
-            "fighter_2": "146",
+            "fighter_1": "-175",
+            "fighter_2": "142",
             "status": "consensus_odds"
           }
         },
@@ -2523,6 +2641,130 @@
             },
             "height": "5' 10\"",
             "weight": "155 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "94142",
+          "card_position": "main_card",
+          "weight_class": "Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Tanner Boser",
+            "nickname": "The Bulldozer",
+            "record": "23-11-1",
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "rankings": [],
+            "image": "",
+            "dob": "1991-08-02",
+            "image_credit": null,
+            "height": "6' 2\"",
+            "weight": "245 lbs"
+          },
+          "fighter_2": {
+            "name": "Jose Montanha",
+            "nickname": "Montanha",
+            "record": "7-1-0",
+            "country": "Brazil",
+            "flag": "🇧🇷",
+            "rankings": [],
+            "image": "",
+            "dob": "1996-08-25",
+            "image_credit": null,
+            "height": "6' 4\"",
+            "weight": "259 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "94143",
+          "card_position": "main_card",
+          "weight_class": "Middleweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Marc-Andre Barriault",
+            "nickname": "Powerbar",
+            "record": "18-11-0",
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "rankings": [],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/7cb195ef720ac9847a4e8dc15c08cd6eee681c5c76b159676dbac3eb18e2a10a.webp",
+            "dob": "1990-02-18",
+            "image_credit": {
+              "artist": "MM-eh",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:Marc-Andr%C3%A9_Barriault.png"
+            },
+            "height": "6' 1\"",
+            "weight": "185 lbs"
+          },
+          "fighter_2": {
+            "name": "Tresean Gore",
+            "nickname": "Mr. Vicious",
+            "record": "8-4-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1994-06-21",
+            "image_credit": null,
+            "height": "6' 0\"",
+            "weight": "185 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "94144",
+          "card_position": "main_card",
+          "weight_class": "Heavyweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Gable Steveson",
+            "nickname": "",
+            "record": "4-1-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "https://d33t2v9cbr12gb.cloudfront.net/commons/82c38ece53059882c338472cc115e4729205a24276d89ae5b36d4d589fa1a877.webp",
+            "dob": "2000-05-31",
+            "image_credit": {
+              "artist": "F4WOnline",
+              "license": "CC BY 3.0",
+              "license_url": "https://creativecommons.org/licenses/by/3.0",
+              "source_page": "https://commons.wikimedia.org/wiki/File:GableSteveson.jpg"
+            },
+            "height": "5' 11\"",
+            "weight": "249 lbs"
+          },
+          "fighter_2": {
+            "name": "Terrance Chatman",
+            "nickname": "The Answer",
+            "record": "5-2-0",
+            "country": "United States",
+            "flag": "🇺🇸",
+            "rankings": [],
+            "image": "",
+            "dob": "1997-05-05",
+            "image_credit": null,
+            "height": "6' 0\"",
+            "weight": "265 lbs"
           },
           "odds": {
             "format": "American",
@@ -2599,6 +2841,44 @@
             "image_credit": null,
             "height": "6' 1\"",
             "weight": "170 lbs"
+          },
+          "odds": {
+            "format": "American",
+            "fighter_1": "",
+            "fighter_2": "",
+            "status": "not_available"
+          }
+        },
+        {
+          "id": "94145",
+          "card_position": "main_card",
+          "weight_class": "Middleweight",
+          "title_fight": false,
+          "fighter_1": {
+            "name": "Julien Leblanc",
+            "nickname": "",
+            "record": "10-4-0",
+            "country": "Canada",
+            "flag": "🇨🇦",
+            "rankings": [],
+            "image": "",
+            "dob": "1992-01-21",
+            "image_credit": null,
+            "height": "6' 2\"",
+            "weight": "185 lbs"
+          },
+          "fighter_2": {
+            "name": "Vlasto Cepo",
+            "nickname": "EL CHAPO",
+            "record": "14-4-0",
+            "country": "Slovakia",
+            "flag": "🇸🇰",
+            "rankings": [],
+            "image": "",
+            "dob": "1995-01-25",
+            "image_credit": null,
+            "height": "6' 0\"",
+            "weight": "185 lbs"
           },
           "odds": {
             "format": "American",
@@ -2860,158 +3140,6 @@
             "image_credit": null,
             "height": "5' 8\"",
             "weight": "145 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
-          }
-        },
-        {
-          "id": "93781",
-          "card_position": "main_card",
-          "weight_class": "Featherweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "George Mangos",
-            "nickname": "",
-            "record": "10-1-0",
-            "country": "Australia",
-            "flag": "🇦🇺",
-            "rankings": [],
-            "image": "",
-            "dob": "2003-08-19",
-            "image_credit": null,
-            "height": "5' 8\"",
-            "weight": "145 lbs"
-          },
-          "fighter_2": {
-            "name": "Dagiisuren Chagnaadorj",
-            "nickname": "",
-            "record": "12-2-0",
-            "country": "Mongolia",
-            "flag": "🇲🇳",
-            "rankings": [],
-            "image": "",
-            "dob": "1999-12-31",
-            "image_credit": null,
-            "height": "5' 8\"",
-            "weight": "145 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
-          }
-        },
-        {
-          "id": "93782",
-          "card_position": "prelim",
-          "weight_class": "Bantamweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Rabindra Dhant",
-            "nickname": "",
-            "record": "11-1-0",
-            "country": "Nepal",
-            "flag": "🇳🇵",
-            "rankings": [],
-            "image": "",
-            "dob": "1998-11-30",
-            "image_credit": null,
-            "height": "5' 7\"",
-            "weight": "135 lbs"
-          },
-          "fighter_2": {
-            "name": "Ryo Tajima",
-            "nickname": "",
-            "record": "12-3-0",
-            "country": "Japan",
-            "flag": "🇯🇵",
-            "rankings": [],
-            "image": "",
-            "dob": "1999-08-14",
-            "image_credit": null,
-            "height": "5' 8\"",
-            "weight": "135 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
-          }
-        },
-        {
-          "id": "93783",
-          "card_position": "prelim",
-          "weight_class": "Flyweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Jiniushiyue",
-            "nickname": "Little Vajra",
-            "record": "17-4-0",
-            "country": "China",
-            "flag": "🇨🇳",
-            "rankings": [],
-            "image": "",
-            "dob": "2000-12-09",
-            "image_credit": null,
-            "height": "5' 8\"",
-            "weight": "125 lbs"
-          },
-          "fighter_2": {
-            "name": "Takaya Suzuki",
-            "nickname": "",
-            "record": "9-1-0",
-            "country": "Japan",
-            "flag": "🇯🇵",
-            "rankings": [],
-            "image": "",
-            "dob": "2004-09-08",
-            "image_credit": null,
-            "height": "5' 7\"",
-            "weight": "125 lbs"
-          },
-          "odds": {
-            "format": "American",
-            "fighter_1": "",
-            "fighter_2": "",
-            "status": "not_available"
-          }
-        },
-        {
-          "id": "93784",
-          "card_position": "prelim",
-          "weight_class": "Women's Strawweight",
-          "title_fight": false,
-          "fighter_1": {
-            "name": "Meng Bo",
-            "nickname": "",
-            "record": "24-8-0",
-            "country": "",
-            "flag": "",
-            "rankings": [],
-            "image": "",
-            "dob": "1996-03-29",
-            "image_credit": null,
-            "height": "5' 4\"",
-            "weight": "115 lbs"
-          },
-          "fighter_2": {
-            "name": "Bo Hyun Park",
-            "nickname": "The Rush",
-            "record": "10-3-0",
-            "country": "South Korea",
-            "flag": "🇰🇷",
-            "rankings": [],
-            "image": "",
-            "dob": "1999-05-14",
-            "image_credit": null,
-            "height": "5' 2\"",
-            "weight": "115 lbs"
           },
           "odds": {
             "format": "American",
