@@ -18040,6 +18040,14 @@
     "dob": "1995-09-08",
     "team": "Pura Vida BJJ",
     "birthplace": "Plymouth, Wisconsin, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:57:17.559Z"
+      }
+    ],
     "records": {
       "amateur_mma": {
         "value": "7-1",
@@ -18071,23 +18079,23 @@
     },
     "stats": {
       "values": {
-        "slpm": 2.51,
-        "str_acc": 0.57,
-        "sapm": 3.41,
-        "str_def": 0.4,
-        "td_avg": 5.79,
-        "td_acc": 0.35,
-        "td_def": 0.67,
-        "sub_avg": 1.9
+        "slpm": 2.37,
+        "str_acc": 0.5,
+        "sapm": 3.19,
+        "str_def": 0.38,
+        "td_avg": 5.47,
+        "td_acc": 0.42,
+        "td_def": 0.5,
+        "sub_avg": 1.4
       },
-      "slpm": "2.51",
-      "str_acc": "57%",
-      "sapm": "3.41",
-      "str_def": "40%",
-      "td_avg": "5.79",
-      "td_acc": "35%",
-      "td_def": "67%",
-      "sub_avg": "1.9",
+      "slpm": "2.37",
+      "str_acc": "50%",
+      "sapm": "3.19",
+      "str_def": "38%",
+      "td_avg": "5.47",
+      "td_acc": "42%",
+      "td_def": "50%",
+      "sub_avg": "1.4",
       "basis": {
         "bouts": 4,
         "orgs": [
@@ -18115,14 +18123,14 @@
         "scope": "pro-mma",
         "source": "public-records",
         "record": "6-4-0",
-        "slpm": "2.51",
-        "str_acc": "57%",
-        "sapm": "3.41",
-        "str_def": "40%",
-        "td_avg": "5.79",
-        "td_acc": "35%",
-        "td_def": "67%",
-        "sub_avg": "1.9"
+        "slpm": "2.37",
+        "str_acc": "50%",
+        "sapm": "3.19",
+        "str_def": "38%",
+        "td_avg": "5.47",
+        "td_acc": "42%",
+        "td_def": "50%",
+        "sub_avg": "1.4"
       },
       {
         "scope": "ufc-only",
@@ -18148,7 +18156,25 @@
       "last_fought_date": "2026-10-31"
     },
     "images": [],
-    "next_fight": null,
+    "next_fight": {
+      "fight_id": 94219,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 70672,
+      "opponent_name": "Trent Miller",
+      "opponent_slug": "trent-miller",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Middleweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
     "last_fight": {
       "fight_id": 85985,
       "event_id": 2805,
@@ -18168,7 +18194,7 @@
       "sport": "mma",
       "source": "native"
     },
-    "_cache_updated_at": "2026-11-01T00:10:57.808Z"
+    "_cache_updated_at": "2026-11-26T17:31:35.873Z"
   },
   "joseph-kropschot": {
     "id": 29328,
@@ -37280,5 +37306,3368 @@
       "source": "native"
     },
     "_cache_updated_at": "2026-11-24T18:35:04.043Z"
+  },
+  "pat-sabatini": {
+    "id": 21,
+    "slug": "pat-sabatini",
+    "name": "Pat Sabatini",
+    "nickname": null,
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 68,
+    "weight_lbs": 145,
+    "reach_inches": 70,
+    "stance": "Orthodox",
+    "dob": "1990-11-09",
+    "team": "Renzo Gracie Philly",
+    "birthplace": "Bristol, Pennsylvania, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T04:09:08.618Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "11-1",
+        "wins": 11,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "22-5-0",
+        "wins": 22,
+        "losses": 5,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "pro_submission_grappling": {
+        "value": "7-0",
+        "wins": 7,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-submission-grappling"
+      },
+      "ufc": {
+        "value": "9-2-0",
+        "wins": 9,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 1.69,
+        "str_acc": 0.55,
+        "sapm": 1.16,
+        "str_def": 0.54,
+        "td_avg": 4.27,
+        "td_acc": 0.41,
+        "td_def": 0.5,
+        "sub_avg": 1.3
+      },
+      "slpm": "1.69",
+      "str_acc": "55%",
+      "sapm": "1.16",
+      "str_def": "54%",
+      "td_avg": "4.27",
+      "td_acc": "41%",
+      "td_def": "50%",
+      "sub_avg": "1.3",
+      "basis": {
+        "bouts": 11,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "11-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "22-5-0",
+        "slpm": "1.69",
+        "str_acc": "55%",
+        "sapm": "1.16",
+        "str_def": "54%",
+        "td_avg": "4.27",
+        "td_acc": "41%",
+        "td_def": "50%",
+        "sub_avg": "1.3"
+      },
+      {
+        "scope": "pro-submission-grappling",
+        "source": "public-records",
+        "record": "7-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "9-2-0",
+        "slpm": "1.69",
+        "str_acc": "55%",
+        "sapm": "1.16",
+        "str_def": "54%",
+        "td_avg": "4.27",
+        "td_acc": "41%",
+        "td_def": "50%",
+        "sub_avg": "1.3"
+      }
+    ],
+    "power_index": {
+      "rating": 1842,
+      "peak": 1842,
+      "peak_at": "2026-05-09T21:00:00.000Z",
+      "peak_date": "2026-05-09",
+      "fights_rated": 27,
+      "last_fought_at": "2026-05-09T21:00:00.000Z",
+      "last_fought_date": "2026-05-09"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94215,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 501,
+      "opponent_name": "Vinicius Oliveira",
+      "opponent_slug": "vinicius-oliveira",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 66060,
+      "event_id": 12,
+      "event_title": "UFC 328: Chimaev vs Strickland",
+      "event_slug": "ufc-328-2026-05-09",
+      "org_slug": "ufc",
+      "date": "2026-05-09",
+      "opponent_id": 22,
+      "opponent_name": "William Gomis",
+      "opponent_slug": "william-gomis",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:29:32.329Z"
+  },
+  "vinicius-oliveira": {
+    "id": 501,
+    "slug": "vinicius-oliveira",
+    "name": "Vinicius Oliveira",
+    "nickname": "LokDog",
+    "nationality": "Brazil",
+    "country_code": "BR",
+    "second_nationality": null,
+    "height_inches": 69,
+    "weight_lbs": 145,
+    "reach_inches": 70,
+    "stance": "Switch",
+    "dob": "1995-11-30",
+    "team": "Sombra Team MMA",
+    "birthplace": "Porto Alegre, Rio Grande do Sul, Brazil",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:58:38.976Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "0-1",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "24-4-0",
+        "wins": 24,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "5-1-0",
+        "wins": 5,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 5.44,
+        "str_acc": 0.48,
+        "sapm": 2.86,
+        "str_def": 0.59,
+        "td_avg": 1.27,
+        "td_acc": 0.44,
+        "td_def": 0.71,
+        "sub_avg": 0.2
+      },
+      "slpm": "5.44",
+      "str_acc": "48%",
+      "sapm": "2.86",
+      "str_def": "59%",
+      "td_avg": "1.27",
+      "td_acc": "44%",
+      "td_def": "71%",
+      "sub_avg": "0.2",
+      "basis": {
+        "bouts": 7,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "0-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "24-4-0",
+        "slpm": "5.44",
+        "str_acc": "48%",
+        "sapm": "2.86",
+        "str_def": "59%",
+        "td_avg": "1.27",
+        "td_acc": "44%",
+        "td_def": "71%",
+        "sub_avg": "0.2"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "5-1-0",
+        "slpm": "5.28",
+        "str_acc": "48%",
+        "sapm": "2.88",
+        "str_def": "59%",
+        "td_avg": "1.32",
+        "td_acc": "44%",
+        "td_def": "70%",
+        "sub_avg": "0.2"
+      }
+    ],
+    "power_index": {
+      "rating": 1822,
+      "peak": 1826,
+      "peak_at": "2025-07-19T22:00:00.000Z",
+      "peak_date": "2025-07-19",
+      "fights_rated": 27,
+      "last_fought_at": "2026-06-20T21:00:00.000Z",
+      "last_fought_date": "2026-06-20"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94215,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 21,
+      "opponent_name": "Pat Sabatini",
+      "opponent_slug": "pat-sabatini",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 82828,
+      "event_id": 7,
+      "event_title": "UFC Fight Night: Kape vs Horiguchi",
+      "event_slug": "ufc-fight-night-2026-06-20",
+      "org_slug": "ufc",
+      "date": "2026-06-20",
+      "opponent_id": 539,
+      "opponent_name": "Andre Fili",
+      "opponent_slug": "andre-fili",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 2,
+      "time": "4:56",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:29:38.830Z"
+  },
+  "neil-magny": {
+    "id": 211,
+    "slug": "neil-magny",
+    "name": "Neil Magny",
+    "nickname": "The Haitian Sensation",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 75,
+    "weight_lbs": 170,
+    "reach_inches": 80,
+    "stance": "Orthodox",
+    "dob": "1987-08-03",
+    "team": "Elevation Fight Team",
+    "birthplace": "Brooklyn, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:32:55.246Z"
+      }
+    ],
+    "records": {
+      "pro_mma": {
+        "value": "32-15-0",
+        "wins": 32,
+        "losses": 15,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "pro-mma"
+      },
+      "pro_submission_grappling": {
+        "value": "0-1",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-submission-grappling"
+      },
+      "ufc": {
+        "value": "25-13-0",
+        "wins": 25,
+        "losses": 13,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 3.39,
+        "str_acc": 0.47,
+        "sapm": 2.41,
+        "str_def": 0.52,
+        "td_avg": 2.13,
+        "td_acc": 0.4,
+        "td_def": 0.56,
+        "sub_avg": 0.3
+      },
+      "slpm": "3.39",
+      "str_acc": "47%",
+      "sapm": "2.41",
+      "str_def": "52%",
+      "td_avg": "2.13",
+      "td_acc": "40%",
+      "td_def": "56%",
+      "sub_avg": "0.3",
+      "basis": {
+        "bouts": 38,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "pro-mma",
+        "source": "ufc-stats",
+        "record": "32-15-0",
+        "slpm": "3.39",
+        "str_acc": "47%",
+        "sapm": "2.41",
+        "str_def": "52%",
+        "td_avg": "2.13",
+        "td_acc": "40%",
+        "td_def": "56%",
+        "sub_avg": "0.3"
+      },
+      {
+        "scope": "pro-submission-grappling",
+        "source": "public-records",
+        "record": "0-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "25-13-0",
+        "slpm": "3.39",
+        "str_acc": "47%",
+        "sapm": "2.41",
+        "str_def": "52%",
+        "td_avg": "2.13",
+        "td_acc": "40%",
+        "td_def": "56%",
+        "sub_avg": "0.3"
+      }
+    ],
+    "power_index": {
+      "rating": 1815,
+      "peak": 1834,
+      "peak_at": "2016-03-19T23:00:00.000Z",
+      "peak_date": "2016-03-19",
+      "fights_rated": 46,
+      "last_fought_at": "2026-08-15T21:30:00.000Z",
+      "last_fought_date": "2026-08-15"
+    },
+    "images": [
+      {
+        "url": "https://d33t2v9cbr12gb.cloudfront.net/commons/ab8aabe88dc36dbc6fc0c80bf5ee551492d49ef3b2ad34d59b28a67101220224.webp",
+        "width": 598,
+        "height": 846,
+        "license": "Public domain",
+        "license_url": null,
+        "artist": "3d U.S. Infantry Regiment \"The Old Guard\"",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Neil_Magny.jpg"
+      }
+    ],
+    "next_fight": {
+      "fight_id": 94216,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 132,
+      "opponent_name": "Daniil Donchenko",
+      "opponent_slug": "daniil-donchenko",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 82952,
+      "event_id": 2,
+      "event_title": "UFC 330: Makhachev vs Machado Garry",
+      "event_slug": "ufc-330-2026-08-15",
+      "org_slug": "ufc",
+      "date": "2026-08-15",
+      "opponent_id": 192,
+      "opponent_name": "Ramiz Brahimaj",
+      "opponent_slug": "ramiz-brahimaj",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 2,
+      "time": "3:20",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:29:45.377Z"
+  },
+  "daniil-donchenko": {
+    "id": 132,
+    "slug": "daniil-donchenko",
+    "name": "Daniil Donchenko",
+    "nickname": null,
+    "nationality": "Ukraine",
+    "country_code": "UA",
+    "second_nationality": null,
+    "height_inches": 71,
+    "weight_lbs": 170,
+    "reach_inches": 71,
+    "stance": "Orthodox",
+    "dob": "2001-08-04",
+    "team": "Tiger Muay Thai",
+    "birthplace": "Kyiv, Ukraine",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:56:33.993Z"
+      }
+    ],
+    "records": {
+      "one": {
+        "value": "1-0-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "one-official",
+        "scope": "one-only"
+      },
+      "pro_mma": {
+        "value": "16-2-0",
+        "wins": 16,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "4-0-0",
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 7.14,
+        "str_acc": 0.62,
+        "sapm": 2.14,
+        "str_def": 0.73,
+        "td_avg": 0.37,
+        "td_acc": 0.25,
+        "td_def": 0.67,
+        "sub_avg": 0
+      },
+      "slpm": "7.14",
+      "str_acc": "62%",
+      "sapm": "2.14",
+      "str_def": "73%",
+      "td_avg": "0.37",
+      "td_acc": "25%",
+      "td_def": "67%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 4,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "one-only",
+        "source": "one-official",
+        "record": "1-0-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "ufc-stats",
+        "record": "16-2-0",
+        "slpm": "7.14",
+        "str_acc": "62%",
+        "sapm": "2.14",
+        "str_def": "73%",
+        "td_avg": "0.37",
+        "td_acc": "25%",
+        "td_def": "67%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "4-0-0",
+        "slpm": "7.14",
+        "str_acc": "62%",
+        "sapm": "2.14",
+        "str_def": "73%",
+        "td_avg": "0.37",
+        "td_acc": "25%",
+        "td_def": "67%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1832,
+      "peak": 1832,
+      "peak_at": "2026-09-05T16:00:00.000Z",
+      "peak_date": "2026-09-05",
+      "fights_rated": 17,
+      "last_fought_at": "2026-09-05T16:00:00.000Z",
+      "last_fought_date": "2026-09-05"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94216,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 211,
+      "opponent_name": "Neil Magny",
+      "opponent_slug": "neil-magny",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 84181,
+      "event_id": 2515,
+      "event_title": "UFC Fight Night: Hooker vs Parnasse",
+      "event_slug": "ufc-fight-night-2026-09-05",
+      "org_slug": "ufc",
+      "date": "2026-09-05",
+      "opponent_id": 189,
+      "opponent_name": "Punahele Soriano",
+      "opponent_slug": "punahele-soriano",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:29:51.914Z"
+  },
+  "azamat-bekoev": {
+    "id": 138,
+    "slug": "azamat-bekoev",
+    "name": "Azamat Bekoev",
+    "nickname": "Iron",
+    "nationality": "Russia",
+    "country_code": "RU",
+    "second_nationality": null,
+    "height_inches": 72,
+    "weight_lbs": 185,
+    "reach_inches": 72,
+    "stance": "Orthodox",
+    "dob": "1995-12-30",
+    "team": "American Top Team",
+    "birthplace": "Vladikavkaz, North Ossetia-Alania, Russia",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:56:47.933Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "2-0",
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "20-5-0",
+        "wins": 20,
+        "losses": 5,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "2-2-0",
+        "wins": 2,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.57,
+        "str_acc": 0.52,
+        "sapm": 6.83,
+        "str_def": 0.31,
+        "td_avg": 3.48,
+        "td_acc": 0.44,
+        "td_def": 0.63,
+        "sub_avg": 0
+      },
+      "slpm": "4.57",
+      "str_acc": "52%",
+      "sapm": "6.83",
+      "str_def": "31%",
+      "td_avg": "3.48",
+      "td_acc": "44%",
+      "td_def": "63%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 4,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "2-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "20-5-0",
+        "slpm": "4.57",
+        "str_acc": "52%",
+        "sapm": "6.83",
+        "str_def": "31%",
+        "td_avg": "3.48",
+        "td_acc": "44%",
+        "td_def": "63%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "2-2-0",
+        "slpm": "4.57",
+        "str_acc": "52%",
+        "sapm": "6.83",
+        "str_def": "31%",
+        "td_avg": "3.48",
+        "td_acc": "44%",
+        "td_def": "63%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1777,
+      "peak": 1825,
+      "peak_at": "2025-05-03T23:00:00.000Z",
+      "peak_date": "2025-05-03",
+      "fights_rated": 25,
+      "last_fought_at": "2026-04-04T21:00:00.000Z",
+      "last_fought_date": "2026-04-04"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94217,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 388,
+      "opponent_name": "Eric McConico",
+      "opponent_slug": "eric-mcconico",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Middleweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 60708,
+      "event_id": 796,
+      "event_title": "UFC Fight Night: Moicano vs Duncan",
+      "event_slug": "ufc-fight-night-2026-04-04",
+      "org_slug": "ufc",
+      "date": "2026-04-04",
+      "opponent_id": 584,
+      "opponent_name": "Tresean Gore",
+      "opponent_slug": "tresean-gore",
+      "result": "loss",
+      "method": "Submission",
+      "round": 3,
+      "time": "3:27",
+      "weight_class": "Middleweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:29:58.340Z"
+  },
+  "eric-mcconico": {
+    "id": 388,
+    "slug": "eric-mcconico",
+    "name": "Eric McConico",
+    "nickname": null,
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 72,
+    "weight_lbs": 185,
+    "reach_inches": 77,
+    "stance": "Southpaw",
+    "dob": "1990-05-09",
+    "team": "MMA LAB",
+    "birthplace": "San Bernardino, California, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:56:52.962Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "5-2",
+        "wins": 5,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "11-5-1",
+        "wins": 11,
+        "losses": 5,
+        "draws": 1,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "pro_submission_grappling": {
+        "value": "1-1",
+        "wins": 1,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-submission-grappling"
+      },
+      "ufc": {
+        "value": "2-3-0",
+        "wins": 2,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 2.95,
+        "str_acc": 0.47,
+        "sapm": 3.18,
+        "str_def": 0.48,
+        "td_avg": 0.61,
+        "td_acc": 0.67,
+        "td_def": 0.69,
+        "sub_avg": 0
+      },
+      "slpm": "2.95",
+      "str_acc": "47%",
+      "sapm": "3.18",
+      "str_def": "48%",
+      "td_avg": "0.61",
+      "td_acc": "67%",
+      "td_def": "69%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 5,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "5-2",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "11-5-1",
+        "slpm": "2.95",
+        "str_acc": "47%",
+        "sapm": "3.18",
+        "str_def": "48%",
+        "td_avg": "0.61",
+        "td_acc": "67%",
+        "td_def": "69%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "pro-submission-grappling",
+        "source": "public-records",
+        "record": "1-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "2-3-0",
+        "slpm": "2.95",
+        "str_acc": "47%",
+        "sapm": "3.18",
+        "str_def": "48%",
+        "td_avg": "0.61",
+        "td_acc": "67%",
+        "td_def": "69%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1608,
+      "peak": 1655,
+      "peak_at": "2019-02-02T00:00:00.000Z",
+      "peak_date": "2019-02-02",
+      "fights_rated": 16,
+      "last_fought_at": "2026-08-15T21:30:00.000Z",
+      "last_fought_date": "2026-08-15"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94217,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 138,
+      "opponent_name": "Azamat Bekoev",
+      "opponent_slug": "azamat-bekoev",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Middleweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83279,
+      "event_id": 2,
+      "event_title": "UFC 330: Makhachev vs Machado Garry",
+      "event_slug": "ufc-330-2026-08-15",
+      "org_slug": "ufc",
+      "date": "2026-08-15",
+      "opponent_id": 418,
+      "opponent_name": "Donte Johnson",
+      "opponent_slug": "donte-johnson",
+      "result": "loss",
+      "method": "KO/TKO",
+      "round": 1,
+      "time": "1:38",
+      "weight_class": "Middleweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:30:04.879Z"
+  },
+  "yadier-del-valle": {
+    "id": 412,
+    "slug": "yadier-del-valle",
+    "name": "Yadier del Valle",
+    "nickname": "The Cuban Problem",
+    "nationality": "Cuba",
+    "country_code": "CU",
+    "second_nationality": null,
+    "height_inches": 69,
+    "weight_lbs": 145,
+    "reach_inches": 69,
+    "stance": "Southpaw",
+    "dob": "1996-07-29",
+    "team": "Gracie Barra Westchase",
+    "birthplace": "Ciego de Avila, Cuba",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:57:18.706Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "4-0",
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "11-1-0",
+        "wins": 11,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "3-1-0",
+        "wins": 3,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.12,
+        "str_acc": 0.61,
+        "sapm": 2.13,
+        "str_def": 0.56,
+        "td_avg": 1.21,
+        "td_acc": 0.43,
+        "td_def": 0.62,
+        "sub_avg": 2
+      },
+      "slpm": "4.12",
+      "str_acc": "61%",
+      "sapm": "2.13",
+      "str_def": "56%",
+      "td_avg": "1.21",
+      "td_acc": "43%",
+      "td_def": "62%",
+      "sub_avg": "2.0",
+      "basis": {
+        "bouts": 5,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "4-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "11-1-0",
+        "slpm": "4.12",
+        "str_acc": "61%",
+        "sapm": "2.13",
+        "str_def": "56%",
+        "td_avg": "1.21",
+        "td_acc": "43%",
+        "td_def": "62%",
+        "sub_avg": "2.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "3-1-0",
+        "slpm": "1.26",
+        "str_acc": "46%",
+        "sapm": "0.90",
+        "str_def": "66%",
+        "td_avg": "0.68",
+        "td_acc": "100%",
+        "td_def": "60%",
+        "sub_avg": "2.7"
+      }
+    ],
+    "power_index": {
+      "rating": 1794,
+      "peak": 1794,
+      "peak_at": "2026-08-08T21:00:00.000Z",
+      "peak_date": "2026-08-08",
+      "fights_rated": 12,
+      "last_fought_at": "2026-08-08T21:00:00.000Z",
+      "last_fought_date": "2026-08-08"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94218,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 94064,
+      "opponent_name": "Ezra Elliott",
+      "opponent_slug": "ezra-elliott",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83257,
+      "event_id": 2513,
+      "event_title": "UFC Fight Night: Gamrot vs Salkilld",
+      "event_slug": "ufc-fight-night-2026-08-08",
+      "org_slug": "ufc",
+      "date": "2026-08-08",
+      "opponent_id": 962,
+      "opponent_name": "Darren Elkins",
+      "opponent_slug": "darren-elkins",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 1,
+      "time": "0:35",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:30:11.344Z"
+  },
+  "ezra-elliott": {
+    "id": 94064,
+    "slug": "ezra-elliott",
+    "name": "Ezra Elliott",
+    "nickname": null,
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 69,
+    "weight_lbs": 145,
+    "reach_inches": 72,
+    "stance": "Orthodox",
+    "dob": "2000-05-18",
+    "team": "MMA LAB",
+    "birthplace": "Illinois, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:55:23.398Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "4-0",
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "8-0-0",
+        "wins": 8,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-0-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 0.4,
+        "str_acc": 0.55,
+        "sapm": 0.47,
+        "str_def": 0.65,
+        "td_avg": 12,
+        "td_acc": 0.67,
+        "td_def": 1,
+        "sub_avg": 3
+      },
+      "slpm": "0.40",
+      "str_acc": "55%",
+      "sapm": "0.47",
+      "str_def": "65%",
+      "td_avg": "12.00",
+      "td_acc": "67%",
+      "td_def": "100%",
+      "sub_avg": "3.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "4-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "8-0-0",
+        "slpm": "0.40",
+        "str_acc": "55%",
+        "sapm": "0.47",
+        "str_def": "65%",
+        "td_avg": "12.00",
+        "td_acc": "67%",
+        "td_def": "100%",
+        "sub_avg": "3.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-0-0",
+        "slpm": "0.40",
+        "str_acc": "55%",
+        "sapm": "0.47",
+        "str_def": "65%",
+        "td_avg": "12.00",
+        "td_acc": "67%",
+        "td_def": "100%",
+        "sub_avg": "3.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1749,
+      "peak": 1749,
+      "peak_at": "2026-07-18T21:00:00.000Z",
+      "peak_date": "2026-07-18",
+      "fights_rated": 8,
+      "last_fought_at": "2026-07-18T21:00:00.000Z",
+      "last_fought_date": "2026-07-18"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94218,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 412,
+      "opponent_name": "Yadier del Valle",
+      "opponent_slug": "yadier-del-valle",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83063,
+      "event_id": 880,
+      "event_title": "UFC Fight Night: Du Plessis vs Usman",
+      "event_slug": "ufc-fight-night-2026-07-19",
+      "org_slug": "ufc",
+      "date": "2026-07-18",
+      "opponent_id": 47551,
+      "opponent_name": "Damien Anderson",
+      "opponent_slug": "damien-anderson",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:30:17.860Z"
+  },
+  "trent-miller": {
+    "id": 70672,
+    "slug": "trent-miller",
+    "name": "Trent Miller",
+    "nickname": "The Terminator",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 70,
+    "weight_lbs": 185,
+    "reach_inches": 72,
+    "stance": "Orthodox",
+    "dob": "1995-10-31",
+    "team": "Xtreme Couture",
+    "birthplace": "Las Vegas, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:54:39.586Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "6-0",
+        "wins": 6,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "10-3-0",
+        "wins": 10,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 2.13,
+        "str_acc": 0.33,
+        "sapm": 5.94,
+        "str_def": 0.48,
+        "td_avg": 3.36,
+        "td_acc": 0.5,
+        "td_def": null,
+        "sub_avg": 1.7
+      },
+      "slpm": "2.13",
+      "str_acc": "33%",
+      "sapm": "5.94",
+      "str_def": "48%",
+      "td_avg": "3.36",
+      "td_acc": "50%",
+      "td_def": null,
+      "sub_avg": "1.7",
+      "basis": {
+        "bouts": 2,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "6-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "10-3-0",
+        "slpm": "2.13",
+        "str_acc": "33%",
+        "sapm": "5.94",
+        "str_def": "48%",
+        "td_avg": "3.36",
+        "td_acc": "50%",
+        "td_def": null,
+        "sub_avg": "1.7"
+      }
+    ],
+    "power_index": {
+      "rating": 1653,
+      "peak": 1666,
+      "peak_at": "2023-12-15T00:00:00.000Z",
+      "peak_date": "2023-12-15",
+      "fights_rated": 13,
+      "last_fought_at": "2026-08-18T23:00:00.000Z",
+      "last_fought_date": "2026-08-18"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94219,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 2863,
+      "opponent_name": "Nick Klein",
+      "opponent_slug": "nick-klein",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Middleweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83747,
+      "event_id": 2552,
+      "event_title": "Dana White's Contender Series 88",
+      "event_slug": "ufc-dwcs-88-2026-08-18",
+      "org_slug": "ufc",
+      "date": "2026-08-18",
+      "opponent_id": 139738,
+      "opponent_name": "Douglas Rodrigues",
+      "opponent_slug": "douglas-rodrigues",
+      "result": "win",
+      "method": "Technical Submission (Von Flue choke)",
+      "round": 2,
+      "time": "1:04",
+      "weight_class": "Middleweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:30:24.400Z"
+  },
+  "ramon-taveras": {
+    "id": 60,
+    "slug": "ramon-taveras",
+    "name": "Ramon Taveras",
+    "nickname": "The Savage",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 68,
+    "weight_lbs": 145,
+    "reach_inches": 70,
+    "stance": "Southpaw",
+    "dob": "1994-01-09",
+    "team": "Bulldog Boxing",
+    "birthplace": "Duval County, Florida, USA",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:59:17.771Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "6-1",
+        "wins": 6,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "10-4-0",
+        "wins": 10,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "1-2-0",
+        "wins": 1,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 4.07,
+        "str_acc": 0.43,
+        "sapm": 6.45,
+        "str_def": 0.54,
+        "td_avg": 0,
+        "td_acc": 0,
+        "td_def": 0.73,
+        "sub_avg": 0
+      },
+      "slpm": "4.07",
+      "str_acc": "43%",
+      "sapm": "6.45",
+      "str_def": "54%",
+      "td_avg": "0.00",
+      "td_acc": "0%",
+      "td_def": "73%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 5,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "6-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "10-4-0",
+        "slpm": "4.07",
+        "str_acc": "43%",
+        "sapm": "6.45",
+        "str_def": "54%",
+        "td_avg": "0.00",
+        "td_acc": "0%",
+        "td_def": "73%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "1-2-0",
+        "slpm": "3.87",
+        "str_acc": "42%",
+        "sapm": "6.47",
+        "str_def": "53%",
+        "td_avg": "0.00",
+        "td_acc": "0%",
+        "td_def": "73%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1625,
+      "peak": 1670,
+      "peak_at": "2024-01-20T23:30:00.000Z",
+      "peak_date": "2024-01-20",
+      "fights_rated": 14,
+      "last_fought_at": "2025-09-27T23:00:00.000Z",
+      "last_fought_date": "2025-09-27"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94220,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 54369,
+      "opponent_name": "Roman Puga",
+      "opponent_slug": "roman-puga",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 38211,
+      "event_id": 783,
+      "event_title": "UFC Perth: Ulberg vs Reyes",
+      "event_slug": "ufc-2025-09-27",
+      "org_slug": "ufc",
+      "date": "2025-09-27",
+      "opponent_id": 213,
+      "opponent_name": "Jack Jenkins",
+      "opponent_slug": "jack-jenkins",
+      "result": "loss",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:30:30.855Z"
+  },
+  "roman-puga": {
+    "id": 54369,
+    "slug": "roman-puga",
+    "name": "Roman Puga",
+    "nickname": null,
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 67,
+    "weight_lbs": 145,
+    "reach_inches": 71,
+    "stance": "Orthodox",
+    "dob": "1996-09-17",
+    "team": "Joe Camacho Braziilan Jiu-Jitsu Academy",
+    "birthplace": "La Puente, California, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:54:40.948Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "7-2",
+        "wins": 7,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_boxing": {
+        "value": "4-0-1",
+        "wins": 4,
+        "losses": 0,
+        "draws": 1,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-boxing"
+      },
+      "pro_mma": {
+        "value": "6-1-0",
+        "wins": 6,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 12.4,
+        "str_acc": 0.53,
+        "sapm": 9.2,
+        "str_def": 0.54,
+        "td_avg": 0,
+        "td_acc": null,
+        "td_def": 0.91,
+        "sub_avg": 0
+      },
+      "slpm": "12.40",
+      "str_acc": "53%",
+      "sapm": "9.20",
+      "str_def": "54%",
+      "td_avg": "0.00",
+      "td_acc": null,
+      "td_def": "91%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "7-2",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-boxing",
+        "source": "public-records",
+        "record": "4-0-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "6-1-0",
+        "slpm": "12.40",
+        "str_acc": "53%",
+        "sapm": "9.20",
+        "str_def": "54%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "91%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1698,
+      "peak": 1698,
+      "peak_at": "2026-08-18T23:00:00.000Z",
+      "peak_date": "2026-08-18",
+      "fights_rated": 7,
+      "last_fought_at": "2026-08-18T23:00:00.000Z",
+      "last_fought_date": "2026-08-18"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94220,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 60,
+      "opponent_name": "Ramon Taveras",
+      "opponent_slug": "ramon-taveras",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83750,
+      "event_id": 2552,
+      "event_title": "Dana White's Contender Series 88",
+      "event_slug": "ufc-dwcs-88-2026-08-18",
+      "org_slug": "ufc",
+      "date": "2026-08-18",
+      "opponent_id": 43468,
+      "opponent_name": "Taner Trembley",
+      "opponent_slug": "taner-trembley",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:30:37.358Z"
+  },
+  "jamall-emmers": {
+    "id": 425,
+    "slug": "jamall-emmers",
+    "name": "Jamall Emmers",
+    "nickname": "Pretty Boy",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 70,
+    "weight_lbs": 145,
+    "reach_inches": 74,
+    "stance": "Orthodox",
+    "dob": "1989-07-24",
+    "team": "Pinnacle MMA",
+    "birthplace": "Miami, Florida, USA",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:41:43.607Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "4-0",
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "23-8-0",
+        "wins": 23,
+        "losses": 8,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "6-4-0",
+        "wins": 6,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 5.09,
+        "str_acc": 0.49,
+        "sapm": 3.91,
+        "str_def": 0.57,
+        "td_avg": 2.49,
+        "td_acc": 0.53,
+        "td_def": 0.81,
+        "sub_avg": 0.3
+      },
+      "slpm": "5.09",
+      "str_acc": "49%",
+      "sapm": "3.91",
+      "str_def": "57%",
+      "td_avg": "2.49",
+      "td_acc": "53%",
+      "td_def": "81%",
+      "sub_avg": "0.3",
+      "basis": {
+        "bouts": 11,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "4-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "23-8-0",
+        "slpm": "5.09",
+        "str_acc": "49%",
+        "sapm": "3.91",
+        "str_def": "57%",
+        "td_avg": "2.49",
+        "td_acc": "53%",
+        "td_def": "81%",
+        "sub_avg": "0.3"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "6-4-0",
+        "slpm": "4.87",
+        "str_acc": "48%",
+        "sapm": "3.58",
+        "str_def": "59%",
+        "td_avg": "2.66",
+        "td_acc": "53%",
+        "td_def": "80%",
+        "sub_avg": "0.3"
+      }
+    ],
+    "power_index": {
+      "rating": 1735,
+      "peak": 1735,
+      "peak_at": "2020-08-02T01:00:00.000Z",
+      "peak_date": "2020-08-02",
+      "fights_rated": 31,
+      "last_fought_at": "2026-08-22T21:00:00.000Z",
+      "last_fought_date": "2026-08-22"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94221,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 32827,
+      "opponent_name": "Ramiro Jimenez",
+      "opponent_slug": "ramiro-jimenez",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83661,
+      "event_id": 2511,
+      "event_title": "UFC Fight Night: Hernandez vs Rodrigues",
+      "event_slug": "ufc-2026-08-22",
+      "org_slug": "ufc",
+      "date": "2026-08-22",
+      "opponent_id": 521,
+      "opponent_name": "Lerryan Douglas",
+      "opponent_slug": "lerryan-douglas",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 1,
+      "time": "3:38",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:30:43.859Z"
+  },
+  "ramiro-jimenez": {
+    "id": 32827,
+    "slug": "ramiro-jimenez",
+    "name": "Ramiro Jimenez",
+    "nickname": "El Cachanilla",
+    "nationality": "Mexico",
+    "country_code": "MX",
+    "second_nationality": null,
+    "height_inches": 69,
+    "weight_lbs": 145,
+    "reach_inches": 73,
+    "stance": "Southpaw",
+    "dob": "1999-01-16",
+    "team": "The Goat Shed",
+    "birthplace": "Mexicali, Mexico",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:55:47.920Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "2-0",
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "11-0-0",
+        "wins": 11,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 14.22,
+        "str_acc": 0.65,
+        "sapm": 2.43,
+        "str_def": 0.82,
+        "td_avg": 5.2,
+        "td_acc": 1,
+        "td_def": 1,
+        "sub_avg": 0
+      },
+      "slpm": "14.22",
+      "str_acc": "65%",
+      "sapm": "2.43",
+      "str_def": "82%",
+      "td_avg": "5.20",
+      "td_acc": "100%",
+      "td_def": "100%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "2-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "11-0-0",
+        "slpm": "14.22",
+        "str_acc": "65%",
+        "sapm": "2.43",
+        "str_def": "82%",
+        "td_avg": "5.20",
+        "td_acc": "100%",
+        "td_def": "100%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1748,
+      "peak": 1772,
+      "peak_at": "2023-12-16T00:00:00.000Z",
+      "peak_date": "2023-12-16",
+      "fights_rated": 11,
+      "last_fought_at": "2025-08-19T22:00:00.000Z",
+      "last_fought_date": "2025-08-19"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94221,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 425,
+      "opponent_name": "Jamall Emmers",
+      "opponent_slug": "jamall-emmers",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 84002,
+      "event_id": 2599,
+      "event_title": "Dana White's Contender Series 78",
+      "event_slug": "ufc-dwcs-78-2025-08-19",
+      "org_slug": "ufc",
+      "date": "2025-08-19",
+      "opponent_id": 34416,
+      "opponent_name": "Tommy Cuozzi Jr.",
+      "opponent_slug": "tommy-cuozzi-jr",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 1,
+      "time": "2:53",
+      "weight_class": "Featherweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:30:50.367Z"
+  },
+  "anna-melisano": {
+    "id": 32354,
+    "slug": "anna-melisano",
+    "name": "Anna Melisano",
+    "nickname": "Bandana",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 64,
+    "weight_lbs": 125,
+    "reach_inches": 68,
+    "stance": "Orthodox",
+    "dob": "1997-05-20",
+    "team": "Spartan MMA",
+    "birthplace": "Frankfort, Indiana, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:55:22.294Z"
+      }
+    ],
+    "records": {
+      "amateur_kickboxing": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-kickboxing"
+      },
+      "amateur_mma": {
+        "value": "3-3",
+        "wins": 3,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "6-2-0",
+        "wins": 6,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "0-1-0",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 0.49,
+        "str_acc": 0.33,
+        "sapm": 1.23,
+        "str_def": 0.29,
+        "td_avg": 0,
+        "td_acc": null,
+        "td_def": 0.5,
+        "sub_avg": 0
+      },
+      "slpm": "0.49",
+      "str_acc": "33%",
+      "sapm": "1.23",
+      "str_def": "29%",
+      "td_avg": "0.00",
+      "td_acc": null,
+      "td_def": "50%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-kickboxing",
+        "source": "public-records",
+        "record": "1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "3-3",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "6-2-0",
+        "slpm": "0.49",
+        "str_acc": "33%",
+        "sapm": "1.23",
+        "str_def": "29%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "50%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "0-1-0",
+        "slpm": "0.49",
+        "str_acc": "33%",
+        "sapm": "1.23",
+        "str_def": "29%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "50%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1628,
+      "peak": 1664,
+      "peak_at": "2025-12-14T00:00:00.000Z",
+      "peak_date": "2025-12-14",
+      "fights_rated": 8,
+      "last_fought_at": "2026-07-18T21:00:00.000Z",
+      "last_fought_date": "2026-07-18"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94222,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 41158,
+      "opponent_name": "Marina Spasić",
+      "opponent_slug": "marina-spasic",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Women's Strawweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83025,
+      "event_id": 880,
+      "event_title": "UFC Fight Night: Du Plessis vs Usman",
+      "event_slug": "ufc-fight-night-2026-07-19",
+      "org_slug": "ufc",
+      "date": "2026-07-18",
+      "opponent_id": 583,
+      "opponent_name": "Dione Barbosa",
+      "opponent_slug": "dione-barbosa",
+      "result": "loss",
+      "method": "Submission",
+      "round": 1,
+      "time": "4:04",
+      "weight_class": "Women's Flyweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:30:56.859Z"
+  },
+  "marina-spasic": {
+    "id": 41158,
+    "slug": "marina-spasic",
+    "name": "Marina Spasić",
+    "nickname": "Maki Beki",
+    "nationality": "Serbia",
+    "country_code": "RS",
+    "second_nationality": null,
+    "height_inches": 64,
+    "weight_lbs": 115,
+    "reach_inches": 64,
+    "stance": "Orthodox",
+    "dob": "1994-07-11",
+    "team": "Borilački Klub CDS Novi Sad",
+    "birthplace": "BG, Serbia",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:55:14.482Z"
+      }
+    ],
+    "records": {
+      "amateur_muay_thai": {
+        "value": "0-1",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-muay-thai"
+      },
+      "pro_kickboxing": {
+        "value": "2-2",
+        "wins": 2,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-kickboxing"
+      },
+      "pro_mma": {
+        "value": "7-2-0",
+        "wins": 7,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "0-1-0",
+        "wins": 0,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 3.49,
+        "str_acc": 0.47,
+        "sapm": 2.57,
+        "str_def": 0.57,
+        "td_avg": 0.73,
+        "td_acc": 0.33,
+        "td_def": 0.33,
+        "sub_avg": 0
+      },
+      "slpm": "3.49",
+      "str_acc": "47%",
+      "sapm": "2.57",
+      "str_def": "57%",
+      "td_avg": "0.73",
+      "td_acc": "33%",
+      "td_def": "33%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 5,
+        "orgs": [
+          "brave-cf",
+          "fnc",
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-muay-thai",
+        "source": "public-records",
+        "record": "0-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-kickboxing",
+        "source": "public-records",
+        "record": "2-2",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "7-2-0",
+        "slpm": "3.49",
+        "str_acc": "47%",
+        "sapm": "2.57",
+        "str_def": "57%",
+        "td_avg": "0.73",
+        "td_acc": "33%",
+        "td_def": "33%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "0-1-0",
+        "slpm": "7.50",
+        "str_acc": "47%",
+        "sapm": "6.00",
+        "str_def": "57%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "50%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1654,
+      "peak": 1715,
+      "peak_at": "2024-09-28T18:09:00.000Z",
+      "peak_date": "2024-09-28",
+      "fights_rated": 9,
+      "last_fought_at": "2026-08-01T14:00:00.000Z",
+      "last_fought_date": "2026-08-01"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94222,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 32354,
+      "opponent_name": "Anna Melisano",
+      "opponent_slug": "anna-melisano",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Women's Strawweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83278,
+      "event_id": 881,
+      "event_title": "UFC Fight Night: Medić vs Rodriguez",
+      "event_slug": "ufc-fight-night-2026-08-01",
+      "org_slug": "ufc",
+      "date": "2026-08-01",
+      "opponent_id": 160,
+      "opponent_name": "Stephanie Luciano",
+      "opponent_slug": "stephanie-luciano",
+      "result": "loss",
+      "method": "Submission",
+      "round": 1,
+      "time": "3:20",
+      "weight_class": "Women's Strawweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:31:03.374Z"
+  },
+  "ty-miller": {
+    "id": 307,
+    "slug": "ty-miller",
+    "name": "Ty Miller",
+    "nickname": "Thriller",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 74,
+    "weight_lbs": 170,
+    "reach_inches": 77,
+    "stance": "Orthodox",
+    "dob": "2000-06-04",
+    "team": "Fit NHB",
+    "birthplace": "Albuquerque, New Mexico, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:56:37.042Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "3-1",
+        "wins": 3,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_boxing": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-boxing"
+      },
+      "pro_mma": {
+        "value": "8-0-0",
+        "wins": 8,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "ufc": {
+        "value": "2-0-0",
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 9.13,
+        "str_acc": 0.47,
+        "sapm": 3.9,
+        "str_def": 0.63,
+        "td_avg": 0,
+        "td_acc": null,
+        "td_def": 0.92,
+        "sub_avg": 0
+      },
+      "slpm": "9.13",
+      "str_acc": "47%",
+      "sapm": "3.90",
+      "str_def": "63%",
+      "td_avg": "0.00",
+      "td_acc": null,
+      "td_def": "92%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 3,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "3-1",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-boxing",
+        "source": "public-records",
+        "record": "1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "8-0-0",
+        "slpm": "9.13",
+        "str_acc": "47%",
+        "sapm": "3.90",
+        "str_def": "63%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "92%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "2-0-0",
+        "slpm": "12.60",
+        "str_acc": "56%",
+        "sapm": "4.00",
+        "str_def": "53%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "100%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1737,
+      "peak": 1737,
+      "peak_at": "2026-08-08T21:00:00.000Z",
+      "peak_date": "2026-08-08",
+      "fights_rated": 8,
+      "last_fought_at": "2026-08-08T21:00:00.000Z",
+      "last_fought_date": "2026-08-08"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94223,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 14136,
+      "opponent_name": "Christopher Alvidrez",
+      "opponent_slug": "christopher-alvidrez",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 83256,
+      "event_id": 2513,
+      "event_title": "UFC Fight Night: Gamrot vs Salkilld",
+      "event_slug": "ufc-fight-night-2026-08-08",
+      "org_slug": "ufc",
+      "date": "2026-08-08",
+      "opponent_id": 2816,
+      "opponent_name": "Billy Ray Goff",
+      "opponent_slug": "billy-ray-goff",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 3,
+      "time": "0:15",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:31:09.865Z"
+  },
+  "christopher-alvidrez": {
+    "id": 14136,
+    "slug": "christopher-alvidrez",
+    "name": "Christopher Alvidrez",
+    "nickname": "The Newborn",
+    "nationality": "United States",
+    "country_code": "US",
+    "second_nationality": null,
+    "height_inches": 72,
+    "weight_lbs": 170,
+    "reach_inches": 74,
+    "stance": "Orthodox",
+    "dob": "1996-12-27",
+    "team": "The Goat Shed",
+    "birthplace": "San Pedro, California, United States",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:56:14.482Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "4-0",
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_karate": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-karate"
+      },
+      "pro_mma": {
+        "value": "7-1-0",
+        "wins": 7,
+        "losses": 1,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 6.97,
+        "str_acc": 0.62,
+        "sapm": 2.11,
+        "str_def": 0.5,
+        "td_avg": 0,
+        "td_acc": 0,
+        "td_def": 1,
+        "sub_avg": 0
+      },
+      "slpm": "6.97",
+      "str_acc": "62%",
+      "sapm": "2.11",
+      "str_def": "50%",
+      "td_avg": "0.00",
+      "td_acc": "0%",
+      "td_def": "100%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "4-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-karate",
+        "source": "public-records",
+        "record": "1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "7-1-0",
+        "slpm": "6.97",
+        "str_acc": "62%",
+        "sapm": "2.11",
+        "str_def": "50%",
+        "td_avg": "0.00",
+        "td_acc": "0%",
+        "td_def": "100%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1722,
+      "peak": 1722,
+      "peak_at": "2025-09-30T23:00:00.000Z",
+      "peak_date": "2025-09-30",
+      "fights_rated": 8,
+      "last_fought_at": "2025-09-30T23:00:00.000Z",
+      "last_fought_date": "2025-09-30"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94223,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 307,
+      "opponent_name": "Ty Miller",
+      "opponent_slug": "ty-miller",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 88289,
+      "event_id": 3034,
+      "event_title": "Dana White's Contender Series 84",
+      "event_slug": "ufc-dwcs-84-2025-09-30",
+      "org_slug": "ufc",
+      "date": "2025-09-30",
+      "opponent_id": 6745,
+      "opponent_name": "Eliezer Kubanza",
+      "opponent_slug": "eliezer-kubanza",
+      "result": "win",
+      "method": "KO/TKO",
+      "round": 1,
+      "time": "4:44",
+      "weight_class": "Welterweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:31:16.371Z"
+  },
+  "smilla-sundell": {
+    "id": 3771,
+    "slug": "smilla-sundell",
+    "name": "Smilla Sundell",
+    "nickname": "The Hurricane",
+    "nationality": "Sweden",
+    "country_code": "SE",
+    "second_nationality": null,
+    "height_inches": 70,
+    "weight_lbs": 135,
+    "reach_inches": 69,
+    "stance": "Orthodox",
+    "dob": "2004-11-12",
+    "team": "Fairtex Training Center",
+    "birthplace": "Stockholm, Sweden",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:50:37.810Z"
+      }
+    ],
+    "records": {
+      "one": {
+        "value": "5-0-0",
+        "wins": 5,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "one-official",
+        "scope": "one-only"
+      },
+      "pro_kickboxing": {
+        "value": "1-0",
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-kickboxing"
+      },
+      "pro_mma": {
+        "value": "3-0-0",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "pro_muay_thai": {
+        "value": "4-0",
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-muay-thai"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 7.07,
+        "str_acc": 0.3,
+        "sapm": 5.67,
+        "str_def": 0.56,
+        "td_avg": 0,
+        "td_acc": null,
+        "td_def": 0,
+        "sub_avg": 0
+      },
+      "slpm": "7.07",
+      "str_acc": "30%",
+      "sapm": "5.67",
+      "str_def": "56%",
+      "td_avg": "0.00",
+      "td_acc": null,
+      "td_def": "0%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 1,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "one-only",
+        "source": "one-official",
+        "record": "5-0-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-kickboxing",
+        "source": "public-records",
+        "record": "1-0",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "3-0-0",
+        "slpm": "7.07",
+        "str_acc": "30%",
+        "sapm": "5.67",
+        "str_def": "56%",
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": "0%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "pro-muay-thai",
+        "source": "public-records",
+        "record": "4-0",
+        "slpm": "11.16",
+        "str_acc": null,
+        "sapm": "7.22",
+        "str_def": null,
+        "td_avg": "0.00",
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": null,
+    "images": [],
+    "next_fight": {
+      "fight_id": 94224,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 122,
+      "opponent_name": "Melissa Mullins",
+      "opponent_slug": "melissa-mullins",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Women's Bantamweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 86005,
+      "event_id": 2635,
+      "event_title": "Dana White's Contender Series 96",
+      "event_slug": "ufc-dwcs-96-2026-10-13",
+      "org_slug": "ufc",
+      "date": "2026-10-13",
+      "opponent_id": 43373,
+      "opponent_name": "Aline Pereira",
+      "opponent_slug": "aline-pereira",
+      "result": "win",
+      "method": "Decision - Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "weight_class": "Women's Bantamweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:31:22.886Z"
+  },
+  "melissa-mullins": {
+    "id": 122,
+    "slug": "melissa-mullins",
+    "name": "Melissa Mullins",
+    "nickname": "No Mess",
+    "nationality": "England",
+    "country_code": null,
+    "second_nationality": null,
+    "height_inches": 67,
+    "weight_lbs": 135,
+    "reach_inches": 68,
+    "stance": "Orthodox",
+    "dob": "1991-07-23",
+    "team": "Renegade MMA",
+    "birthplace": "Oxford, England",
+    "roster": [
+      {
+        "org": "ufc",
+        "status": "active",
+        "since": null,
+        "checked_at": "2026-11-26T03:58:24.479Z"
+      }
+    ],
+    "records": {
+      "amateur_mma": {
+        "value": "5-4",
+        "wins": 5,
+        "losses": 4,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "amateur-mma"
+      },
+      "pro_mma": {
+        "value": "7-3-0",
+        "wins": 7,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-mma"
+      },
+      "pro_submission_grappling": {
+        "value": "1-2",
+        "wins": 1,
+        "losses": 2,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "public-records",
+        "scope": "pro-submission-grappling"
+      },
+      "ufc": {
+        "value": "2-3-0",
+        "wins": 2,
+        "losses": 3,
+        "draws": 0,
+        "no_contests": 0,
+        "source": "ufc-stats",
+        "scope": "ufc-only"
+      }
+    },
+    "stats": {
+      "values": {
+        "slpm": 3.67,
+        "str_acc": 0.5,
+        "sapm": 4.15,
+        "str_def": 0.53,
+        "td_avg": 2.2,
+        "td_acc": 0.47,
+        "td_def": 0.86,
+        "sub_avg": 0
+      },
+      "slpm": "3.67",
+      "str_acc": "50%",
+      "sapm": "4.15",
+      "str_def": "53%",
+      "td_avg": "2.20",
+      "td_acc": "47%",
+      "td_def": "86%",
+      "sub_avg": "0.0",
+      "basis": {
+        "bouts": 5,
+        "orgs": [
+          "ufc"
+        ],
+        "source": "ufcalendar",
+        "scope": "pro-mma"
+      }
+    },
+    "career_stats": [
+      {
+        "scope": "amateur-mma",
+        "source": "public-records",
+        "record": "5-4",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "pro-mma",
+        "source": "public-records",
+        "record": "7-3-0",
+        "slpm": "3.67",
+        "str_acc": "50%",
+        "sapm": "4.15",
+        "str_def": "53%",
+        "td_avg": "2.20",
+        "td_acc": "47%",
+        "td_def": "86%",
+        "sub_avg": "0.0"
+      },
+      {
+        "scope": "pro-submission-grappling",
+        "source": "public-records",
+        "record": "1-2",
+        "slpm": null,
+        "str_acc": null,
+        "sapm": null,
+        "str_def": null,
+        "td_avg": null,
+        "td_acc": null,
+        "td_def": null,
+        "sub_avg": null
+      },
+      {
+        "scope": "ufc-only",
+        "source": "ufc-stats",
+        "record": "2-3-0",
+        "slpm": "3.67",
+        "str_acc": "50%",
+        "sapm": "4.15",
+        "str_def": "53%",
+        "td_avg": "2.20",
+        "td_acc": "47%",
+        "td_def": "86%",
+        "sub_avg": "0.0"
+      }
+    ],
+    "power_index": {
+      "rating": 1669,
+      "peak": 1731,
+      "peak_at": "2023-10-14T20:00:00.000Z",
+      "peak_date": "2023-10-14",
+      "fights_rated": 10,
+      "last_fought_at": "2026-06-20T21:00:00.000Z",
+      "last_fought_date": "2026-06-20"
+    },
+    "images": [],
+    "next_fight": {
+      "fight_id": 94224,
+      "event_id": 3605,
+      "event_title": "UFC Fight Night: Bonfim vs Brady",
+      "event_slug": "ufc-fight-night-2027-01-23",
+      "org_slug": "ufc",
+      "date": "2027-01-23",
+      "opponent_id": 3771,
+      "opponent_name": "Smilla Sundell",
+      "opponent_slug": "smilla-sundell",
+      "result": null,
+      "method": null,
+      "round": null,
+      "time": null,
+      "weight_class": "Women's Bantamweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "last_fight": {
+      "fight_id": 66004,
+      "event_id": 7,
+      "event_title": "UFC Fight Night: Kape vs Horiguchi",
+      "event_slug": "ufc-fight-night-2026-06-20",
+      "org_slug": "ufc",
+      "date": "2026-06-20",
+      "opponent_id": 174,
+      "opponent_name": "Bia Mesquita",
+      "opponent_slug": "bia-mesquita",
+      "result": "loss",
+      "method": "Submission",
+      "round": 1,
+      "time": "3:16",
+      "weight_class": "Women's Bantamweight",
+      "is_title": false,
+      "sport": "mma",
+      "source": "native"
+    },
+    "_cache_updated_at": "2026-11-26T17:31:29.447Z"
   }
 }
